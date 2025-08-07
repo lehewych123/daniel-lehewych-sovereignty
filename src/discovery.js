@@ -34,6 +34,39 @@ const typePatterns = {
   "BlogPosting": /./
 };
 
+const publisherData = {
+  "Medium": {
+    "@type": "Organization",
+    "name": "Medium",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png",
+      "width": 616,
+      "height": 616
+    }
+  },
+  "Newsweek": {
+    "@type": "Organization",
+    "name": "Newsweek",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.newsweek.com/favicon.ico",
+      "width": 32,
+      "height": 32
+    }
+  },
+  "BigThink": {
+    "@type": "Organization",
+    "name": "Big Think",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bigthink.com/favicon.ico",
+      "width": 32,
+      "height": 32
+    }
+  }
+};
+
 async function discoverNewArticles() {
   console.log('Starting article discovery...');
   
@@ -101,22 +134,39 @@ async function discoverNewArticles() {
     return;
   }
   
-  // Process new articles
+  // Process new articles with FULL schema generation
   const processedArticles = [];
   for (const article of newArticles) {
     const processed = await processArticle(article);
     processedArticles.push(processed);
   }
   
+  // Save processed articles with full schemas
+  await saveProcessedArticles(processedArticles);
+  
   // Update database
-  const updatedArticles = [...existingArticles, ...processedArticles];
+  const basicArticles = processedArticles.map(p => ({
+    id: p.id,
+    title: p.title,
+    url: p.url,
+    platform: p.platform,
+    date: p.date,
+    snippet: p.snippet,
+    schemas: {
+      urlSlug: p.urlSlug,
+      type: p.type,
+      topics: p.topics
+    },
+    discoveredAt: p.discoveredAt
+  }));
+  
+  const updatedArticles = [...existingArticles, ...basicArticles];
   await fs.writeFile(
     path.join(__dirname, '..', 'data', 'articles.json'),
     JSON.stringify(updatedArticles, null, 2)
   );
   
-  // Generate summary for GitHub issue
-  await generateIssueSummary(processedArticles);
+  console.log('Discovery complete!');
 }
 
 async function processArticle(searchResult) {
@@ -126,10 +176,54 @@ async function processArticle(searchResult) {
   const platform = detectPlatform(url);
   const date = extractDate(searchResult) || new Date().toISOString().split('T')[0];
   
-  // Generate schemas
-  const schemas = generateSchemas({
+  // Generate URL slug
+  const platformSlug = platform.toLowerCase().replace(/[^a-z0-9]/g, '-');
+  const titleSlug = title.toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .substring(0, 50);
+  const urlSlug = `/archive/${platformSlug}/${titleSlug}`;
+  const shadowUrl = `https://daniellehewych.org${urlSlug}`;
+  
+  // Detect topics and type
+  const topics = detectTopics(title, snippet, platform);
+  const articleType = detectArticleType(title, platform);
+  
+  // Generate FULL enhanced schema (matching your enhancement tool)
+  const enhancedSchema = generateEnhancedSchema({
     title,
     url,
+    shadowUrl,
+    platform,
+    date,
+    snippet,
+    articleType,
+    topics
+  });
+  
+  // Generate topic clustering block
+  const topicBlock = generateTopicBlock({
+    shadowUrl,
+    title,
+    topics
+  });
+  
+  // Generate related articles block (placeholder for new articles)
+  const relatedBlock = generateRelatedBlock();
+  
+  // Generate page content
+  const pageContent = generatePageContent({
+    title,
+    date,
+    url,
+    platform
+  });
+  
+  // Generate bibliography entry
+  const bibliographyEntry = generateBibliographyEntry({
+    title,
+    url,
+    shadowUrl,
     platform,
     date,
     snippet
@@ -142,11 +236,242 @@ async function processArticle(searchResult) {
     platform,
     date,
     snippet,
-    schemas,
-    discoveredAt: new Date().toISOString()
+    urlSlug,
+    type: articleType,
+    topics,
+    discoveredAt: new Date().toISOString(),
+    // Full schemas for easy copy-paste
+    headerCode: formatHeaderCode(enhancedSchema),
+    topicBlockCode: formatSchemaBlock(topicBlock, "Topic Clustering Block"),
+    relatedBlockCode: formatSchemaBlock(relatedBlock, "Related Articles Block"), 
+    pageContent: pageContent,
+    bibliographyEntry: bibliographyEntry
   };
 }
 
+function generateEnhancedSchema(data) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": data.articleType,
+    "@id": data.shadowUrl,
+    "headline": data.title,
+    "description": data.snippet || data.title,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "author": {"@id": "https://daniellehewych.org/#daniel-lehewych"},
+    "datePublished": data.date + "T00:00:00Z",
+    "dateCreated": data.date + "T00:00:00Z",
+    "dateModified": data.date + "T00:00:00Z",
+    "publisher": publisherData[data.platform] || {
+      "@type": "Organization",
+      "name": data.platform
+    },
+    "sameAs": data.url,
+    "url": data.shadowUrl,
+    "isPartOf": {
+      "@type": "Blog",
+      "name": "Daniel Lehewych Shadow Archive",
+      "url": "https://daniellehewych.org/archive/",
+      "author": {"@id": "https://daniellehewych.org/#daniel-lehewych"}
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": data.shadowUrl
+    },
+    "wordCount": 1000,
+    "inLanguage": "en-US",
+    "copyrightHolder": {"@id": "https://daniellehewych.org/#daniel-lehewych"},
+    "copyrightYear": data.date.substring(0, 4),
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  };
+  
+  // Add type-specific enhancements
+  switch (data.articleType) {
+    case "ScholarlyArticle":
+      schema.academicDiscipline = data.topics.includes("Philosophy") ? "Philosophy" : "Interdisciplinary Studies";
+      schema.educationalLevel = "College";
+      schema.learningResourceType = "Scholarly Article";
+      break;
+      
+    case "OpinionNewsArticle":
+      schema.backstory = "Contemporary analysis and expert commentary";
+      if (data.platform === "Newsweek") {
+        schema.printEdition = "Newsweek Digital";
+      }
+      break;
+      
+    case "HowTo":
+      schema.step = [{
+        "@type": "HowToStep",
+        "name": "Read the full guide",
+        "text": schema.description
+      }];
+      schema.totalTime = "PT20M";
+      break;
+  }
+  
+  // Add common enhancements
+  schema.speakable = {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-content p:first-of-type", "h1", ".article-summary"]
+  };
+  
+  if (data.topics.length > 0) {
+    schema.keywords = data.topics.join(", ").toLowerCase();
+  }
+  
+  return schema;
+}
+
+function generateTopicBlock(data) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": data.shadowUrl,
+    "about": data.topics.map(topic => ({
+      "@type": "Thing",
+      "name": topic
+    })),
+    "keywords": data.topics.map(t => t.toLowerCase()).join(", "),
+    "mentions": extractMentions(data.title),
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Daniel Lehewych",
+          "item": "https://daniellehewych.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": data.title,
+          "item": data.shadowUrl
+        }
+      ]
+    }
+  };
+}
+
+function generateRelatedBlock() {
+  // Placeholder for new articles - you'll add related articles manually
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Related Articles by Daniel Lehewych",
+    "description": "Add related articles after creating shadow page",
+    "numberOfItems": 0,
+    "itemListElement": []
+  };
+}
+
+function generatePageContent(data) {
+  const escapedTitle = escapeHtml(data.title);
+  
+  return `<div class="shadow-archive-entry" style="font-family: 'Merriweather', serif; max-width: 800px; margin: 0 auto; padding: 40px 20px;">
+  <div style="background: #f0f0f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+    <p style="margin: 0; font-size: 14px; color: #666;">
+      <strong>Shadow Archive Entry</strong> | Not Indexed | For Attribution Only
+    </p>
+  </div>
+  
+  <h1 style="font-family: 'Inter', sans-serif; font-size: 32px; line-height: 1.3; margin-bottom: 20px;">
+    ${escapedTitle}
+  </h1>
+  
+  <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 20px; margin-bottom: 30px;">
+    <p style="margin: 5px 0; color: #666;">
+      <strong>Originally Published:</strong> ${data.date} on ${data.platform}<br>
+      <strong>Original URL:</strong> <a href="${data.url}" rel="canonical" style="color: #4F7CAC;">View on ${data.platform}</a><br>
+      <strong>Author:</strong> Daniel Lehewych
+    </p>
+  </div>
+  
+  <div class="article-content" style="font-size: 18px; line-height: 1.8;">
+    <p><em>[Article content to be added]</em></p>
+  </div>
+  
+  <div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #e0e0e0;">
+    <p style="font-size: 14px; color: #666; text-align: center;">
+      This content is archived for attribution and reference purposes only.<br>
+      Copyright © ${data.date.substring(0, 4)} Daniel Lehewych. All rights reserved.
+    </p>
+  </div>
+</div>`;
+}
+
+function generateBibliographyEntry(data) {
+  const position = 374; // You'll update this manually
+  
+  return {
+    "@type": "ListItem",
+    "position": position,
+    "item": {
+      "@type": "Article",
+      "@id": data.shadowUrl,
+      "name": data.title,
+      "description": data.snippet || data.title,
+      "url": data.url,
+      "datePublished": data.date + "T00:00:00Z",
+      "author": {"@id": "https://daniellehewych.org/#daniel-lehewych"},
+      "isAccessibleForFree": true,
+      "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+      "isPartOf": {
+        "@type": ["Periodical", "CreativeWork"],
+        "name": data.platform,
+        "issn": data.platform === "Medium" ? "2168-8524" : ""
+      },
+      "sameAs": [
+        data.url,
+        data.shadowUrl
+      ]
+    }
+  };
+}
+
+function formatHeaderCode(schema) {
+  return `<meta name="robots" content="noindex, follow">
+<script type="application/ld+json">
+${JSON.stringify(schema, null, 2)}
+<\/script>`;
+}
+
+function formatSchemaBlock(schema, title) {
+  return `<!-- ${title} - Add to page body -->
+<script type="application/ld+json">
+${JSON.stringify(schema, null, 2)}
+<\/script>`;
+}
+
+async function saveProcessedArticles(articles) {
+  // Save full article data with all schemas
+  const fullDataPath = path.join(__dirname, '..', 'data', 'new-articles-full.json');
+  await fs.writeFile(fullDataPath, JSON.stringify(articles, null, 2));
+  
+  // Generate notification content
+  let notificationContent = `# New Articles Discovered - ${new Date().toISOString().split('T')[0]}\n\n`;
+  
+  articles.forEach((article, index) => {
+    notificationContent += `## ${index + 1}. ${article.title}\n\n`;
+    notificationContent += `**Platform:** ${article.platform}\n`;
+    notificationContent += `**Date:** ${article.date}\n`;
+    notificationContent += `**URL:** ${article.url}\n`;
+    notificationContent += `**Type:** ${article.type}\n`;
+    notificationContent += `**Topics:** ${article.topics.join(', ')}\n\n`;
+    notificationContent += `### Squarespace Implementation\n\n`;
+    notificationContent += `**URL Slug:** \`${article.urlSlug}\`\n\n`;
+    notificationContent += `All code blocks saved in: data/new-articles-full.json\n\n`;
+    notificationContent += `---\n\n`;
+  });
+  
+  // Save notification
+  const notificationPath = path.join(__dirname, '..', 'data', 'notification.md');
+  await fs.writeFile(notificationPath, notificationContent);
+  
+  console.log('Full article data with schemas saved to: data/new-articles-full.json');
+}
+
+// Helper functions
 function cleanTitle(title) {
   return title
     .replace(/ - Medium$/, '')
@@ -179,15 +504,9 @@ function detectPlatform(url) {
 }
 
 function extractDate(searchResult) {
-  // Try to extract from pagemap metadata
   if (searchResult.pagemap?.metatags?.[0]) {
     const meta = searchResult.pagemap.metatags[0];
-    const dateFields = [
-      'article:published_time',
-      'datePublished',
-      'publish_date',
-      'date'
-    ];
+    const dateFields = ['article:published_time', 'datePublished', 'publish_date', 'date'];
     
     for (const field of dateFields) {
       if (meta[field]) {
@@ -199,7 +518,6 @@ function extractDate(searchResult) {
     }
   }
   
-  // Try to extract from snippet
   const datePattern = /(\w+ \d{1,2}, \d{4})|(\d{4}-\d{2}-\d{2})/;
   const match = searchResult.snippet?.match(datePattern);
   if (match) {
@@ -212,52 +530,16 @@ function extractDate(searchResult) {
   return null;
 }
 
-function generateSchemas(article) {
-  const platformSlug = article.platform.toLowerCase().replace(/[^a-z0-9]/g, '-');
-  const titleSlug = article.title.toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .substring(0, 50);
-  
-  const shadowUrl = `https://daniellehewych.org/archive/${platformSlug}/${titleSlug}`;
-  
-  // Detect topics and type
-  const topics = detectTopics(article.title, article.snippet, article.platform);
-  const articleType = detectArticleType(article.title, article.platform);
-  
-  // Generate enhanced schema
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": articleType,
-    "@id": shadowUrl,
-    "headline": article.title,
-    "description": article.snippet || article.title,
-    "url": shadowUrl,
-    "sameAs": article.url,
-    "datePublished": article.date + "T00:00:00Z",
-    "author": {"@id": "https://daniellehewych.org/#daniel-lehewych"},
-    "keywords": topics.join(", ").toLowerCase()
-  };
-  
-  return {
-    urlSlug: `/archive/${platformSlug}/${titleSlug}`,
-    type: articleType,
-    topics: topics
-  };
-}
-
 function detectTopics(title, description, platform) {
   const detected = new Set();
   const text = (title + " " + description).toLowerCase();
   
-  // Platform defaults
   if (platform === "Newsweek") detected.add("Politics & Society");
   if (platform === "Allwork.Space") {
     detected.add("Work & Career");
     detected.add("Digital Culture");
   }
   
-  // Check patterns
   for (const [topic, pattern] of Object.entries(topicPatterns)) {
     if (pattern.test(text)) {
       detected.add(topic);
@@ -278,28 +560,34 @@ function detectArticleType(title, platform) {
   return "BlogPosting";
 }
 
-async function generateIssueSummary(articles) {
-  if (articles.length === 0) return;
+function extractMentions(title) {
+  const mentions = [];
+  const philosophers = ["Spinoza", "Nietzsche", "Heidegger", "Kant", "Descartes"];
   
-  // Set outputs for GitHub Actions
-  console.log(`::set-output name=has_new::true`);
-  console.log(`::set-output name=date::${new Date().toISOString().split('T')[0]}`);
-  
-  let summary = '# New Articles Discovered\n\n';
-  
-  articles.forEach((article, index) => {
-    summary += `## ${index + 1}. ${article.title}\n\n`;
-    summary += `**Platform:** ${article.platform}\n`;
-    summary += `**Date:** ${article.date}\n`;
-    summary += `**URL:** ${article.url}\n`;
-    summary += `**Type:** ${article.schemas.type}\n`;
-    summary += `**Topics:** ${article.schemas.topics.join(', ')}\n\n`;
-    summary += `**URL Slug:** \`${article.schemas.urlSlug}\`\n\n`;
-    summary += '---\n\n';
+  philosophers.forEach(name => {
+    if (new RegExp(name, 'i').test(title)) {
+      mentions.push({
+        "@type": "Person",
+        "name": name
+      });
+    }
   });
   
-  // Output for GitHub issue
-  console.log(`::set-output name=summary::${encodeURIComponent(summary)}`);
+  return mentions;
+}
+
+function escapeHtml(text) {
+  const div = document.createElement ? document.createElement('div') : { textContent: '', innerHTML: '' };
+  div.textContent = text;
+  return div.innerHTML || text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function escapeJsonString(str) {
+  return str.replace(/\\/g, '\\\\')
+           .replace(/"/g, '\\"')
+           .replace(/\n/g, '\\n')
+           .replace(/\r/g, '\\r')
+           .replace(/\t/g, '\\t');
 }
 
 // Run the discovery
