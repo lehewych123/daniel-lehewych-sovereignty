@@ -44,7 +44,7 @@ jobs:
           
       - name: Create issue if new articles
         if: steps.discovery.outputs.has_new == 'true'
-        uses: peter-evans/create-issue@v4
+        uses: peter-evans/create-issue@v3
         with:
           title: "New Articles Found - ${{ steps.discovery.outputs.date }}"
           body: ${{ steps.discovery.outputs.summary }}
