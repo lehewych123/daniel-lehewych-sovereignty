@@ -29,6 +29,14 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           SEARCH_ENGINE_ID: ${{ secrets.SEARCH_ENGINE_ID }}
         run: node src/discovery.js
+
+      - name: Generate bibliography
+        run: node src/generate-bibliography.js
+        
+      - name: Commit bibliography
+        run: |
+          git add data/bibliography.html data/bibliography-metadata.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update bibliography - $(date +'%Y-%m-%d')"
         
       - name: Commit changes
         run: |
