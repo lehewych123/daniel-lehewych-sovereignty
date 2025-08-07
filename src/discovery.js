@@ -577,9 +577,13 @@ function extractMentions(title) {
 }
 
 function escapeHtml(text) {
-  const div = document.createElement ? document.createElement('div') : { textContent: '', innerHTML: '' };
-  div.textContent = text;
-  return div.innerHTML || text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  // Fixed for Node.js environment
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }
 
 function escapeJsonString(str) {
