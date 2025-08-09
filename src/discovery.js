@@ -1,5 +1,6 @@
 const fs = require('fs').promises;
 const path = require('path');
+const crypto = require('crypto');
 
 // Your topic patterns from the enhancement tool
 const topicPatterns = {
@@ -67,6 +68,48 @@ const publisherData = {
   }
 };
 
+// NEW: URL normalization function
+function normalizeUrl(input, canonicalHref) {
+  const raw = new URL(canonicalHref || input);
+  
+  // Strip common tracking parameters
+  const dropParams = [
+    'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
+    'utm_id', 'gclid', 'fbclid', 'mc_cid', 'mc_eid', 'igshid', 'ref', 'ref_src'
+  ];
+  
+  dropParams.forEach(param => raw.searchParams.delete(param));
+  
+  // Normalize path
+  if (raw.pathname !== '/' && raw.pathname.endsWith('/')) {
+    raw.pathname = raw.pathname.slice(0, -1);
+  }
+  raw.pathname = raw.pathname.replace(/\/(index|home)\.(html?|php)$/i, '');
+  
+  raw.host = raw.host.toLowerCase();
+  raw.hash = '';
+  
+  return `${raw.protocol}//${raw.host}${raw.pathname}${raw.search}`;
+}
+
+// NEW: Content fingerprint for update detection
+function contentFingerprint(title, subtitle = '') {
+  const normalizedText = `${title}\n${subtitle}`.toLowerCase().trim();
+  return crypto.createHash('sha256').update(normalizedText).digest('hex');
+}
+
+// NEW: Format date for email subjects
+function formatDate(dateStr) {
+  const date = new Date(dateStr);
+  return date.toISOString().slice(0, 10);
+}
+
+// NEW: Generate email subjects
+function generateEmailSubject(article, isUpdate = false, version = 1) {
+  const prefix = isUpdate ? `SOV-ARCH UPDATE v${version}` : 'SOV-ARCH NEW';
+  return `${prefix} · ${article.platform} · "${article.title}" · ${formatDate(article.date)}`;
+}
+
 async function discoverNewArticles() {
   console.log('Starting article discovery...');
   
@@ -123,53 +166,116 @@ async function discoverNewArticles() {
   
   console.log(`Total unique results: ${uniqueResults.length}`);
   
-  // Check for new articles
-  const existingUrls = existingArticles.map(a => a.url);
-  const newArticles = uniqueResults.filter(r => !existingUrls.includes(r.link));
+  // Process results with normalized URLs
+  const processedResults = [];
+  const updates = [];
   
-  console.log(`New articles found: ${newArticles.length}`);
+  for (const result of uniqueResults) {
+    const normalizedUrl = normalizeUrl(result.link);
+    
+    // Check if this URL already exists
+    const existing = existingArticles.find(a => 
+      normalizeUrl(a.url) === normalizedUrl || a.normalizedUrl === normalizedUrl
+    );
+    
+    if (existing) {
+      // Check for updates
+      const currentFingerprint = contentFingerprint(
+        cleanTitle(result.title),
+        result.snippet || ''
+      );
+      
+      if (existing.fingerprint !== currentFingerprint) {
+        console.log(`Update detected for: ${result.title}`);
+        updates.push({ searchResult: result, existing: existing });
+      }
+    } else {
+      // New article
+      console.log(`New article found: ${result.title}`);
+      processedResults.push(result);
+    }
+  }
   
-  if (newArticles.length === 0) {
-    console.log('No new articles to process.');
+  console.log(`New articles to process: ${processedResults.length}`);
+  console.log(`Updated articles: ${updates.length}`);
+  
+  if (processedResults.length === 0 && updates.length === 0) {
+    console.log('No new articles or updates to process.');
     return;
   }
   
-  // Process new articles with FULL schema generation
-  const processedArticles = [];
-  for (const article of newArticles) {
-    const processed = await processArticle(article);
-    processedArticles.push(processed);
+  // Process new articles
+  const newArticles = [];
+  for (const article of processedResults) {
+    const processed = await processArticle(article, false);
+    newArticles.push(processed);
   }
   
-  // Save processed articles with full schemas
-  await saveProcessedArticles(processedArticles);
+  // Process updates
+  const updatedArticles = [];
+  for (const { searchResult, existing } of updates) {
+    const processed = await processArticle(searchResult, true, existing.version || 1);
+    updatedArticles.push({
+      ...processed,
+      version: (existing.version || 1) + 1,
+      previousFingerprint: existing.fingerprint
+    });
+  }
   
-  // Update database
-  const basicArticles = processedArticles.map(p => ({
-    id: p.id,
-    title: p.title,
-    url: p.url,
-    platform: p.platform,
-    date: p.date,
-    snippet: p.snippet,
-    schemas: {
-      urlSlug: p.urlSlug,
-      type: p.type,
-      topics: p.topics
-    },
-    discoveredAt: p.discoveredAt
-  }));
+  // Save all processed articles
+  if (newArticles.length > 0 || updatedArticles.length > 0) {
+    await saveProcessedArticles([...newArticles, ...updatedArticles], newArticles.length, updatedArticles.length);
+  }
   
-  const updatedArticles = [...existingArticles, ...basicArticles];
+  // Update main database
+  if (newArticles.length > 0) {
+    const newEntries = newArticles.map(p => ({
+      id: p.id,
+      title: p.title,
+      url: p.url,
+      normalizedUrl: normalizeUrl(p.url),
+      platform: p.platform,
+      date: p.date,
+      snippet: p.snippet,
+      fingerprint: p.fingerprint,
+      version: 1,
+      schemas: {
+        urlSlug: p.urlSlug,
+        type: p.type,
+        topics: p.topics
+      },
+      discoveredAt: p.discoveredAt
+    }));
+    
+    existingArticles.push(...newEntries);
+  }
+  
+  // Update existing entries
+  for (const updated of updatedArticles) {
+    const index = existingArticles.findIndex(a => 
+      normalizeUrl(a.url) === normalizeUrl(updated.url)
+    );
+    if (index !== -1) {
+      existingArticles[index] = {
+        ...existingArticles[index],
+        title: updated.title,
+        snippet: updated.snippet,
+        fingerprint: updated.fingerprint,
+        version: updated.version,
+        lastUpdated: new Date().toISOString()
+      };
+    }
+  }
+  
   await fs.writeFile(
     path.join(__dirname, '..', 'data', 'articles.json'),
-    JSON.stringify(updatedArticles, null, 2)
+    JSON.stringify(existingArticles, null, 2)
   );
   
   console.log('Discovery complete!');
 }
 
-async function processArticle(searchResult) {
+async function processArticle(searchResult, isUpdate = false, currentVersion = 1) {
   const title = cleanTitle(searchResult.title);
   const url = searchResult.link;
   const snippet = searchResult.snippet || '';
@@ -188,6 +294,9 @@ async function processArticle(searchResult) {
   // Detect topics and type
   const topics = detectTopics(title, snippet, platform);
   const articleType = detectArticleType(title, platform);
+  
+  // Generate content fingerprint
+  const fingerprint = contentFingerprint(title, snippet);
   
   // Generate FULL enhanced schema (matching your enhancement tool)
   const enhancedSchema = generateEnhancedSchema({
@@ -229,17 +338,28 @@ async function processArticle(searchResult) {
     snippet
   });
   
+  // Generate email subject
+  const emailSubject = generateEmailSubject(
+    { title, platform, date },
+    isUpdate,
+    isUpdate ? currentVersion + 1 : 1
+  );
+  
   return {
     id: Date.now(),
     title,
     url,
+    normalizedUrl: normalizeUrl(url),
     platform,
     date,
     snippet,
     urlSlug,
     type: articleType,
     topics,
+    fingerprint,
+    version: isUpdate ? currentVersion + 1 : 1,
     discoveredAt: new Date().toISOString(),
+    emailSubject,
     // Full schemas for easy copy-paste
     headerCode: formatHeaderCode(enhancedSchema),
     topicBlockCode: formatSchemaBlock(topicBlock, "Topic Clustering Block"),
@@ -249,6 +369,7 @@ async function processArticle(searchResult) {
   };
 }
 
+// Keep all the existing helper functions unchanged
 function generateEnhancedSchema(data) {
   const schema = {
     "@context": "https://schema.org",
@@ -443,25 +564,47 @@ ${JSON.stringify(schema, null, 2)}
 <\/script>`;
 }
 
-async function saveProcessedArticles(articles) {
+async function saveProcessedArticles(articles, newCount, updateCount) {
   // Save full article data with all schemas
   const fullDataPath = path.join(__dirname, '..', 'data', 'new-articles-full.json');
   await fs.writeFile(fullDataPath, JSON.stringify(articles, null, 2));
   
   // Generate notification content
-  let notificationContent = `# New Articles Discovered - ${new Date().toISOString().split('T')[0]}\n\n`;
+  const date = new Date().toISOString().split('T')[0];
+  let notificationContent = `# Sovereignty System Report - ${date}\n\n`;
+  
+  if (newCount > 0) {
+    notificationContent += `## New Articles Discovered: ${newCount}\n\n`;
+  }
+  
+  if (updateCount > 0) {
+    notificationContent += `## Articles Updated: ${updateCount}\n\n`;
+  }
   
   articles.forEach((article, index) => {
-    notificationContent += `## ${index + 1}. ${article.title}\n\n`;
+    const isUpdate = article.version > 1;
+    notificationContent += `## ${index + 1}. ${article.title} ${isUpdate ? '(UPDATE v' + article.version + ')' : '(NEW)'}\n\n`;
+    notificationContent += `**Subject Line:** ${article.emailSubject}\n`;
     notificationContent += `**Platform:** ${article.platform}\n`;
     notificationContent += `**Date:** ${article.date}\n`;
     notificationContent += `**URL:** ${article.url}\n`;
     notificationContent += `**Type:** ${article.type}\n`;
-    notificationContent += `**Topics:** ${article.topics.join(', ')}\n\n`;
-    notificationContent += `### Squarespace Implementation\n\n`;
-    notificationContent += `**URL Slug:** \`${article.urlSlug}\`\n\n`;
-    notificationContent += `All code blocks saved in: data/new-articles-full.json\n\n`;
+    notificationContent += `**Topics:** ${article.topics.join(', ')}\n`;
+    notificationContent += `**URL Slug:** \`${article.urlSlug}\`\n`;
+    notificationContent += `**Fingerprint:** ${article.fingerprint}\n`;
+    
+    if (isUpdate) {
+      notificationContent += `**Change Detected:** Title or description modified\n`;
+    }
+    
+    notificationContent += `\nAll code blocks saved in: data/new-articles-full.json\n\n`;
     notificationContent += `---\n\n`;
+  });
+  
+  // Add metadata line for grep-ability
+  notificationContent += `\n## Metadata\n`;
+  articles.forEach(article => {
+    notificationContent += `work_id=${article.normalizedUrl} | fingerprint=${article.fingerprint} | version=${article.version}\n`;
   });
   
   // Save notification
@@ -469,6 +612,7 @@ async function saveProcessedArticles(articles) {
   await fs.writeFile(notificationPath, notificationContent);
   
   console.log('Full article data with schemas saved to: data/new-articles-full.json');
+  console.log(`Processed: ${newCount} new, ${updateCount} updates`);
 }
 
 // Helper functions
