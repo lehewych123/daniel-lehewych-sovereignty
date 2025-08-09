@@ -45,7 +45,7 @@ const EXCLUDE_HOSTS_BASE = new Set([
 ]);
 
 // Add tunable blocklist (env) and a known spammy mirror that surfaced
-const EXTRA_BLOCKLIST = (process.env.DISCOVERY_BLOCKLIST || 'gesahkita.com')
+const EXTRA_BLOCKLIST = (process.env.DISCOVERY_BLOCKLIST || 'gesahkita.com,gesahkita.id')
   .split(',')
   .map(s => s.trim().toLowerCase())
   .filter(Boolean);
@@ -237,7 +237,7 @@ async function discoverNewArticles(){
       const host = safeHost(r.link).toLowerCase();
       if (!host) return false;
       if (EXCLUDE_HOSTS_BASE.has(host)) return false;
-      if (hostMatches(host, EXTRA_BLOCKLIST)) return false;
+      if (hostMatches(host, LIST)) return false;
       return true;
     });
 
