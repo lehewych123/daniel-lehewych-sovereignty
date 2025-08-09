@@ -13,6 +13,9 @@
  *     • data/articles.json (master DB; only if new items)
  *     • data/new-articles-full.json (full entries for new/updated)
  *     • data/notification.md (human report)
+ *     • data/notification.html (HTML email body)
+ *     • data/notification.txt (plain-text email body)
+ *     • data/email-summary.json (subject + counts for the mail step)
  *
  * Env:
  *   GOOGLE_API_KEY, SEARCH_ENGINE_ID
@@ -236,8 +239,10 @@ async function discoverNewArticles(){
   console.log(`New potential articles: ${processed.length}`);
   console.log(`Potential updates: ${updates.length}`);
 
+  // Always emit email artifacts, even when nothing changed
   if (processed.length === 0 && updates.length === 0){
     console.log('Nothing new today.');
+    await saveProcessedArticles([], 0, 0);
     return;
   }
 
@@ -429,16 +434,48 @@ function generateBibliographyEntry(d){
 function formatHeaderCode(schema){ return `<meta name="robots" content="noindex, follow">\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
 function formatSchemaBlock(schema, title){ return `<!-- ${title} - Add to page body -->\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
 
-async function saveProcessedArticles(articles, newCount, updateCount){
-  const fullDataPath = path.join(__dirname,'..','data','new-articles-full.json');
-  const notificationPath = path.join(__dirname,'..','data','notification.md');
-  const date = new Date().toISOString().split('T')[0];
-  let md = `# Sovereignty System Report - ${date}\n\n`;
-  if (newCount) md += `## New Articles Discovered: ${newCount}\n\n`;
-  if (updateCount) md += `## Articles Updated: ${updateCount}\n\n`;
-  articles.forEach((a,i) => {
-    const isUpdate = a.version > 1;
-    md += `## ${i+1}. ${a.title} ${isUpdate ? '(UPDATE v'+a.version+')' : '(NEW)'}\n\n`;
+/**
+ * Upgraded: writes MD + HTML + TXT email bodies and an email-summary.json.
+ * Includes header code, topic block, related block, page content, and bib entry.
+ */
+async function saveProcessedArticles(articles, newCount, updateCount) {
+  const fsPath = (...p) => path.join(__dirname, '..', ...p);
+
+  // Always ensure data/ exists
+  await fs.mkdir(fsPath('data'), { recursive: true });
+
+  const today = new Date().toISOString().slice(0, 10);
+
+  // ---------- Markdown (kept for history) ----------
+  let md = `# Sovereignty System Report - ${today}\n\n`;
+  if (newCount > 0) md += `## New Articles Discovered: ${newCount}\n\n`;
+  if (updateCount > 0) md += `## Articles Updated: ${updateCount}\n\n`;
+
+  // ---------- Email (plain + HTML) ----------
+  let emailTxt = `Sovereignty System Report — ${today}\n\n`;
+  if (newCount === 0 && updateCount === 0) {
+    emailTxt += `Nothing new today.\n`;
+  }
+  let emailHtml =
+    `<!doctype html><meta charset="utf-8">` +
+    ` <style>
+      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;color:#222}
+      h1,h2,h3{margin:1.2em 0 .4em}
+      code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+      pre{background:#f6f8fa;border:1px solid #e5e7eb;border-radius:6px;padding:12px;overflow:auto}
+      .item{border-top:1px solid #e5e7eb;padding-top:16px;margin-top:16px}
+      .meta{color:#555}
+     </style>
+     <h1>Sovereignty System Report — ${today}</h1>
+     <p class="meta">${newCount} new · ${updateCount} updates</p> `;
+
+  // Per-article sections
+  articles.forEach((a, i) => {
+    const isUpdate = (a.version && a.version > 1);
+    const label = isUpdate ? `UPDATE v${a.version}` : `NEW`;
+    const sectionHdr = `## ${i + 1}. ${a.title} (${label})`;
+
+    md += `${sectionHdr}\n\n`;
     md += `**Subject Line:** ${a.emailSubject}\n`;
     md += `**Platform:** ${a.platform}\n`;
     md += `**Date:** ${a.date}\n`;
@@ -448,14 +485,89 @@ async function saveProcessedArticles(articles, newCount, updateCount){
     md += `**URL Slug:** \`${a.urlSlug}\`\n`;
     md += `**Fingerprint:** ${a.fingerprint}\n`;
     if (isUpdate) md += `**Change Detected:** Title or description modified\n`;
-    md += `\nAll code blocks saved in: data/new-articles-full.json\n\n---\n\n`;
-  });
-  md += `\n## Metadata\n`;
-  articles.forEach(a => { md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`; });
+    md += `\n### Page Header Code\n\`\`\`html\n${a.headerCode}\n\`\`\`\n`;
+    md += `\n### Topic Clustering Block\n\`\`\`html\n${a.topicBlockCode}\n\`\`\`\n`;
+    md += `\n### Related Articles Block\n\`\`\`html\n${a.relatedBlockCode}\n\`\`\`\n`;
+    md += `\n### Page Content (Shadow Page Body)\n\`\`\`html\n${a.pageContent}\n\`\`\`\n`;
+    md += `\n### Master Bibliography Entry\n\`\`\`json\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n`;
+    md += `\n---\n\n`;
 
-  await writeJSON(fullDataPath, articles);
-  await writeText(notificationPath, md);
-  console.log('Full article data saved to data/new-articles-full.json');
+    emailTxt +=
+      `${i + 1}. ${a.title} (${label})\n` +
+      `Platform: ${a.platform}\nDate: ${a.date}\nURL: ${a.url}\nType: ${a.type}\nTopics: ${a.topics.join(', ')}\nURL Slug: ${a.urlSlug}\n\n` +
+      `--- HEADER CODE ---\n${a.headerCode}\n\n` +
+      `--- TOPIC BLOCK ---\n${a.topicBlockCode}\n\n` +
+      `--- RELATED BLOCK ---\n${a.relatedBlockCode}\n\n` +
+      `--- PAGE CONTENT ---\n${a.pageContent}\n\n` +
+      `--- BIB ENTRY ---\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\n` +
+      `============================\n\n`;
+
+    // Escape HTML for <pre> blocks
+    const esc = (s) => s
+      .replace(/&/g,'&amp;')
+      .replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;');
+
+    emailHtml += `
+      <div class="item">
+        <h2>${i + 1}. ${a.title} (${label})</h2>
+        <p class="meta">
+          <strong>Platform:</strong> ${a.platform} ·
+          <strong>Date:</strong> ${a.date} ·
+          <strong>Type:</strong> ${a.type}<br>
+          <strong>Topics:</strong> ${a.topics.join(', ')}<br>
+          <strong>URL:</strong> <a href="${a.url}">${a.url}</a><br>
+          <strong>URL Slug:</strong> <code>${a.urlSlug}</code>
+        </p>
+
+        <h3>Page Header Code</h3>
+        <pre><code>${esc(a.headerCode)}</code></pre>
+
+        <h3>Topic Clustering Block</h3>
+        <pre><code>${esc(a.topicBlockCode)}</code></pre>
+
+        <h3>Related Articles Block</h3>
+        <pre><code>${esc(a.relatedBlockCode)}</code></pre>
+
+        <h3>Page Content (Shadow Page Body)</h3>
+        <pre><code>${esc(a.pageContent)}</code></pre>
+
+        <h3>Master Bibliography Entry</h3>
+        <pre><code>${esc(JSON.stringify(a.bibliographyEntry, null, 2))}</code></pre>
+      </div>`;
+  });
+
+  // Metadata footer line for grep-ability
+  md += `\n## Metadata\n`;
+  articles.forEach(a => {
+    md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`;
+  });
+
+  // If absolutely nothing changed today, still emit minimal files
+  if (articles.length === 0) {
+    md += `\nNo new articles or updates.\n`;
+    emailHtml += `<p>No new articles or updates.</p>`;
+    emailTxt += `No new articles or updates.\n`;
+  }
+
+  // Write files used by the workflow
+  await fs.writeFile(fsPath('data', 'new-articles-full.json'), JSON.stringify(articles, null, 2));
+  await fs.writeFile(fsPath('data', 'notification.md'), md, 'utf8');
+  await fs.writeFile(fsPath('data', 'notification.html'), emailHtml, 'utf8');
+  await fs.writeFile(fsPath('data', 'notification.txt'), emailTxt, 'utf8');
+
+  // Also drop a tiny “summary” JSON so the workflow can decide subject/body
+  const total = articles.length;
+  const subject = total > 0
+    ? `SOV-ARCH · ${today} · ${total} item${total>1?'s':''} (${newCount} new, ${updateCount} updates)`
+    : `SOV-ARCH · ${today} · Nothing new`;
+  await fs.writeFile(
+    fsPath('data', 'email-summary.json'),
+    JSON.stringify({ date: today, total, newCount, updateCount, subject }, null, 2),
+    'utf8'
+  );
+
+  console.log('Full article data with schemas saved to: data/new-articles-full.json');
   console.log(`Processed: ${newCount} new, ${updateCount} updates`);
 }
 
