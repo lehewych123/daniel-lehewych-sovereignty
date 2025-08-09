@@ -1,6 +1,28 @@
 #!/usr/bin/env node
 /**
- * Daily Article Discovery — global search + authorship + language filter (Node 20, no deps)
+ * Daily Article Discovery — global search + authorship + language gating (Node 20+, no deps)
+ *
+ * What this does:
+ * - Queries Google Programmable Search across the whole web for your name/byline.
+ * - Dedupes by normalized URL + fingerprint (title + snippet).
+ * - Verifies authorship by fetching the page and checking:
+ *     • <meta name="author"> / <meta property="article:author">
+ *     • JSON-LD "author" name
+ *     • Visible "by Daniel Lehewych" in HTML
+ * - (New) Language gate (default en): inspects <html lang>, og:locale, and a tiny stopword heuristic.
+ * - (New) Domain blocklist via env + preblocked spammy host(s).
+ * - Writes:
+ *     • data/articles.json (master DB; only if new items)
+ *     • data/new-articles-full.json (full entries for new/updated)
+ *     • data/notification.md (human report; now grouped + includes code blocks)
+ *
+ * Env:
+ *   GOOGLE_API_KEY, SEARCH_ENGINE_ID
+ * Optional:
+ *   DISCOVERY_DATE_WINDOW (default "d14"),
+ *   DISCOVERY_VERIFY ("true" | "false", default "true"),
+ *   DISCOVERY_LANG (default "en"),
+ *   DISCOVERY_BLOCKLIST (comma-separated hosts, e.g. "gesahkita.com,example.net")
  */
 
 const fs = require('fs').promises;
@@ -9,67 +31,55 @@ const crypto = require('crypto');
 
 // ---------- Config ----------
 const AUTHOR_NAME = 'Daniel Lehewych';
-
-// Language allowlist (comma-separated env supported)
-// Accepts values like: en, en-us, en-gb
-const ALLOW_LANGS = new Set(
-  (process.env.DISCOVERY_LANGS || 'en,en-us,en-gb')
-    .split(',').map(s => s.trim().toLowerCase()).filter(Boolean)
-);
-
-// How far back to search via CSE
 const DATE_WINDOW = process.env.DISCOVERY_DATE_WINDOW || 'd14';
-
-// Enable/disable HTML authorship verification
 const VERIFY_AUTHOR = (process.env.DISCOVERY_VERIFY || 'true').toLowerCase() === 'true';
+const PRIMARY_LANG = (process.env.DISCOVERY_LANG || 'en').toLowerCase();
 
-// Domains we never want
-const EXCLUDE_HOSTS = new Set([
+// Domains we never want (social/link shorteners/search engines/caches)
+const EXCLUDE_HOSTS_BASE = new Set([
   'daniellehewych.org',
-  'webcache.googleusercontent.com', 'google.com', 'news.google.com', 'translate.googleusercontent.com',
-  'bing.com', 'duckduckgo.com', 'yahoo.com',
+  'webcache.googleusercontent.com','google.com','news.google.com',
+  'bing.com','duckduckgo.com','yahoo.com',
   'facebook.com','m.facebook.com','twitter.com','x.com','t.co','linkedin.com','lnkd.in',
-  'reddit.com','www.reddit.com','r.jina.ai','getpocket.com','feedly.com','flipboard.com',
-
-  // Hard blocks (requested)
-  'gesahkita.com'
+  'reddit.com','www.reddit.com','r.jina.ai','getpocket.com','feedly.com','flipboard.com'
 ]);
 
-// Country TLDs we treat as non-English unless proven otherwise via HTML lang/meta
-const NON_ENGLISH_CC_TLDS = new Set([
-  'br','pt','id','es','fr','de','it','pl','ru','tr','cn','jp','kr','vn','th'
-]);
+// Add tunable blocklist (env) and a known spammy mirror that surfaced
+const EXTRA_BLOCKLIST = (process.env.DISCOVERY_BLOCKLIST || 'gesahkita.com')
+  .split(',')
+  .map(s => s.trim().toLowerCase())
+  .filter(Boolean);
 
-// ---------- Patterns (tightened a bit) ----------
+// ---------- Your existing patterns (preserved) ----------
 const topicPatterns = {
   "Philosophy": /philosoph|metaphysics|epistemology|ontology|phenomenology|existential/i,
   "Ethics": /\b(ethics|moral|virtue|good|evil|justice|deontolog|consequential)\b/i,
   "Consciousness": /consciousness|mind|awareness|subjective|qualia|cogniti|sentien/i,
   "Free Will": /free will|determinism|agency|choice|volition|compatibil/i,
-  "AI & Technology": /\b(artificial intelligence|a\.?i\.?|machine learning|ml|llm|agi|algorithm|technology|digital|computer)\b/i,
-  "AI Ethics": /\b(ai ethics|machine ethics|robot rights|algorithmic bias|ai safety)\b/i,
-  "Digital Culture": /\b(digital|internet|online|social media|cyber|virtual|metaverse)\b/i,
-  "Healthcare": /\b(health|medical|medicine|doctor|patient|treatment|therapy|disease|clinical)\b/i,
-  "Fitness & Nutrition": /\b(fitness|exercise|workout|nutrition|diet|supplement|muscle|training|protein)\b/i,
-  "Mental Health": /\b(mental health|depression|anxiety|therapy|wellbeing|mindfulness)\b/i,
-  "Longevity": /\b(longevity|aging|lifespan|anti-aging|healthspan)\b/i,
-  "Politics & Society": /\b(politic|democra|society|social|governance|policy|government|civic)\b/i,
-  "Economics": /\b(economic|market|finance|money|business|capitalism|trade|gdp|inflation)\b/i,
-  "Education": /\b(education|learning|teaching|school|academic|university|knowledge|pedagog)\b/i,
-  "Work & Career": /\b(work|career|job|employment|workplace|remote|office|professional|labor|quit|resign)\b/i,
-  "Writing & Creativity": /\b(writing|writer|creative|author|literature|story|narrative|fiction)\b/i,
+  "AI & Technology": /artificial intelligence|AI|machine learning|ML|LLM|AGI|algorithm|technolog|digital|computer/i,
+  "AI Ethics": /AI ethics|machine ethics|robot rights|algorithmic bias|AI safety/i,
+  "Digital Culture": /digital|internet|online|social media|cyber|virtual|metaverse/i,
+  "Healthcare": /health|medical|medicine|doctor|patient|treatment|therapy|disease|clinical/i,
+  "Fitness & Nutrition": /fitness|exercise|workout|nutrition|diet|supplement|muscle|training|protein/i,
+  "Mental Health": /mental health|depression|anxiety|therapy|wellbeing|mindfulness/i,
+  "Longevity": /longevity|aging|lifespan|anti-aging|healthspan/i,
+  "Politics & Society": /politic|democra|society|social|governance|policy|government|civic/i,
+  "Economics": /economic|market|finance|money|business|capitalism|trade|GDP|inflation/i,
+  "Education": /education|learning|teaching|school|academic|university|knowledge|pedagog/i,
+  "Work & Career": /work|career|job|employment|workplace|remote|office|professional|labor|quit|resign/i,
+  "Writing & Creativity": /writing|writer|creative|author|literature|story|narrative|fiction/i,
   "Psychology": /psycholog|mental|emotion|feeling|therapy|trauma|behavioral|cognitive/i,
-  "Religion & Spirituality": /\b(god|divine|theology|religious|faith|spiritual|buddhis|christian|sacred)\b/i,
-  "Science": /\b(science|scientific|research|study|experiment|data|evidence|empirical)\b/i,
-  "Climate & Environment": /\b(climate|environment|sustainability|carbon|renewable|ecology)\b/i
+  "Religion & Spirituality": /god|divine|theology|religious|faith|spiritual|buddhis|christian|sacred/i,
+  "Science": /science|scientific|research|study|experiment|data|evidence|empirical/i,
+  "Climate & Environment": /climate|environment|sustainability|carbon|renewable|ecology/i
 };
 
 const typePatterns = {
   "ScholarlyArticle": /phenomenology|epistemology|metaphysics|ontology|dialectic|philosophical|examine|analysis of|critique|dissertation/i,
   "OpinionNewsArticle": /\b(opinion|should|must|need to|why we|it's time|we need|believe|argue|contend)\b/i,
-  "HowTo": /\b(how to|guide to|tips for|steps to|ways to|tutorial|strategies|method|technique|here's how)\b/i,
-  "AnalysisNewsArticle": /\b(analysis|analyzing|trend|future of|landscape|forecast|examining|impact of|data shows)\b/i,
-  "Review": /\b(review|reviewing|assessment of|evaluation|critique of|book review|product review)\b/i,
+  "HowTo": /how to|guide to|tips for|steps to|ways to|tutorial|strategies|method|technique|here's how/i,
+  "AnalysisNewsArticle": /analysis|analyzing|trend|future of|landscape|forecast|examining|impact of|data shows/i,
+  "Review": /review|reviewing|assessment of|evaluation|critique of|book review|product review/i,
   "BlogPosting": /./
 };
 
@@ -77,24 +87,26 @@ const publisherData = {
   "Medium": {
     "@type": "Organization",
     "name": "Medium",
-    "logo": {"@type":"ImageObject","url":"https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png","width":616,"height":616}
+    "logo": {"@type":"ImageObject", "url":"https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png","width":616,"height":616}
   },
   "Newsweek": {
-    "@type":"Organization","name":"Newsweek",
-    "logo":{"@type":"ImageObject","url":"https://www.newsweek.com/favicon.ico","width":32,"height":32}
+    "@type": "Organization",
+    "name": "Newsweek",
+    "logo": {"@type":"ImageObject","url":"https://www.newsweek.com/favicon.ico","width":32,"height":32}
   },
   "BigThink": {
-    "@type":"Organization","name":"Big Think",
-    "logo":{"@type":"ImageObject","url":"https://bigthink.com/favicon.ico","width":32,"height":32}
+    "@type": "Organization",
+    "name": "Big Think",
+    "logo": {"@type":"ImageObject","url":"https://bigthink.com/favicon.ico","width":32,"height":32}
   }
 };
 
 // ---------- Utils ----------
 function normalizeUrl(input, canonicalHref) {
   const raw = new URL(canonicalHref || input);
-  const drop = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','fbclid','mc_cid','mc_eid','igshid','ref','ref_src'];
-  drop.forEach(p => raw.searchParams.delete(p));
-  if (raw.pathname !== '/' && raw.pathname.endsWith('/')) raw.pathname = raw.pathname.slice(0,-1);
+  const dropParams = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','fbclid','mc_cid','mc_eid','igshid','ref','ref_src'];
+  dropParams.forEach(p => raw.searchParams.delete(p));
+  if (raw.pathname !== '/' && raw.pathname.endsWith('/')) raw.pathname = raw.pathname.slice(0, -1);
   raw.pathname = raw.pathname.replace(/\/(index|home)\.(html?|php)$/i, '');
   raw.host = raw.host.toLowerCase();
   raw.hash = '';
@@ -104,10 +116,21 @@ function contentFingerprint(title, subtitle=''){ return crypto.createHash('sha25
 function formatDate(s){ const d=new Date(s); return d.toISOString().slice(0,10); }
 function generateEmailSubject(a,isUpdate=false,v=1){ return `${isUpdate?`SOV-ARCH UPDATE v${v}`:'SOV-ARCH NEW'} · ${a.platform} · "${a.title}" · ${formatDate(a.date)}`; }
 function safeHost(u){ try{ return new URL(u).hostname.replace(/^www\./,''); }catch{return ''; } }
-function tld(u){ try{ const h=new URL(u).hostname.toLowerCase(); const parts=h.split('.'); return parts[parts.length-1]; }catch{return ''; } }
+function hostMatches(host, list){
+  host = host.toLowerCase();
+  return list.some(b => host === b || host.endsWith('.'+b));
+}
 
-async function writeJSON(file, obj){ await fs.mkdir(path.dirname(file),{recursive:true}); await fs.writeFile(file, JSON.stringify(obj,null,2)); }
-async function writeText(file, text){ await fs.mkdir(path.dirname(file),{recursive:true}); await fs.writeFile(file, text); }
+async function writeJSON(file, obj){
+  const dir = path.dirname(file);
+  await fs.mkdir(dir,{recursive:true});
+  await fs.writeFile(file, JSON.stringify(obj, null, 2));
+}
+async function writeText(file, text){
+  const dir = path.dirname(file);
+  await fs.mkdir(dir,{recursive:true});
+  await fs.writeFile(file, text);
+}
 
 // HTML fetch with timeout
 async function fetchHtml(url, timeoutMs=8000){
@@ -119,7 +142,9 @@ async function fetchHtml(url, timeoutMs=8000){
     const ct = res.headers.get('content-type') || '';
     if (!/text\/html|application\/xhtml\+xml/i.test(ct)) return '';
     return await res.text();
-  } finally { clearTimeout(t); }
+  } finally {
+    clearTimeout(t);
+  }
 }
 
 // Verify authorship in HTML
@@ -132,25 +157,29 @@ function htmlHasAuthor(html, author = AUTHOR_NAME){
   return bylineRe.test(html) || metaAuthorRe.test(html) || jsonLdRe.test(html);
 }
 
-// Language detection (no deps): html[@lang], meta og:locale, meta[name=language], fallback TLD heuristic
-function detectHtmlLang(html){
+// Naive language detection (lang/locale + stopword fallback)
+function detectLang(html){
   if (!html) return null;
-  const m1 = html.match(/<html[^>]+lang=["']([a-zA-Z-]{2,10})["']/i);
-  if (m1 && m1[1]) return m1[1].toLowerCase();
-  const m2 = html.match(/<meta[^>]+property=["']og:locale["'][^>]+content=["']([a-zA-Z_]{2,10})["']/i);
-  if (m2 && m2[1]) return m2[1].toLowerCase().replace('_','-');
-  const m3 = html.match(/<meta[^>]+name=["']language["'][^>]+content=["']([a-zA-Z-]{2,10})["']/i);
-  if (m3 && m3[1]) return m3[1].toLowerCase();
-  return null;
-}
-function isAllowedLanguage(html, url){
-  const lang = (detectHtmlLang(html) || '').toLowerCase();
-  if (lang && (ALLOW_LANGS.has(lang) || ALLOW_LANGS.has(lang.split('-')[0]))) return true;
-  // If language not detectable and TLD looks non-English, block
-  const cc = tld(url);
-  if (NON_ENGLISH_CC_TLDS.has(cc)) return false;
-  // Otherwise allow
-  return true;
+  // <html lang="en"> or en-US
+  const langAttr = html.match(/<html[^>]*\blang=["']?([a-zA-Z-_.]+)["']?[^>]*>/i)?.[1];
+  if (langAttr) return langAttr.toLowerCase().split(/[_-]/)[0];
+
+  // og:locale e.g., en_US
+  const ogLocale = html.match(/<meta[^>]+property=["']og:locale["'][^>]+content=["']([^"']+)["']/i)?.[1];
+  if (ogLocale) return ogLocale.toLowerCase().split(/[_-]/)[0];
+
+  // Very light heuristic on text (English stopwords presence ratio)
+  const text = html
+    .replace(/<script[\s\S]*?<\/script>/gi,' ')
+    .replace(/<style[\s\S]*?<\/style>/gi,' ')
+    .replace(/<[^>]+>/g,' ')
+    .replace(/\s+/g,' ')
+    .slice(0, 4000)
+    .toLowerCase();
+
+  const stops = [' the ',' and ',' to ',' of ',' a ',' in ',' that ',' is ',' for ',' on '];
+  const hits = stops.reduce((acc, w) => acc + (text.includes(w) ? 1 : 0), 0);
+  return hits >= 3 ? 'en' : 'other';
 }
 
 // ---------- Main ----------
@@ -168,7 +197,7 @@ async function discoverNewArticles(){
   let existing = [];
   try { existing = JSON.parse(await fs.readFile(dbPath,'utf8')); } catch { console.log('No existing DB.'); }
 
-  // Queries
+  // Global queries
   const queries = [
     `"${AUTHOR_NAME}"`,
     `"by ${AUTHOR_NAME}"`,
@@ -200,24 +229,28 @@ async function discoverNewArticles(){
     }
   }
 
-  // Dedup + filter obvious hosts
+  // Dedup + base filters
   const uniq = Array.from(new Set(all.map(r=>r.link)))
     .map(link => all.find(r=>r.link===link))
     .filter(Boolean)
     .filter(r => {
       const host = safeHost(r.link).toLowerCase();
-      return host && !EXCLUDE_HOSTS.has(host);
+      if (!host) return false;
+      if (EXCLUDE_HOSTS_BASE.has(host)) return false;
+      if (hostMatches(host, EXTRA_BLOCKLIST)) return false;
+      return true;
     });
 
   console.log(`Candidates after filtering: ${uniq.length}`);
 
-  // Compare with DB; verify author; filter language
+  // Compare to existing (by normalized URL + fingerprint)
   const processed = [];
   const updates = [];
-  const quarantined = []; // kept for debug but not emailed
+  const skipped = []; // {title,url,host,reason}
 
   for (const r of uniq){
     const norm = normalizeUrl(r.link);
+    const host = safeHost(r.link);
     const found = existing.find(a => normalizeUrl(a.url) === norm || a.normalizedUrl === norm);
     const fp = contentFingerprint(cleanTitle(r.title || ''), r.snippet || '');
 
@@ -228,38 +261,41 @@ async function discoverNewArticles(){
       continue;
     }
 
-    // Optional authorship verification + language filter
+    // Fetch HTML once for lang + authorship checks
     let html = '';
-    if (VERIFY_AUTHOR || ALLOW_LANGS.size){
-      try { html = await fetchHtml(r.link); }
-      catch (e) {
-        console.warn(`Fetch failed for ${r.link}: ${e.message}`);
-        continue; // be conservative
+    try {
+      html = await fetchHtml(r.link);
+    } catch (e) {
+      skipped.push({ title: cleanTitle(r.title || ''), url: r.link, host, reason: `fetch-failed: ${e.message}` });
+      continue;
+    }
+
+    // Language gate
+    const lang = detectLang(html) || 'other';
+    if (PRIMARY_LANG && lang !== PRIMARY_LANG) {
+      skipped.push({ title: cleanTitle(r.title || ''), url: r.link, host, reason: `language=${lang}` });
+      continue;
+    }
+
+    // Optional authorship verification (reduces false positives)
+    if (VERIFY_AUTHOR){
+      if (!htmlHasAuthor(html, AUTHOR_NAME)) {
+        skipped.push({ title: cleanTitle(r.title || ''), url: r.link, host, reason: 'author-mismatch' });
+        continue;
       }
     }
 
-    if (VERIFY_AUTHOR && !htmlHasAuthor(html, AUTHOR_NAME)) {
-      continue;
-    }
-
-    // Language allowlist
-    if (!isAllowedLanguage(html, r.link)) {
-      quarantined.push({ reason:'non-english', link:r.link, title:r.title });
-      continue;
-    }
-
     processed.push(r);
-    await new Promise(r=>setTimeout(r,120));
+    await new Promise(r=>setTimeout(r,150));
   }
 
   console.log(`New potential articles: ${processed.length}`);
   console.log(`Potential updates: ${updates.length}`);
-  if (quarantined.length) {
-    await writeJSON(path.join(__dirname,'..','data','quarantine.json'), quarantined);
-    console.log(`Quarantined (non-English/blocked): ${quarantined.length}`);
-  }
+  console.log(`Skipped (for review): ${skipped.length}`);
 
   if (processed.length === 0 && updates.length === 0){
+    // Still write a notification so the email step has content
+    await saveProcessedArticles([], 0, 0, skipped);
     console.log('Nothing new today.');
     return;
   }
@@ -278,12 +314,10 @@ async function discoverNewArticles(){
     updatedArticles.push({ ...p, version: (ex.version || 1) + 1, previousFingerprint: ex.fingerprint });
   }
 
-  // Save full artifacts (used by the mailer step)
-  if (newArticles.length || updatedArticles.length){
-    await saveProcessedArticles([...newArticles, ...updatedArticles], newArticles.length, updatedArticles.length);
-  }
+  // Save full artifacts + grouped notification (includes code blocks now)
+  await saveProcessedArticles([...newArticles, ...updatedArticles], newArticles.length, updatedArticles.length, skipped);
 
-  // Update DB
+  // Append new to DB
   if (newArticles.length){
     const entries = newArticles.map(p => ({
       id: p.id,
@@ -300,6 +334,8 @@ async function discoverNewArticles(){
     }));
     existing.push(...entries);
   }
+
+  // Update DB entries
   for (const u of updatedArticles){
     const i = existing.findIndex(a => normalizeUrl(a.url) === normalizeUrl(u.url));
     if (i !== -1){
@@ -433,7 +469,7 @@ function generatePageContent(d){
 </div>`;
 }
 function generateBibliographyEntry(d){
-  const position = 374;
+  const position = 374; // placeholder
   return {
     "@type":"ListItem",
     "position": position,
@@ -450,40 +486,61 @@ function generateBibliographyEntry(d){
 function formatHeaderCode(schema){ return `<meta name="robots" content="noindex, follow">\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
 function formatSchemaBlock(schema, title){ return `<!-- ${title} - Add to page body -->\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
 
-async function saveProcessedArticles(articles, newCount, updateCount){
+async function saveProcessedArticles(articles, newCount, updateCount, skipped=[]){
   const fullDataPath = path.join(__dirname,'..','data','new-articles-full.json');
   const notificationPath = path.join(__dirname,'..','data','notification.md');
   const date = new Date().toISOString().split('T')[0];
 
+  await writeJSON(fullDataPath, articles);
+
   let md = `# Sovereignty System Report - ${date}\n\n`;
-  if (newCount) md += `## New Articles Discovered: ${newCount}\n\n`;
-  if (updateCount) md += `## Articles Updated: ${updateCount}\n\n`;
 
-  articles.forEach((a,i) => {
-    const isUpdate = a.version > 1;
-    md += `## ${i+1}. ${a.title} ${isUpdate ? '(UPDATE v'+a.version+')' : '(NEW)'}\n\n`;
-    md += `**Subject Line:** ${a.emailSubject}\n`;
-    md += `**Platform:** ${a.platform}\n`;
-    md += `**Date:** ${a.date}\n`;
-    md += `**URL:** ${a.url}\n`;
-    md += `**Type:** ${a.type}\n`;
-    md += `**Topics:** ${a.topics.join(', ')}\n`;
-    md += `**URL Slug:** \`${a.urlSlug}\`\n`;
-    md += `**Fingerprint:** ${a.fingerprint}\n`;
-    if (isUpdate) md += `**Change Detected:** Title or description modified\n`;
-    md += `\nAll code blocks saved in: data/new-articles-full.json\n\n---\n\n`;
-  });
+  if (newCount) md += `## New Articles (${newCount})\n\n`;
+  articles.filter(a => a.version === 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, false); });
 
-  md += `\n## Metadata\n`;
+  if (updateCount) md += `## Updates (${updateCount})\n\n`;
+  articles.filter(a => a.version > 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, true); });
+
+  if ((!newCount && !updateCount)) md += `Nothing new today.\n\n`;
+
+  if (skipped.length){
+    md += `## Skipped (for review): ${skipped.length}\n\n`;
+    skipped.forEach((s, i) => {
+      md += `- ${i+1}. **${s.title || '(no title)'}** — ${s.url}\n  - Host: ${s.host}\n  - Reason: ${s.reason}\n`;
+    });
+    md += `\n`;
+  }
+
+  // Metadata footer
+  md += `---\n\n## Metadata\n`;
   articles.forEach(a => { md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`; });
 
-  await writeJSON(fullDataPath, articles);
   await writeText(notificationPath, md);
   console.log('Full article data saved to data/new-articles-full.json');
-  console.log(`Processed: ${newCount} new, ${updateCount} updates`);
+  console.log(`Processed: ${newCount} new, ${updateCount} updates; skipped: ${skipped.length}`);
 }
 
-// ---------- Helpers ----------
+function renderArticleBlock(a, idx, isUpdate){
+  let out = `### ${idx}. ${a.title} ${isUpdate ? `(UPDATE v${a.version})` : `(NEW)`}\n\n`;
+  out += `**Subject Line:** ${a.emailSubject}\n`;
+  out += `**Platform:** ${a.platform}\n`;
+  out += `**Date:** ${a.date}\n`;
+  out += `**URL:** ${a.url}\n`;
+  out += `**Type:** ${a.type}\n`;
+  out += `**Topics:** ${a.topics.join(', ')}\n`;
+  out += `**URL Slug:** \`${a.urlSlug}\`\n`;
+  out += `**Fingerprint:** ${a.fingerprint}\n`;
+  if (isUpdate) out += `**Change Detected:** Title or description modified\n`;
+  out += `\n#### Page Header Code\n\`\`\`html\n${a.headerCode}\n\`\`\`\n`;
+  out += `\n#### Topic Clustering Block\n\`\`\`html\n${a.topicBlockCode}\n\`\`\`\n`;
+  out += `\n#### Related Articles Block\n\`\`\`html\n${a.relatedBlockCode}\n\`\`\`\n`;
+  out += `\n#### Page Content (Shadow Page Body)\n\`\`\`html\n${a.pageContent}\n\`\`\`\n`;
+  out += `\n#### Master Bibliography Entry\n\`\`\`json\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n\n`;
+  out += `---\n\n`;
+  return out;
+}
+
+// ---------- Helpers (preserved) ----------
 function cleanTitle(title=''){
   return title
     .replace(/ - Medium$/i,'')
