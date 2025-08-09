@@ -1,78 +1,307 @@
-name: Daily Article Discovery
+#!/usr/bin/env node
+/**
+ * Daily Article Discovery — global search + authorship verification (Node 20+, no deps)
+ *
+ * Adds:
+ *  - English-only search via Google CSE (lr=lang_en)
+ *  - English-only page filter (lang/meta/JSON-LD + keyword heuristics)
+ *  - Host blocklist includes gesahkita.*
+ *
+ * Env (required):
+ *   GOOGLE_API_KEY, SEARCH_ENGINE_ID
+ * Optional:
+ *   DISCOVERY_DATE_WINDOW (default "d14")
+ *   DISCOVERY_VERIFY ("true"|"false", default "true")
+ *   DISCOVERY_LANG (default "en")  // used for CSE lr=lang_<code>
+ */
 
-on:
-  workflow_dispatch:
-  schedule:
-    # 15:00 UTC == 11:00 AM America/New_York during DST
-    - cron: '0 15 * * *'
+const fs = require('fs').promises;
+const path = require('path');
+const crypto = require('crypto');
 
-permissions:
-  contents: write
+// ---------- Config ----------
+const AUTHOR_NAME = 'Daniel Lehewych';
+const DATE_WINDOW = process.env.DISCOVERY_DATE_WINDOW || 'd14';
+const VERIFY_AUTHOR = (process.env.DISCOVERY_VERIFY || 'true').toLowerCase() === 'true';
+const DISCOVERY_LANG = (process.env.DISCOVERY_LANG || 'en').toLowerCase();
 
-concurrency:
-  group: daily-discovery
-  cancel-in-progress: true
+// Domains we never want (social/link shorteners/search engines/caches/spam)
+const EXCLUDE_HOSTS = new Set([
+  'daniellehewych.org',
+  'webcache.googleusercontent.com','google.com','news.google.com',
+  'bing.com','duckduckgo.com','yahoo.com',
+  'facebook.com','m.facebook.com','twitter.com','x.com','t.co','linkedin.com','lnkd.in',
+  'reddit.com','www.reddit.com','r.jina.ai','getpocket.com','feedly.com','flipboard.com',
+  // hard block problematic sites
+  'gesahkita.com','gesahkita.id'
+]);
 
-jobs:
-  discover:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - uses: actions/checkout@v4
+// ---------- Your existing patterns (preserved) ----------
+const topicPatterns = {
+  "Philosophy": /philosoph|metaphysics|epistemology|ontology|phenomenology|existential/i,
+  "Ethics": /\b(ethics|moral|virtue|good|evil|justice|deontolog|consequential)\b/i,
+  "Consciousness": /consciousness|mind|awareness|subjective|qualia|cogniti|sentien/i,
+  "Free Will": /free will|determinism|agency|choice|volition|compatibil/i,
+  "AI & Technology": /artificial intelligence|AI|machine learning|ML|LLM|AGI|algorithm|technolog|digital|computer/i,
+  "AI Ethics": /AI ethics|machine ethics|robot rights|algorithmic bias|AI safety/i,
+  "Digital Culture": /digital|internet|online|social media|cyber|virtual|metaverse/i,
+  "Healthcare": /health|medical|medicine|doctor|patient|treatment|therapy|disease|clinical/i,
+  "Fitness & Nutrition": /fitness|exercise|workout|nutrition|diet|supplement|muscle|training|protein/i,
+  "Mental Health": /mental health|depression|anxiety|therapy|wellbeing|mindfulness/i,
+  "Longevity": /longevity|aging|lifespan|anti-aging|healthspan/i,
+  "Politics & Society": /politic|democra|society|social|governance|policy|government|civic/i,
+  "Economics": /economic|market|finance|money|business|capitalism|trade|GDP|inflation/i,
+  "Education": /education|learning|teaching|school|academic|university|knowledge|pedagog/i,
+  "Work & Career": /work|career|job|employment|workplace|remote|office|professional|labor|quit|resign/i,
+  "Writing & Creativity": /writing|writer|creative|author|literature|story|narrative|fiction/i,
+  "Psychology": /psycholog|mental|emotion|feeling|therapy|trauma|behavioral|cognitive/i,
+  "Religion & Spirituality": /god|divine|theology|religious|faith|spiritual|buddhis|christian|sacred/i,
+  "Science": /science|scientific|research|study|experiment|data|evidence|empirical/i,
+  "Climate & Environment": /climate|environment|sustainability|carbon|renewable|ecology/i
+};
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
+const typePatterns = {
+  "ScholarlyArticle": /phenomenology|epistemology|metaphysics|ontology|dialectic|philosophical|examine|analysis of|critique|dissertation/i,
+  "OpinionNewsArticle": /\b(opinion|should|must|need to|why we|it's time|we need|believe|argue|contend)\b/i,
+  "HowTo": /how to|guide to|tips for|steps to|ways to|tutorial|strategies|method|technique|here's how/i,
+  "AnalysisNewsArticle": /analysis|analyzing|trend|future of|landscape|forecast|examining|impact of|data shows/i,
+  "Review": /review|reviewing|assessment of|evaluation|critique of|book review|product review/i,
+  "BlogPosting": /./
+};
 
-      - name: Run discovery
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          SEARCH_ENGINE_ID: ${{ secrets.SEARCH_ENGINE_ID }}
-        run: node src/discovery.js
+const publisherData = {
+  "Medium": {
+    "@type": "Organization",
+    "name": "Medium",
+    "logo": {"@type":"ImageObject", "url":"https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png","width":616,"height":616}
+  },
+  "Newsweek": {
+    "@type": "Organization",
+    "name": "Newsweek",
+    "logo": {"@type":"ImageObject","url":"https://www.newsweek.com/favicon.ico","width":32,"height":32}
+  },
+  "BigThink": {
+    "@type": "Organization",
+    "name": "Big Think",
+    "logo": {"@type":"ImageObject","url":"https://bigthink.com/favicon.ico","width":32,"height":32}
+  }
+};
 
-      - name: Commit & push (only if changed)
-        run: |
-          git config user.name "automation"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/
-          git diff --staged --quiet || { git commit -m "chore(discovery): $(date -u +'%Y-%m-%d')"; git push; }
+// ---------- Utils ----------
+function normalizeUrl(input, canonicalHref) {
+  const raw = new URL(canonicalHref || input);
+  const dropParams = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','fbclid','mc_cid','mc_eid','igshid','ref','ref_src'];
+  dropParams.forEach(p => raw.searchParams.delete(p));
+  if (raw.pathname !== '/' && raw.pathname.endsWith('/')) raw.pathname = raw.pathname.slice(0, -1);
+  raw.pathname = raw.pathname.replace(/\/(index|home)\.(html?|php)$/i, '');
+  raw.host = raw.host.toLowerCase();
+  raw.hash = '';
+  return `${raw.protocol}//${raw.host}${raw.pathname}${raw.search}`;
+}
+function contentFingerprint(title, subtitle=''){ return crypto.createHash('sha256').update(`${title}\n${subtitle}`.toLowerCase().trim()).digest('hex'); }
+function formatDate(s){ const d=new Date(s); return d.toISOString().slice(0,10); }
+function generateEmailSubject(a,isUpdate=false,v=1){ return `${isUpdate?`SOV-ARCH UPDATE v${v}`:'SOV-ARCH NEW'} · ${a.platform} · "${a.title}" · ${formatDate(a.date)}`; }
+function safeHost(u){ try{ return new URL(u).hostname.replace(/^www\./,''); }catch{return '';} }
 
-      # Build a clean markdown email from notification.md (or a fallback)
-      - name: Compose rich email body
-        if: always()
-        run: |
-          node - <<'NODE'
-          const fs = require('fs');
-          const p = 'data/notification.md';
-          let body = `# Sovereignty System Report - ${new Date().toISOString().slice(0,10)}\n\n`;
-          if (fs.existsSync(p) && fs.statSync(p).size > 0) {
-            const md = fs.readFileSync(p, 'utf8');
-            // strip a duplicate top header if present
-            body += md.replace(/^#\s+Sovereignty.*\n*/i, '');
-          } else {
-            body += 'Nothing new today.';
-          }
-          fs.mkdirSync('data', {recursive:true});
-          fs.writeFileSync('data/email.md', body);
-          console.log('Wrote data/email.md');
-          NODE
+async function writeJSON(file, obj){
+  const dir = path.dirname(file);
+  await fs.mkdir(dir,{recursive:true});
+  await fs.writeFile(file, JSON.stringify(obj, null, 2));
+}
+async function writeText(file, text){
+  const dir = path.dirname(file);
+  await fs.mkdir(dir,{recursive:true});
+  await fs.writeFile(file, text);
+}
 
-      # Send the email via Gmail SMTP (reads the file we just created)
-      - name: Email report
-        if: always()
-        uses: dawidd6/action-send-mail@v4
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.SMTP_USERNAME }}          # your Gmail address
-          password: ${{ secrets.SMTP_PASSWORD }}          # the 16-char app password
-          from: Daniel Lehewych <${{ secrets.SMTP_USERNAME }}>
-          to: lehewych123@gmail.com, daniel.lehewych.writer@gmail.com, dlehewych@gradcenter.cuny.edu
-          subject: Sovereignty Report – ${{ github.repository }} run #${{ github.run_number }}
-          content_type: text/markdown
-          convert_markdown: true
-          body: file://data/email.md
-          attachments: |
-            data/new-articles-full.json
-            data/notification.md
+// HTML fetch with timeout
+async function fetchHtml(url, timeoutMs=8000){
+  const ac = new AbortController();
+  const t = setTimeout(()=>ac.abort(), timeoutMs);
+  try{
+    const res = await fetch(url, { signal: ac.signal, redirect: 'follow' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const ct = res.headers.get('content-type') || '';
+    if (!/text\/html|application\/xhtml\+xml/i.test(ct)) return '';
+    return await res.text();
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+// Verify authorship in HTML
+function htmlHasAuthor(html, author = AUTHOR_NAME){
+  if (!html) return false;
+  const name = author.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const bylineRe = new RegExp(`\\bby\\s+${name}\\b`, 'i');
+  const metaAuthorRe = new RegExp(`<meta[^>]+(?:name|property)=["'](?:author|article:author)["'][^>]+content=["'][^"']*${name}[^"']*["']`, 'i');
+  const jsonLdRe = new RegExp(`"author"\\s*:\\s*(?:\\{[^}]*?"name"\\s*:\\s*"(?:[^"]*${name}[^"]*)"[^}]*\\}|"${name}")`, 'i');
+  return bylineRe.test(html) || metaAuthorRe.test(html) || jsonLdRe.test(html);
+}
+
+// Basic English detector (meta/lang + lightweight heuristics)
+function isEnglishPage(html, snippet = '', title = ''){
+  const text = (html || '') + ' ' + (snippet || '') + ' ' + (title || '');
+  const lct = text.toLowerCase();
+
+  // 1) Explicit language hints
+  const langMatch = lct.match(/<html[^>]*\blang=["']([a-z-]+)["'][^>]*>/i);
+  if (langMatch) {
+    const lang = langMatch[1];
+    if (lang.startsWith('en')) return true;
+    if (/^(id|pt|es|fr|de|it)\b/.test(lang)) return false;
+  }
+  const ogLocale = lct.match(/<meta[^>]+property=["']og:locale["'][^>]+content=["']([^"']+)["']/i);
+  if (ogLocale){
+    const loc = ogLocale[1].toLowerCase();
+    if (loc.startsWith('en')) return true;
+    if (/^(pt|es|fr|de|it|id)/.test(loc)) return false;
+  }
+  const jsonLdLang = lct.match(/"inLanguage"\s*:\s*"(.*?)"/i);
+  if (jsonLdLang){
+    const j = jsonLdLang[1].toLowerCase();
+    if (j.startsWith('en')) return true;
+    if (/^(pt|es|fr|de|it|id)/.test(j)) return false;
+  }
+
+  // 2) Keyword heuristics
+  const englishStops = [' the ',' and ',' of ',' to ',' in ',' for ',' with ',' on ',' that ',' is ',' as '];
+  let enHits = 0;
+  englishStops.forEach(w => { if (lct.includes(w)) enHits++; });
+
+  const nonEnHints = [
+    // Indonesian
+    ' yang ',' dan ',' untuk ',' dengan ',' seperti ',' menurut ',' tidak ',' akan ',' pada ',' adalah ',
+    // Portuguese
+    ' não ',' para ',' com ',' uma ',' como ',' mais ',' sua ',' seu ',' você ',' nós ',' também '
+  ];
+  let nonHits = 0;
+  nonEnHints.forEach(w => { if (lct.includes(w)) nonHits++; });
+
+  if (nonHits >= 2 && enHits <= 2) return false; // likely non-English
+  if (enHits >= 4) return true;                   // likely English
+
+  // 3) Default: allow (will still be filtered by CSE lr)
+  return true;
+}
+
+// ---------- Main ----------
+async function discoverNewArticles(){
+  console.log('Starting article discovery (global)…');
+  const API_KEY = process.env.GOOGLE_API_KEY;
+  const SEARCH_ID = process.env.SEARCH_ENGINE_ID;
+  if (!API_KEY || !SEARCH_ID){
+    console.log('GOOGLE_API_KEY or SEARCH_ENGINE_ID not set; exiting 0.');
+    process.exit(0);
+  }
+
+  // Load DB
+  const dbPath = path.join(__dirname, '..', 'data', 'articles.json');
+  let existing = [];
+  try { existing = JSON.parse(await fs.readFile(dbPath,'utf8')); } catch { console.log('No existing DB.'); }
+
+  // Global queries
+  const queries = [
+    `"${AUTHOR_NAME}"`,
+    `"by ${AUTHOR_NAME}"`,
+    `author:"${AUTHOR_NAME}"`
+  ];
+
+  // Google CSE search (English restricted)
+  async function cseSearch(q){
+    const lr = DISCOVERY_LANG ? `&lr=lang_${encodeURIComponent(DISCOVERY_LANG)}` : '';
+    const url = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${SEARCH_ID}&q=${encodeURIComponent(q)}&num=10&dateRestrict=${encodeURIComponent(DATE_WINDOW)}${lr}&hl=en`;
+    const res = await fetch(url);
+    if (!res.ok) {
+      const text = await res.text().catch(()=> '');
+      throw new Error(`CSE HTTP ${res.status}: ${text.slice(0,200)}`);
+    }
+    const data = await res.json();
+    return Array.isArray(data.items) ? data.items : [];
+  }
+
+  const all = [];
+  for (const q of queries){
+    try{
+      console.log(`Query: ${q}`);
+      const items = await cseSearch(q);
+      all.push(...items);
+      console.log(` → ${items.length} items`);
+      await new Promise(r=>setTimeout(r,250));
+    }catch(err){
+      console.error(`Search failed for "${q}": ${err.message}`);
+    }
+  }
+
+  // Dedup + global filters
+  const uniq = Array.from(new Set(all.map(r=>r.link)))
+    .map(link => all.find(r=>r.link===link))
+    .filter(Boolean)
+    .filter(r => {
+      const host = safeHost(r.link).toLowerCase();
+      return host && !EXCLUDE_HOSTS.has(host);
+    });
+
+  console.log(`Candidates after filtering: ${uniq.length}`);
+
+  // Compare to existing (by normalized URL + fingerprint)
+  const processed = [];
+  const updates = [];
+  for (const r of uniq){
+    const norm = normalizeUrl(r.link);
+    const found = existing.find(a => normalizeUrl(a.url) === norm || a.normalizedUrl === norm);
+    const fp = contentFingerprint(cleanTitle(r.title || ''), r.snippet || '');
+
+    if (found) {
+      if (found.fingerprint !== fp) {
+        updates.push({ searchResult: r, existing: found });
+      }
+      continue;
+    }
+
+    // Optional authorship + English verification
+    if (VERIFY_AUTHOR){
+      try {
+        const html = await fetchHtml(r.link);
+
+        // Skip if not English
+        if (!isEnglishPage(html, r.snippet || '', r.title || '')) {
+          continue;
+        }
+
+        if (!htmlHasAuthor(html, AUTHOR_NAME)) {
+          continue; // Not authored by you
+        }
+      } catch (e) {
+        console.warn(`Authorship/lang check failed for ${r.link}: ${e.message}`);
+        continue;
+      }
+    }
+
+    processed.push(r);
+    await new Promise(r=>setTimeout(r,150));
+  }
+
+  console.log(`New potential articles: ${processed.length}`);
+  console.log(`Potential updates: ${updates.length}`);
+
+  if (processed.length === 0 && updates.length === 0){
+    console.log('Nothing new today.');
+    return;
+  }
+
+  // Process new
+  const newArticles = [];
+  for (const a of processed){
+    const p = await processArticle(a, false);
+    newArticles.push(p);
+  }
+
+  // Process updates
+  const updatedArticles = [];
+  for (const {searchResult, existing: ex} of updates){
+    const p = await processArticle(searchResult, true, ex.version || 1);
+    updatedArticles.push({ ...p, version: (ex.version || 1) + 1, previousFingerprint: ex.fingerprint });
+  }
+
+  // Save f
