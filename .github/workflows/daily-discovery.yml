@@ -37,22 +37,27 @@ jobs:
           git add data/
           git diff --staged --quiet || { git commit -m "chore(discovery): $(date -u +'%Y-%m-%d')"; git push; }
 
-      # Prepare the email body (use notification.md if present; otherwise "Nothing new today")
-      - name: Read notification for email
-        id: note
+      # Build a clean markdown email from notification.md (or a fallback)
+      - name: Compose rich email body
         if: always()
         run: |
-          if [ -s data/notification.md ]; then
-            echo 'body<<EOF' >> $GITHUB_OUTPUT
-            cat data/notification.md >> $GITHUB_OUTPUT
-            echo 'EOF' >> $GITHUB_OUTPUT
-          else
-            echo 'body<<EOF' >> $GITHUB_OUTPUT
-            echo "# Sovereignty System Report - $(date -u +%F)\n\nNothing new today." >> $GITHUB_OUTPUT
-            echo 'EOF' >> $GITHUB_OUTPUT
-          fi
+          node - <<'NODE'
+          const fs = require('fs');
+          const p = 'data/notification.md';
+          let body = `# Sovereignty System Report - ${new Date().toISOString().slice(0,10)}\n\n`;
+          if (fs.existsSync(p) && fs.statSync(p).size > 0) {
+            const md = fs.readFileSync(p, 'utf8');
+            // strip a duplicate top header if present
+            body += md.replace(/^#\s+Sovereignty.*\n*/i, '');
+          } else {
+            body += 'Nothing new today.';
+          }
+          fs.mkdirSync('data', {recursive:true});
+          fs.writeFileSync('data/email.md', body);
+          console.log('Wrote data/email.md');
+          NODE
 
-      # Send the email via Gmail SMTP (requires SMTP_USERNAME + SMTP_PASSWORD secrets)
+      # Send the email via Gmail SMTP (reads the file we just created)
       - name: Email report
         if: always()
         uses: dawidd6/action-send-mail@v4
@@ -65,8 +70,9 @@ jobs:
           from: Daniel Lehewych <${{ secrets.SMTP_USERNAME }}>
           to: lehewych123@gmail.com, daniel.lehewych.writer@gmail.com, dlehewych@gradcenter.cuny.edu
           subject: Sovereignty Report – ${{ github.repository }} run #${{ github.run_number }}
+          content_type: text/markdown
           convert_markdown: true
-          body: ${{ steps.note.outputs.body }}
+          body: file://data/email.md
           attachments: |
             data/new-articles-full.json
             data/notification.md
