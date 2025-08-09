@@ -2,7 +2,7 @@ name: Daily Article Discovery
 
 on:
   schedule:
-    # 15:00 UTC == 11:00 America/New_York during DST
+    # 15:00 UTC == 11:00 AM America/New_York during DST
     - cron: '0 15 * * *'
   workflow_dispatch:
 
@@ -20,19 +20,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: npm
+          # NOTE: removed "cache: npm" because there is no lockfile
 
       - name: Run discovery
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           SEARCH_ENGINE_ID: ${{ secrets.SEARCH_ENGINE_ID }}
-        run: |
-          node -v
-          npm -v
-          node src/discovery.js
+        run: node src/discovery.js
 
       - name: Commit & push (only if changed)
         run: |
@@ -41,42 +39,43 @@ jobs:
           git add data/
           git diff --staged --quiet || { git commit -m "chore(discovery): $(date -u +'%Y-%m-%d')"; git push; }
 
-      # Read email subject + HTML body prepared by discovery.js
-      - name: Read email summary
-        id: summary
+      # Prepare email subject from data/email-summary.json (falls back to "Nothing new")
+      - name: Prepare email subject
         run: |
+          SUBJECT="SOV-ARCH · $(date -u +%F) · Nothing new"
           if [ -f data/email-summary.json ]; then
-            subj=$(jq -r '.subject' data/email-summary.json)
-          else
-            subj="SOV-ARCH · $(date -u +'%Y-%m-%d') · (no summary file)"
+            SUBJECT="$(node -e "const f='data/email-summary.json',fs=require('fs');let s='${SUBJECT}';if(fs.existsSync(f)){try{s=JSON.parse(fs.readFileSync(f,'utf8')).subject||s;}catch{}};console.log(s)")"
           fi
-          echo "subject=${subj}" >> $GITHUB_OUTPUT
+          echo "EMAIL_SUBJECT=$SUBJECT" >> $GITHUB_ENV
 
-      - name: Read email HTML body
-        id: html
+      # Load plain-text body from data/notification.txt (guaranteed by discovery.js)
+      - name: Load email body (plain text)
         run: |
-          echo 'body<<EOF' >> $GITHUB_OUTPUT
-          if [ -f data/notification.html ]; then
-            cat data/notification.html >> $GITHUB_OUTPUT
+          echo 'EMAIL_BODY<<EOF' >> $GITHUB_ENV
+          if [ -f data/notification.txt ]; then
+            cat data/notification.txt >> $GITHUB_ENV
           else
-            echo "<p>No body generated.</p>" >> $GITHUB_OUTPUT
+            echo "Sovereignty System Report — $(date -u +%F)
+
+Nothing new today." >> $GITHUB_ENV
           fi
-          echo 'EOF' >> $GITHUB_OUTPUT
+          echo 'EOF' >> $GITHUB_ENV
 
       - name: Send email
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v4
         with:
-          server_address: ${{ secrets.SMTP_HOST }}
-          server_port: ${{ secrets.SMTP_PORT }}
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          subject: ${{ steps.summary.outputs.subject }}
-          from: ${{ secrets.EMAIL_FROM }}
-          to: ${{ secrets.EMAIL_TO }}
+          server_address: smtp.gmail.com
+          server_port: 465
           secure: true
-          convert_markdown: false
-          html_body: ${{ steps.html.outputs.body }}
+          username: ${{ secrets.SMTP_USERNAME }}          # e.g. lehewych123@gmail.com
+          password: ${{ secrets.SMTP_PASSWORD }}          # 16-char Gmail app password
+          subject: ${{ env.EMAIL_SUBJECT }}
+          to: lehewych123@gmail.com, daniel.lehewych.writer@gmail.com, dlehewych@gradcenter.cuny.edu
+          from: "Sovereignty Bot <${{ secrets.SMTP_USERNAME }}>"
+          content_type: text/plain; charset="utf-8"
+          body: ${{ env.EMAIL_BODY }}
           attachments: |
-            data/new-articles-full.json
-            data/notification.md
+            data/notification.html
             data/notification.txt
+            data/notification.md
+            data/new-articles-full.json
