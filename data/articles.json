@@ -17,5 +17,24 @@
     "fingerprint": "9f0a2054239d36e4c399ea61c259fe0e9528e70462988717d2f151c96180a601",
     "version": 2,
     "lastUpdated": "2025-08-09T19:01:05.370Z"
+  },
+  {
+    "id": 1754776137405,
+    "title": "Editorial news & latest pictures from Newsweek.com",
+    "url": "https://www.newsweek.com/topic/editorial",
+    "normalizedUrl": "https://www.newsweek.com/topic/editorial",
+    "platform": "Newsweek",
+    "date": "2025-08-09",
+    "snippet": "2 days ago ... Freelancers Need Union Protections. Success in unionizing will set a new precedent in the editorial world. By Daniel Lehewych On 8/6/21 at 12:30 ...",
+    "fingerprint": "e5350a01f8bec7316016bfc1561e4a6a7b8418c9a6e1b7f318230ad7e58f1f87",
+    "version": 1,
+    "schemas": {
+      "urlSlug": "/archive/newsweek/editorial-news-latest-pictures-from-newsweek-com",
+      "type": "OpinionNewsArticle",
+      "topics": [
+        "Politics & Society"
+      ]
+    },
+    "discoveredAt": "2025-08-09T21:48:57.405Z"
   }
 ]
