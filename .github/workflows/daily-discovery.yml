@@ -1,4 +1,5 @@
 name: Daily Article Discovery
+
 on:
   schedule:
     # 15:00 UTC == 11:00 AM America/New_York during DST
@@ -7,6 +8,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-discovery
+  cancel-in-progress: true
 
 jobs:
   discover:
@@ -18,18 +23,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-
-      - name: Install deps
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          elif [ -f package.json ]; then
-            npm i
-          else
-            # fall back to installing what discovery.js expects
-            npm i rss-parser node-fetch
-          fi
 
       - name: Run discovery
         env:
