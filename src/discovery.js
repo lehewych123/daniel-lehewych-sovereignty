@@ -1,26 +1,6 @@
 #!/usr/bin/env node
 /**
- * Daily Article Discovery — global search + authorship verification (Node 20+, no deps)
- *
- * What this does:
- * - Queries Google Programmable Search across the whole web for your name/byline.
- * - Dedupes by normalized URL + fingerprint (title + snippet).
- * - (New) Verifies authorship by fetching the page and checking:
- *     • <meta name="author"> / <meta property="article:author">
- *     • JSON-LD "author" name
- *     • Visible "by Daniel Lehewych" in HTML
- * - Writes:
- *     • data/articles.json (master DB; only if new items)
- *     • data/new-articles-full.json (full entries for new/updated)
- *     • data/notification.md (human report)
- *     • data/notification.html (HTML email body)
- *     • data/notification.txt (plain-text email body)
- *     • data/email-summary.json (subject + counts for the mail step)
- *
- * Env:
- *   GOOGLE_API_KEY, SEARCH_ENGINE_ID
- * Optional:
- *   DISCOVERY_DATE_WINDOW (default "d14"), DISCOVERY_VERIFY ("true" | "false")
+ * Daily Article Discovery — global search + authorship + language filter (Node 20, no deps)
  */
 
 const fs = require('fs').promises;
@@ -29,48 +9,67 @@ const crypto = require('crypto');
 
 // ---------- Config ----------
 const AUTHOR_NAME = 'Daniel Lehewych';
+
+// Language allowlist (comma-separated env supported)
+// Accepts values like: en, en-us, en-gb
+const ALLOW_LANGS = new Set(
+  (process.env.DISCOVERY_LANGS || 'en,en-us,en-gb')
+    .split(',').map(s => s.trim().toLowerCase()).filter(Boolean)
+);
+
+// How far back to search via CSE
 const DATE_WINDOW = process.env.DISCOVERY_DATE_WINDOW || 'd14';
+
+// Enable/disable HTML authorship verification
 const VERIFY_AUTHOR = (process.env.DISCOVERY_VERIFY || 'true').toLowerCase() === 'true';
 
-// Domains we never want (social/link shorteners/search engines/caches)
+// Domains we never want
 const EXCLUDE_HOSTS = new Set([
   'daniellehewych.org',
-  'webcache.googleusercontent.com','google.com','news.google.com',
-  'bing.com','duckduckgo.com','yahoo.com',
+  'webcache.googleusercontent.com', 'google.com', 'news.google.com', 'translate.googleusercontent.com',
+  'bing.com', 'duckduckgo.com', 'yahoo.com',
   'facebook.com','m.facebook.com','twitter.com','x.com','t.co','linkedin.com','lnkd.in',
-  'reddit.com','www.reddit.com','r.jina.ai','getpocket.com','feedly.com','flipboard.com'
+  'reddit.com','www.reddit.com','r.jina.ai','getpocket.com','feedly.com','flipboard.com',
+
+  // Hard blocks (requested)
+  'gesahkita.com'
 ]);
 
-// ---------- Your existing patterns (preserved) ----------
+// Country TLDs we treat as non-English unless proven otherwise via HTML lang/meta
+const NON_ENGLISH_CC_TLDS = new Set([
+  'br','pt','id','es','fr','de','it','pl','ru','tr','cn','jp','kr','vn','th'
+]);
+
+// ---------- Patterns (tightened a bit) ----------
 const topicPatterns = {
   "Philosophy": /philosoph|metaphysics|epistemology|ontology|phenomenology|existential/i,
   "Ethics": /\b(ethics|moral|virtue|good|evil|justice|deontolog|consequential)\b/i,
   "Consciousness": /consciousness|mind|awareness|subjective|qualia|cogniti|sentien/i,
   "Free Will": /free will|determinism|agency|choice|volition|compatibil/i,
-  "AI & Technology": /artificial intelligence|AI|machine learning|ML|LLM|AGI|algorithm|technolog|digital|computer/i,
-  "AI Ethics": /AI ethics|machine ethics|robot rights|algorithmic bias|AI safety/i,
-  "Digital Culture": /digital|internet|online|social media|cyber|virtual|metaverse/i,
-  "Healthcare": /health|medical|medicine|doctor|patient|treatment|therapy|disease|clinical/i,
-  "Fitness & Nutrition": /fitness|exercise|workout|nutrition|diet|supplement|muscle|training|protein/i,
-  "Mental Health": /mental health|depression|anxiety|therapy|wellbeing|mindfulness/i,
-  "Longevity": /longevity|aging|lifespan|anti-aging|healthspan/i,
-  "Politics & Society": /politic|democra|society|social|governance|policy|government|civic/i,
-  "Economics": /economic|market|finance|money|business|capitalism|trade|GDP|inflation/i,
-  "Education": /education|learning|teaching|school|academic|university|knowledge|pedagog/i,
-  "Work & Career": /work|career|job|employment|workplace|remote|office|professional|labor|quit|resign/i,
-  "Writing & Creativity": /writing|writer|creative|author|literature|story|narrative|fiction/i,
+  "AI & Technology": /\b(artificial intelligence|a\.?i\.?|machine learning|ml|llm|agi|algorithm|technology|digital|computer)\b/i,
+  "AI Ethics": /\b(ai ethics|machine ethics|robot rights|algorithmic bias|ai safety)\b/i,
+  "Digital Culture": /\b(digital|internet|online|social media|cyber|virtual|metaverse)\b/i,
+  "Healthcare": /\b(health|medical|medicine|doctor|patient|treatment|therapy|disease|clinical)\b/i,
+  "Fitness & Nutrition": /\b(fitness|exercise|workout|nutrition|diet|supplement|muscle|training|protein)\b/i,
+  "Mental Health": /\b(mental health|depression|anxiety|therapy|wellbeing|mindfulness)\b/i,
+  "Longevity": /\b(longevity|aging|lifespan|anti-aging|healthspan)\b/i,
+  "Politics & Society": /\b(politic|democra|society|social|governance|policy|government|civic)\b/i,
+  "Economics": /\b(economic|market|finance|money|business|capitalism|trade|gdp|inflation)\b/i,
+  "Education": /\b(education|learning|teaching|school|academic|university|knowledge|pedagog)\b/i,
+  "Work & Career": /\b(work|career|job|employment|workplace|remote|office|professional|labor|quit|resign)\b/i,
+  "Writing & Creativity": /\b(writing|writer|creative|author|literature|story|narrative|fiction)\b/i,
   "Psychology": /psycholog|mental|emotion|feeling|therapy|trauma|behavioral|cognitive/i,
-  "Religion & Spirituality": /god|divine|theology|religious|faith|spiritual|buddhis|christian|sacred/i,
-  "Science": /science|scientific|research|study|experiment|data|evidence|empirical/i,
-  "Climate & Environment": /climate|environment|sustainability|carbon|renewable|ecology/i
+  "Religion & Spirituality": /\b(god|divine|theology|religious|faith|spiritual|buddhis|christian|sacred)\b/i,
+  "Science": /\b(science|scientific|research|study|experiment|data|evidence|empirical)\b/i,
+  "Climate & Environment": /\b(climate|environment|sustainability|carbon|renewable|ecology)\b/i
 };
 
 const typePatterns = {
   "ScholarlyArticle": /phenomenology|epistemology|metaphysics|ontology|dialectic|philosophical|examine|analysis of|critique|dissertation/i,
   "OpinionNewsArticle": /\b(opinion|should|must|need to|why we|it's time|we need|believe|argue|contend)\b/i,
-  "HowTo": /how to|guide to|tips for|steps to|ways to|tutorial|strategies|method|technique|here's how/i,
-  "AnalysisNewsArticle": /analysis|analyzing|trend|future of|landscape|forecast|examining|impact of|data shows/i,
-  "Review": /review|reviewing|assessment of|evaluation|critique of|book review|product review/i,
+  "HowTo": /\b(how to|guide to|tips for|steps to|ways to|tutorial|strategies|method|technique|here's how)\b/i,
+  "AnalysisNewsArticle": /\b(analysis|analyzing|trend|future of|landscape|forecast|examining|impact of|data shows)\b/i,
+  "Review": /\b(review|reviewing|assessment of|evaluation|critique of|book review|product review)\b/i,
   "BlogPosting": /./
 };
 
@@ -78,26 +77,24 @@ const publisherData = {
   "Medium": {
     "@type": "Organization",
     "name": "Medium",
-    "logo": {"@type":"ImageObject", "url":"https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png","width":616,"height":616}
+    "logo": {"@type":"ImageObject","url":"https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png","width":616,"height":616}
   },
   "Newsweek": {
-    "@type": "Organization",
-    "name": "Newsweek",
-    "logo": {"@type":"ImageObject","url":"https://www.newsweek.com/favicon.ico","width":32,"height":32}
+    "@type":"Organization","name":"Newsweek",
+    "logo":{"@type":"ImageObject","url":"https://www.newsweek.com/favicon.ico","width":32,"height":32}
   },
   "BigThink": {
-    "@type": "Organization",
-    "name": "Big Think",
-    "logo": {"@type":"ImageObject","url":"https://bigthink.com/favicon.ico","width":32,"height":32}
+    "@type":"Organization","name":"Big Think",
+    "logo":{"@type":"ImageObject","url":"https://bigthink.com/favicon.ico","width":32,"height":32}
   }
 };
 
 // ---------- Utils ----------
 function normalizeUrl(input, canonicalHref) {
   const raw = new URL(canonicalHref || input);
-  const dropParams = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','fbclid','mc_cid','mc_eid','igshid','ref','ref_src'];
-  dropParams.forEach(p => raw.searchParams.delete(p));
-  if (raw.pathname !== '/' && raw.pathname.endsWith('/')) raw.pathname = raw.pathname.slice(0, -1);
+  const drop = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','utm_id','gclid','fbclid','mc_cid','mc_eid','igshid','ref','ref_src'];
+  drop.forEach(p => raw.searchParams.delete(p));
+  if (raw.pathname !== '/' && raw.pathname.endsWith('/')) raw.pathname = raw.pathname.slice(0,-1);
   raw.pathname = raw.pathname.replace(/\/(index|home)\.(html?|php)$/i, '');
   raw.host = raw.host.toLowerCase();
   raw.hash = '';
@@ -106,18 +103,11 @@ function normalizeUrl(input, canonicalHref) {
 function contentFingerprint(title, subtitle=''){ return crypto.createHash('sha256').update(`${title}\n${subtitle}`.toLowerCase().trim()).digest('hex'); }
 function formatDate(s){ const d=new Date(s); return d.toISOString().slice(0,10); }
 function generateEmailSubject(a,isUpdate=false,v=1){ return `${isUpdate?`SOV-ARCH UPDATE v${v}`:'SOV-ARCH NEW'} · ${a.platform} · "${a.title}" · ${formatDate(a.date)}`; }
-function safeHost(u){ try{ return new URL(u).hostname.replace(/^www\./,''); }catch{return '';} }
+function safeHost(u){ try{ return new URL(u).hostname.replace(/^www\./,''); }catch{return ''; } }
+function tld(u){ try{ const h=new URL(u).hostname.toLowerCase(); const parts=h.split('.'); return parts[parts.length-1]; }catch{return ''; } }
 
-async function writeJSON(file, obj){
-  const dir = path.dirname(file);
-  await fs.mkdir(dir,{recursive:true});
-  await fs.writeFile(file, JSON.stringify(obj, null, 2));
-}
-async function writeText(file, text){
-  const dir = path.dirname(file);
-  await fs.mkdir(dir,{recursive:true});
-  await fs.writeFile(file, text);
-}
+async function writeJSON(file, obj){ await fs.mkdir(path.dirname(file),{recursive:true}); await fs.writeFile(file, JSON.stringify(obj,null,2)); }
+async function writeText(file, text){ await fs.mkdir(path.dirname(file),{recursive:true}); await fs.writeFile(file, text); }
 
 // HTML fetch with timeout
 async function fetchHtml(url, timeoutMs=8000){
@@ -129,9 +119,7 @@ async function fetchHtml(url, timeoutMs=8000){
     const ct = res.headers.get('content-type') || '';
     if (!/text\/html|application\/xhtml\+xml/i.test(ct)) return '';
     return await res.text();
-  } finally {
-    clearTimeout(t);
-  }
+  } finally { clearTimeout(t); }
 }
 
 // Verify authorship in HTML
@@ -142,6 +130,27 @@ function htmlHasAuthor(html, author = AUTHOR_NAME){
   const metaAuthorRe = new RegExp(`<meta[^>]+(?:name|property)=["'](?:author|article:author)["'][^>]+content=["'][^"']*${name}[^"']*["']`, 'i');
   const jsonLdRe = new RegExp(`"author"\\s*:\\s*(?:\\{[^}]*?"name"\\s*:\\s*"(?:[^"]*${name}[^"]*)"[^}]*\\}|"${name}")`, 'i');
   return bylineRe.test(html) || metaAuthorRe.test(html) || jsonLdRe.test(html);
+}
+
+// Language detection (no deps): html[@lang], meta og:locale, meta[name=language], fallback TLD heuristic
+function detectHtmlLang(html){
+  if (!html) return null;
+  const m1 = html.match(/<html[^>]+lang=["']([a-zA-Z-]{2,10})["']/i);
+  if (m1 && m1[1]) return m1[1].toLowerCase();
+  const m2 = html.match(/<meta[^>]+property=["']og:locale["'][^>]+content=["']([a-zA-Z_]{2,10})["']/i);
+  if (m2 && m2[1]) return m2[1].toLowerCase().replace('_','-');
+  const m3 = html.match(/<meta[^>]+name=["']language["'][^>]+content=["']([a-zA-Z-]{2,10})["']/i);
+  if (m3 && m3[1]) return m3[1].toLowerCase();
+  return null;
+}
+function isAllowedLanguage(html, url){
+  const lang = (detectHtmlLang(html) || '').toLowerCase();
+  if (lang && (ALLOW_LANGS.has(lang) || ALLOW_LANGS.has(lang.split('-')[0]))) return true;
+  // If language not detectable and TLD looks non-English, block
+  const cc = tld(url);
+  if (NON_ENGLISH_CC_TLDS.has(cc)) return false;
+  // Otherwise allow
+  return true;
 }
 
 // ---------- Main ----------
@@ -159,7 +168,7 @@ async function discoverNewArticles(){
   let existing = [];
   try { existing = JSON.parse(await fs.readFile(dbPath,'utf8')); } catch { console.log('No existing DB.'); }
 
-  // Global queries
+  // Queries
   const queries = [
     `"${AUTHOR_NAME}"`,
     `"by ${AUTHOR_NAME}"`,
@@ -191,7 +200,7 @@ async function discoverNewArticles(){
     }
   }
 
-  // Dedup + global filters
+  // Dedup + filter obvious hosts
   const uniq = Array.from(new Set(all.map(r=>r.link)))
     .map(link => all.find(r=>r.link===link))
     .filter(Boolean)
@@ -202,9 +211,11 @@ async function discoverNewArticles(){
 
   console.log(`Candidates after filtering: ${uniq.length}`);
 
-  // Compare to existing (by normalized URL + fingerprint)
+  // Compare with DB; verify author; filter language
   const processed = [];
   const updates = [];
+  const quarantined = []; // kept for debug but not emailed
+
   for (const r of uniq){
     const norm = normalizeUrl(r.link);
     const found = existing.find(a => normalizeUrl(a.url) === norm || a.normalizedUrl === norm);
@@ -217,32 +228,39 @@ async function discoverNewArticles(){
       continue;
     }
 
-    // Optional authorship verification (reduces false positives)
-    if (VERIFY_AUTHOR){
-      try {
-        const html = await fetchHtml(r.link);
-        if (!htmlHasAuthor(html, AUTHOR_NAME)) {
-          // Not authored by you; skip
-          continue;
-        }
-      } catch (e) {
-        console.warn(`Authorship check failed for ${r.link}: ${e.message}`);
-        // On network errors, be conservative: skip rather than add noise
-        continue;
+    // Optional authorship verification + language filter
+    let html = '';
+    if (VERIFY_AUTHOR || ALLOW_LANGS.size){
+      try { html = await fetchHtml(r.link); }
+      catch (e) {
+        console.warn(`Fetch failed for ${r.link}: ${e.message}`);
+        continue; // be conservative
       }
     }
 
+    if (VERIFY_AUTHOR && !htmlHasAuthor(html, AUTHOR_NAME)) {
+      continue;
+    }
+
+    // Language allowlist
+    if (!isAllowedLanguage(html, r.link)) {
+      quarantined.push({ reason:'non-english', link:r.link, title:r.title });
+      continue;
+    }
+
     processed.push(r);
-    await new Promise(r=>setTimeout(r,150));
+    await new Promise(r=>setTimeout(r,120));
   }
 
   console.log(`New potential articles: ${processed.length}`);
   console.log(`Potential updates: ${updates.length}`);
+  if (quarantined.length) {
+    await writeJSON(path.join(__dirname,'..','data','quarantine.json'), quarantined);
+    console.log(`Quarantined (non-English/blocked): ${quarantined.length}`);
+  }
 
-  // Always emit email artifacts, even when nothing changed
   if (processed.length === 0 && updates.length === 0){
     console.log('Nothing new today.');
-    await saveProcessedArticles([], 0, 0);
     return;
   }
 
@@ -260,12 +278,12 @@ async function discoverNewArticles(){
     updatedArticles.push({ ...p, version: (ex.version || 1) + 1, previousFingerprint: ex.fingerprint });
   }
 
-  // Save full artifacts
+  // Save full artifacts (used by the mailer step)
   if (newArticles.length || updatedArticles.length){
     await saveProcessedArticles([...newArticles, ...updatedArticles], newArticles.length, updatedArticles.length);
   }
 
-  // Append new to DB
+  // Update DB
   if (newArticles.length){
     const entries = newArticles.map(p => ({
       id: p.id,
@@ -282,8 +300,6 @@ async function discoverNewArticles(){
     }));
     existing.push(...entries);
   }
-
-  // Update DB entries
   for (const u of updatedArticles){
     const i = existing.findIndex(a => normalizeUrl(a.url) === normalizeUrl(u.url));
     if (i !== -1){
@@ -295,7 +311,7 @@ async function discoverNewArticles(){
   console.log('Discovery complete.');
 }
 
-// ---------- Your processing & generators (preserved) ----------
+// ---------- Processing & generators ----------
 async function processArticle(searchResult, isUpdate=false, currentVersion=1){
   const title = cleanTitle(searchResult.title || '');
   const url = searchResult.link;
@@ -434,48 +450,18 @@ function generateBibliographyEntry(d){
 function formatHeaderCode(schema){ return `<meta name="robots" content="noindex, follow">\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
 function formatSchemaBlock(schema, title){ return `<!-- ${title} - Add to page body -->\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
 
-/**
- * Upgraded: writes MD + HTML + TXT email bodies and an email-summary.json.
- * Includes header code, topic block, related block, page content, and bib entry.
- */
-async function saveProcessedArticles(articles, newCount, updateCount) {
-  const fsPath = (...p) => path.join(__dirname, '..', ...p);
+async function saveProcessedArticles(articles, newCount, updateCount){
+  const fullDataPath = path.join(__dirname,'..','data','new-articles-full.json');
+  const notificationPath = path.join(__dirname,'..','data','notification.md');
+  const date = new Date().toISOString().split('T')[0];
 
-  // Always ensure data/ exists
-  await fs.mkdir(fsPath('data'), { recursive: true });
+  let md = `# Sovereignty System Report - ${date}\n\n`;
+  if (newCount) md += `## New Articles Discovered: ${newCount}\n\n`;
+  if (updateCount) md += `## Articles Updated: ${updateCount}\n\n`;
 
-  const today = new Date().toISOString().slice(0, 10);
-
-  // ---------- Markdown (kept for history) ----------
-  let md = `# Sovereignty System Report - ${today}\n\n`;
-  if (newCount > 0) md += `## New Articles Discovered: ${newCount}\n\n`;
-  if (updateCount > 0) md += `## Articles Updated: ${updateCount}\n\n`;
-
-  // ---------- Email (plain + HTML) ----------
-  let emailTxt = `Sovereignty System Report — ${today}\n\n`;
-  if (newCount === 0 && updateCount === 0) {
-    emailTxt += `Nothing new today.\n`;
-  }
-  let emailHtml =
-    `<!doctype html><meta charset="utf-8">` +
-    ` <style>
-      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;color:#222}
-      h1,h2,h3{margin:1.2em 0 .4em}
-      code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
-      pre{background:#f6f8fa;border:1px solid #e5e7eb;border-radius:6px;padding:12px;overflow:auto}
-      .item{border-top:1px solid #e5e7eb;padding-top:16px;margin-top:16px}
-      .meta{color:#555}
-     </style>
-     <h1>Sovereignty System Report — ${today}</h1>
-     <p class="meta">${newCount} new · ${updateCount} updates</p> `;
-
-  // Per-article sections
-  articles.forEach((a, i) => {
-    const isUpdate = (a.version && a.version > 1);
-    const label = isUpdate ? `UPDATE v${a.version}` : `NEW`;
-    const sectionHdr = `## ${i + 1}. ${a.title} (${label})`;
-
-    md += `${sectionHdr}\n\n`;
+  articles.forEach((a,i) => {
+    const isUpdate = a.version > 1;
+    md += `## ${i+1}. ${a.title} ${isUpdate ? '(UPDATE v'+a.version+')' : '(NEW)'}\n\n`;
     md += `**Subject Line:** ${a.emailSubject}\n`;
     md += `**Platform:** ${a.platform}\n`;
     md += `**Date:** ${a.date}\n`;
@@ -485,93 +471,19 @@ async function saveProcessedArticles(articles, newCount, updateCount) {
     md += `**URL Slug:** \`${a.urlSlug}\`\n`;
     md += `**Fingerprint:** ${a.fingerprint}\n`;
     if (isUpdate) md += `**Change Detected:** Title or description modified\n`;
-    md += `\n### Page Header Code\n\`\`\`html\n${a.headerCode}\n\`\`\`\n`;
-    md += `\n### Topic Clustering Block\n\`\`\`html\n${a.topicBlockCode}\n\`\`\`\n`;
-    md += `\n### Related Articles Block\n\`\`\`html\n${a.relatedBlockCode}\n\`\`\`\n`;
-    md += `\n### Page Content (Shadow Page Body)\n\`\`\`html\n${a.pageContent}\n\`\`\`\n`;
-    md += `\n### Master Bibliography Entry\n\`\`\`json\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n`;
-    md += `\n---\n\n`;
-
-    emailTxt +=
-      `${i + 1}. ${a.title} (${label})\n` +
-      `Platform: ${a.platform}\nDate: ${a.date}\nURL: ${a.url}\nType: ${a.type}\nTopics: ${a.topics.join(', ')}\nURL Slug: ${a.urlSlug}\n\n` +
-      `--- HEADER CODE ---\n${a.headerCode}\n\n` +
-      `--- TOPIC BLOCK ---\n${a.topicBlockCode}\n\n` +
-      `--- RELATED BLOCK ---\n${a.relatedBlockCode}\n\n` +
-      `--- PAGE CONTENT ---\n${a.pageContent}\n\n` +
-      `--- BIB ENTRY ---\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\n` +
-      `============================\n\n`;
-
-    // Escape HTML for <pre> blocks
-    const esc = (s) => s
-      .replace(/&/g,'&amp;')
-      .replace(/</g,'&lt;')
-      .replace(/>/g,'&gt;');
-
-    emailHtml += `
-      <div class="item">
-        <h2>${i + 1}. ${a.title} (${label})</h2>
-        <p class="meta">
-          <strong>Platform:</strong> ${a.platform} ·
-          <strong>Date:</strong> ${a.date} ·
-          <strong>Type:</strong> ${a.type}<br>
-          <strong>Topics:</strong> ${a.topics.join(', ')}<br>
-          <strong>URL:</strong> <a href="${a.url}">${a.url}</a><br>
-          <strong>URL Slug:</strong> <code>${a.urlSlug}</code>
-        </p>
-
-        <h3>Page Header Code</h3>
-        <pre><code>${esc(a.headerCode)}</code></pre>
-
-        <h3>Topic Clustering Block</h3>
-        <pre><code>${esc(a.topicBlockCode)}</code></pre>
-
-        <h3>Related Articles Block</h3>
-        <pre><code>${esc(a.relatedBlockCode)}</code></pre>
-
-        <h3>Page Content (Shadow Page Body)</h3>
-        <pre><code>${esc(a.pageContent)}</code></pre>
-
-        <h3>Master Bibliography Entry</h3>
-        <pre><code>${esc(JSON.stringify(a.bibliographyEntry, null, 2))}</code></pre>
-      </div>`;
+    md += `\nAll code blocks saved in: data/new-articles-full.json\n\n---\n\n`;
   });
 
-  // Metadata footer line for grep-ability
   md += `\n## Metadata\n`;
-  articles.forEach(a => {
-    md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`;
-  });
+  articles.forEach(a => { md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`; });
 
-  // If absolutely nothing changed today, still emit minimal files
-  if (articles.length === 0) {
-    md += `\nNo new articles or updates.\n`;
-    emailHtml += `<p>No new articles or updates.</p>`;
-    emailTxt += `No new articles or updates.\n`;
-  }
-
-  // Write files used by the workflow
-  await fs.writeFile(fsPath('data', 'new-articles-full.json'), JSON.stringify(articles, null, 2));
-  await fs.writeFile(fsPath('data', 'notification.md'), md, 'utf8');
-  await fs.writeFile(fsPath('data', 'notification.html'), emailHtml, 'utf8');
-  await fs.writeFile(fsPath('data', 'notification.txt'), emailTxt, 'utf8');
-
-  // Also drop a tiny “summary” JSON so the workflow can decide subject/body
-  const total = articles.length;
-  const subject = total > 0
-    ? `SOV-ARCH · ${today} · ${total} item${total>1?'s':''} (${newCount} new, ${updateCount} updates)`
-    : `SOV-ARCH · ${today} · Nothing new`;
-  await fs.writeFile(
-    fsPath('data', 'email-summary.json'),
-    JSON.stringify({ date: today, total, newCount, updateCount, subject }, null, 2),
-    'utf8'
-  );
-
-  console.log('Full article data with schemas saved to: data/new-articles-full.json');
+  await writeJSON(fullDataPath, articles);
+  await writeText(notificationPath, md);
+  console.log('Full article data saved to data/new-articles-full.json');
   console.log(`Processed: ${newCount} new, ${updateCount} updates`);
 }
 
-// ---------- Helpers (preserved) ----------
+// ---------- Helpers ----------
 function cleanTitle(title=''){
   return title
     .replace(/ - Medium$/i,'')
