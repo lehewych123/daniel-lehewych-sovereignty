@@ -15,6 +15,7 @@
  *     • data/articles.json (master DB; only if new items)
  *     • data/new-articles-full.json (full entries for new/updated)
  *     • data/notification.md (human report; grouped + includes code blocks)
+ *     • data/outbox/<archive/...>/* (clean files ready to attach/ship)
  *
  * Env:
  *   GOOGLE_API_KEY, SEARCH_ENGINE_ID
@@ -32,7 +33,7 @@ const crypto = require('crypto');
 // ---------- Config ----------
 const AUTHOR_NAME = 'Daniel Lehewych';
 const DATE_WINDOW = process.env.DISCOVERY_DATE_WINDOW || 'd14';
-const VERIFY_AUTHOR = (process.env.DISCOVERY_VERIFY || 'true').toLowerCase() === 'true';
+theVERIFY_AUTHOR = (process.env.DISCOVERY_VERIFY || 'true').toLowerCase() === 'true';
 const PRIMARY_LANG = (process.env.DISCOVERY_LANG || 'en').toLowerCase();
 
 // Domains we never want (social/link shorteners/search engines/caches)
@@ -41,7 +42,9 @@ const EXCLUDE_HOSTS_BASE = new Set([
   'webcache.googleusercontent.com','google.com','news.google.com',
   'bing.com','duckduckgo.com','yahoo.com',
   'facebook.com','m.facebook.com','twitter.com','x.com','t.co','linkedin.com','lnkd.in',
-  'reddit.com','www.reddit.com','r.jina.ai','getpocket.com','feedly.com','flipboard.com'
+  'reddit.com','www.reddit.com','r.jina.ai','getpocket.com','feedly.com','flipboard.com',
+  // also exclude these if unwrapping somehow fails
+  'safelinks.protection.outlook.com','safelinks.office.net','urldefense.com'
 ]);
 
 // Tunable blocklist (env) + sensible defaults
@@ -102,6 +105,38 @@ const publisherData = {
 };
 
 // ---------- Utils ----------
+function unwrapUrl(u){
+  try{
+    const url = new URL(u);
+    const host = url.hostname.toLowerCase();
+    // Microsoft SafeLinks
+    if (host.endsWith('safelinks.protection.outlook.com') || host.endsWith('safelinks.office.net')) {
+      const inner = url.searchParams.get('url');
+      if (inner) return unwrapUrl(decodeURIComponent(inner));
+    }
+    // Proofpoint-style URLDefense
+    if (host === 'urldefense.com') {
+      const m = url.pathname.match(/__([^_]+)__/);
+      if (m) return unwrapUrl(decodeURIComponent(m[1]));
+    }
+    return u;
+  } catch { return u; }
+}
+
+function isKnownNonArticleUrl(u){
+  let p; try { p = new URL(u); } catch { return false; }
+  const h = p.hostname.replace(/^www\./,'').toLowerCase();
+  const path = p.pathname.toLowerCase();
+
+  if (h.includes('newsweek.com')) {
+    if (/^\/(topic|tag|category|search|photos|video)\//.test(path)) return true;
+  }
+  if (h.includes('medium.com') && /^\/tag\//.test(path)) return true;
+  if (h.includes('bigthink.com') && /^\/topics?\//.test(path)) return true;
+
+  return false;
+}
+
 function normalizeUrl(input, canonicalHref) {
   try {
     const raw = new URL(canonicalHref || input);
@@ -116,6 +151,8 @@ function normalizeUrl(input, canonicalHref) {
     return input;
   }
 }
+const canon = u => normalizeUrl(unwrapUrl(u));
+
 function contentFingerprint(title, subtitle=''){ return crypto.createHash('sha256').update(`${title}\n${subtitle}`.toLowerCase().trim()).digest('hex'); }
 function formatDate(s){ const d=new Date(s); return d.toISOString().slice(0,10); }
 function generateEmailSubject(a,isUpdate=false,v=1){ return `${isUpdate?`SOV-ARCH UPDATE v${v}`:'SOV-ARCH NEW'} · ${a.platform} · "${a.title}" · ${formatDate(a.date)}`; }
@@ -229,34 +266,49 @@ async function discoverNewArticles(){
     }
   }
 
-  // Dedup + base filters
-  const uniq = Array.from(new Set(all.map(r=>r.link)))
-    .map(link => all.find(r=>r.link===link))
+  // Dedup + base filters (use unwrapped links immediately)
+  const uniq = Array.from(new Set(all.map(r => unwrapUrl(r.link))))
+    .map(link => all.find(r => unwrapUrl(r.link) === link))
     .filter(Boolean)
     .filter(r => {
-      const host = (safeHost(r.link) || '').toLowerCase();
+      const link = unwrapUrl(r.link);
+      const host = (safeHost(link) || '').toLowerCase();
       if (!host) return false;
       if (EXCLUDE_HOSTS_BASE.has(host)) return false;
       if (hostMatches(host, EXTRA_BLOCKLIST)) return false;
+      if (isKnownNonArticleUrl(link)) return false;
       return true;
     });
 
   console.log(`Candidates after filtering: ${uniq.length}`);
 
-  // Compare to existing (by normalized URL + fingerprint)
+  // Compare to existing (by canonicalized URL + fingerprint)
   const processed = [];
   const updates = [];
   const skipped = []; // {title,url,host,reason}
 
-  for (const r of uniq){
-    const norm = normalizeUrl(r.link);
-    const host = safeHost(r.link);
-    const found = existing.find(a => normalizeUrl(a.url) === norm || a.normalizedUrl === norm);
+  for (const r0 of uniq){
+    const cleanLink = unwrapUrl(r0.link);
+    const r = { ...r0, link: cleanLink };
+
+    const norm = canon(r.link);
+    const found = existing.find(a => canon(a.url) === norm || (a.normalizedUrl && canon(a.normalizedUrl) === norm));
     const fp = contentFingerprint(cleanTitle(r.title || ''), r.snippet || '');
 
     if (found) {
+      // Consider as update only if fingerprint changed AND it still appears authored by you
       if (found.fingerprint !== fp) {
-        updates.push({ searchResult: r, existing: found });
+        if (!isKnownNonArticleUrl(cleanLink)) {
+          let ok = true;
+          if (theVERIFY_AUTHOR) {
+            let html = '';
+            try { html = await fetchHtml(cleanLink); } catch {}
+            ok = html && htmlHasAuthor(html, AUTHOR_NAME);
+          }
+          if (ok) {
+            updates.push({ searchResult: r, existing: found });
+          }
+        }
       }
       continue;
     }
@@ -264,23 +316,23 @@ async function discoverNewArticles(){
     // Fetch HTML once for lang + authorship checks
     let html = '';
     try {
-      html = await fetchHtml(r.link);
+      html = await fetchHtml(cleanLink);
     } catch (e) {
-      skipped.push({ title: cleanTitle(r.title || ''), url: r.link, host, reason: `fetch-failed: ${e.message}` });
+      skipped.push({ title: cleanTitle(r.title || ''), url: cleanLink, host: safeHost(cleanLink), reason: `fetch-failed: ${e.message}` });
       continue;
     }
 
     // Language gate
     const lang = detectLang(html) || 'other';
     if (PRIMARY_LANG && lang !== PRIMARY_LANG) {
-      skipped.push({ title: cleanTitle(r.title || ''), url: r.link, host, reason: `language=${lang}` });
+      skipped.push({ title: cleanTitle(r.title || ''), url: cleanLink, host: safeHost(cleanLink), reason: `language=${lang}` });
       continue;
     }
 
     // Optional authorship verification (reduces false positives)
-    if (VERIFY_AUTHOR){
+    if (theVERIFY_AUTHOR){
       if (!htmlHasAuthor(html, AUTHOR_NAME)) {
-        skipped.push({ title: cleanTitle(r.title || ''), url: r.link, host, reason: 'author-mismatch' });
+        skipped.push({ title: cleanTitle(r.title || ''), url: cleanLink, host: safeHost(cleanLink), reason: 'author-mismatch' });
         continue;
       }
     }
@@ -304,13 +356,21 @@ async function discoverNewArticles(){
   for (const a of processed){
     const p = await processArticle(a, false);
     newArticles.push(p);
+    await writeOutboxArtifacts(p);
   }
 
-  // Process updates
+  // Process updates (preserve original date + stored URL when present)
   const updatedArticles = [];
   for (const {searchResult, existing: ex} of updates){
-    const p = await processArticle(searchResult, true, (ex.version || 1));
+    const p = await processArticle(
+      searchResult,
+      true,
+      (ex.version || 1),
+      ex.date || null,
+      ex.url ? unwrapUrl(ex.url) : null
+    );
     updatedArticles.push({ ...p, version: (ex.version || 1) + 1, previousFingerprint: ex.fingerprint });
+    await writeOutboxArtifacts(p);
   }
 
   // Save full artifacts + grouped notification
@@ -322,7 +382,7 @@ async function discoverNewArticles(){
       id: p.id,
       title: p.title,
       url: p.url,
-      normalizedUrl: normalizeUrl(p.url),
+      normalizedUrl: canon(p.url),
       platform: p.platform,
       date: p.date,
       snippet: p.snippet,
@@ -336,23 +396,30 @@ async function discoverNewArticles(){
 
   // Update DB entries
   for (const u of updatedArticles){
-    const i = existing.findIndex(a => normalizeUrl(a.url) === normalizeUrl(u.url));
+    const i = existing.findIndex(a => canon(a.url) === canon(u.url));
     if (i !== -1){
-      existing[i] = { ...existing[i], title: u.title, snippet: u.snippet, fingerprint: u.fingerprint, version: u.version, lastUpdated: new Date().toISOString() };
+      existing[i] = { ...existing[i],
+        title: u.title,
+        snippet: u.snippet,
+        fingerprint: u.fingerprint,
+        version: u.version,
+        lastUpdated: new Date().toISOString()
+      };
     }
   }
 
+  const dbPath = path.join(__dirname, '..', 'data', 'articles.json');
   await writeJSON(dbPath, existing);
   console.log('Discovery complete.');
 }
 
 // ---------- Processing & generators ----------
-async function processArticle(searchResult, isUpdate=false, currentVersion=1){
+async function processArticle(searchResult, isUpdate=false, currentVersion=1, existingDate=null, existingUrl=null){
   const title = cleanTitle(searchResult.title || '');
-  const url = searchResult.link;
+  const url = existingUrl || unwrapUrl(searchResult.link);
   const snippet = searchResult.snippet || '';
   const platform = detectPlatform(url);
-  const date = extractDate(searchResult) || new Date().toISOString().split('T')[0];
+  const date = existingDate || extractDate(searchResult) || new Date().toISOString().split('T')[0];
 
   const platformSlug = platform.toLowerCase().replace(/[^a-z0-9]/g, '-');
   const titleSlug = (title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').substring(0,50)) || 'entry';
@@ -372,7 +439,7 @@ async function processArticle(searchResult, isUpdate=false, currentVersion=1){
 
   return {
     id: Date.now(),
-    title, url, normalizedUrl: normalizeUrl(url), platform, date, snippet,
+    title, url, normalizedUrl: canon(url), platform, date, snippet,
     urlSlug, type: articleType, topics, fingerprint,
     version: isUpdate ? currentVersion + 1 : 1,
     discoveredAt: new Date().toISOString(),
@@ -380,7 +447,11 @@ async function processArticle(searchResult, isUpdate=false, currentVersion=1){
     headerCode: formatHeaderCode(enhancedSchema),
     topicBlockCode: formatSchemaBlock(topicBlock, "Topic Clustering Block"),
     relatedBlockCode: formatSchemaBlock(relatedBlock, "Related Articles Block"),
-    pageContent, bibliographyEntry
+    pageContent, bibliographyEntry,
+    // raw objects for outbox
+    _schema: enhancedSchema,
+    _topic: topicBlock,
+    _related: relatedBlock
   };
 }
 
@@ -485,10 +556,39 @@ function generateBibliographyEntry(d){
 
 // ✅ Canonical now in the header; robots + canonical + JSON-LD (no canonical in body)
 function formatHeaderCode(schema){
-  return `<meta name="robots" content="noindex, follow">\n<link rel="canonical" href="${schema.sameAs}">\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`;
+  return `<meta name="robots" content="noindex, follow">\n<link rel="canonical" href="\${schema.sameAs}">\n<script type="application/ld+json">\n\${JSON.stringify(schema,null,2)}\n<\\/script>`;
 }
-function formatSchemaBlock(schema, title){ return `<!-- ${title} - Add to page body -->\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
+function formatSchemaBlock(schema, title){
+  return `<!-- \${title} - Add to page body -->\n<script type="application/ld+json">\n\${JSON.stringify(schema,null,2)}\n<\\/script>`;
+}
 
+// ---------- Outbox writer ----------
+async function writeOutboxArtifacts(a){
+  const root = path.join(__dirname,'..','data','outbox', a.urlSlug.replace(/^\//,''));
+  await fs.mkdir(root, { recursive: true });
+
+  await writeText(path.join(root, 'header.html'), a.headerCode);
+  await writeText(path.join(root, 'page.html'), a.pageContent);
+  await writeJSON(path.join(root, 'schema.json'), a._schema);
+  await writeJSON(path.join(root, 'topic.json'), a._topic);
+  await writeJSON(path.join(root, 'related.json'), a._related);
+  await writeJSON(path.join(root, 'bib.json'), a.bibliographyEntry);
+  await writeJSON(path.join(root, 'meta.json'), {
+    title: a.title,
+    platform: a.platform,
+    date: a.date,
+    url: a.url,
+    shadowUrl: `https://daniellehewych.org${a.urlSlug}`,
+    urlSlug: a.urlSlug,
+    type: a.type,
+    topics: a.topics,
+    fingerprint: a.fingerprint,
+    version: a.version,
+    discoveredAt: a.discoveredAt
+  });
+}
+
+// ---------- Reporting ----------
 async function saveProcessedArticles(articles, newCount, updateCount, skipped=[]){
   const fullDataPath = path.join(__dirname,'..','data','new-articles-full.json');
   const notificationPath = path.join(__dirname,'..','data','notification.md');
@@ -496,48 +596,50 @@ async function saveProcessedArticles(articles, newCount, updateCount, skipped=[]
 
   await writeJSON(fullDataPath, articles);
 
-  let md = `# Sovereignty System Report - ${date}\n\n`;
+  let md = `# Sovereignty System Report - \${date}\n\n`;
 
-  if (newCount) md += `## New Articles (${newCount})\n\n`;
+  if (newCount) md += `## New Articles (\${newCount})\n\n`;
   articles.filter(a => a.version === 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, false); });
 
-  if (updateCount) md += `## Updates (${updateCount})\n\n`;
+  if (updateCount) md += `## Updates (\${updateCount})\n\n`;
   articles.filter(a => a.version > 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, true); });
 
   if ((!newCount && !updateCount)) md += `Nothing new today.\n\n`;
 
   if (skipped.length){
-    md += `## Skipped (for review): ${skipped.length}\n\n`;
+    md += `## Skipped (for review): \${skipped.length}\n\n`;
     skipped.forEach((s, i) => {
-      md += `- ${i+1}. **${s.title || '(no title)'}** — ${s.url}\n  - Host: ${s.host}\n  - Reason: ${s.reason}\n`;
+      md += `- \${i+1}. **\${s.title || '(no title)'}** — \${s.url}\n  - Host: \${s.host}\n  - Reason: \${s.reason}\n`;
     });
     md += `\n`;
   }
 
   md += `---\n\n## Metadata\n`;
-  articles.forEach(a => { md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`; });
+  articles.forEach(a => { md += `work_id=\${a.normalizedUrl} | fingerprint=\${a.fingerprint} | version=\${a.version}\n`; });
 
   await writeText(notificationPath, md);
   console.log('Full article data saved to data/new-articles-full.json');
-  console.log(`Processed: ${newCount} new, ${updateCount} updates; skipped: ${skipped.length}`);
+  console.log(`Processed: \${newCount} new, \${updateCount} updates; skipped: \${skipped.length}`);
 }
 
 function renderArticleBlock(a, idx, isUpdate){
-  let out = `### ${idx}. ${a.title} ${isUpdate ? `(UPDATE v${a.version})` : `(NEW)`}\n\n`;
-  out += `**Subject Line:** ${a.emailSubject}\n`;
-  out += `**Platform:** ${a.platform}\n`;
-  out += `**Date:** ${a.date}\n`;
-  out += `**URL:** ${a.url}\n`;
-  out += `**Type:** ${a.type}\n`;
-  out += `**Topics:** ${a.topics.join(', ')}\n`;
-  out += `**URL Slug:** \`${a.urlSlug}\`\n`;
-  out += `**Fingerprint:** ${a.fingerprint}\n`;
+  const outboxPath = `data/outbox/\${a.urlSlug.replace(/^\\//,'')}`;
+  let out = `### \${idx}. \${a.title} \${isUpdate ? \`(UPDATE v\${a.version})\` : \`(NEW)\`}\n\n`;
+  out += `**Subject Line:** \${a.emailSubject}\n`;
+  out += `**Platform:** \${a.platform}\n`;
+  out += `**Date:** \${a.date}\n`;
+  out += `**URL:** \${a.url}\n`;
+  out += `**Type:** \${a.type}\n`;
+  out += `**Topics:** \${a.topics.join(', ')}\n`;
+  out += `**URL Slug:** \`$\{a.urlSlug}\`\n`;
+  out += `**Fingerprint:** \${a.fingerprint}\n`;
+  out += `**Outbox:** \${outboxPath} (header.html, page.html, schema.json, topic.json, related.json, bib.json, meta.json)\n`;
   if (isUpdate) out += `**Change Detected:** Title or description modified\n`;
-  out += `\n#### Page Header Code\n\`\`\`html\n${a.headerCode}\n\`\`\`\n`;
-  out += `\n#### Topic Clustering Block\n\`\`\`html\n${a.topicBlockCode}\n\`\`\`\n`;
-  out += `\n#### Related Articles Block\n\`\`\`html\n${a.relatedBlockCode}\n\`\`\`\n`;
-  out += `\n#### Page Content (Shadow Page Body)\n\`\`\`html\n${a.pageContent}\n\`\`\`\n`;
-  out += `\n#### Master Bibliography Entry\n\`\`\`json\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n\n`;
+  out += `\n#### Page Header Code\n\`\`\`html\n\${a.headerCode}\n\`\`\`\n`;
+  out += `\n#### Topic Clustering Block\n\`\`\`html\n\${a.topicBlockCode}\n\`\`\`\n`;
+  out += `\n#### Related Articles Block\n\`\`\`html\n\${a.relatedBlockCode}\n\`\`\`\n`;
+  out += `\n#### Page Content (Shadow Page Body)\n\`\`\`html\n\${a.pageContent}\n\`\`\`\n`;
+  out += `\n#### Master Bibliography Entry\n\`\`\`json\n\${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n\n`;
   out += `---\n\n`;
   return out;
 }
