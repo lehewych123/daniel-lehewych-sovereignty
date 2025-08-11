@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#\!/usr/bin/env node
 // Builds a canonical master bibliography with stable positions based on date (ascending)
 
 const fs = require("fs").promises;
@@ -13,7 +13,7 @@ const slug = s => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^
 (async () => {
   let items = [];
   try { items = JSON.parse(await fs.readFile(DB, "utf8")); } catch { items = []; }
-  if (!items.length) {
+  if (\!items.length) {
     console.log("No articles; skipping bibliography build.");
     process.exit(0);
   }
@@ -34,17 +34,38 @@ const slug = s => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^
     const platform = a.platform || "";
     const urlSlug = `/archive/${slug(platform)}/${slug(a.title).slice(0,50) || "entry"}`;
     const shadowUrl = `https://daniellehewych.org${urlSlug}`;
+    
+    // Build the item object
+    const itemObj = {
+      "@type":"Article",
+      "@id": shadowUrl,
+      "name": a.title,
+      "description": a.title,
+      "url": a.url,
+      "datePublished": (a.date || "1970-01-01") + "T00:00:00Z",
+      "author":{"@id":"https://daniellehewych.org/#daniel-lehewych"},
+      "isAccessibleForFree": true,
+      "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+      "isPartOf": {
+        "@type": ["Periodical", "CreativeWork"],
+        "name": platform,
+        "issn": platform === "Medium" ? "2168-8878" : ""
+      },
+      "sameAs": [
+        a.url,
+        shadowUrl
+      ]
+    };
+    
+    // Add usageInfo if it exists in the article's schemas
+    if (a.schemas && a.schemas.usageInfo) {
+      itemObj.usageInfo = a.schemas.usageInfo;
+    }
+    
     const entry = {
       "@type":"ListItem",
       "position": pos,
-      "item": {
-        "@type":"Article",
-        "@id": shadowUrl,
-        "name": a.title,
-        "url": a.url,
-        "datePublished": (a.date || "1970-01-01") + "T00:00:00Z",
-        "author":{"@type":"Person","name":"Daniel Lehewych","@id":"https://daniellehewych.org/#daniel-lehewych"}
-      }
+      "item": itemObj
     };
     list.itemListElement.push(entry);
 
