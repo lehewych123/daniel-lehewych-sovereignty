@@ -1,0 +1,45 @@
+name: Ship Outbox (email attachments)
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'data/new-articles-full.json'
+
+permissions:
+  contents: read
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Determine if there are new items
+        id: chk
+        run: |
+          if [ ! -f data/new-articles-full.json ]; then echo "has_new=false" >> $GITHUB_OUTPUT; exit 0; fi
+          len=$(jq 'length' data/new-articles-full.json)
+          if [ "$len" -gt 0 ]; then echo "has_new=true" >> $GITHUB_OUTPUT; else echo "has_new=false" >> $GITHUB_OUTPUT; fi
+        shell: bash
+      - name: Zip each outbox folder
+        if: steps.chk.outputs.has_new == 'true'
+        run: |
+          mkdir -p out/attachments
+          find data/outbox -mindepth 1 -maxdepth 1 -type d 2>/dev/null | while read d; do
+            base=$(basename "$d")
+            (cd "$d" && zip -qr "../../out/attachments/${base}.zip" .)
+          done
+        shell: bash
+      - name: Send email with attachments
+        if: steps.chk.outputs.has_new == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          secure: ${{ secrets.SMTP_SECURE || 'true' }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: Sovereignty: New items found
+          to: ${{ secrets.MAIL_TO }}
+          from: ${{ secrets.MAIL_FROM }}
+          html_body: file://data/notification.md
+          attachments: out/attachments/*.zip
