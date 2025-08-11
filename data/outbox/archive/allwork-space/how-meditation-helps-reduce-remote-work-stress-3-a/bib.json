@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 99,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/how-meditation-helps-reduce-remote-work-stress-3-a",
+    "name": "How Meditation Helps Reduce Remote Work Stress + 3 Apps to Get Started",
+    "url": "https://allwork.space/2021/11/how-meditation-helps-reduce-remote-work-stress-3-apps-to-get-started/",
+    "datePublished": "2021-11-03T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 38,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/heidegger-spinoza-ontological-anticipation-and-int",
+    "name": "Heidegger & Spinoza: Ontological Anticipation and Interpretation",
+    "url": "https://daniellehewych.medium.com/heidegger-spinoza-ontological-anticipation-and-interpretation-9a6e6ffba09e",
+    "datePublished": "2020-01-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

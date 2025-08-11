@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 160,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/workers-want-wage-increases-because-of-inflation",
+    "name": "Workers Want Wage Increases Because of Inflation",
+    "url": "https://allwork.space/2022/06/workers-want-wage-increases-because-of-inflation/",
+    "datePublished": "2022-06-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

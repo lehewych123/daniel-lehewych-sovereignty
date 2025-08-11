@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 189,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/depression-is-making-you-sick-but-can-you-take-tim",
+    "name": "Depression Is Making You Sick, But Can You Take Time Off To Heal?",
+    "url": "https://allwork.space/2022/08/depression-is-making-you-sick-but-can-you-take-time-off-to-heal/",
+    "datePublished": "2022-08-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

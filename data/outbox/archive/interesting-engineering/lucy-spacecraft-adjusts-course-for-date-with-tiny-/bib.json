@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 268,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/lucy-spacecraft-adjusts-course-for-date-with-tiny-",
+    "name": "Lucy spacecraft adjusts course for date with tiny asteroid Dinkinesh before historic Trojan mission",
+    "url": "https://interestingengineering.com/science/lucy-spacecraft-adjusts-course-for-date-with-tiny-asteroid-dinkinesh-before-historic-trojan-mission",
+    "datePublished": "2023-05-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 85,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/children-should-be-taught-philosophy-in-school",
+    "name": "Children Should be Taught Philosophy in School",
+    "url": "https://www.newsweek.com/children-should-taught-philosophy-school-opinion-1624698",
+    "datePublished": "2021-09-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

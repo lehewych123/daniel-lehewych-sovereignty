@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 152,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-data-literacy-in-career-advancem",
+    "name": "The Importance of Data Literacy in Career Advancement: Explained",
+    "url": "https://allwork.space/2022/04/the-importance-of-data-literacy-in-career-advancement-explained/",
+    "datePublished": "2022-04-19T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 284,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/ai-deepfakes-fuel-the-flames-of-debate-among-holly",
+    "name": "AI deepfakes fuel the flames of debate among Hollywood stars",
+    "url": "https://interestingengineering.com/culture/ai-deepfakes-fuel-the-flames-of-debate-among-hollywood-stars",
+    "datePublished": "2023-06-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

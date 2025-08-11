@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 40,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-definitive-guide-to-building-muscle-naturally",
+    "name": "The Definitive Guide to Building Muscle Naturally",
+    "url": "https://daniellehewych.medium.com/the-definitive-guide-to-building-muscle-naturally-3376acdefa30",
+    "datePublished": "2020-01-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

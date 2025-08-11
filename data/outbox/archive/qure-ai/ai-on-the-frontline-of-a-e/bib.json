@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 293,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/qure-ai/ai-on-the-frontline-of-a-e",
+    "name": "AI on the frontline of A&E",
+    "url": "https://www.qure.ai/blog/ai-on-the-frontline-of-ae",
+    "datePublished": "2023-08-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

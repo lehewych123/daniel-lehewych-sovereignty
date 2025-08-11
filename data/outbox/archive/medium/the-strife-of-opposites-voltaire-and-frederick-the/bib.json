@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 297,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-strife-of-opposites-voltaire-and-frederick-the",
+    "name": "The Strife of Opposites: Voltaire and Frederick the Great",
+    "url": "https://medium.com/illumination/the-strife-of-opposites-voltaire-and-frederick-the-great-ffc0d8aa562c",
+    "datePublished": "2023-09-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

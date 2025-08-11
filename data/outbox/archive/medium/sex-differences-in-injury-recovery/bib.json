@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 23,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery",
+    "name": "Sex Differences in Injury Recovery",
+    "url": "https://daniellehewych.medium.com/sex-differences-in-injury-recovery-30ca253ed0a2",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

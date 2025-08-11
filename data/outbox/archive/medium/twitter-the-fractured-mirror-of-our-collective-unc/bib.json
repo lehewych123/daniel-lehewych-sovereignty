@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 273,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/twitter-the-fractured-mirror-of-our-collective-unc",
+    "name": "Twitter — The Fractured Mirror of Our Collective Unconscious",
+    "url": "https://medium.com/illumination/twitter-the-fractured-mirror-of-our-collective-unconscious-fc46bef6fe4",
+    "datePublished": "2023-05-27T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

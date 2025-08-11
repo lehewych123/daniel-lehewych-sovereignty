@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 101,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/is-philosophy-just-a-bunch-of-nonsense",
+    "name": "Is philosophy just a bunch of nonsense?",
+    "url": "https://bigthink.com/thinking/philosophy-nonsense-useless/",
+    "datePublished": "2021-11-09T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

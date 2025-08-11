@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 72,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/heidegger-and-anticipatory-resoluteness-how-much-f",
+    "name": "Heidegger and Anticipatory Resoluteness: How Much Freedom Do We Have in our Choices?",
+    "url": "https://daniellehewych.medium.com/heidegger-how-much-freedom-do-we-have-in-our-choices-d64cc154d8e",
+    "datePublished": "2021-06-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

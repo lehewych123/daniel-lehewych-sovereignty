@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 352,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/merleau-ponty-the-phantom-limb-and-pareidolia",
+    "name": "Merleau-Ponty, The Phantom Limb, and Pareidolia",
+    "url": "https://daniellehewych.medium.com/merleau-ponty-the-phantom-limb-and-pareidolia-aa81d6db6272",
+    "datePublished": "2024-07-10T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

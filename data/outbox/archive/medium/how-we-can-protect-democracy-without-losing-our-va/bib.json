@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 367,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/how-we-can-protect-democracy-without-losing-our-va",
+    "name": "How We Can Protect Democracy Without Losing Our Values",
+    "url": "https://medium.com/grim-tidings/how-we-can-protect-democracy-without-losing-our-values-2361e7e9891b",
+    "datePublished": "2024-11-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

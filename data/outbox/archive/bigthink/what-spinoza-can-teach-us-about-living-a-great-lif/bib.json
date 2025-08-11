@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 370,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/what-spinoza-can-teach-us-about-living-a-great-lif",
+    "name": "What Spinoza can teach us about living a great life",
+    "url": "https://bigthink.com/thinking/spinoza/",
+    "datePublished": "2025-05-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

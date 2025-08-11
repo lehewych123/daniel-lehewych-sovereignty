@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 39,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/citizenship",
+    "name": "Citizenship",
+    "url": "https://daniellehewych.medium.com/citizenship-84623f3825a4",
+    "datePublished": "2020-01-08T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

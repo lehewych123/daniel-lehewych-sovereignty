@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 361,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/on-the-genealogy-of-american-morality",
+    "name": "On the Genealogy of American Morality",
+    "url": "https://daniellehewych.medium.com/on-the-genealogy-of-american-morality-a1fdf2151a69",
+    "datePublished": "2024-10-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

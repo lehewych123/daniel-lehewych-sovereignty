@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 236,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/office-party-etiquette-matters-all-year",
+    "name": "Office Party Etiquette Matters All Year",
+    "url": "https://allwork.space/2023/02/office-party-etiquette-matters-all-year/",
+    "datePublished": "2023-02-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

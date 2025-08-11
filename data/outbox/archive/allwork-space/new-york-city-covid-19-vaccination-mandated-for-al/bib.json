@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 108,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/new-york-city-covid-19-vaccination-mandated-for-al",
+    "name": "New York City COVID-19 Vaccination Mandated For All Private Sector Workers",
+    "url": "https://allwork.space/2021/12/new-york-city-covid-19-vaccination-mandated-for-all-private-sector-workers/",
+    "datePublished": "2021-12-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

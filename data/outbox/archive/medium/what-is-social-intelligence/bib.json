@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 351,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-is-social-intelligence",
+    "name": "What is Social Intelligence?",
+    "url": "https://daniellehewych.medium.com/what-is-social-intelligence-2bcb518d5437",
+    "datePublished": "2024-06-27T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 238,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health",
+    "name": "The CDC’s Vision For The Future Of Worker Health",
+    "url": "https://allwork.space/2023/02/the-cdcs-vision-for-the-future-of-worker-health/",
+    "datePublished": "2023-02-27T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

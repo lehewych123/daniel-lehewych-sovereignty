@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 70,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/is-creatine-a-brain-booster",
+    "name": "Is Creatine a Brain Booster?",
+    "url": "https://medium.com/in-fitness-and-in-health/is-creatine-a-brain-booster-c7bd6c1658e8",
+    "datePublished": "2021-06-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

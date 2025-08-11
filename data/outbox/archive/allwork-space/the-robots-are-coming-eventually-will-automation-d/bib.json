@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 177,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-robots-are-coming-eventually-will-automation-d",
+    "name": "The Robots Are Coming, Eventually. Will Automation Displace Half The World’s Workforce?",
+    "url": "https://allwork.space/2022/07/the-robots-are-coming-eventually-will-automation-displace-half-the-worlds-workforce/",
+    "datePublished": "2022-07-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

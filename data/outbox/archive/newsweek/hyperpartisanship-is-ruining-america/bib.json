@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 86,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/hyperpartisanship-is-ruining-america",
+    "name": "Hyperpartisanship is Ruining America",
+    "url": "https://www.newsweek.com/hyperpartisanship-ruining-america-opinion-1629005",
+    "datePublished": "2021-09-16T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

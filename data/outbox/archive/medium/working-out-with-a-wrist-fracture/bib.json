@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 94,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/working-out-with-a-wrist-fracture",
+    "name": "Working Out With a Wrist Fracture",
+    "url": "https://medium.com/in-fitness-and-in-health/working-out-with-a-wrist-fracture-831e56bbe758",
+    "datePublished": "2021-10-21T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 81,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/freelancers-need-union-protections",
+    "name": "Freelancers Need Union Protections",
+    "url": "https://www.newsweek.com/freelancers-need-union-protections-opinion-1616655",
+    "datePublished": "2021-08-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

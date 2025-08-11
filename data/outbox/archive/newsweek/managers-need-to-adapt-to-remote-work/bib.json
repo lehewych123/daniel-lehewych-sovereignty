@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 76,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/managers-need-to-adapt-to-remote-work",
+    "name": "Managers Need to Adapt to Remote Work",
+    "url": "https://www.newsweek.com/managers-need-adapt-remote-work-opinion-1603062",
+    "datePublished": "2021-06-23T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

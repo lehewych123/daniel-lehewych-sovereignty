@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 288,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-picking-a-niche-is-not-good-advice",
+    "name": "Why “Picking a Niche” is Not Good Advice",
+    "url": "https://writingcooperative.com/why-picking-a-niche-is-not-good-advice-2b8ca30def7e",
+    "datePublished": "2023-06-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

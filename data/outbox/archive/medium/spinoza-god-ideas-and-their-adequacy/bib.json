@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 24,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/spinoza-god-ideas-and-their-adequacy",
+    "name": "Spinoza: God, Ideas and Their Adequacy",
+    "url": "https://daniellehewych.medium.com/spinoza-god-ideas-and-their-adequacy-cd88c207c4f3",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

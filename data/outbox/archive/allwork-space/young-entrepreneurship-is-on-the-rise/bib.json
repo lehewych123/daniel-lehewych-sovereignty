@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 170,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/young-entrepreneurship-is-on-the-rise",
+    "name": "Young Entrepreneurship Is On The Rise",
+    "url": "https://allwork.space/2022/06/young-entrepreneurship-is-on-the-rise/",
+    "datePublished": "2022-06-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

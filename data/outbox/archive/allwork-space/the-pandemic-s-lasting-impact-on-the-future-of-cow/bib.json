@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 224,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-s-lasting-impact-on-the-future-of-cow",
+    "name": "The Pandemic’s Lasting Impact on the Future of Coworking",
+    "url": "https://allwork.space/2022/12/the-pandemics-lasting-impact-on-the-future-of-coworking/",
+    "datePublished": "2022-12-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

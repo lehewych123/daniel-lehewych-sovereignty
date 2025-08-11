@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 124,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/newspeak-why-silence-defeats-thought-crimes-in-orw",
+    "name": "Newspeak: Why silence defeats “thought crimes” in Orwell’s 1984",
+    "url": "https://bigthink.com/thinking/silence-thought-newspeak/",
+    "datePublished": "2022-01-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

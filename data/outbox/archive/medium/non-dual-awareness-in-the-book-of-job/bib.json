@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 329,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/non-dual-awareness-in-the-book-of-job",
+    "name": "Non-Dual Awareness in The Book of Job",
+    "url": "https://daniellehewych.medium.com/non-dual-awareness-in-the-book-of-job-032e345ae832",
+    "datePublished": "2024-03-11T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

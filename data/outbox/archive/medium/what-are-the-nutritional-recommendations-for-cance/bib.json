@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 262,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-are-the-nutritional-recommendations-for-cance",
+    "name": "What are the Nutritional Recommendations for Cancer Patients?",
+    "url": "https://medium.com/illumination/what-are-the-nutritional-recommendations-for-cancer-patients-ecbb7a0145b9",
+    "datePublished": "2023-05-11T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

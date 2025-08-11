@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 298,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/rethinking-the-kale-craze",
+    "name": "Rethinking the Kale Craze",
+    "url": "https://medium.com/illumination/rethinking-the-kale-craze-42b363b209ca",
+    "datePublished": "2023-09-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

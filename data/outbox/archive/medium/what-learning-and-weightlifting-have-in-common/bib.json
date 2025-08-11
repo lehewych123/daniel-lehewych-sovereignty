@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 232,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-learning-and-weightlifting-have-in-common",
+    "name": "What Learning and Weightlifting Have in Common",
+    "url": "https://medium.com/in-fitness-and-in-health/what-learning-and-weightlifting-have-in-common-f26a86d32b47",
+    "datePublished": "2023-02-08T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

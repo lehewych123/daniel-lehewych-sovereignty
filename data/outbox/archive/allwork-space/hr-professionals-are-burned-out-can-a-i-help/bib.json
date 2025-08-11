@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 220,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/hr-professionals-are-burned-out-can-a-i-help",
+    "name": "HR Professionals Are Burned Out. Can A.I. Help?",
+    "url": "https://allwork.space/2022/12/hr-professionals-are-burned-out-can-a-i-help/",
+    "datePublished": "2022-12-19T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

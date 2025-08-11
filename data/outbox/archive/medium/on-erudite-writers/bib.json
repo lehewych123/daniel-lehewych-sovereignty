@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 237,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/on-erudite-writers",
+    "name": "On Erudite Writers",
+    "url": "https://writingcooperative.com/on-erudite-writers-dda49d4db53e",
+    "datePublished": "2023-02-18T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

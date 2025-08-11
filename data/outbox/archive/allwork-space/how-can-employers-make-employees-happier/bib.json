@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 133,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/how-can-employers-make-employees-happier",
+    "name": "How Can Employers Make Employees Happier?",
+    "url": "https://allwork.space/2022/03/how-can-employers-make-employees-happier/",
+    "datePublished": "2022-03-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

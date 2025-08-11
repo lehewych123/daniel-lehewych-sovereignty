@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 326,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/who-was-ralph-waldo-emerson",
+    "name": "Who Was Ralph Waldo Emerson?",
+    "url": "https://medium.com/illumination/who-was-ralph-waldo-emerson-4f01e3452b1d",
+    "datePublished": "2024-02-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

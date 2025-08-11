@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 362,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/embrace-the-paradox-of-willing",
+    "name": "Embrace the Paradox of Willing",
+    "url": "https://medium.com/grim-tidings/embracing-the-paradox-of-willing-bb57ef1c6420",
+    "datePublished": "2024-10-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

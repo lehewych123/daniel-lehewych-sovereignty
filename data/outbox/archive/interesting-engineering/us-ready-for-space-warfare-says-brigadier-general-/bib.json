@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 275,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/us-ready-for-space-warfare-says-brigadier-general-",
+    "name": "US ready for space warfare, says brigadier general Morehouse",
+    "url": "https://interestingengineering.com/culture/us-ready-for-space-warfare-says-brigadier-general-morehouse",
+    "datePublished": "2023-05-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

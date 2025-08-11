@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 128,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/will-cost-of-living-fluctuations-affect-the-future",
+    "name": "Will Cost of Living Fluctuations Affect the Future of Work?",
+    "url": "https://allwork.space/2022/02/will-cost-of-living-fluctuations-affect-the-future-of-work/",
+    "datePublished": "2022-02-09T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

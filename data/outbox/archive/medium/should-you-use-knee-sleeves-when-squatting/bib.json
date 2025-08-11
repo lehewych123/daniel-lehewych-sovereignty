@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 84,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/should-you-use-knee-sleeves-when-squatting",
+    "name": "Should You Use Knee Sleeves When Squatting?",
+    "url": "https://medium.com/in-fitness-and-in-health/should-you-use-knee-sleeves-when-squatting-e9bcbd02463a",
+    "datePublished": "2021-08-23T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

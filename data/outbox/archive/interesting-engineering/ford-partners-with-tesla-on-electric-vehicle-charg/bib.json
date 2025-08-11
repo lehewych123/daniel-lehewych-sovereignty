@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 271,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/ford-partners-with-tesla-on-electric-vehicle-charg",
+    "name": "Ford partners with Tesla on electric vehicle charging initiatives",
+    "url": "https://interestingengineering.com/transportation/ford-partners-with-tesla-on-electric-vehicle-charging-initiatives",
+    "datePublished": "2023-05-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

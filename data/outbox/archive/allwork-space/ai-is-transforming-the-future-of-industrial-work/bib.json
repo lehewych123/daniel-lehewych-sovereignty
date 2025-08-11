@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 225,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/ai-is-transforming-the-future-of-industrial-work",
+    "name": "AI Is Transforming The Future Of Industrial Work",
+    "url": "https://allwork.space/2023/01/ai-is-transforming-the-future-of-industrial-work/",
+    "datePublished": "2023-01-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

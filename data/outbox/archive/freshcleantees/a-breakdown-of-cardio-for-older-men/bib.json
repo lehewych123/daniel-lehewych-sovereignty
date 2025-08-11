@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 114,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/freshcleantees/a-breakdown-of-cardio-for-older-men",
+    "name": "A Breakdown of Cardio for Older Men",
+    "url": "https://freshcleantees.com/blogs/blog/cardio-breakdown-for-older-men",
+    "datePublished": "2022-01-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

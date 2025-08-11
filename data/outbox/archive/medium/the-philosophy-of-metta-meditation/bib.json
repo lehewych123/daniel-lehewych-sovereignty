@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 45,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-philosophy-of-metta-meditation",
+    "name": "The Philosophy of Metta Meditation",
+    "url": "https://theapeiron.co.uk/the-philosophy-of-metta-meditation-fafa6e5da8f3",
+    "datePublished": "2020-05-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

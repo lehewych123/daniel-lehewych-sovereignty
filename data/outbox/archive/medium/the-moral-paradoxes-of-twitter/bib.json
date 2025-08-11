@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 258,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-moral-paradoxes-of-twitter",
+    "name": "The Moral Paradoxes of Twitter",
+    "url": "https://medium.com/illumination/the-moral-paradoxes-of-twitter-7e510077cc19",
+    "datePublished": "2023-05-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 127,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-will-not-kill-the-creative-economy",
+    "name": "The pandemic will not kill the creative economy",
+    "url": "https://allwork.space/2022/01/the-pandemic-will-not-kill-the-creative-economy/",
+    "datePublished": "2022-01-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

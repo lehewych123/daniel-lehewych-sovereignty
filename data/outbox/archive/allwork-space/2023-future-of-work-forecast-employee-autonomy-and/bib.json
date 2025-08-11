@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 214,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/2023-future-of-work-forecast-employee-autonomy-and",
+    "name": "2023 Future Of Work Forecast: Employee Autonomy And The Persistent Great Reshuffle",
+    "url": "https://allwork.space/2022/11/2023-future-of-work-forecast-employee-autonomy-and-the-persistent-great-reshuffle/",
+    "datePublished": "2022-11-18T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

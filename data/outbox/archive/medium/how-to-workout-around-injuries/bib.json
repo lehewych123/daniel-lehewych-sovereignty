@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 21,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/how-to-workout-around-injuries",
+    "name": "How to Workout Around Injuries",
+    "url": "https://daniellehewych.medium.com/how-to-workout-around-injuries-3c76c3ca92d5",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

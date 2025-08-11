@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 223,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/5-steps-to-get-a-promotion",
+    "name": "5 Steps To Get A Promotion",
+    "url": "https://allwork.space/2022/12/5-steps-to-get-a-promotion/",
+    "datePublished": "2022-12-27T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

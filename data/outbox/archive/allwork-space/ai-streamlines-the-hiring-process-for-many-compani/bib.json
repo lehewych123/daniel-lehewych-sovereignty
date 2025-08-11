@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 96,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/ai-streamlines-the-hiring-process-for-many-compani",
+    "name": "AI Streamlines the Hiring Process for Many Companies, but is That a Good Thing?",
+    "url": "https://allwork.space/2021/10/ai-streamlines-the-hiring-process-for-many-companies-but-is-that-a-good-thing/",
+    "datePublished": "2021-10-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

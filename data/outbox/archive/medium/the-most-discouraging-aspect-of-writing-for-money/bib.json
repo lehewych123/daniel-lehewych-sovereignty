@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 56,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-most-discouraging-aspect-of-writing-for-money",
+    "name": "The Most Discouraging Aspect of Writing for Money",
+    "url": "https://writingcooperative.com/the-most-discouraging-aspect-of-writing-for-money-4d9ddaf61b95",
+    "datePublished": "2020-11-27T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

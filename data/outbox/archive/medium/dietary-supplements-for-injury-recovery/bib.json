@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 2,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/dietary-supplements-for-injury-recovery",
+    "name": "Dietary Supplements for Injury Recovery",
+    "url": "https://daniellehewych.medium.com/supplements-for-injuries-an-interview-with-kurtis-frank-bb4dda4b3a38",
+    "datePublished": "2019-10-21T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

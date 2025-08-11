@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 51,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/derek-parfit-on-personal-identity",
+    "name": "Derek Parfit on Personal Identity",
+    "url": "https://daniellehewych.medium.com/derek-parfit-on-personal-identity-f545ec46f494",
+    "datePublished": "2020-09-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

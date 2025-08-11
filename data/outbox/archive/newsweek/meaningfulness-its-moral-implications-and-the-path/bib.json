@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 61,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/meaningfulness-its-moral-implications-and-the-path",
+    "name": "Meaningfulness, Its Moral Implications and the Path Forward",
+    "url": "https://www.newsweek.com/meaningfulness-its-moral-implications-path-forward-opinion-1572915",
+    "datePublished": "2021-03-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

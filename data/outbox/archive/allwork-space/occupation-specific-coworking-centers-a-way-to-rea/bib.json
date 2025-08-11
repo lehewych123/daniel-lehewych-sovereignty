@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 205,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/occupation-specific-coworking-centers-a-way-to-rea",
+    "name": "Occupation-Specific Coworking Centers: A Way To Reach New Prospective Members Or A Recipe For Disaster?",
+    "url": "https://allwork.space/2022/10/occupation-specific-coworking-centers-a-way-to-reach-new-prospective-members-or-a-recipe-for-disaster/",
+    "datePublished": "2022-10-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

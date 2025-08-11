@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 43,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-ethics-of-video-games",
+    "name": "The Ethics of Video Games",
+    "url": "https://theapeiron.co.uk/the-ethics-of-video-games-3d6f86468f7a",
+    "datePublished": "2020-04-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

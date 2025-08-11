@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 22,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/sartre-bad-faith-and-its-incompatibility-with-huma",
+    "name": "Sartre: Bad Faith and its Incompatibility with Human Freedom",
+    "url": "https://daniellehewych.medium.com/sartre-bad-faith-and-its-incompatibility-with-human-freedom-91eb2753da1",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

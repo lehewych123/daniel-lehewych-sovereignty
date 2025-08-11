@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 30,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/dealing-with-the-gettier-problem",
+    "name": "Dealing With The Gettier Problem",
+    "url": "https://daniellehewych.medium.com/dealing-with-the-gettier-problem-432fcd4d2dcb",
+    "datePublished": "2019-12-03T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

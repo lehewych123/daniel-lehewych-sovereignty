@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 338,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-son-of-man-and-the-end-of-days",
+    "name": "The Son of Man and the End of Days",
+    "url": "https://daniellehewych.medium.com/the-son-of-man-and-the-end-of-days-d3e258e1a183",
+    "datePublished": "2024-04-12T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

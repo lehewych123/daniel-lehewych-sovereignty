@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 26,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-health-implications-of-protein-interview-with-",
+    "name": "The Health Implications of Protein: Interview with Dr. Donald Layman",
+    "url": "https://daniellehewych.medium.com/the-health-implications-of-protein-interview-with-dr-donald-layman-4c72e3f20311",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

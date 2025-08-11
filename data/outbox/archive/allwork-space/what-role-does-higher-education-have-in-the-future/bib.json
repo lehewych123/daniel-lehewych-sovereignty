@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 125,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/what-role-does-higher-education-have-in-the-future",
+    "name": "What Role Does Higher Education Have In The Future Of Work?",
+    "url": "https://allwork.space/2022/01/what-role-does-higher-education-have-in-the-future-of-work/",
+    "datePublished": "2022-01-11T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

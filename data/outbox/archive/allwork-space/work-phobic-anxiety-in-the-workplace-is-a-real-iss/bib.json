@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 199,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/work-phobic-anxiety-in-the-workplace-is-a-real-iss",
+    "name": "Work Phobic Anxiety In The Workplace Is A Real Issue; Here’s How To Navigate It",
+    "url": "https://allwork.space/2022/09/work-phobic-anxiety-in-the-workplace-is-a-real-issue-heres-how-to-navigate-it/",
+    "datePublished": "2022-09-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

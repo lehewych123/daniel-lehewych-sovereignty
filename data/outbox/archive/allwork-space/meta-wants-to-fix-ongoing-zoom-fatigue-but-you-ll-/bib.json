@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 209,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/meta-wants-to-fix-ongoing-zoom-fatigue-but-you-ll-",
+    "name": "Meta Wants To Fix Ongoing Zoom Fatigue — But You’ll Be Waiting A While",
+    "url": "https://allwork.space/2022/11/meta-wants-to-fix-ongoing-zoom-fatigue-but-youll-be-waiting-a-while/",
+    "datePublished": "2022-11-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

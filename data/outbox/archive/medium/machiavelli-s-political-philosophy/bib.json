@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 256,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/machiavelli-s-political-philosophy",
+    "name": "Machiavelli’s Political Philosophy",
+    "url": "https://medium.com/illumination/machiavellis-political-philosophy-5cf71bc4caa4",
+    "datePublished": "2023-04-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

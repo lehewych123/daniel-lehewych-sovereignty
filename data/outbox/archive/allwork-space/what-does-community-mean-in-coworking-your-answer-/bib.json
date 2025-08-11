@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 222,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/what-does-community-mean-in-coworking-your-answer-",
+    "name": "What Does “Community” Mean In Coworking? Your Answer Matters",
+    "url": "https://allwork.space/2022/12/what-does-community-mean-in-coworking-your-answer-matters/",
+    "datePublished": "2022-12-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

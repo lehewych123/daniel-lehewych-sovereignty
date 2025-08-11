@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 277,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/china-accelerates-launch-of-large-language-models-",
+    "name": "China accelerates launch of large-language models as Elon Musk visits Beijing",
+    "url": "https://interestingengineering.com/innovation/china-accelerates-launch-of-large-language-models-as-elon-musk-visits-beijing",
+    "datePublished": "2023-05-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

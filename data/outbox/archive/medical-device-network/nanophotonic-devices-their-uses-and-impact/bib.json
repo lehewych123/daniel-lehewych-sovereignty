@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 200,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medical-device-network/nanophotonic-devices-their-uses-and-impact",
+    "name": "Nanophotonic devices: their uses and impact",
+    "url": "https://www.medicaldevice-network.com/features/nanophotonic-devices-their-uses-and-impact/",
+    "datePublished": "2022-10-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

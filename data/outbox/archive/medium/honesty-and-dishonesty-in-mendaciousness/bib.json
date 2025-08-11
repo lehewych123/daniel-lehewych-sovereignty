@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 363,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/honesty-and-dishonesty-in-mendaciousness",
+    "name": "Honesty and Dishonesty in Mendaciousness",
+    "url": "https://medium.com/grim-tidings/honesty-and-dishonesty-in-mendaciousness-c508aa08e3ad",
+    "datePublished": "2024-10-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

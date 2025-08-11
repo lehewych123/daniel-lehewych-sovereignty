@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 121,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/tearing-down-maslow-s-hierarchy-why-self-actualiza",
+    "name": "Tearing down Maslow’s hierarchy: why self-actualization is impossible",
+    "url": "https://bigthink.com/thinking/authenticity-self-actualization/",
+    "datePublished": "2022-01-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

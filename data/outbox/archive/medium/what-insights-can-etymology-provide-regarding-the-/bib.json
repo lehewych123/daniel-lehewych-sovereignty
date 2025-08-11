@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 309,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-insights-can-etymology-provide-regarding-the-",
+    "name": "What Insights Can Etymology Provide Regarding the History of Morals?",
+    "url": "https://medium.com/illumination/what-insights-can-etymology-provide-regarding-the-history-of-morals-e9b8c198eddb",
+    "datePublished": "2023-12-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

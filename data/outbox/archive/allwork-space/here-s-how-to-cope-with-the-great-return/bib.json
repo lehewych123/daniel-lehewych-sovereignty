@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 147,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-cope-with-the-great-return",
+    "name": "Here’s How To Cope With The “Great Return”",
+    "url": "https://allwork.space/2022/04/heres-how-to-cope-with-the-great-return/",
+    "datePublished": "2022-04-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

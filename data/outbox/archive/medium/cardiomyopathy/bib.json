@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 50,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/cardiomyopathy",
+    "name": "Cardiomyopathy",
+    "url": "https://daniellehewych.medium.com/cardiomyopathy-b0b98fe96c6d",
+    "datePublished": "2020-09-12T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

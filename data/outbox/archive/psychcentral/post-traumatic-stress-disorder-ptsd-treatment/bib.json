@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 82,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/psychcentral/post-traumatic-stress-disorder-ptsd-treatment",
+    "name": "Post-Traumatic Stress Disorder (PTSD) Treatment",
+    "url": "https://psychcentral.com/ptsd/posttraumatic-stress-disorder-ptsd-treatment",
+    "datePublished": "2021-08-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

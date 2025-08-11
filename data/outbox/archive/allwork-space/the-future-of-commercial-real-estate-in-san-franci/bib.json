@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 216,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-commercial-real-estate-in-san-franci",
+    "name": "The Future of Commercial Real Estate in San Francisco Doesn’t Look Good",
+    "url": "https://allwork.space/2022/11/the-future-of-commercial-real-estate-in-san-francisco-doesnt-look-good/",
+    "datePublished": "2022-11-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

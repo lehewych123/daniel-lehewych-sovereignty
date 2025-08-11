@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 171,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/will-inflation-impact-pay-raises",
+    "name": "Will Inflation Impact Pay Raises?",
+    "url": "https://allwork.space/2022/07/will-inflation-impact-pay-raises/",
+    "datePublished": "2022-07-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

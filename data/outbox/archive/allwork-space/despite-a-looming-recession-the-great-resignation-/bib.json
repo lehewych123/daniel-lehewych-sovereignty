@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 196,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/despite-a-looming-recession-the-great-resignation-",
+    "name": "Despite A Looming Recession, The Great Resignation Isn’t Slowing Down",
+    "url": "https://allwork.space/2022/09/despite-a-looming-recession-the-great-resignation-isnt-slowing-down/",
+    "datePublished": "2022-09-16T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

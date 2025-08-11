@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 87,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/will-de-i-gains-regress-with-the-rise-of-remote-an",
+    "name": "Will DE&I Gains Regress With The Rise Of Remote And Hybrid Work?",
+    "url": "https://allwork.space/2021/09/will-dei-gains-regress-with-the-rise-of-remote-and-hybrid-work/",
+    "datePublished": "2021-09-21T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

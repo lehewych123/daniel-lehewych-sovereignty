@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 60,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-thc-is-more-medicinal-than-cbd",
+    "name": "Why THC is More Medicinal Than CBD",
+    "url": "https://daniellehewych.medium.com/why-thc-is-more-medicinal-than-cbd-7017e9bdc8af",
+    "datePublished": "2021-02-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

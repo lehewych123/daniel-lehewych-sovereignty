@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 75,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-difference-between-powerlifting-and-olympic-we",
+    "name": "The Difference Between Powerlifting and Olympic Weightlifting — The Fast Answer",
+    "url": "https://medium.com/in-fitness-and-in-health/the-difference-between-powerlifting-and-olympic-weightlifting-the-fast-answer-70e185cadfa2",
+    "datePublished": "2021-06-16T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

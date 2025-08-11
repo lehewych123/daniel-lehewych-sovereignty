@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 16,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/rousseau-s-discourses-a-short-critique",
+    "name": "Rousseau’s Discourses: A Short Critique",
+    "url": "https://daniellehewych.medium.com/rousseaus-discourses-a-short-critique-4854dfc9ec3a",
+    "datePublished": "2019-11-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

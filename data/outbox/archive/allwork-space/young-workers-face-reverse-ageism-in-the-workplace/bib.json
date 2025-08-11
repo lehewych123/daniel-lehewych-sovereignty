@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 156,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/young-workers-face-reverse-ageism-in-the-workplace",
+    "name": "Young Workers Face Reverse Ageism In The Workplace",
+    "url": "https://allwork.space/2022/05/young-workers-face-reverse-ageism-in-the-workplace/",
+    "datePublished": "2022-05-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

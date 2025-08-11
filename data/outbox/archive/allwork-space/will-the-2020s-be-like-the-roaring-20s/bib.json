@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 165,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/will-the-2020s-be-like-the-roaring-20s",
+    "name": "Will The 2020s Be Like The Roaring 20s?",
+    "url": "https://allwork.space/2022/06/will-the-2020s-be-like-the-roaring-20s/",
+    "datePublished": "2022-06-17T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

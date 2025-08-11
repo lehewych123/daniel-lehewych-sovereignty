@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 145,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex",
+    "name": "Mental Health Messaging Needs To Address Social Exclusion",
+    "url": "https://daniellehewych.medium.com/mental-health-messaging-needs-to-address-social-exclusion-42b540fbf12c",
+    "datePublished": "2022-04-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

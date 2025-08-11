@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 163,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/report-the-state-of-worker-mental-health",
+    "name": "Report: The State of Worker Mental Health",
+    "url": "https://allwork.space/2022/06/report-the-state-of-worker-mental-health/",
+    "datePublished": "2022-06-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

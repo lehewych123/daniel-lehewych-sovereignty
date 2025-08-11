@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 301,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/qure-ai/stroke-care-in-india-an-exploration-of-the-ai-powe",
+    "name": "Stroke Care in India: An Exploration of the AI-Powered Hub & Spoke Model",
+    "url": "https://www.qure.ai/blog/stroke-care-in-india-an-exploration-of-the-ai-powered-hub-spoke-model",
+    "datePublished": "2023-10-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

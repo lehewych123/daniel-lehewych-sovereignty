@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 359,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-facts-do-care-about-your-feelings",
+    "name": "Why Facts Do Care About Your Feelings",
+    "url": "https://daniellehewych.medium.com/why-facts-do-care-about-your-feelings-0ba6b01133bf",
+    "datePublished": "2024-09-09T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

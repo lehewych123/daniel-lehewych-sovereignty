@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 320,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-book-of-wanderings",
+    "name": "The Book of Wanderings",
+    "url": "https://daniellehewych.medium.com/the-book-of-wanderings-30a216da5300",
+    "datePublished": "2024-02-13T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

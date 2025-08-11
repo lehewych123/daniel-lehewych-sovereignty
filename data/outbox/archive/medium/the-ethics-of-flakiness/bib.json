@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 44,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-ethics-of-flakiness",
+    "name": "The Ethics of Flakiness",
+    "url": "https://theapeiron.co.uk/the-ethics-and-phenomenology-of-flakiness-3906e94c304b",
+    "datePublished": "2020-04-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

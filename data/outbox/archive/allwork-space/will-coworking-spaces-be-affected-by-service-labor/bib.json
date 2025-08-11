@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 102,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/will-coworking-spaces-be-affected-by-service-labor",
+    "name": "Will Coworking Spaces Be Affected by Service Labor Shortages?",
+    "url": "https://allwork.space/2021/11/will-coworking-spaces-be-affected-by-service-labor-shortages/",
+    "datePublished": "2021-11-12T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

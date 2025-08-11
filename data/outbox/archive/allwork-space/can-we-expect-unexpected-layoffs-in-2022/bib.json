@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 179,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/can-we-expect-unexpected-layoffs-in-2022",
+    "name": "Can We Expect Unexpected Layoffs In 2022?",
+    "url": "https://allwork.space/2022/07/can-we-expect-unexpected-layoffs-in-2022/",
+    "datePublished": "2022-07-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

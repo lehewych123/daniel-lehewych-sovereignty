@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 248,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/how-can-we-understand-colors-better",
+    "name": "How Can We Understand Colors Better?",
+    "url": "https://medium.com/age-of-awareness/how-can-we-understand-colors-better-a69c1aa8ccd0",
+    "datePublished": "2023-04-17T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

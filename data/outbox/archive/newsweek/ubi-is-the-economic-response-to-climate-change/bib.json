@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 66,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/ubi-is-the-economic-response-to-climate-change",
+    "name": "UBI is the Economic Response to Climate Change",
+    "url": "https://www.newsweek.com/ubi-economic-response-climate-change-opinion-1586842",
+    "datePublished": "2021-04-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

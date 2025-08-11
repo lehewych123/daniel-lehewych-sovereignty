@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 226,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/what-is-an-open-coworking-space",
+    "name": "What is an “Open” Coworking Space?",
+    "url": "https://allwork.space/2023/01/what-is-an-open-coworking-space/",
+    "datePublished": "2023-01-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

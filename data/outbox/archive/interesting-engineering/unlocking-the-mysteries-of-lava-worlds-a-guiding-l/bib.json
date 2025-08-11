@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 267,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/unlocking-the-mysteries-of-lava-worlds-a-guiding-l",
+    "name": "Unlocking the mysteries of lava worlds: A guiding light for the James Webb Space Telescope",
+    "url": "https://interestingengineering.com/science/unlocking-the-mysteries-of-lava-worlds-a-guiding-light-for-the-james-webb-space-telescope",
+    "datePublished": "2023-05-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

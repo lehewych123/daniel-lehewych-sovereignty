@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 41,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-dirty-secrets-of-personal-training",
+    "name": "The Dirty Secrets of Personal Training",
+    "url": "https://daniellehewych.medium.com/the-dirty-secrets-of-personal-training-3d3666441ae5",
+    "datePublished": "2020-02-11T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

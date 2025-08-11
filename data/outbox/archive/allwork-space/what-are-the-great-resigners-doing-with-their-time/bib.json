@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 105,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/what-are-the-great-resigners-doing-with-their-time",
+    "name": "What Are The Great “Resigners” Doing With Their Time?",
+    "url": "https://allwork.space/2021/11/what-are-the-great-resigners-doing-with-their-time/",
+    "datePublished": "2021-11-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

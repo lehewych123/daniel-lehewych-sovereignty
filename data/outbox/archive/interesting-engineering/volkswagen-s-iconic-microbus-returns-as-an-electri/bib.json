@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 292,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/volkswagen-s-iconic-microbus-returns-as-an-electri",
+    "name": "Volkswagen’s iconic microbus returns as an electric marvel",
+    "url": "https://interestingengineering.com/transportation/volkswagens-iconic-microbus-returns-as-an-electric-marvel",
+    "datePublished": "2023-06-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 115,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/freshcleantees/how-to-get-six-pack-abs-after-40",
+    "name": "How to Get Six-Pack Abs After 40",
+    "url": "https://freshcleantees.com/blogs/blog/abs-after-40",
+    "datePublished": "2022-01-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

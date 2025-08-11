@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 243,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration",
+    "name": "What is “Inspiration?”",
+    "url": "https://writingcooperative.com/what-is-inspiration-7653edc0f676",
+    "datePublished": "2023-03-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

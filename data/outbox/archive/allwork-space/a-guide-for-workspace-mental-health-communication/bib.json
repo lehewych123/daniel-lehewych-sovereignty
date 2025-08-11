@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 219,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/a-guide-for-workspace-mental-health-communication",
+    "name": "A Guide For Workspace Mental Health Communication",
+    "url": "https://allwork.space/2022/12/a-guide-for-workspace-mental-health-communication/",
+    "datePublished": "2022-12-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

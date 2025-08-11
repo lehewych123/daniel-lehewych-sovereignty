@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 123,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/how-personal-presentation-plays-a-huge-role-in-acq",
+    "name": "How personal presentation plays a huge role in acquiring jobs",
+    "url": "https://allwork.space/2022/01/how-personal-presentation-plays-a-huge-role-in-acquiring-jobs/",
+    "datePublished": "2022-01-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

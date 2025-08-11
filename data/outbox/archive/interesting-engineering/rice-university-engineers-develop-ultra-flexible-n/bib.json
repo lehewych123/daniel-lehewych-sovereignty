@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 283,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/rice-university-engineers-develop-ultra-flexible-n",
+    "name": "Rice University engineers develop ultra-flexible nanoelectrodes for brain stimulation therapy",
+    "url": "https://interestingengineering.com/science/rice-university-engineers-develop-ultra-flexible-nanoelectrodes-for-brain-stimulation-therapy",
+    "datePublished": "2023-05-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

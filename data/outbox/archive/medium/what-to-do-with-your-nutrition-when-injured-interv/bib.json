@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 4,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-to-do-with-your-nutrition-when-injured-interv",
+    "name": "What To Do With Your Nutrition When Injured: Interview With Dr. Layne Norton",
+    "url": "https://daniellehewych.medium.com/what-to-do-with-your-nutrition-when-injured-interview-with-dr-layne-norton-cc571105c748",
+    "datePublished": "2019-10-21T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 302,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
+    "name": "AI for good - How activating radiology AI can enhance public health & social equity",
+    "url": "https://www.qure.ai/blog/ai-for-good-how-activating-radiology-ai-can-enhance-public%20health-social-equity",
+    "datePublished": "2023-10-16T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

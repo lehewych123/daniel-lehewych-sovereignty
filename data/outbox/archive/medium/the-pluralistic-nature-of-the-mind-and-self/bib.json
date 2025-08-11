@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 330,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-pluralistic-nature-of-the-mind-and-self",
+    "name": "The Pluralistic Nature of the Mind and Self",
+    "url": "https://daniellehewych.medium.com/the-pluralistic-nature-of-the-mind-and-self-8ea643886e3d",
+    "datePublished": "2024-03-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

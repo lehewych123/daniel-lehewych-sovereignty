@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 245,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/the-real-reason-socrates-was-given-the-death-sente",
+    "name": "The real reason Socrates was given the death sentence",
+    "url": "https://bigthink.com/the-past/real-reason-socrates-death-sentence/",
+    "datePublished": "2023-03-23T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

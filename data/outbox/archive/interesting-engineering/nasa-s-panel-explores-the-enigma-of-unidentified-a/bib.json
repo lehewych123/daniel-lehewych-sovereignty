@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 281,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-panel-explores-the-enigma-of-unidentified-a",
+    "name": "NASA’s panel explores the enigma of unidentified aerial phenomena",
+    "url": "https://interestingengineering.com/science/nasas-panel-explores-the-enigma-of-unidentified-aerial-phenomena",
+    "datePublished": "2023-05-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

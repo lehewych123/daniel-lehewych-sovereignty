@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 341,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/metaphysics-in-the-book-of-genesis",
+    "name": "Metaphysics in The Book of Genesis",
+    "url": "https://daniellehewych.medium.com/metaphysics-in-the-book-of-genesis-9afa4f0c259a",
+    "datePublished": "2024-04-18T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

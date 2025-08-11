@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 306,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/on-the-authentic-pathway-to-creativity",
+    "name": "On the Authentic Pathway to Creativity",
+    "url": "https://daniellehewych.medium.com/opin-4b5c89d2bc2a",
+    "datePublished": "2023-11-11T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

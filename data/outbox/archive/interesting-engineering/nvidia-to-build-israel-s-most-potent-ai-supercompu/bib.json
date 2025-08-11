@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 274,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-to-build-israel-s-most-potent-ai-supercompu",
+    "name": "Nvidia to build Israel’s most potent AI supercomputer",
+    "url": "https://interestingengineering.com/innovation/nvidia-to-build-israels-most-potent-ai-supercomputer",
+    "datePublished": "2023-05-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

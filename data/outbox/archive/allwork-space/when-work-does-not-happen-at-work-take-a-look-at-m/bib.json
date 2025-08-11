@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 164,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/when-work-does-not-happen-at-work-take-a-look-at-m",
+    "name": "When Work Does Not Happen At Work, Take A Look At Management",
+    "url": "https://allwork.space/2022/06/when-work-does-not-happen-at-work-take-a-look-at-management/",
+    "datePublished": "2022-06-16T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 35,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/virtue-epistemology-the-utility-of-apt-beliefs",
+    "name": "Virtue Epistemology: The Utility of ‘Apt Beliefs’",
+    "url": "https://daniellehewych.medium.com/virtue-epistemology-the-utility-of-apt-beliefs-5fdaede09d1",
+    "datePublished": "2019-12-03T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

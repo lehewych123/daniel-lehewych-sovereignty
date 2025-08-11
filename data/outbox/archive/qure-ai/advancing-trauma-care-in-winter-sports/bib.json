@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 321,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/qure-ai/advancing-trauma-care-in-winter-sports",
+    "name": "Advancing Trauma Care in Winter Sports",
+    "url": "https://www.qure.ai/blog/advancing-trauma-care-in-winter-sports",
+    "datePublished": "2024-02-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

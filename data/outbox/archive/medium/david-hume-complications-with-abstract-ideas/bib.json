@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 8,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/david-hume-complications-with-abstract-ideas",
+    "name": "David Hume: Complications With Abstract Ideas",
+    "url": "https://daniellehewych.medium.com/david-hume-complications-with-abstract-ideas-5573aaa2fcd4",
+    "datePublished": "2019-10-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

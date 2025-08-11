@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 153,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-job-safety-for-retaining-and-sat",
+    "name": "The Importance of Job Safety for Retaining and Satisfying Employees: Explained",
+    "url": "https://allwork.space/2022/04/the-importance-of-job-safety-for-retaining-and-satisfying-employees-explained/",
+    "datePublished": "2022-04-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

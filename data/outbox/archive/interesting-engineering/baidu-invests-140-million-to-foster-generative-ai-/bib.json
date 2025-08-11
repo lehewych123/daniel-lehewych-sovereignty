@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 279,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/baidu-invests-140-million-to-foster-generative-ai-",
+    "name": "Baidu invests $140 million to foster generative AI startups",
+    "url": "https://interestingengineering.com/innovation/baidu-invests-140-million-to-foster-generative-ai-startups",
+    "datePublished": "2023-05-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

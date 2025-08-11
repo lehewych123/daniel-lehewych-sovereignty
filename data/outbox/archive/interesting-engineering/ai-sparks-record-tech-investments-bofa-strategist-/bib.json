@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 289,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/ai-sparks-record-tech-investments-bofa-strategist-",
+    "name": "AI sparks record tech investments, BofA strategist warns of ‘baby bubble’",
+    "url": "https://interestingengineering.com/innovation/ai-sparks-record-tech-investments-bofa-strategist-warns-of-baby-bubble",
+    "datePublished": "2023-06-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

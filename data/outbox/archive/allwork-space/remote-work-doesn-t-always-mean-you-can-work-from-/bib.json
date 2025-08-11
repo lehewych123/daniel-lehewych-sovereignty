@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 180,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/remote-work-doesn-t-always-mean-you-can-work-from-",
+    "name": "Remote Work Doesn’t Always Mean You Can Work From Anywhere",
+    "url": "https://allwork.space/2022/07/remote-work-doesnt-always-mean-you-can-work-from-anywhere/",
+    "datePublished": "2022-07-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

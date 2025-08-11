@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 218,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like",
+    "name": "What Democratic Populism Could Look Like",
+    "url": "https://www.newsweek.com/what-democratic-populism-could-look-like-opinion-1764270",
+    "datePublished": "2022-12-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

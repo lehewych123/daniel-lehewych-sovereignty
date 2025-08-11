@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 204,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/psychological-safety-is-the-key-to-successful-team",
+    "name": "Psychological Safety Is The Key To Successful Teams, According To Google",
+    "url": "https://allwork.space/2022/10/psychological-safety-is-the-key-to-successful-teams-according-to-google/",
+    "datePublished": "2022-10-19T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

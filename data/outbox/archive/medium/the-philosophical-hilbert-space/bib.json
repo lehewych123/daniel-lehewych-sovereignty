@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 305,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-philosophical-hilbert-space",
+    "name": "The Philosophical Hilbert Space",
+    "url": "https://daniellehewych.medium.com/the-philosophical-hilbert-space-7bbf9b1c9354",
+    "datePublished": "2023-11-08T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

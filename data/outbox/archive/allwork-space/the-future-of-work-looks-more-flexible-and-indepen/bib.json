@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 98,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-looks-more-flexible-and-indepen",
+    "name": "The Future of Work Looks More Flexible and Independent — According To Adobe Report",
+    "url": "https://allwork.space/2021/10/the-future-of-work-looks-more-flexible-and-independent-according-to-adobe-report/",
+    "datePublished": "2021-10-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}
