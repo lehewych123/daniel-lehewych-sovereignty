@@ -1,0 +1,88 @@
+name: Cleanup & Dedupe DB
+on: { workflow_dispatch: {} }
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Clean & Dedupe
+        run: |
+          node -e '
+          const fs=require("fs");
+          const p="data/articles.json";
+          const raw=fs.readFileSync(p,"utf8");
+          let db=JSON.parse(raw);
+          const isB = !!db.articles && Array.isArray(db.articles);
+          let arr = isB ? db.articles : db;
+
+          function normalize(u){
+            try{
+              const url=new URL(u);
+              url.hash="";
+              ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","fbclid","gclid","mc_cid","mc_eid","ref"].forEach(k=>url.searchParams.delete(k));
+              const q=url.searchParams.toString();
+              url.search = q ? "?"+q : "";
+              const host = url.hostname.toLowerCase().replace(/^www\./,"");
+              const path = url.pathname.replace(/\/+$/,"").toLowerCase();
+              return host+path+(url.search||"");
+            }catch(e){ return (u||"").trim().toLowerCase(); }
+          }
+
+          function isBad(a){
+            const t=(a.title||"").toLowerCase();
+            let path=""; let host="";
+            try{ const u=new URL(a.url); path=u.pathname.toLowerCase(); host=u.hostname.toLowerCase(); }catch{}
+            if (/gesahkita\.(id|com)/.test(host)) return true;
+            if (/\/(topic|tag|category|author|search)\//.test(path)) return true;
+            if (/latest pictures|topic page/.test(t)) return true;
+            return false;
+          }
+
+          const seen=new Map();
+          const out=[];
+          for(const a of arr){
+            if(!a || !a.url) continue;
+            if(isBad(a)) continue;
+            const key = normalize(a.url);
+            if(seen.has(key)){
+              const keepIdx = seen.get(key);
+              const keep = out[keepIdx];
+              const hasDateNew = !!a.date, hasDateOld = !!keep.date;
+              if(hasDateNew && !hasDateOld){ out[keepIdx]=a; }
+              continue;
+            }
+            seen.set(key,out.length);
+            out.push(a);
+          }
+
+          out.forEach((a,i)=>{ a.id = i+1; a.status = a.status || "processed"; });
+
+          if(isB){
+            db.articles = out;
+            db.metadata = db.metadata || {};
+            db.metadata.totalArticles = out.length;
+            db.metadata.processedArticles = out.length;
+            db.metadata.pendingArticles = 0;
+            db.metadata.exportDate = new Date().toISOString();
+            const counts={};
+            for(const a of out){ const k=(a.platform||"Unknown").toString(); counts[k]=(counts[k]||0)+1; }
+            db.metadata.platforms = counts;
+          }else{
+            db = out;
+          }
+
+          fs.writeFileSync(p, JSON.stringify(db,null,2));
+          console.log("Deduped and cleaned. Final count:", (isB?db.articles:db).length);
+          '
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json
+          git commit -m "Cleanup: remove non-articles and dedupe by normalized URL" || echo "Nothing to commit"
+          git push
