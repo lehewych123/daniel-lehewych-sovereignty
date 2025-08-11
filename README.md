@@ -2,11 +2,13 @@
 
 ## Build & Ops Status
 
-[![Discovery](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/discovery.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/discovery.yml)
+[![Daily Discovery](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/daily-discovery.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/daily-discovery.yml)
 [![Smoke: Generate Outbox](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/smoke-outbox.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/smoke-outbox.yml)
-[![Outbox Shipper](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/outbox-shipper.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/outbox-shipper.yml)
-[![Nightly Maintenance](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/nightly.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/nightly.yml)
-[![Cleanup & Dedupe DB](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/cleanup-dedupe.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/cleanup-dedupe.yml)
+[![Ship Outbox](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/ship-outbox.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/ship-outbox.yml)
+[![Nightly Maintenance](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/cron-maintenance.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/cron-maintenance.yml)
+[![Cleanup & Dedupe DB](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/cleanup_dedupe.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/cleanup_dedupe.yml)
+[![Backups](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/backup.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/backup.yml)
+[![Seed](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/seed.yml/badge.svg?branch=main)](https://github.com/lehewych123/daniel-lehewych-sovereignty/actions/workflows/seed.yml)
 
 ---
 
@@ -30,4 +32,3 @@ cp -r backups/YYYY-MM-DD data
 git add data
 git commit -m "restore: data from YYYY-MM-DD"
 git push
-
