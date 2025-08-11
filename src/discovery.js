@@ -457,7 +457,7 @@ function generatePageContent(d){
   <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 20px; margin-bottom: 30px;">
     <p style="margin: 5px 0; color: #666;">
       <strong>Originally Published:</strong> ${d.date} on ${d.platform}<br>
-      <strong>Original URL:</strong> <a href="${d.url}" rel="canonical" style="color: #4F7CAC;">View on ${d.platform}</a><br>
+      <strong>Original URL:</strong> <a href="${d.url}" style="color: #4F7CAC;">View on ${d.platform}</a><br>
       <strong>Author:</strong> Daniel Lehewych
     </p>
   </div>
@@ -482,7 +482,11 @@ function generateBibliographyEntry(d){
     }
   };
 }
-function formatHeaderCode(schema){ return `<meta name="robots" content="noindex, follow">\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
+
+// ✅ Canonical now in the header; robots + canonical + JSON-LD (no canonical in body)
+function formatHeaderCode(schema){
+  return `<meta name="robots" content="noindex, follow">\n<link rel="canonical" href="${schema.sameAs}">\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`;
+}
 function formatSchemaBlock(schema, title){ return `<!-- ${title} - Add to page body -->\n<script type="application/ld+json">\n${JSON.stringify(schema,null,2)}\n<\\/script>`; }
 
 async function saveProcessedArticles(articles, newCount, updateCount, skipped=[]){
