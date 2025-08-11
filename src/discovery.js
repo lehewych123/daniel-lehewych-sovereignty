@@ -2,20 +2,11 @@
 /**
  * Daily Article Discovery — global search + authorship + language gating (Node 20+, no deps)
  *
- * What this does:
- * - Queries Google Programmable Search across the whole web for your name/byline.
- * - Dedupes by normalized URL + fingerprint (title + snippet).
- * - Verifies authorship by fetching the page and checking:
- *     • <meta name="author"> / <meta property="article:author">
- *     • JSON-LD "author" name
- *     • Visible "by Daniel Lehewych" in HTML
- * - Language gate (default en): inspects <html lang>, og:locale, and a tiny stopword heuristic.
- * - Domain blocklist via env + preblocked spammy host(s).
- * - Writes:
- *     • data/articles.json (master DB; only if new items)
- *     • data/new-articles-full.json (full entries for new/updated)
- *     • data/notification.md (human report; grouped + includes code blocks)
- *     • data/outbox/<archive/...>/* (clean files ready to attach/ship)
+ * Improvements in this version:
+ * - Dedup by *normalized* URL up front (kills UTM/fbclid/etc).
+ * - Generic non-article guard: rejects any /topic|tag|category|author|search/ paths.
+ * - Safe Option-B support: reads & writes either plain array OR { metadata, articles }.
+ * - Keeps strict authorship + language checks and blocklists.
  *
  * Env:
  *   GOOGLE_API_KEY, SEARCH_ENGINE_ID
@@ -123,20 +114,6 @@ function unwrapUrl(u){
   } catch { return u; }
 }
 
-function isKnownNonArticleUrl(u){
-  let p; try { p = new URL(u); } catch { return false; }
-  const h = p.hostname.replace(/^www\./,'').toLowerCase();
-  const path = p.pathname.toLowerCase();
-
-  if (h.includes('newsweek.com')) {
-    if (/^\/(topic|tag|category|search|photos|video)\//.test(path)) return true;
-  }
-  if (h.includes('medium.com') && /^\/tag\//.test(path)) return true;
-  if (h.includes('bigthink.com') && /^\/topics?\//.test(path)) return true;
-
-  return false;
-}
-
 function normalizeUrl(input, canonicalHref) {
   try {
     const raw = new URL(canonicalHref || input);
@@ -144,7 +121,7 @@ function normalizeUrl(input, canonicalHref) {
     dropParams.forEach(p => raw.searchParams.delete(p));
     if (raw.pathname !== '/' && raw.pathname.endsWith('/')) raw.pathname = raw.pathname.slice(0, -1);
     raw.pathname = raw.pathname.replace(/\/(index|home)\.(html?|php)$/i, '');
-    raw.host = raw.host.toLowerCase();
+    raw.host = raw.host.toLowerCase().replace(/^www\./,'');
     raw.hash = '';
     return `${raw.protocol}//${raw.host}${raw.pathname}${raw.search}`;
   } catch {
@@ -152,6 +129,23 @@ function normalizeUrl(input, canonicalHref) {
   }
 }
 const canon = u => normalizeUrl(unwrapUrl(u));
+
+function isKnownNonArticleUrl(u){
+  // Generic guard + some site-specifics
+  let parsed;
+  try { parsed = new URL(u); } catch { return false; }
+  const host = parsed.hostname.replace(/^www\./,'').toLowerCase();
+  const path = parsed.pathname.toLowerCase();
+
+  // Generic: topic/tag/category/author/search sections are almost never articles
+  if (/\/(topic|topics|tag|tags|category|categories|author|authors|search|photos|video|index)\//.test(path)) return true;
+
+  // Site-specific sanity
+  if (host.includes('medium.com') && /^\/tag\//.test(path)) return true;
+  if (host.includes('bigthink.com') && /^\/topics?\//.test(path)) return true;
+
+  return false;
+}
 
 function contentFingerprint(title, subtitle=''){ return crypto.createHash('sha256').update(`${title}\n${subtitle}`.toLowerCase().trim()).digest('hex'); }
 function formatDate(s){ const d=new Date(s); return d.toISOString().slice(0,10); }
@@ -219,6 +213,46 @@ function detectLang(html){
   return hits >= 3 ? 'en' : 'other';
 }
 
+// ---------- DB helpers (array or Option-B) ----------
+async function loadDB(dbPath){
+  let isOptionB = false;
+  let dbContainer = null;
+  let existing = [];
+  try {
+    const raw = JSON.parse(await fs.readFile(dbPath,'utf8'));
+    if (Array.isArray(raw)) {
+      existing = raw;
+    } else if (raw && Array.isArray(raw.articles)) {
+      isOptionB = true;
+      dbContainer = raw;
+      existing = raw.articles;
+    } else {
+      existing = [];
+    }
+  } catch {
+    existing = [];
+  }
+  return { isOptionB, dbContainer, existing };
+}
+
+async function saveDB(dbPath, isOptionB, dbContainer, arr){
+  if (isOptionB) {
+    dbContainer = dbContainer || {};
+    dbContainer.articles = arr;
+    dbContainer.metadata = dbContainer.metadata || {};
+    dbContainer.metadata.totalArticles = arr.length;
+    dbContainer.metadata.processedArticles = arr.length;
+    dbContainer.metadata.pendingArticles = 0;
+    dbContainer.metadata.exportDate = new Date().toISOString();
+    const counts={};
+    for (const a of arr){ const k=(a.platform||'Unknown'); counts[k]=(counts[k]||0)+1; }
+    dbContainer.metadata.platforms = counts;
+    await writeJSON(dbPath, dbContainer);
+  } else {
+    await writeJSON(dbPath, arr);
+  }
+}
+
 // ---------- Main ----------
 async function discoverNewArticles(){
   console.log('Starting article discovery (global)…');
@@ -229,10 +263,17 @@ async function discoverNewArticles(){
     process.exit(0);
   }
 
-  // Load DB
+  // Load DB (array or Option-B)
   const dbPath = path.join(__dirname, '..', 'data', 'articles.json');
-  let existing = [];
-  try { existing = JSON.parse(await fs.readFile(dbPath,'utf8')); } catch { console.log('No existing DB.'); }
+  const { isOptionB, dbContainer, existing } = await loadDB(dbPath);
+  let existingArr = Array.isArray(existing) ? existing.slice() : [];
+
+  // Useful maps for quick lookups
+  const existingByNorm = new Map();
+  for (const a of existingArr){
+    const key = canon(a.url || a.normalizedUrl || '');
+    if (key) existingByNorm.set(key, a);
+  }
 
   // Global queries
   const queries = [
@@ -253,12 +294,13 @@ async function discoverNewArticles(){
     return Array.isArray(data.items) ? data.items : [];
   }
 
-  const all = [];
+  // Collect & pre-filter
+  const rawResults = [];
   for (const q of queries){
     try{
       console.log(`Query: ${q}`);
       const items = await cseSearch(q);
-      all.push(...items);
+      rawResults.push(...items);
       console.log(` → ${items.length} items`);
       await new Promise(r=>setTimeout(r,250));
     }catch(err){
@@ -266,38 +308,41 @@ async function discoverNewArticles(){
     }
   }
 
-  // Dedup + base filters (use unwrapped links immediately)
-  const uniq = Array.from(new Set(all.map(r => unwrapUrl(r.link))))
-    .map(link => all.find(r => unwrapUrl(r.link) === link))
-    .filter(Boolean)
-    .filter(r => {
-      const link = unwrapUrl(r.link);
-      const host = (safeHost(link) || '').toLowerCase();
-      if (!host) return false;
-      if (EXCLUDE_HOSTS_BASE.has(host)) return false;
-      if (hostMatches(host, EXTRA_BLOCKLIST)) return false;
-      if (isKnownNonArticleUrl(link)) return false;
-      return true;
-    });
+  // Dedup across queries by *normalized* URL + reject non-articles & blocked hosts
+  const seen = new Set();
+  const candidates = [];
+  for (const r of rawResults){
+    const link = unwrapUrl(r.link);
+    const norm = canon(link);
+    if (!norm) continue;
 
-  console.log(`Candidates after filtering: ${uniq.length}`);
+    const host = (safeHost(norm) || '').toLowerCase();
+    if (!host || EXCLUDE_HOSTS_BASE.has(host) || hostMatches(host, EXTRA_BLOCKLIST)) continue;
+    if (isKnownNonArticleUrl(norm)) continue;
 
-  // Compare to existing (by canonicalized URL + fingerprint)
+    if (!seen.has(norm)){
+      seen.add(norm);
+      candidates.push({ ...r, link: link });
+    }
+  }
+
+  console.log(`Candidates after filtering/dedup: ${candidates.length}`);
+
+  // Iterate: skip if already in DB; fetch for language/authorship
   const processed = [];
   const updates = [];
   const skipped = []; // {title,url,host,reason}
 
-  for (const r0 of uniq){
-    const cleanLink = unwrapUrl(r0.link);
-    const r = { ...r0, link: cleanLink };
+  for (const r of candidates){
+    const cleanLink = r.link;
+    const norm = canon(cleanLink);
 
-    const norm = canon(r.link);
-    const found = existing.find(a => canon(a.url) === norm || (a.normalizedUrl && canon(a.normalizedUrl) === norm));
-    const fp = contentFingerprint(cleanTitle(r.title || ''), r.snippet || '');
-
+    // Already stored?
+    const found = existingByNorm.get(norm);
     if (found) {
-      // Consider as update only if fingerprint changed AND it still appears authored by you
-      if (found.fingerprint !== fp) {
+      // Optional: update detection if fingerprint changed (only meaningful if existing has one)
+      const fp = contentFingerprint(cleanTitle(r.title || ''), r.snippet || '');
+      if (found.fingerprint && found.fingerprint !== fp) {
         if (!isKnownNonArticleUrl(cleanLink)) {
           let ok = true;
           if (VERIFY_AUTHOR) {
@@ -305,9 +350,7 @@ async function discoverNewArticles(){
             try { html = await fetchHtml(cleanLink); } catch {}
             ok = html && htmlHasAuthor(html, AUTHOR_NAME);
           }
-          if (ok) {
-            updates.push({ searchResult: r, existing: found });
-          }
+          if (ok) updates.push({ searchResult: r, existing: found });
         }
       }
       continue;
@@ -376,29 +419,37 @@ async function discoverNewArticles(){
   // Save full artifacts + grouped notification
   await saveProcessedArticles([...newArticles, ...updatedArticles], newArticles.length, updatedArticles.length, skipped);
 
-  // Append new to DB
-  if (newArticles.length){
-    const entries = newArticles.map(p => ({
-      id: p.id,
-      title: p.title,
-      url: p.url,
-      normalizedUrl: canon(p.url),
-      platform: p.platform,
-      date: p.date,
-      snippet: p.snippet,
-      fingerprint: p.fingerprint,
-      version: 1,
-      schemas: { urlSlug: p.urlSlug, type: p.type, topics: p.topics },
-      discoveredAt: p.discoveredAt
-    }));
-    existing.push(...entries);
-  }
+  // ---- Persist to DB (array or Option-B) ----
+  // Shape new entries compactly, but keep extra fields (normalizedUrl, fingerprint, etc.)
+  const nextIdStart = (existingArr.reduce((m,a)=>Math.max(m, Number(a.id)||0), 0) || 0) + 1;
 
-  // Update DB entries
+  const toStoreNew = newArticles.map((p, idx) => ({
+    id: nextIdStart + idx,
+    platform: p.platform,
+    title: p.title,
+    subtitle: "",
+    url: p.url,
+    normalizedUrl: canon(p.url),
+    date: p.date,
+    wordCount: 0,
+    topics: p.topics || [],
+    status: "processed",
+    snippet: p.snippet,
+    fingerprint: p.fingerprint,
+    version: 1,
+    schemas: { urlSlug: p.urlSlug, type: p.type, topics: p.topics },
+    discoveredAt: p.discoveredAt
+  }));
+
+  existingArr.push(...toStoreNew);
+
+  // Apply updates (fingerprint bump, title/snippet refresh)
   for (const u of updatedArticles){
-    const i = existing.findIndex(a => canon(a.url) === canon(u.url));
+    const norm = canon(u.url);
+    const i = existingArr.findIndex(a => canon(a.url || a.normalizedUrl || '') === norm);
     if (i !== -1){
-      existing[i] = { ...existing[i],
+      existingArr[i] = {
+        ...existingArr[i],
         title: u.title,
         snippet: u.snippet,
         fingerprint: u.fingerprint,
@@ -408,303 +459,11 @@ async function discoverNewArticles(){
     }
   }
 
-  await writeJSON(dbPath, existing);
+  await saveDB(dbPath, isOptionB, dbContainer, existingArr);
   console.log('Discovery complete.');
 }
 
 // ---------- Processing & generators ----------
 async function processArticle(searchResult, isUpdate=false, currentVersion=1, existingDate=null, existingUrl=null){
   const title = cleanTitle(searchResult.title || '');
-  const url = existingUrl || unwrapUrl(searchResult.link);
-  const snippet = searchResult.snippet || '';
-  const platform = detectPlatform(url);
-  const date = existingDate || extractDate(searchResult) || new Date().toISOString().split('T')[0];
-
-  const platformSlug = platform.toLowerCase().replace(/[^a-z0-9]/g, '-');
-  const titleSlug = (title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').substring(0,50)) || 'entry';
-  const urlSlug = `/archive/${platformSlug}/${titleSlug}`;
-  const shadowUrl = `https://daniellehewych.org${urlSlug}`;
-
-  const topics = detectTopics(title, snippet, platform);
-  const articleType = detectArticleType(title, platform);
-  const fingerprint = contentFingerprint(title, snippet);
-
-  const enhancedSchema = generateEnhancedSchema({ title, url, shadowUrl, platform, date, snippet, articleType, topics });
-  const topicBlock = generateTopicBlock({ shadowUrl, title, topics });
-  const relatedBlock = generateRelatedBlock();
-  const pageContent = generatePageContent({ title, date, url, platform });
-  const bibliographyEntry = generateBibliographyEntry({ title, url, shadowUrl, platform, date, snippet });
-  const emailSubject = generateEmailSubject({ title, platform, date }, isUpdate, isUpdate ? currentVersion + 1 : 1);
-
-  return {
-    id: Date.now(),
-    title, url, normalizedUrl: canon(url), platform, date, snippet,
-    urlSlug, type: articleType, topics, fingerprint,
-    version: isUpdate ? currentVersion + 1 : 1,
-    discoveredAt: new Date().toISOString(),
-    emailSubject,
-    headerCode: formatHeaderCode(enhancedSchema),
-    topicBlockCode: formatSchemaBlock(topicBlock, "Topic Clustering Block"),
-    relatedBlockCode: formatSchemaBlock(relatedBlock, "Related Articles Block"),
-    pageContent, bibliographyEntry,
-    // raw objects for outbox
-    _schema: enhancedSchema,
-    _topic: topicBlock,
-    _related: relatedBlock
-  };
-}
-
-function generateEnhancedSchema(data){
-  const schema = {
-    "@context":"https://schema.org",
-    "@type": data.articleType,
-    "@id": data.shadowUrl,
-    "headline": data.title,
-    "description": data.snippet || data.title,
-    "image":"https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
-    "author":{"@id":"https://daniellehewych.org/#daniel-lehewych"},
-    "datePublished": data.date + "T00:00:00Z",
-    "dateCreated": data.date + "T00:00:00Z",
-    "dateModified": data.date + "T00:00:00Z",
-    "publisher": publisherData[data.platform] || { "@type":"Organization","name":data.platform },
-    "sameAs": data.url,
-    "url": data.shadowUrl,
-    "isPartOf": { "@type":"Blog","name":"Daniel Lehewych Shadow Archive","url":"https://daniellehewych.org/archive/","author":{"@id":"https://daniellehewych.org/#daniel-lehewych"} },
-    "mainEntityOfPage": { "@type":"WebPage","@id": data.shadowUrl },
-    "wordCount": 1000,
-    "inLanguage":"en-US",
-    "copyrightHolder":{"@id":"https://daniellehewych.org/#daniel-lehewych"},
-    "copyrightYear": data.date.substring(0,4),
-    "license":"https://creativecommons.org/licenses/by-nc-nd/4.0/"
-  };
-  switch (data.articleType){
-    case "ScholarlyArticle":
-      schema.academicDiscipline = data.topics.includes("Philosophy") ? "Philosophy" : "Interdisciplinary Studies";
-      schema.educationalLevel = "College";
-      schema.learningResourceType = "Scholarly Article";
-      break;
-    case "OpinionNewsArticle":
-      schema.backstory = "Contemporary analysis and expert commentary";
-      if (data.platform === "Newsweek") schema.printEdition = "Newsweek Digital";
-      break;
-    case "HowTo":
-      schema.step = [{ "@type":"HowToStep", "name":"Read the full guide", "text": schema.description }];
-      schema.totalTime = "PT20M";
-      break;
-  }
-  schema.speakable = { "@type":"SpeakableSpecification", "cssSelector":[ ".article-content p:first-of-type","h1",".article-summary" ] };
-  if (data.topics.length) schema.keywords = data.topics.join(", ").toLowerCase();
-  return schema;
-}
-
-function generateTopicBlock(data){
-  return {
-    "@context":"https://schema.org",
-    "@type":"WebPage",
-    "@id": data.shadowUrl,
-    "about": data.topics.map(t => ({ "@type":"Thing","name":t })),
-    "keywords": data.topics.map(t=>t.toLowerCase()).join(", "),
-    "mentions": extractMentions(data.title),
-    "breadcrumb": {
-      "@type":"BreadcrumbList",
-      "itemListElement":[
-        { "@type":"ListItem","position":1,"name":"Daniel Lehewych","item":"https://daniellehewych.org/" },
-        { "@type":"ListItem","position":2,"name":data.title,"item":data.shadowUrl }
-      ]
-    }
-  };
-}
-function generateRelatedBlock(){
-  return { "@context":"https://schema.org","@type":"ItemList","name":"Related Articles by Daniel Lehewych","description":"Add related articles after creating shadow page","numberOfItems":0,"itemListElement":[] };
-}
-function generatePageContent(d){
-  const t = escapeHtml(d.title);
-  return `<div class="shadow-archive-entry" style="font-family: 'Merriweather', serif; max-width: 800px; margin: 0 auto; padding: 40px 20px;">
-  <div style="background: #f0f0f0; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
-    <p style="margin: 0; font-size: 14px; color: #666;"><strong>Shadow Archive Entry</strong> | Not Indexed | For Attribution Only</p>
-  </div>
-  <h1 style="font-family: 'Inter', sans-serif; font-size: 32px; line-height: 1.3; margin-bottom: 20px;">${t}</h1>
-  <div style="border-bottom: 1px solid #e0e0e0; padding-bottom: 20px; margin-bottom: 30px;">
-    <p style="margin: 5px 0; color: #666;">
-      <strong>Originally Published:</strong> ${d.date} on ${d.platform}<br>
-      <strong>Original URL:</strong> <a href="${d.url}" style="color: #4F7CAC;">View on ${d.platform}</a><br>
-      <strong>Author:</strong> Daniel Lehewych
-    </p>
-  </div>
-  <div class="article-content" style="font-size: 18px; line-height: 1.8;"><p><em>[Article content to be added]</em></p></div>
-  <div style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #e0e0e0;">
-    <p style="font-size: 14px; color: #666; text-align: center;">This content is archived for attribution and reference purposes only.<br>Copyright © ${d.date.substring(0,4)} Daniel Lehewych. All rights reserved.</p>
-  </div>
-</div>`;
-}
-function generateBibliographyEntry(d){
-  const position = 374; // placeholder
-  return {
-    "@type":"ListItem",
-    "position": position,
-    "item":{
-      "@type":"Article","@id": d.shadowUrl,"name": d.title,"description": d.snippet || d.title,"url": d.url,
-      "datePublished": d.date + "T00:00:00Z","author":{"@id":"https://daniellehewych.org/#daniel-lehewych"},
-      "isAccessibleForFree": true,
-      "image":"https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
-      "isPartOf": { "@type":["Periodical","CreativeWork"], "name": d.platform, "issn": d.platform==="Medium" ? "2168-8524" : "" },
-      "sameAs":[ d.url, d.shadowUrl ]
-    }
-  };
-}
-
-// ✅ Canonical now in the header; robots + canonical + JSON-LD (no canonical in body)
-function formatHeaderCode(schema){
-  return `<meta name="robots" content="noindex, follow">
-<link rel="canonical" href="${schema.sameAs}">
-<script type="application/ld+json">
-${JSON.stringify(schema,null,2)}
-<\/script>`;
-}
-function formatSchemaBlock(schema, title){
-  return `<!-- ${title} - Add to page body -->
-<script type="application/ld+json">
-${JSON.stringify(schema,null,2)}
-<\/script>`;
-}
-
-// ---------- Outbox writer ----------
-async function writeOutboxArtifacts(a){
-  const root = path.join(__dirname,'..','data','outbox', a.urlSlug.replace(/^\//,''));
-  await fs.mkdir(root, { recursive: true });
-
-  await writeText(path.join(root, 'header.html'), a.headerCode);
-  await writeText(path.join(root, 'page.html'), a.pageContent);
-  await writeJSON(path.join(root, 'schema.json'), a._schema);
-  await writeJSON(path.join(root, 'topic.json'), a._topic);
-  await writeJSON(path.join(root, 'related.json'), a._related);
-  await writeJSON(path.join(root, 'bib.json'), a.bibliographyEntry);
-  await writeJSON(path.join(root, 'meta.json'), {
-    title: a.title,
-    platform: a.platform,
-    date: a.date,
-    url: a.url,
-    shadowUrl: `https://daniellehewych.org${a.urlSlug}`,
-    urlSlug: a.urlSlug,
-    type: a.type,
-    topics: a.topics,
-    fingerprint: a.fingerprint,
-    version: a.version,
-    discoveredAt: a.discoveredAt
-  });
-}
-
-// ---------- Reporting ----------
-async function saveProcessedArticles(articles, newCount, updateCount, skipped=[]){
-  const fullDataPath = path.join(__dirname,'..','data','new-articles-full.json');
-  const notificationPath = path.join(__dirname,'..','data','notification.md');
-  const date = new Date().toISOString().split('T')[0];
-
-  await writeJSON(fullDataPath, articles);
-
-  let md = `# Sovereignty System Report - ${date}\n\n`;
-
-  if (newCount) md += `## New Articles (${newCount})\n\n`;
-  articles.filter(a => a.version === 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, false); });
-
-  if (updateCount) md += `## Updates (${updateCount})\n\n`;
-  articles.filter(a => a.version > 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, true); });
-
-  if ((!newCount && !updateCount)) md += `Nothing new today.\n\n`;
-
-  if (skipped.length){
-    md += `## Skipped (for review): ${skipped.length}\n\n`;
-    skipped.forEach((s, i) => {
-      md += `- ${i+1}. **${s.title || '(no title)'}** — ${s.url}\n  - Host: ${s.host}\n  - Reason: ${s.reason}\n`;
-    });
-    md += `\n`;
-  }
-
-  md += `---\n\n## Metadata\n`;
-  articles.forEach(a => { md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`; });
-
-  await writeText(notificationPath, md);
-  console.log('Full article data saved to data/new-articles-full.json');
-  console.log(`Processed: ${newCount} new, ${updateCount} updates; skipped: ${skipped.length}`);
-}
-
-function renderArticleBlock(a, idx, isUpdate){
-  const outboxPath = `data/outbox/${a.urlSlug.replace(/^\//,'')}`;
-  let out = `### ${idx}. ${a.title} ${isUpdate ? `(UPDATE v${a.version})` : `(NEW)`}\n\n`;
-  out += `**Subject Line:** ${a.emailSubject}\n`;
-  out += `**Platform:** ${a.platform}\n`;
-  out += `**Date:** ${a.date}\n`;
-  out += `**URL:** ${a.url}\n`;
-  out += `**Type:** ${a.type}\n`;
-  out += `**Topics:** ${a.topics.join(', ')}\n`;
-  out += `**URL Slug:** \`${a.urlSlug}\`\n`;
-  out += `**Fingerprint:** ${a.fingerprint}\n`;
-  out += `**Outbox:** ${outboxPath} (header.html, page.html, schema.json, topic.json, related.json, bib.json, meta.json)\n`;
-  if (isUpdate) out += `**Change Detected:** Title or description modified\n`;
-  out += `\n#### Page Header Code\n\`\`\`html\n${a.headerCode}\n\`\`\`\n`;
-  out += `\n#### Topic Clustering Block\n\`\`\`html\n${a.topicBlockCode}\n\`\`\`\n`;
-  out += `\n#### Related Articles Block\n\`\`\`html\n${a.relatedBlockCode}\n\`\`\`\n`;
-  out += `\n#### Page Content (Shadow Page Body)\n\`\`\`html\n${a.pageContent}\n\`\`\`\n`;
-  out += `\n#### Master Bibliography Entry\n\`\`\`json\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n\n`;
-  out += `---\n\n`;
-  return out;
-}
-
-// ---------- Helpers (preserved) ----------
-function cleanTitle(title=''){
-  return title
-    .replace(/ - Medium$/i,'')
-    .replace(/ \| Newsweek$/i,'')
-    .replace(/ - Big Think$/i,'')
-    .replace(/ by Daniel Lehewych.*$/i,'')
-    .trim();
-}
-function detectPlatform(url){
-  const domain = new URL(url).hostname.toLowerCase();
-  const map = {
-    'medium.com':'Medium','newsweek.com':'Newsweek','bigthink.com':'BigThink',
-    'allwork.space':'Allwork.Space','psychcentral.com':'PsychCentral',
-    'qure.ai':'Qure.ai','interestingengineering.com':'Interesting Engineering','freethink.com':'Freethink'
-  };
-  for (const [k,v] of Object.entries(map)){ if (domain.includes(k)) return v; }
-  return domain.replace(/^www\./,'').split('.')[0].split('-').map(w=>w[0]?.toUpperCase()+w.slice(1)).join(' ');
-}
-function extractDate(sr={}){
-  if (sr.pagemap?.metatags?.[0]){
-    const meta = sr.pagemap.metatags[0];
-    const fields = ['article:published_time','datePublished','publish_date','date'];
-    for (const f of fields){
-      if (meta[f]){
-        const d = new Date(meta[f]); if (!isNaN(d)) return d.toISOString().split('T')[0];
-      }
-    }
-  }
-  const m = sr.snippet?.match(/(\w+ \d{1,2}, \d{4})|(\d{4}-\d{2}-\d{2})/);
-  if (m){ const d = new Date(m[0]); if (!isNaN(d)) return d.toISOString().split('T')[0]; }
-  return null;
-}
-function detectTopics(title, desc, platform){
-  const detected = new Set();
-  const txt = (title + ' ' + desc).toLowerCase();
-  if (platform === 'Newsweek') detected.add('Politics & Society');
-  if (platform === 'Allwork.Space') { detected.add('Work & Career'); detected.add('Digital Culture'); }
-  for (const [topic, re] of Object.entries(topicPatterns)) if (re.test(txt)) detected.add(topic);
-  if (!detected.size) detected.add('General');
-  return Array.from(detected);
-}
-function detectArticleType(title, platform){
-  if (platform === 'Newsweek') return 'OpinionNewsArticle';
-  for (const [type, re] of Object.entries(typePatterns)) if (re.test(title)) return type;
-  return 'BlogPosting';
-}
-function extractMentions(title){
-  const mentions = []; const names = ['Spinoza','Nietzsche','Heidegger','Kant','Descartes'];
-  names.forEach(n => { if (new RegExp(n,'i').test(title)) mentions.push({ "@type":"Person", "name": n }); });
-  return mentions;
-}
-function escapeHtml(s=''){
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
-}
-
-// ---------- Run ----------
-discoverNewArticles().catch(e => { console.error('Discovery failed:', e); process.exit(1); });
+  con
