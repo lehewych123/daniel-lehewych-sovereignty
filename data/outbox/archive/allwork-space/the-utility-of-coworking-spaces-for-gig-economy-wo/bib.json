@@ -5,12 +5,31 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/allwork-space/the-utility-of-coworking-spaces-for-gig-economy-wo",
     "name": "The Utility of Coworking Spaces for Gig Economy Workers",
+    "description": "The Utility of Coworking Spaces for Gig Economy Workers",
     "url": "https://allwork.space/2022/12/the-utility-of-coworking-spaces-for-gig-economy-workers/",
     "datePublished": "2022-12-01T00:00:00Z",
     "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
-      "name": "Daniel Lehewych",
-      "@id": "https://daniellehewych.org/#daniel-lehewych"
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": "2693-9304"
+    },
+    "sameAs": [
+      "https://allwork.space/2022/12/the-utility-of-coworking-spaces-for-gig-economy-workers/",
+      "https://daniellehewych.org/archive/allwork-space/the-utility-of-coworking-spaces-for-gig-economy-wo"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
     }
   }
 }

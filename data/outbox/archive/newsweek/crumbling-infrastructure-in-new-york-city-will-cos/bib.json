@@ -5,12 +5,31 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/newsweek/crumbling-infrastructure-in-new-york-city-will-cos",
     "name": "Crumbling Infrastructure in New York City Will Cost Lives if Gone Unfixed",
+    "description": "Crumbling Infrastructure in New York City Will Cost Lives if Gone Unfixed",
     "url": "https://www.newsweek.com/crumbling-infrastructure-new-york-city-will-cost-lives-if-gone-unfixed-opinion-1714094",
     "datePublished": "2022-06-10T00:00:00Z",
     "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
-      "name": "Daniel Lehewych",
-      "@id": "https://daniellehewych.org/#daniel-lehewych"
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Newsweek",
+      "issn": "0028-9604"
+    },
+    "sameAs": [
+      "https://www.newsweek.com/crumbling-infrastructure-new-york-city-will-cost-lives-if-gone-unfixed-opinion-1714094",
+      "https://daniellehewych.org/archive/newsweek/crumbling-infrastructure-in-new-york-city-will-cos"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
     }
   }
 }

@@ -5,12 +5,31 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-",
     "name": "How Editors and Employers Should Evaluate the Use of AI in Writing",
+    "description": "How Editors and Employers Should Evaluate the Use of AI in Writing",
     "url": "https://writingcooperative.com/how-editors-and-employers-should-evaluate-the-use-of-ai-in-writing-cf30dc445c63",
     "datePublished": "2023-08-29T00:00:00Z",
     "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
-      "name": "Daniel Lehewych",
-      "@id": "https://daniellehewych.org/#daniel-lehewych"
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": "2168-8878"
+    },
+    "sameAs": [
+      "https://writingcooperative.com/how-editors-and-employers-should-evaluate-the-use-of-ai-in-writing-cf30dc445c63",
+      "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
     }
   }
 }

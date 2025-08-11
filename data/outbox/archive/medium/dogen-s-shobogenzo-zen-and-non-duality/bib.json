@@ -5,12 +5,31 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/medium/dogen-s-shobogenzo-zen-and-non-duality",
     "name": "Dogen’s Shobogenzo: Zen and Non-Duality",
+    "description": "Dogen’s Shobogenzo: Zen and Non-Duality",
     "url": "https://daniellehewych.medium.com/dogens-shobogenzo-zen-and-non-duality-e2980a6e9cb2",
     "datePublished": "2024-07-29T00:00:00Z",
     "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
-      "name": "Daniel Lehewych",
-      "@id": "https://daniellehewych.org/#daniel-lehewych"
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": "2168-8878"
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/dogens-shobogenzo-zen-and-non-duality-e2980a6e9cb2",
+      "https://daniellehewych.org/archive/medium/dogen-s-shobogenzo-zen-and-non-duality"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
     }
   }
 }

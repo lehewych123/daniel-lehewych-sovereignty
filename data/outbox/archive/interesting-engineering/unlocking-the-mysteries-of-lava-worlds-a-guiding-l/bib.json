@@ -5,12 +5,31 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/interesting-engineering/unlocking-the-mysteries-of-lava-worlds-a-guiding-l",
     "name": "Unlocking the mysteries of lava worlds: A guiding light for the James Webb Space Telescope",
+    "description": "Unlocking the mysteries of lava worlds: A guiding light for the James Webb Space Telescope",
     "url": "https://interestingengineering.com/science/unlocking-the-mysteries-of-lava-worlds-a-guiding-light-for-the-james-webb-space-telescope",
     "datePublished": "2023-05-24T00:00:00Z",
     "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
-      "name": "Daniel Lehewych",
-      "@id": "https://daniellehewych.org/#daniel-lehewych"
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Interesting Engineering",
+      "issn": "2333-5084"
+    },
+    "sameAs": [
+      "https://interestingengineering.com/science/unlocking-the-mysteries-of-lava-worlds-a-guiding-light-for-the-james-webb-space-telescope",
+      "https://daniellehewych.org/archive/interesting-engineering/unlocking-the-mysteries-of-lava-worlds-a-guiding-l"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
     }
   }
 }

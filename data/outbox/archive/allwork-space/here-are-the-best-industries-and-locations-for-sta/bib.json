@@ -5,12 +5,31 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-industries-and-locations-for-sta",
     "name": "Here Are The Best Industries And Locations For Starting Up Your Own Business In 2022",
+    "description": "Here Are The Best Industries And Locations For Starting Up Your Own Business In 2022",
     "url": "https://allwork.space/2022/04/here-are-the-best-industries-and-locations-for-starting-up-your-own-business-in-2022/",
     "datePublished": "2022-04-15T00:00:00Z",
     "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
-      "name": "Daniel Lehewych",
-      "@id": "https://daniellehewych.org/#daniel-lehewych"
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": "2693-9304"
+    },
+    "sameAs": [
+      "https://allwork.space/2022/04/here-are-the-best-industries-and-locations-for-starting-up-your-own-business-in-2022/",
+      "https://daniellehewych.org/archive/allwork-space/here-are-the-best-industries-and-locations-for-sta"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
     }
   }
 }

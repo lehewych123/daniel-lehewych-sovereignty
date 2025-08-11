@@ -5,12 +5,31 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/bigthink/marcus-aurelius-son-was-a-murderous-psychopath-is-",
     "name": "Marcus Aurelius’ son was a murderous psychopath. Is Stoicism to blame?",
+    "description": "Marcus Aurelius’ son was a murderous psychopath. Is Stoicism to blame?",
     "url": "https://bigthink.com/the-past/marcus-aurelius-commodus-stoicism/",
     "datePublished": "2022-08-11T00:00:00Z",
     "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
-      "name": "Daniel Lehewych",
-      "@id": "https://daniellehewych.org/#daniel-lehewych"
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "BigThink",
+      "issn": "2573-7651"
+    },
+    "sameAs": [
+      "https://bigthink.com/the-past/marcus-aurelius-commodus-stoicism/",
+      "https://daniellehewych.org/archive/bigthink/marcus-aurelius-son-was-a-murderous-psychopath-is-"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
     }
   }
 }
