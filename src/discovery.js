@@ -33,7 +33,7 @@ const crypto = require('crypto');
 // ---------- Config ----------
 const AUTHOR_NAME = 'Daniel Lehewych';
 const DATE_WINDOW = process.env.DISCOVERY_DATE_WINDOW || 'd14';
-theVERIFY_AUTHOR = (process.env.DISCOVERY_VERIFY || 'true').toLowerCase() === 'true';
+const VERIFY_AUTHOR = (process.env.DISCOVERY_VERIFY || 'true').toLowerCase() === 'true';
 const PRIMARY_LANG = (process.env.DISCOVERY_LANG || 'en').toLowerCase();
 
 // Domains we never want (social/link shorteners/search engines/caches)
@@ -300,7 +300,7 @@ async function discoverNewArticles(){
       if (found.fingerprint !== fp) {
         if (!isKnownNonArticleUrl(cleanLink)) {
           let ok = true;
-          if (theVERIFY_AUTHOR) {
+          if (VERIFY_AUTHOR) {
             let html = '';
             try { html = await fetchHtml(cleanLink); } catch {}
             ok = html && htmlHasAuthor(html, AUTHOR_NAME);
@@ -330,7 +330,7 @@ async function discoverNewArticles(){
     }
 
     // Optional authorship verification (reduces false positives)
-    if (theVERIFY_AUTHOR){
+    if (VERIFY_AUTHOR){
       if (!htmlHasAuthor(html, AUTHOR_NAME)) {
         skipped.push({ title: cleanTitle(r.title || ''), url: cleanLink, host: safeHost(cleanLink), reason: 'author-mismatch' });
         continue;
@@ -408,7 +408,6 @@ async function discoverNewArticles(){
     }
   }
 
-  const dbPath = path.join(__dirname, '..', 'data', 'articles.json');
   await writeJSON(dbPath, existing);
   console.log('Discovery complete.');
 }
@@ -556,10 +555,17 @@ function generateBibliographyEntry(d){
 
 // ✅ Canonical now in the header; robots + canonical + JSON-LD (no canonical in body)
 function formatHeaderCode(schema){
-  return `<meta name="robots" content="noindex, follow">\n<link rel="canonical" href="\${schema.sameAs}">\n<script type="application/ld+json">\n\${JSON.stringify(schema,null,2)}\n<\\/script>`;
+  return `<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="${schema.sameAs}">
+<script type="application/ld+json">
+${JSON.stringify(schema,null,2)}
+<\/script>`;
 }
 function formatSchemaBlock(schema, title){
-  return `<!-- \${title} - Add to page body -->\n<script type="application/ld+json">\n\${JSON.stringify(schema,null,2)}\n<\\/script>`;
+  return `<!-- ${title} - Add to page body -->
+<script type="application/ld+json">
+${JSON.stringify(schema,null,2)}
+<\/script>`;
 }
 
 // ---------- Outbox writer ----------
@@ -596,50 +602,50 @@ async function saveProcessedArticles(articles, newCount, updateCount, skipped=[]
 
   await writeJSON(fullDataPath, articles);
 
-  let md = `# Sovereignty System Report - \${date}\n\n`;
+  let md = `# Sovereignty System Report - ${date}\n\n`;
 
-  if (newCount) md += `## New Articles (\${newCount})\n\n`;
+  if (newCount) md += `## New Articles (${newCount})\n\n`;
   articles.filter(a => a.version === 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, false); });
 
-  if (updateCount) md += `## Updates (\${updateCount})\n\n`;
+  if (updateCount) md += `## Updates (${updateCount})\n\n`;
   articles.filter(a => a.version > 1).forEach((a,i) => { md += renderArticleBlock(a, i+1, true); });
 
   if ((!newCount && !updateCount)) md += `Nothing new today.\n\n`;
 
   if (skipped.length){
-    md += `## Skipped (for review): \${skipped.length}\n\n`;
+    md += `## Skipped (for review): ${skipped.length}\n\n`;
     skipped.forEach((s, i) => {
-      md += `- \${i+1}. **\${s.title || '(no title)'}** — \${s.url}\n  - Host: \${s.host}\n  - Reason: \${s.reason}\n`;
+      md += `- ${i+1}. **${s.title || '(no title)'}** — ${s.url}\n  - Host: ${s.host}\n  - Reason: ${s.reason}\n`;
     });
     md += `\n`;
   }
 
   md += `---\n\n## Metadata\n`;
-  articles.forEach(a => { md += `work_id=\${a.normalizedUrl} | fingerprint=\${a.fingerprint} | version=\${a.version}\n`; });
+  articles.forEach(a => { md += `work_id=${a.normalizedUrl} | fingerprint=${a.fingerprint} | version=${a.version}\n`; });
 
   await writeText(notificationPath, md);
   console.log('Full article data saved to data/new-articles-full.json');
-  console.log(`Processed: \${newCount} new, \${updateCount} updates; skipped: \${skipped.length}`);
+  console.log(`Processed: ${newCount} new, ${updateCount} updates; skipped: ${skipped.length}`);
 }
 
 function renderArticleBlock(a, idx, isUpdate){
-  const outboxPath = `data/outbox/\${a.urlSlug.replace(/^\\//,'')}`;
-  let out = `### \${idx}. \${a.title} \${isUpdate ? \`(UPDATE v\${a.version})\` : \`(NEW)\`}\n\n`;
-  out += `**Subject Line:** \${a.emailSubject}\n`;
-  out += `**Platform:** \${a.platform}\n`;
-  out += `**Date:** \${a.date}\n`;
-  out += `**URL:** \${a.url}\n`;
-  out += `**Type:** \${a.type}\n`;
-  out += `**Topics:** \${a.topics.join(', ')}\n`;
-  out += `**URL Slug:** \`$\{a.urlSlug}\`\n`;
-  out += `**Fingerprint:** \${a.fingerprint}\n`;
-  out += `**Outbox:** \${outboxPath} (header.html, page.html, schema.json, topic.json, related.json, bib.json, meta.json)\n`;
+  const outboxPath = `data/outbox/${a.urlSlug.replace(/^\//,'')}`;
+  let out = `### ${idx}. ${a.title} ${isUpdate ? `(UPDATE v${a.version})` : `(NEW)`}\n\n`;
+  out += `**Subject Line:** ${a.emailSubject}\n`;
+  out += `**Platform:** ${a.platform}\n`;
+  out += `**Date:** ${a.date}\n`;
+  out += `**URL:** ${a.url}\n`;
+  out += `**Type:** ${a.type}\n`;
+  out += `**Topics:** ${a.topics.join(', ')}\n`;
+  out += `**URL Slug:** \`${a.urlSlug}\`\n`;
+  out += `**Fingerprint:** ${a.fingerprint}\n`;
+  out += `**Outbox:** ${outboxPath} (header.html, page.html, schema.json, topic.json, related.json, bib.json, meta.json)\n`;
   if (isUpdate) out += `**Change Detected:** Title or description modified\n`;
-  out += `\n#### Page Header Code\n\`\`\`html\n\${a.headerCode}\n\`\`\`\n`;
-  out += `\n#### Topic Clustering Block\n\`\`\`html\n\${a.topicBlockCode}\n\`\`\`\n`;
-  out += `\n#### Related Articles Block\n\`\`\`html\n\${a.relatedBlockCode}\n\`\`\`\n`;
-  out += `\n#### Page Content (Shadow Page Body)\n\`\`\`html\n\${a.pageContent}\n\`\`\`\n`;
-  out += `\n#### Master Bibliography Entry\n\`\`\`json\n\${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n\n`;
+  out += `\n#### Page Header Code\n\`\`\`html\n${a.headerCode}\n\`\`\`\n`;
+  out += `\n#### Topic Clustering Block\n\`\`\`html\n${a.topicBlockCode}\n\`\`\`\n`;
+  out += `\n#### Related Articles Block\n\`\`\`html\n${a.relatedBlockCode}\n\`\`\`\n`;
+  out += `\n#### Page Content (Shadow Page Body)\n\`\`\`html\n${a.pageContent}\n\`\`\`\n`;
+  out += `\n#### Master Bibliography Entry\n\`\`\`json\n${JSON.stringify(a.bibliographyEntry, null, 2)}\n\`\`\`\n\n`;
   out += `---\n\n`;
   return out;
 }
