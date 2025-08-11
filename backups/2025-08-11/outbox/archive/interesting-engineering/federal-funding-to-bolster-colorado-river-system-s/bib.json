@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 270,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/federal-funding-to-bolster-colorado-river-system-s",
+    "name": "Federal funding to bolster Colorado River system’s drought resilience",
+    "url": "https://interestingengineering.com/science/federal-funding-to-bolster-colorado-river-systems-drought-resilience",
+    "datePublished": "2023-05-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

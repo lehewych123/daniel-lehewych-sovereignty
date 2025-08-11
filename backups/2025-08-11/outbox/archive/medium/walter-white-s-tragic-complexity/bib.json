@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 368,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity",
+    "name": "Walter White’s Tragic Complexity",
+    "url": "https://medium.com/grim-tidings/walter-whites-tragic-complexity-9e43ab9b2909",
+    "datePublished": "2024-12-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

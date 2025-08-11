@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 137,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/anti-intellectualism-and-its-resultant-alienation",
+    "name": "Anti-intellectualism and Its Resultant Alienation",
+    "url": "https://daniellehewych.medium.com/anti-intellectualism-and-its-resultant-alienation-9c387b40ccd6",
+    "datePublished": "2022-03-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

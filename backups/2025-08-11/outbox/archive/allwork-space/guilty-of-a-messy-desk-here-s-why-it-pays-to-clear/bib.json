@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 122,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/guilty-of-a-messy-desk-here-s-why-it-pays-to-clear",
+    "name": "Guilty Of A Messy Desk? Here’s Why It Pays To Clear The Clutter",
+    "url": "https://allwork.space/2022/01/guilty-of-a-messy-desk-heres-why-it-pays-to-clear-the-clutter/",
+    "datePublished": "2022-01-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

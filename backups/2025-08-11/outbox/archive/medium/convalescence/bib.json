@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 319,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/convalescence",
+    "name": "Convalescence",
+    "url": "https://medium.com/illumination-curated/convalescence-921e1b42de25",
+    "datePublished": "2024-02-09T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 255,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/spinoza-s-anti-ethics",
+    "name": "Spinoza’s Anti-Ethics",
+    "url": "https://daniellehewych.medium.com/spinozas-anti-ethics-95920171a3d7",
+    "datePublished": "2023-04-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

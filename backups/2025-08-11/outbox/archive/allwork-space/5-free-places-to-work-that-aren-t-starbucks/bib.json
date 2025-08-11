@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 195,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/5-free-places-to-work-that-aren-t-starbucks",
+    "name": "5 Free Places To Work That Aren’t Starbucks",
+    "url": "https://allwork.space/2022/09/5-free-places-to-work-that-arent-starbucks/",
+    "datePublished": "2022-09-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

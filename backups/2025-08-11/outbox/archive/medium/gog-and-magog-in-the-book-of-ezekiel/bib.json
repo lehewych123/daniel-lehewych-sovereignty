@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 325,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/gog-and-magog-in-the-book-of-ezekiel",
+    "name": "Gog and Magog in the Book of Ezekiel",
+    "url": "https://medium.com/illumination/gog-and-magog-in-the-book-of-ezekiel-402398aa1801",
+    "datePublished": "2024-02-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 55,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/on-the-knowledge-of-good-evil",
+    "name": "On the Knowledge of Good & Evil",
+    "url": "https://theapeiron.co.uk/on-the-knowledge-of-good-evil-669d553fefc3",
+    "datePublished": "2020-11-18T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

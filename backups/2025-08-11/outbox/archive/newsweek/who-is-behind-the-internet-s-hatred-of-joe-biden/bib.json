@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 80,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/who-is-behind-the-internet-s-hatred-of-joe-biden",
+    "name": "Who is Behind the Internet's Hatred of Joe Biden?",
+    "url": "https://www.newsweek.com/who-behind-internets-hatred-joe-biden-opinion-1609350",
+    "datePublished": "2021-07-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

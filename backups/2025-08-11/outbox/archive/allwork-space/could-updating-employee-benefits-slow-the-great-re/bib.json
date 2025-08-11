@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 185,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/could-updating-employee-benefits-slow-the-great-re",
+    "name": "Could Updating Employee Benefits Slow The Great Resignation?",
+    "url": "https://allwork.space/2022/08/could-updating-employee-benefits-slow-the-great-resignation/",
+    "datePublished": "2022-08-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

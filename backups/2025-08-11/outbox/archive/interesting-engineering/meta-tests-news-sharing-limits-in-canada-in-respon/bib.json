@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 291,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/meta-tests-news-sharing-limits-in-canada-in-respon",
+    "name": "Meta tests news-sharing limits in Canada in response to proposed “Online News Act”",
+    "url": "https://interestingengineering.com/science/meta-tests-news-sharing-limits-in-canada-in-response-to-proposed-online-news-act",
+    "datePublished": "2023-06-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

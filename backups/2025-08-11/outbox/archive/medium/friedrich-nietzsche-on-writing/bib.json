@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 58,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/friedrich-nietzsche-on-writing",
+    "name": "Friedrich Nietzsche on Writing",
+    "url": "https://writingcooperative.com/friedrich-nietzsche-on-writing-6d95ef394ede",
+    "datePublished": "2020-12-21T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 311,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-structure-of-the-internet-should-change",
+    "name": "The Structure of the Internet Should Change",
+    "url": "https://daniellehewych.medium.com/the-structure-of-the-internet-should-change-cee3d01f323c",
+    "datePublished": "2023-12-27T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

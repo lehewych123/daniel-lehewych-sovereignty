@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 356,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-parable-of-the-phantom-city-in-the-lotus-sutra",
+    "name": "The Parable of the Phantom City in the Lotus Sutra",
+    "url": "https://daniellehewych.medium.com/the-parable-of-the-phantom-city-in-the-lotus-sutra-a85345c31271",
+    "datePublished": "2024-08-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 36,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/quick-fat-loss-strategies",
+    "name": "Quick Fat Loss Strategies",
+    "url": "https://daniellehewych.medium.com/quick-fat-loss-strategies-f3e507be510c",
+    "datePublished": "2019-12-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

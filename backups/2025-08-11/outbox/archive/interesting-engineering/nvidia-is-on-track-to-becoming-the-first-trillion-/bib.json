@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 371,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-is-on-track-to-becoming-the-first-trillion-",
+    "name": "Nvidia is on track to becoming the first trillion-dollar chipmaker",
+    "url": "https://interestingengineering.com/innovation/nvidia-is-on-track-to-becoming-the-first-trillion-dollar-chipmaker",
+    "datePublished": "2025-06-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

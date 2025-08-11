@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 33,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/poverty-in-north-korea",
+    "name": "Poverty in North Korea",
+    "url": "https://daniellehewych.medium.com/poverty-in-north-korea-801cd99b4ec8",
+    "datePublished": "2019-12-03T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

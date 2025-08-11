@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 73,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/white-progressives-are-hypocrites-on-gentrificatio",
+    "name": "White Progressives are Hypocrites on Gentrification",
+    "url": "https://www.newsweek.com/white-progressives-are-hypocrites-gentrification-opinion-1596875",
+    "datePublished": "2021-06-03T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

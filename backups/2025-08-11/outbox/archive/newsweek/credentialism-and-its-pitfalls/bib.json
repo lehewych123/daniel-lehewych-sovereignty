@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 77,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/credentialism-and-its-pitfalls",
+    "name": "Credentialism and its Pitfalls",
+    "url": "https://www.newsweek.com/credentialism-its-pitfalls-opinion-1604285",
+    "datePublished": "2021-06-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

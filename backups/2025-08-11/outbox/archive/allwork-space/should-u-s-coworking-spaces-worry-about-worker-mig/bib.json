@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 182,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/should-u-s-coworking-spaces-worry-about-worker-mig",
+    "name": "Should U.S. Coworking Spaces Worry About Worker Migration?",
+    "url": "https://allwork.space/2022/08/should-u-s-coworking-spaces-worry-about-worker-migration/",
+    "datePublished": "2022-08-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

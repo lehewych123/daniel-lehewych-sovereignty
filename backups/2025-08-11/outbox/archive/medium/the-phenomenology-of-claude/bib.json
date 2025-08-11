@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 348,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-claude",
+    "name": "The Phenomenology of Claude",
+    "url": "https://daniellehewych.medium.com/the-phenomenology-of-claude-3908fefd81fa",
+    "datePublished": "2024-06-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

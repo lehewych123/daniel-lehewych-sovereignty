@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 250,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-grape-seed-ex",
+    "name": "Why You Should be Supplementing with Grape Seed Extract",
+    "url": "https://medium.com/illumination/why-you-should-be-supplementing-with-grape-seed-extract-80f1cbe57498",
+    "datePublished": "2023-04-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 229,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/daoist-lessons-for-life-from-zhuangzi-s-butterfly-",
+    "name": "Daoist Lessons for Life from Zhuangzi’s Butterfly Dream",
+    "url": "https://medium.com/age-of-awareness/daoist-lessons-for-life-from-zhuangzis-butterfly-dream-7fb4eff75fea",
+    "datePublished": "2023-02-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 345,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-politicking",
+    "name": "The Phenomenology of Politicking",
+    "url": "https://daniellehewych.medium.com/the-phenomenology-of-politicking-be1db25d4871",
+    "datePublished": "2024-05-13T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 264,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-pitfalls-of-over-communication-in-marketing",
+    "name": "The Pitfalls of Over-Communication in Marketing",
+    "url": "https://medium.com/illumination/the-pitfalls-of-over-communication-in-marketing-91ba937d8b18",
+    "datePublished": "2023-05-23T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

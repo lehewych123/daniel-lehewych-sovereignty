@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 373,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-price-of-justice-when-the-law-becomes-a-luxury",
+    "name": "The Price of Justice: When the Law Becomes a Luxury Good",
+    "url": "https://daniellehewych.medium.com/the-price-of-justice-when-the-law-becomes-a-luxury-good-abbba43dfa98",
+    "datePublished": "2025-06-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

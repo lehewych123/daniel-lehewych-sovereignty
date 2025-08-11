@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 62,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/things-to-keep-in-mind-when-starting-out-as-a-free",
+    "name": "Things to Keep in Mind When Starting Out as a Freelance Writer",
+    "url": "https://daniellehewych.medium.com/things-to-keep-in-mind-when-starting-out-as-a-freelance-writer-1c98e84fdde1",
+    "datePublished": "2021-03-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

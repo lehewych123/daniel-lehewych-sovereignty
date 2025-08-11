@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 107,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/the-great-resignation-will-be-good-for-corporation",
+    "name": "The Great Resignation Will be Good for Corporations, Not Workers",
+    "url": "https://www.newsweek.com/great-resignation-will-good-corporations-not-workers-opinion-1654089",
+    "datePublished": "2021-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

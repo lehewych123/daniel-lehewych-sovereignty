@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 295,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-you-should-supplement-with-spirulina",
+    "name": "Why You Should Supplement with Spirulina",
+    "url": "https://medium.com/illumination/why-you-should-supplement-with-spirulina-d700f978d01c",
+    "datePublished": "2023-09-11T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

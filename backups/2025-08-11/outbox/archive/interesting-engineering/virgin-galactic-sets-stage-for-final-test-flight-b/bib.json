@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 269,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/virgin-galactic-sets-stage-for-final-test-flight-b",
+    "name": "Virgin Galactic sets stage for final test flight before commercial launch",
+    "url": "https://interestingengineering.com/transportation/virgin-galactic-sets-stage-for-final-test-flight-before-commercial-launch",
+    "datePublished": "2023-05-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

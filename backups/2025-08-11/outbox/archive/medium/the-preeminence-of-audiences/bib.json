@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 350,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-preeminence-of-audiences",
+    "name": "The Preeminence of Audiences",
+    "url": "https://daniellehewych.medium.com/the-preeminence-of-audiences-8ad8088ae6ed",
+    "datePublished": "2024-06-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

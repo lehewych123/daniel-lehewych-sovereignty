@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 14,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-role-that-religion-plays-in-poverty",
+    "name": "The Role That Religion Plays in Poverty",
+    "url": "https://daniellehewych.medium.com/the-role-that-religion-plays-in-poverty-5e58c0631c13",
+    "datePublished": "2019-11-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

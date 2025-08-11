@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 230,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/how-to-create-office-environments-that-fuel-both-i",
+    "name": "How To Create Office Environments That Fuel Both Introverts and Extroverts",
+    "url": "https://allwork.space/2023/02/how-to-create-office-environments-that-fuel-both-introverts-and-extroverts/",
+    "datePublished": "2023-02-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

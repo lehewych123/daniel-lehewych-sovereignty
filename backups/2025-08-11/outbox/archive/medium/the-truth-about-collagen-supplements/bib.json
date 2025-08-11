@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 54,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-truth-about-collagen-supplements",
+    "name": "The Truth About Collagen Supplements",
+    "url": "https://daniellehewych.medium.com/the-truth-about-collagen-supplements-e1c6c8a26d81",
+    "datePublished": "2020-11-11T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

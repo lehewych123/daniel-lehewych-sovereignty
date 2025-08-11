@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 217,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-utility-of-coworking-spaces-for-gig-economy-wo",
+    "name": "The Utility of Coworking Spaces for Gig Economy Workers",
+    "url": "https://allwork.space/2022/12/the-utility-of-coworking-spaces-for-gig-economy-workers/",
+    "datePublished": "2022-12-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

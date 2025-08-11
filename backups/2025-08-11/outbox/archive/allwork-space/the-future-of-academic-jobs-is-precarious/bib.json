@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 146,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-academic-jobs-is-precarious",
+    "name": "The Future of Academic Jobs is Precarious",
+    "url": "https://allwork.space/2022/04/the-future-of-academic-jobs-is-precarious/",
+    "datePublished": "2022-04-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

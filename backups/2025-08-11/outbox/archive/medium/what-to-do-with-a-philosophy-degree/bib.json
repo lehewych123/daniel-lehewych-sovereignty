@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 64,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-to-do-with-a-philosophy-degree",
+    "name": "What to Do With A Philosophy Degree",
+    "url": "https://daniellehewych.medium.com/what-to-do-with-a-philosophy-degree-9b8b00c97719",
+    "datePublished": "2021-03-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

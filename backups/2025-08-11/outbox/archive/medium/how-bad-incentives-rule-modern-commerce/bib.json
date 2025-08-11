@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 235,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/how-bad-incentives-rule-modern-commerce",
+    "name": "How Bad Incentives Rule Modern Commerce",
+    "url": "https://medium.com/illumination/how-bad-incentives-rule-modern-commerce-a7345c5972d8",
+    "datePublished": "2023-02-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

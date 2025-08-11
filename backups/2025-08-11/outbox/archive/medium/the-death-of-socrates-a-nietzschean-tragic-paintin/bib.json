@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 12,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin",
+    "name": "The Death of Socrates: A Nietzschean Tragic Painting",
+    "url": "https://daniellehewych.medium.com/the-death-of-socrates-a-nietzschean-tragic-painting-7aaab946358c",
+    "datePublished": "2019-11-27T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

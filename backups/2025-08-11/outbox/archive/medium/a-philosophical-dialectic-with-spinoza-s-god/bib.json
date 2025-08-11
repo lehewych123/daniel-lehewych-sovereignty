@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 314,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/a-philosophical-dialectic-with-spinoza-s-god",
+    "name": "A Philosophical Dialectic with Spinoza’s God",
+    "url": "https://medium.com/illumination/a-philosophical-dialectic-with-spinozas-god-0f9673482aac",
+    "datePublished": "2024-01-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

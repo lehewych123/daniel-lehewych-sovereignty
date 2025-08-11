@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 130,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-effects-of-remote-work-on-sleep",
+    "name": "The Effects Of Remote Work On Sleep",
+    "url": "https://allwork.space/2022/02/the-effects-of-remote-work-on-sleep/",
+    "datePublished": "2022-02-23T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

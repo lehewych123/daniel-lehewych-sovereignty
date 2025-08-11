@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 15,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/jung-sophocles-and-socrates-antigone-archetypes",
+    "name": "Jung, Sophocles, and Socrates: Antigone Archetypes",
+    "url": "https://daniellehewych.medium.com/jung-sophocles-and-socrates-antigone-archetypes-bd298c8eaf02",
+    "datePublished": "2019-11-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

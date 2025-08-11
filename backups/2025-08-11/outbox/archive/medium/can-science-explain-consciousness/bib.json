@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 52,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/can-science-explain-consciousness",
+    "name": "Can Science Explain Consciousness?",
+    "url": "https://daniellehewych.medium.com/can-science-explain-consciousness-ce4cfbff494d",
+    "datePublished": "2020-11-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 249,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-fucoxanthin",
+    "name": "Why You Should Be Supplementing with Fucoxanthin",
+    "url": "https://medium.com/illumination/why-you-should-be-supplementing-with-fucoxanthin-a178d13add13",
+    "datePublished": "2023-04-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 19,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/economic-observations-the-state-of-modern-economic",
+    "name": "Economic Observations: The State of Modern Economics",
+    "url": "https://daniellehewych.medium.com/economic-observations-the-state-of-modern-economics-127621a5c653",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 172,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/here-s-what-s-in-store-for-job-stability-and-the-f",
+    "name": "Here’s What’s In Store For Job Stability And The Future Of Work",
+    "url": "https://allwork.space/2022/07/heres-whats-in-store-for-job-stability-and-the-future-of-work/",
+    "datePublished": "2022-07-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 310,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-you-should-supplement-with-berberine",
+    "name": "Why You Should Supplement with Berberine",
+    "url": "https://medium.com/illumination/why-you-should-supplement-with-berberine-02a1a697a8a3",
+    "datePublished": "2023-12-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

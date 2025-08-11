@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 257,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-definitive-guide-to-seo-writing",
+    "name": "The Definitive Guide to SEO Writing",
+    "url": "https://writingcooperative.com/the-definitive-guide-to-seo-writing-29c1c8f1ae32",
+    "datePublished": "2023-05-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

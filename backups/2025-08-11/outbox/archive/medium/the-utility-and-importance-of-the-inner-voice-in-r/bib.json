@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 303,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-utility-and-importance-of-the-inner-voice-in-r",
+    "name": "The Utility and Importance of the Inner Voice in Reading Comprehension",
+    "url": "https://daniellehewych.medium.com/the-utility-and-importance-of-the-inner-voice-in-reading-comprehension-5d8d4e4fe83e",
+    "datePublished": "2023-10-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

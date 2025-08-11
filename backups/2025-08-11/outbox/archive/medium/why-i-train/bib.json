@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 53,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-i-train",
+    "name": "Why I Train",
+    "url": "https://daniellehewych.medium.com/why-i-train-3651d7232cd2",
+    "datePublished": "2020-11-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 3,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/rasa-and-metal-linkin-park-meets-indian-aesthetics",
+    "name": "Rasa and Metal: Linkin Park Meets Indian Aesthetics",
+    "url": "https://daniellehewych.medium.com/rasa-and-metal-linkin-park-meets-indian-aesthetics-a3ad8f59b00c",
+    "datePublished": "2019-10-21T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

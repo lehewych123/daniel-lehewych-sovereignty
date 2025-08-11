@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 6,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/technological-innovation-by-any-means",
+    "name": "Technological Innovation: By Any Means",
+    "url": "https://daniellehewych.medium.com/technological-innovation-by-any-means-99e6721eaa96",
+    "datePublished": "2019-10-23T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

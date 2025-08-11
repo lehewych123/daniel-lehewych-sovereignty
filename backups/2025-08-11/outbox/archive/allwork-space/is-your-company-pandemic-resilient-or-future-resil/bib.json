@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 157,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/is-your-company-pandemic-resilient-or-future-resil",
+    "name": "Is Your Company Pandemic-Resilient Or Future-Resilient?",
+    "url": "https://allwork.space/2022/05/is-your-company-pandemic-resilient-or-future-resilient/",
+    "datePublished": "2022-05-17T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 272,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",
+    "name": "Meet BratGPT, the chatbot that refuses to play nice",
+    "url": "https://interestingengineering.com/culture/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",
+    "datePublished": "2023-05-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

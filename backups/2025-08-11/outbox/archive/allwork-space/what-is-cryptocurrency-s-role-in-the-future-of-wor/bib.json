@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 154,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/what-is-cryptocurrency-s-role-in-the-future-of-wor",
+    "name": "What Is Cryptocurrency’s Role In The Future Of Work?",
+    "url": "https://allwork.space/2022/04/what-is-cryptocurrencys-role-in-the-future-of-work/",
+    "datePublished": "2022-04-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 246,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
+    "name": "Ron DeSantis is Having His \"Don Quixote\" Moment",
+    "url": "https://www.newsweek.com/ron-desantis-having-his-don-quixote-moment-opinion-1791875",
+    "datePublished": "2023-04-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

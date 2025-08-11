@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 131,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/changing-demographics-will-continue-to-impact-the-",
+    "name": "Changing Demographics Will Continue To Impact The Future Of Work",
+    "url": "https://allwork.space/2022/02/changing-demographics-will-continue-to-impact-the-future-of-work/",
+    "datePublished": "2022-02-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

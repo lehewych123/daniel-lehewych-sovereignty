@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 93,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/thinking-of-quitting-and-joining-the-great-resigna",
+    "name": "Thinking of Quitting and Joining the Great Resignation? Here’s How to Do it Right",
+    "url": "https://allwork.space/2021/10/thinking-of-quitting-and-joining-the-great-resignation-heres-how-to-do-it-right/",
+    "datePublished": "2021-10-19T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

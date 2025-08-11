@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 233,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-science-based-approach-to-food-pyramids",
+    "name": "The Science-Based Approach to Food Pyramids",
+    "url": "https://medium.com/in-fitness-and-in-health/the-science-based-approach-to-food-pyramids-b5450874f42f",
+    "datePublished": "2023-02-10T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

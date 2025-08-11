@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 97,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/are-work-equity-gains-threatened-by-the-shift-to-h",
+    "name": "Are Work Equity Gains Threatened by the Shift to Hybrid and Remote Work?",
+    "url": "https://allwork.space/2021/10/are-work-equity-gains-threatened-by-the-shift-to-hybrid-and-remote-work/",
+    "datePublished": "2021-10-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

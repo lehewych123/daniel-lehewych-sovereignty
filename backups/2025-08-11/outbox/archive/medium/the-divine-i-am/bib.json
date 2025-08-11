@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 322,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-divine-i-am",
+    "name": "The Divine “I AM”",
+    "url": "https://medium.com/illumination/the-divine-i-am-a938b8c81197",
+    "datePublished": "2024-02-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

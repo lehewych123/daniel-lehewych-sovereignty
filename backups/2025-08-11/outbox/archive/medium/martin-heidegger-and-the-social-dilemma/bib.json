@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 59,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-and-the-social-dilemma",
+    "name": "Martin Heidegger and the Social Dilemma",
+    "url": "https://daniellehewych.medium.com/martin-heidegger-and-the-social-dilemma-acd6daa6ec56",
+    "datePublished": "2021-01-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

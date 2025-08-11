@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 155,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/what-is-the-importance-of-task-automation-in-produ",
+    "name": "What Is The Importance Of Task Automation In Productivity And Well-being?",
+    "url": "https://allwork.space/2022/04/what-is-the-importance-of-task-automation-in-productivity-and-well-being/",
+    "datePublished": "2022-04-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

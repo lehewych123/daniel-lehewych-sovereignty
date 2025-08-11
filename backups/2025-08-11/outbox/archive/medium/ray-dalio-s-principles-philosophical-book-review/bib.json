@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 10,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/ray-dalio-s-principles-philosophical-book-review",
+    "name": "Ray Dalio’s Principles: Philosophical Book-Review",
+    "url": "https://daniellehewych.medium.com/ray-dalios-principles-philosophical-book-review-b3a31a29892c",
+    "datePublished": "2019-11-19T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

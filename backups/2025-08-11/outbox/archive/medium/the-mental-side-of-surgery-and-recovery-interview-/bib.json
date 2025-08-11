@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 18,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-mental-side-of-surgery-and-recovery-interview-",
+    "name": "The Mental Side of Surgery and Recovery: Interview With Dr. Warren Reich",
+    "url": "https://daniellehewych.medium.com/the-mental-side-of-surgery-and-recovery-interview-with-dr-warren-reich-96562123c70",
+    "datePublished": "2019-11-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

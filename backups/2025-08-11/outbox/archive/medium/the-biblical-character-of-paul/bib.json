@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 336,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-biblical-character-of-paul",
+    "name": "The Biblical Character of Paul",
+    "url": "https://daniellehewych.medium.com/the-biblical-character-of-paul-a07cdda03f32",
+    "datePublished": "2024-04-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

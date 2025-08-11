@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 188,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-in-the-tech-industry-is-precari",
+    "name": "The Future of Work in the Tech Industry is Precarious",
+    "url": "https://allwork.space/2022/08/the-future-of-work-in-the-tech-industry-is-precarious/",
+    "datePublished": "2022-08-19T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

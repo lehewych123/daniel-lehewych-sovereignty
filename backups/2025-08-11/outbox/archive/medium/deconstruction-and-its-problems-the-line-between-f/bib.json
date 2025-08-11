@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 13,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/deconstruction-and-its-problems-the-line-between-f",
+    "name": "Deconstruction And Its Problems: The Line Between Freedom and Rigidity",
+    "url": "https://daniellehewych.medium.com/deconstruction-and-its-problems-the-line-between-freedom-and-rigidity-2e14048d3b11",
+    "datePublished": "2019-11-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

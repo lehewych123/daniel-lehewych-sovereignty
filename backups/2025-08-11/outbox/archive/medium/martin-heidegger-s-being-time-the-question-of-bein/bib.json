@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 11,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-s-being-time-the-question-of-bein",
+    "name": "Martin Heidegger’s Being & Time: The Question of Being",
+    "url": "https://daniellehewych.medium.com/martin-heideggers-being-time-the-question-of-being-7bf1e5b390ad",
+    "datePublished": "2019-11-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

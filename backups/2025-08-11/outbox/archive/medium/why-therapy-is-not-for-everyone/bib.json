@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 42,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-therapy-is-not-for-everyone",
+    "name": "Why Therapy Is Not For Everyone",
+    "url": "https://daniellehewych.medium.com/why-therapy-is-not-for-everyone-1f35dfdef30c",
+    "datePublished": "2020-02-21T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

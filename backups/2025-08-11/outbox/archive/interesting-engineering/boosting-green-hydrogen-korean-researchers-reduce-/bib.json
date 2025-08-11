@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 290,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/boosting-green-hydrogen-korean-researchers-reduce-",
+    "name": "Boosting green hydrogen: Korean researchers reduce rare metals in production",
+    "url": "https://interestingengineering.com/innovation/boosting-green-hydrogen-korean-researchers-reduce-rare-metals-in-production",
+    "datePublished": "2023-06-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

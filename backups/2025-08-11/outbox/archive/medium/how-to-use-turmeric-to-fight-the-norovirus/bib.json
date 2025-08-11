@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 241,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/how-to-use-turmeric-to-fight-the-norovirus",
+    "name": "How to Use Turmeric to Fight the Norovirus",
+    "url": "https://medium.com/in-fitness-and-in-health/how-to-use-turmeric-to-fight-the-current-wave-of-norovirus-5ea1a09afcea",
+    "datePublished": "2023-03-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

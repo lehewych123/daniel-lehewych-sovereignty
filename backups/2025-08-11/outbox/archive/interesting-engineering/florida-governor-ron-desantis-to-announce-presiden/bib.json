@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 265,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/florida-governor-ron-desantis-to-announce-presiden",
+    "name": "Florida Governor Ron DeSantis to announce Presidential run on Twitter Spaces with CEO Elon Musk",
+    "url": "https://interestingengineering.com/culture/florida-governor-ron-desantis-to-announce-presidential-run-in-twitter-spaces-with-ceo-elon-musk",
+    "datePublished": "2023-05-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

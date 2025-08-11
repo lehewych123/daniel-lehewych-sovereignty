@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 92,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/how-nietzsche-can-improve-your-love-life",
+    "name": "How Nietzsche can improve your love life",
+    "url": "https://bigthink.com/thinking/nietzsche-improve-love-life/",
+    "datePublished": "2021-10-13T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

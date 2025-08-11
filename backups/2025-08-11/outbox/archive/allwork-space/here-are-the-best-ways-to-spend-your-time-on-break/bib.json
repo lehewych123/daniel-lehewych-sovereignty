@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 126,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-ways-to-spend-your-time-on-break",
+    "name": "Here Are The Best Ways To Spend Your Time On Break At Work",
+    "url": "https://allwork.space/2022/01/here-are-the-best-ways-to-spend-your-time-on-break-at-work/",
+    "datePublished": "2022-01-19T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

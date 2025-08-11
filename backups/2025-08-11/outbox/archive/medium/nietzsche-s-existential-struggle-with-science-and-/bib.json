@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 202,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/nietzsche-s-existential-struggle-with-science-and-",
+    "name": "Nietzsche’s existential struggle with “science” and “truth.”",
+    "url": "https://medium.com/age-of-awareness/nietzsches-existential-struggle-with-science-and-truth-d9863c90f6c",
+    "datePublished": "2022-10-12T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 318,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/nietzsche-on-hatred-and-contempt",
+    "name": "Nietzsche on ‘Hatred’ and ‘Contempt’",
+    "url": "https://daniellehewych.medium.com/nietzsche-on-hatred-and-contempt-2ee0542e2815",
+    "datePublished": "2024-02-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

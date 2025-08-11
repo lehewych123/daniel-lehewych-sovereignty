@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 276,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/air-new-zealand-launches-passenger-weight-survey-f",
+    "name": "Air New Zealand launches passenger weight survey for data collection",
+    "url": "https://interestingengineering.com/transportation/air-new-zealand-launches-passenger-weight-survey-for-data-collection",
+    "datePublished": "2023-05-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

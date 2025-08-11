@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 285,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/boeing-s-ceo-downplays-threat-from-china-s-c919-co",
+    "name": "Boeing’s CEO downplays threat from China’s C919 commercial flight",
+    "url": "https://interestingengineering.com/transportation/boeings-ceo-downplays-threat-from-chinas-c919-commercial-flight",
+    "datePublished": "2023-06-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 208,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/3-signs-that-you-re-about-to-lose-your-job",
+    "name": "3 Signs That You’re About To Lose Your Job",
+    "url": "https://allwork.space/2022/10/3-signs-that-youre-about-to-lose-your-job/",
+    "datePublished": "2022-10-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

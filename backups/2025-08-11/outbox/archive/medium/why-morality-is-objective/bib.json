@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 27,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-morality-is-objective",
+    "name": "Why Morality is Objective",
+    "url": "https://daniellehewych.medium.com/why-morality-is-objective-9babb735d117",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

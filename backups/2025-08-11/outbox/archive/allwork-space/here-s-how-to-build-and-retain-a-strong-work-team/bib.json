@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 150,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-build-and-retain-a-strong-work-team",
+    "name": "Here’s How To Build And Retain A Strong Work Team",
+    "url": "https://allwork.space/2022/04/heres-how-to-build-and-retain-a-strong-work-team",
+    "datePublished": "2022-04-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

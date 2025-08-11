@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 28,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/plato-s-theory-of-forms-an-aesthetic-critique",
+    "name": "Plato’s Theory of Forms: An Aesthetic Critique",
+    "url": "https://daniellehewych.medium.com/platos-theory-of-forms-an-aesthetic-critique-48c6671a1377",
+    "datePublished": "2019-12-02T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

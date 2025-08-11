@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 192,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/how-to-deal-with-a-bad-boss-in-person",
+    "name": "How To Deal With A Bad Boss In Person",
+    "url": "https://allwork.space/2022/09/how-to-deal-with-a-bad-boss-in-person/",
+    "datePublished": "2022-09-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

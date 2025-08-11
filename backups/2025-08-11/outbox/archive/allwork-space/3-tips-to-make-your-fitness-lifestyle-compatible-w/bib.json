@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 201,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/3-tips-to-make-your-fitness-lifestyle-compatible-w",
+    "name": "3 Tips To Make Your Fitness Lifestyle Compatible With Work",
+    "url": "https://allwork.space/2022/10/3-tips-to-make-your-fitness-lifestyle-compatible-with-work/",
+    "datePublished": "2022-10-12T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

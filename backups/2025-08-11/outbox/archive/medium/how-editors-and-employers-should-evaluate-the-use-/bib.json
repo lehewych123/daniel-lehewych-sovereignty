@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 294,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-",
+    "name": "How Editors and Employers Should Evaluate the Use of AI in Writing",
+    "url": "https://writingcooperative.com/how-editors-and-employers-should-evaluate-the-use-of-ai-in-writing-cf30dc445c63",
+    "datePublished": "2023-08-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

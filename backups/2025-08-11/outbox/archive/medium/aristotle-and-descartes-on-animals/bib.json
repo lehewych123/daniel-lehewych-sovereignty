@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 7,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/aristotle-and-descartes-on-animals",
+    "name": "Aristotle and Descartes on Animals",
+    "url": "https://daniellehewych.medium.com/aristotle-and-descartes-on-animals-a73c8a27d0bf",
+    "datePublished": "2019-10-25T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

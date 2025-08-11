@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 282,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos",
+    "name": "NASA’s quest for unidentified anomalies among UFOs",
+    "url": "https://interestingengineering.com/science/nasas-quest-for-unidentified-anomalies-among-ufos",
+    "datePublished": "2023-05-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

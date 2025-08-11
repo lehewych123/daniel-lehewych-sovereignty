@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 353,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/dogen-s-shobogenzo-zen-and-non-duality",
+    "name": "Dogen’s Shobogenzo: Zen and Non-Duality",
+    "url": "https://daniellehewych.medium.com/dogens-shobogenzo-zen-and-non-duality-e2980a6e9cb2",
+    "datePublished": "2024-07-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

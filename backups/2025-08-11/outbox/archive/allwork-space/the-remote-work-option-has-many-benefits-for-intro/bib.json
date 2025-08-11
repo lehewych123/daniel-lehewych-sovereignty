@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 173,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-remote-work-option-has-many-benefits-for-intro",
+    "name": "The Remote Work Option Has Many Benefits for Introverts",
+    "url": "https://allwork.space/2022/07/the-remote-work-option-has-many-benefits-for-introverts/",
+    "datePublished": "2022-07-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

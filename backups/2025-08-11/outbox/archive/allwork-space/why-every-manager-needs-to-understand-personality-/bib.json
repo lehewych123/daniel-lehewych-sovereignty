@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 111,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/why-every-manager-needs-to-understand-personality-",
+    "name": "Why Every Manager Needs To Understand Personality Traits In The Workplace",
+    "url": "https://allwork.space/2021/12/why-every-manager-needs-to-understand-personality-traits-the-workplace/",
+    "datePublished": "2021-12-15T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

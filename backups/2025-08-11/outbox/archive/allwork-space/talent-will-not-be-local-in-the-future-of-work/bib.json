@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 162,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/talent-will-not-be-local-in-the-future-of-work",
+    "name": "Talent Will Not Be Local In The Future Of Work",
+    "url": "https://allwork.space/2022/06/talent-will-not-be-local-in-the-future-of-work/",
+    "datePublished": "2022-06-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

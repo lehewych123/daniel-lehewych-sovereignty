@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 360,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/virginia-woolf-acceptance-and-alienation",
+    "name": "Virginia Woolf: Acceptance and Alienation",
+    "url": "https://daniellehewych.medium.com/virginia-woolf-acceptance-and-alienation-6515063ddd31",
+    "datePublished": "2024-09-16T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

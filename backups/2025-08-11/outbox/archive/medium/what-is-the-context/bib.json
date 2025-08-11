@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 349,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-is-the-context",
+    "name": "What is “The Context”?",
+    "url": "https://daniellehewych.medium.com/what-is-the-context-2f53e91bbf2d",
+    "datePublished": "2024-06-13T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

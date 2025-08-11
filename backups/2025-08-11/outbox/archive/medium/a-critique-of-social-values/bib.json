@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 315,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/a-critique-of-social-values",
+    "name": "A Critique of Social Values",
+    "url": "https://medium.com/illumination/a-critique-of-social-values-65d434993e44",
+    "datePublished": "2024-01-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

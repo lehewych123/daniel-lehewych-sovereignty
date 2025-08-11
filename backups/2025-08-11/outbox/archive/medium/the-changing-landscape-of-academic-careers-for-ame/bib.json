@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 357,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-changing-landscape-of-academic-careers-for-ame",
+    "name": "The Changing Landscape of Academic Careers for American PhD Holders",
+    "url": "https://daniellehewych.medium.com/the-changing-landscape-of-academic-careers-for-american-phd-holders-4fe02242a895",
+    "datePublished": "2024-08-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

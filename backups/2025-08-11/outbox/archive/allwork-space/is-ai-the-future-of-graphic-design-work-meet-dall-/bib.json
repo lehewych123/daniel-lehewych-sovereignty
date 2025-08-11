@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 198,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/is-ai-the-future-of-graphic-design-work-meet-dall-",
+    "name": "Is AI The Future Of Graphic Design Work? Meet DALL-E 2",
+    "url": "https://allwork.space/2022/09/is-ai-the-future-of-graphic-design-work-meet-dall-e-2/",
+    "datePublished": "2022-09-23T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

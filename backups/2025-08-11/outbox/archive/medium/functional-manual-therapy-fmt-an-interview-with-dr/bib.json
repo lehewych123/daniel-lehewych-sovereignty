@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 1,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/functional-manual-therapy-fmt-an-interview-with-dr",
+    "name": "Functional Manual Therapy (FMT): An Interview With Dr. Cristiana K. Collins PT, Ph.D., CFMT, NCS",
+    "url": "https://daniellehewych.medium.com/functional-manual-therapy-fmt-an-interview-with-dr-cristiana-k-collins-pt-ph-d-cfmt-ncs-7dadbd559533",
+    "datePublished": "2019-08-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

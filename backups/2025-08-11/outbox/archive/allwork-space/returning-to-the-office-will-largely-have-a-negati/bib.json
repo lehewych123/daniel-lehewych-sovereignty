@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 140,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/returning-to-the-office-will-largely-have-a-negati",
+    "name": "Returning to the Office will Largely have a Negative Impact on Mental Health",
+    "url": "https://allwork.space/2022/03/returning-to-the-office-will-largely-have-a-negative-impact-on-mental-health/",
+    "datePublished": "2022-03-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

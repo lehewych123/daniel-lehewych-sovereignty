@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 117,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/freshcleantees/strength-training-in-your-later-years",
+    "name": "Strength Training In Your Later Years",
+    "url": "https://freshcleantees.com/blogs/blog/strength-training-in-your-later-years",
+    "datePublished": "2022-01-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

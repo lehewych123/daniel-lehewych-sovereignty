@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 312,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-god",
+    "name": "The Phenomenology of God",
+    "url": "https://daniellehewych.medium.com/the-phenomenology-of-god-04f8b4e0fbcd",
+    "datePublished": "2024-01-10T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 71,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/zhuangzi-the-inborn-nature-and-the-heavenly-dao",
+    "name": "Zhuangzi, The Inborn Nature and The Heavenly Dao",
+    "url": "https://daniellehewych.medium.com/zhuangzi-the-inborn-nature-and-the-heavenly-dao-6217b03b3650",
+    "datePublished": "2021-06-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

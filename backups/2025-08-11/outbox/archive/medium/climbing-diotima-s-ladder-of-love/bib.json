@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 47,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/climbing-diotima-s-ladder-of-love",
+    "name": "Climbing Diotima’s Ladder of Love",
+    "url": "https://daniellehewych.medium.com/climbing-diotimas-ladder-of-love-98f8ee38c4f4",
+    "datePublished": "2020-06-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

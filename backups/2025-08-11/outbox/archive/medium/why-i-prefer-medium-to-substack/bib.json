@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 307,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-i-prefer-medium-to-substack",
+    "name": "Why I Prefer Medium to Substack",
+    "url": "https://daniellehewych.medium.com/why-i-prefer-medium-to-substack-e3b3fa4cc3e3",
+    "datePublished": "2023-11-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 346,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/ezekiel-s-vision-of-god",
+    "name": "Ezekiel’s Vision of God",
+    "url": "https://daniellehewych.medium.com/ezekiels-vision-of-god-7f08bb1aaef8",
+    "datePublished": "2024-05-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

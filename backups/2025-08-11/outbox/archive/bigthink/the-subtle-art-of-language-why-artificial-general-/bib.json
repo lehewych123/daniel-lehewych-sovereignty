@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 141,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/the-subtle-art-of-language-why-artificial-general-",
+    "name": "The subtle art of language: why artificial general intelligence might be impossible",
+    "url": "https://bigthink.com/the-future/artificial-general-intelligence-impossible/",
+    "datePublished": "2022-03-31T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

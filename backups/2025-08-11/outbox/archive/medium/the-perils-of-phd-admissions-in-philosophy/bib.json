@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 344,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-perils-of-phd-admissions-in-philosophy",
+    "name": "The Perils of PhD Admissions in Philosophy",
+    "url": "https://daniellehewych.medium.com/the-perils-of-phd-admissions-in-philosophy-1c5e0ce556e6",
+    "datePublished": "2024-05-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

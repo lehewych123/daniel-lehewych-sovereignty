@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 49,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/cartesian-dualism-spinoza-s-parallelism-and-the-zo",
+    "name": "Cartesian Dualism, Spinoza’s Parallelism, and the Zombie Argument",
+    "url": "https://daniellehewych.medium.com/cartesian-dualism-spinozas-parallelism-and-the-zombie-argument-77d8fe5071be",
+    "datePublished": "2020-09-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 266,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/seti-institute-invites-public-to-participate-in-in",
+    "name": "SETI Institute invites public to participate in interplanetary ‘A Sign in Space’ Project",
+    "url": "https://interestingengineering.com/science/seti-institute-invites-public-to-participate-in-interplanetary-a-sign-in-space-project",
+    "datePublished": "2023-05-24T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

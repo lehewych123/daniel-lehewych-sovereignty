@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 333,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-moral-psychological-dynamics-of-the-golden-rul",
+    "name": "The Moral Psychological Dynamics of The Golden Rule in Christianity",
+    "url": "https://daniellehewych.medium.com/the-moral-psychological-dynamics-of-the-golden-rule-in-christianity-5a511015194f",
+    "datePublished": "2024-03-20T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

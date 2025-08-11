@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 247,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/what-does-it-mean-to-be-a-better-human",
+    "name": "What Does it Mean to be a “Better Human?”",
+    "url": "https://medium.com/age-of-awareness/what-does-it-mean-to-be-a-better-human-c942d8b65264",
+    "datePublished": "2023-04-06T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

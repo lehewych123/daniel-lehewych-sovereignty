@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 286,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/north-korea-s-new-space-launcher-reveals-progress-",
+    "name": "North Korea’s new space launcher reveals progress in missile technology",
+    "url": "https://interestingengineering.com/innovation/north-koreas-new-space-launcher-reveals-progress-in-missile-technology",
+    "datePublished": "2023-06-01T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

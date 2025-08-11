@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 89,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/google-s-2-billion-wager-on-urban-recovery-and-hyb",
+    "name": "Google’s $2 Billion Wager on Urban Recovery and Hybrid Work",
+    "url": "https://allwork.space/2021/09/googles-2-billion-wager-on-urban-recovery-and-hybrid-work/",
+    "datePublished": "2021-09-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

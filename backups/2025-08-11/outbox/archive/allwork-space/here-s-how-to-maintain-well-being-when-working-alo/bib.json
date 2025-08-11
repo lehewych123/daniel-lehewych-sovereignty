@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 136,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-maintain-well-being-when-working-alo",
+    "name": "Here’s How To Maintain Well-being When Working Alone From Home",
+    "url": "https://allwork.space/2022/03/heres-how-to-maintain-well-being-when-working-alone-from-home",
+    "datePublished": "2022-03-14T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

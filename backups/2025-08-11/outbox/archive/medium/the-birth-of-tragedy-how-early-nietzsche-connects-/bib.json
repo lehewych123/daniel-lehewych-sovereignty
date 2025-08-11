@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 17,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-birth-of-tragedy-how-early-nietzsche-connects-",
+    "name": "The Birth of Tragedy: How Early Nietzsche Connects to Late Nietzsche",
+    "url": "https://daniellehewych.medium.com/the-birth-of-tragedy-how-early-nietzsche-connects-to-late-nietzsche-3894b7e2822c",
+    "datePublished": "2019-11-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

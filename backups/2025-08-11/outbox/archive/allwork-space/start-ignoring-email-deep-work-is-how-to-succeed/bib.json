@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 212,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/start-ignoring-email-deep-work-is-how-to-succeed",
+    "name": "Start Ignoring Email — Deep Work Is How To Succeed",
+    "url": "https://allwork.space/2022/11/start-ignoring-email-deep-work-is-how-to-succeed/",
+    "datePublished": "2022-11-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 9,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/top-3-myths-about-high-protein-diets",
+    "name": "Top 3 Myths About High Protein Diets",
+    "url": "https://daniellehewych.medium.com/top-3-myths-about-high-protein-diets-723011a889f6",
+    "datePublished": "2019-10-29T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

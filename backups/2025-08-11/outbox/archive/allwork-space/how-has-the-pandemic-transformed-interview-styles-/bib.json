@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 144,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/how-has-the-pandemic-transformed-interview-styles-",
+    "name": "How Has The Pandemic Transformed Interview Styles? (And, Is It For The Good?)",
+    "url": "https://allwork.space/2022/04/how-has-the-pandemic-transformed-interview-styles-and-is-it-for-the-good/",
+    "datePublished": "2022-04-04T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

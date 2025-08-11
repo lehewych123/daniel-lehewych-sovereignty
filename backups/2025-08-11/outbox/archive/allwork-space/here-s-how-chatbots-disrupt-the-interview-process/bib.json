@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 174,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-chatbots-disrupt-the-interview-process",
+    "name": "Here’s How Chatbots Disrupt the Interview Process",
+    "url": "https://allwork.space/2022/07/heres-how-chatbots-disrupt-the-interview-process/",
+    "datePublished": "2022-07-07T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

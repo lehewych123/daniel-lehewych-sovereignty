@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 168,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/here-s-why-curiosity-and-authenticity-go-a-long-wa",
+    "name": "Here’s Why Curiosity And Authenticity Go A Long Way In The Workplace",
+    "url": "https://allwork.space/2022/06/heres-why-curiosity-and-authenticity-go-a-long-way-in-the-workplace/",
+    "datePublished": "2022-06-28T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

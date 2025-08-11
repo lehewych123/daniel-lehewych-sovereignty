@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 190,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/is-vr-exciting-enough-to-actually-change-the-futur",
+    "name": "Is VR Exciting Enough To Actually Change The Future Of Workspaces?",
+    "url": "https://allwork.space/2022/08/is-vr-exciting-enough-to-actually-change-the-future-of-workspaces/",
+    "datePublished": "2022-08-26T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

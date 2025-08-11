@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 304,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-rhodiola-rosea-is-a-worthwhile-supplement",
+    "name": "Why Rhodiola Rosea is a Worthwhile Supplement",
+    "url": "https://medium.com/illumination/why-rhodiola-rosea-is-a-worthwhile-supplement-3cae155f1f30",
+    "datePublished": "2023-10-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

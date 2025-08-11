@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 278,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-joins-trillion-dollar-club-riding-on-the-ai",
+    "name": "Nvidia joins trillion-dollar club, riding on the AI boom",
+    "url": "https://interestingengineering.com/innovation/nvidia-joins-trillion-dollar-club-riding-on-the-ai-boom",
+    "datePublished": "2023-05-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

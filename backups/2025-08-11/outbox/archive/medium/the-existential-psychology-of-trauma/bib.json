@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 79,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-existential-psychology-of-trauma",
+    "name": "The Existential Psychology of Trauma",
+    "url": "https://theapeiron.co.uk/the-existential-psychology-of-trauma-82383d463865",
+    "datePublished": "2021-07-05T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

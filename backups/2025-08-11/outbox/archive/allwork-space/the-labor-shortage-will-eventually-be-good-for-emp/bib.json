@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 88,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-labor-shortage-will-eventually-be-good-for-emp",
+    "name": "The Labor Shortage Will (Eventually) Be Good for Employees and Businesses, Here’s Why",
+    "url": "https://allwork.space/2021/09/the-labor-shortage-will-eventually-be-good-for-employees-and-businesses-heres-why/",
+    "datePublished": "2021-09-22T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

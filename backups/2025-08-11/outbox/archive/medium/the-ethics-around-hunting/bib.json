@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 25,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-ethics-around-hunting",
+    "name": "The Ethics Around Hunting",
+    "url": "https://daniellehewych.medium.com/the-ethics-around-hunting-beb9e4c1a4e7",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 34,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/the-health-benefits-of-walking",
+    "name": "The Health Benefits of Walking",
+    "url": "https://daniellehewych.medium.com/the-health-benefits-of-walking-c9adb1b91195",
+    "datePublished": "2019-12-03T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@type": "ListItem",
+  "position": 37,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-testosterone-boosters-are-a-waste-of-money",
+    "name": "Why Testosterone Boosters Are A Waste of Money",
+    "url": "https://daniellehewych.medium.com/why-testosterone-boosters-are-a-waste-of-money-f71fa0c0d3d6",
+    "datePublished": "2019-12-12T00:00:00Z",
+    "author": {
+      "@type": "Person",
+      "name": "Daniel Lehewych",
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    }
+  }
+}
