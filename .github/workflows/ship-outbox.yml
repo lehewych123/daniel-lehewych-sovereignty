@@ -1,9 +1,8 @@
-name: Ship Outbox (email attachments)
+name: Outbox Shipper
 on:
+  schedule:
+    - cron: "20 13 * * *"   # adjust timing
   workflow_dispatch: {}
-  push:
-    paths:
-      - 'data/new-articles-full.json'
 
 permissions:
   contents: read
@@ -13,33 +12,49 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Determine if there are new items
-        id: chk
-        run: |
-          if [ ! -f data/new-articles-full.json ]; then echo "has_new=false" >> $GITHUB_OUTPUT; exit 0; fi
-          len=$(jq 'length' data/new-articles-full.json)
-          if [ "$len" -gt 0 ]; then echo "has_new=true" >> $GITHUB_OUTPUT; else echo "has_new=false" >> $GITHUB_OUTPUT; fi
+
+      # Optional: if you want to smoke-test shipping manually in this same run,
+      # uncomment the next 3 lines to generate outbox here.
+      # - uses: actions/setup-node@v4
+      #   with: { node-version: '20' }
+      # - run: node scripts/smoke-generate-outbox.js
+
+      - name: Check for outbox payload
+        id: scan
         shell: bash
-      - name: Zip each outbox folder
-        if: steps.chk.outputs.has_new == 'true'
         run: |
-          mkdir -p out/attachments
-          find data/outbox -mindepth 1 -maxdepth 1 -type d 2>/dev/null | while read d; do
-            base=$(basename "$d")
-            (cd "$d" && zip -qr "../../out/attachments/${base}.zip" .)
-          done
-        shell: bash
-      - name: Send email with attachments
-        if: steps.chk.outputs.has_new == 'true'
+          shopt -s globstar nullglob
+          files=(data/outbox/**)
+          if (( ${#files[@]} > 0 )); then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+            echo "count=${#files[@]}" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Nothing to ship; exit cleanly
+        if: steps.scan.outputs.present == 'false'
+        run: echo "No outbox found (no new/updated items). Skipping." && exit 0
+
+      - name: Send email with outbox
+        if: steps.scan.outputs.present == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_HOST }}
           server_port: ${{ secrets.SMTP_PORT }}
-          secure: ${{ secrets.SMTP_SECURE || 'true' }}
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          subject: Sovereignty: New items found
-          to: ${{ secrets.MAIL_TO }}
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASS }}
+          secure: true
           from: ${{ secrets.MAIL_FROM }}
+          to: ${{ secrets.MAIL_TO }}
+          subject: "SOV-ARCH Outbox · ${{ github.repository }} · Run #${{ github.run_number }}"
+          convert_markdown: true
           html_body: file://data/notification.md
-          attachments: out/attachments/*.zip
+          attachments: |
+            data/outbox/**/header.html
+            data/outbox/**/page.html
+            data/outbox/**/schema.json
+            data/outbox/**/topic.json
+            data/outbox/**/related.json
+            data/outbox/**/bib.json
+            data/outbox/**/meta.json
