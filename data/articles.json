@@ -15,7 +15,11 @@
       "topics": [
         "Healthcare",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.334Z",
     "status": "processed"
@@ -35,7 +39,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.336Z",
     "status": "processed"
@@ -55,7 +63,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.336Z",
     "status": "processed"
@@ -75,7 +87,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.337Z",
     "status": "processed"
@@ -95,7 +111,11 @@
       "type": "ScholarlyArticle",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.337Z",
     "status": "processed"
@@ -115,7 +135,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.337Z",
     "status": "processed"
@@ -135,7 +159,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.337Z",
     "status": "processed"
@@ -155,7 +183,11 @@
       "type": "BlogPosting",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.337Z",
     "status": "processed"
@@ -175,7 +207,11 @@
       "type": "BlogPosting",
       "topics": [
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.337Z",
     "status": "processed"
@@ -196,7 +232,11 @@
       "topics": [
         "Writing & Creativity",
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -216,7 +256,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -236,7 +280,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -256,7 +304,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -277,7 +329,11 @@
       "topics": [
         "Fitness & Nutrition",
         "Work & Career"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -297,7 +353,11 @@
       "type": "BlogPosting",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -317,7 +377,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -337,7 +401,11 @@
       "type": "BlogPosting",
       "topics": [
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -357,7 +425,11 @@
       "type": "ScholarlyArticle",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -377,7 +449,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -397,7 +473,11 @@
       "type": "HowTo",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -417,7 +497,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
     "status": "processed"
@@ -437,7 +521,11 @@
       "type": "BlogPosting",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.339Z",
     "status": "processed"
@@ -457,7 +545,11 @@
       "type": "ScholarlyArticle",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.339Z",
     "status": "processed"
@@ -479,7 +571,11 @@
         "Free Will",
         "AI & Technology",
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.339Z",
     "status": "processed"
@@ -499,7 +595,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.339Z",
     "status": "processed"
@@ -519,7 +619,11 @@
       "type": "BlogPosting",
       "topics": [
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.339Z",
     "status": "processed"
@@ -539,7 +643,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.339Z",
     "status": "processed"
@@ -561,7 +669,11 @@
         "Healthcare",
         "Mental Health",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -581,7 +693,11 @@
       "type": "BlogPosting",
       "topics": [
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -601,7 +717,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -621,7 +741,11 @@
       "type": "BlogPosting",
       "topics": [
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -642,7 +766,11 @@
       "topics": [
         "Philosophy",
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -662,7 +790,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -682,7 +814,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -702,7 +838,11 @@
       "type": "HowTo",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -722,7 +862,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -742,7 +886,11 @@
       "type": "BlogPosting",
       "topics": [
         "Healthcare"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -763,7 +911,11 @@
       "topics": [
         "AI & Technology",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -783,7 +935,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -803,7 +959,11 @@
       "type": "HowTo",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -823,7 +983,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -845,7 +1009,11 @@
         "Healthcare",
         "Mental Health",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -865,7 +1033,11 @@
       "type": "BlogPosting",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -885,7 +1057,11 @@
       "type": "BlogPosting",
       "topics": [
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.340Z",
     "status": "processed"
@@ -906,7 +1082,11 @@
       "topics": [
         "Consciousness",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -926,7 +1106,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -946,7 +1130,11 @@
       "type": "BlogPosting",
       "topics": [
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -966,7 +1154,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -986,7 +1178,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1006,7 +1202,11 @@
       "type": "BlogPosting",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1028,7 +1228,11 @@
         "Consciousness",
         "AI & Technology",
         "Science"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1049,7 +1253,11 @@
       "topics": [
         "Ethics",
         "Education"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1069,7 +1277,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1089,7 +1301,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1109,7 +1325,11 @@
       "type": "BlogPosting",
       "topics": [
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1132,7 +1352,11 @@
         "Longevity",
         "Economics",
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1153,7 +1377,11 @@
       "topics": [
         "Consciousness",
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1173,7 +1401,11 @@
       "type": "BlogPosting",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1193,7 +1425,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1213,7 +1449,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1233,7 +1473,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1253,7 +1497,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1274,7 +1522,11 @@
       "topics": [
         "AI & Technology",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1294,7 +1546,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1314,7 +1570,11 @@
       "type": "BlogPosting",
       "topics": [
         "Free Will"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1334,7 +1594,11 @@
       "type": "BlogPosting",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1354,7 +1618,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.341Z",
     "status": "processed"
@@ -1374,7 +1642,11 @@
       "type": "BlogPosting",
       "topics": [
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1394,7 +1666,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1419,7 +1695,11 @@
         "Longevity",
         "Politics & Society",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1439,7 +1719,11 @@
       "type": "BlogPosting",
       "topics": [
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1459,7 +1743,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1479,7 +1767,11 @@
       "type": "BlogPosting",
       "topics": [
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1499,7 +1791,11 @@
       "type": "BlogPosting",
       "topics": [
         "Work & Career"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1519,7 +1815,11 @@
       "type": "BlogPosting",
       "topics": [
         "Education"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1539,7 +1839,11 @@
       "type": "BlogPosting",
       "topics": [
         "Science"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1560,7 +1864,11 @@
       "topics": [
         "Philosophy",
         "Science"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.342Z",
     "status": "processed"
@@ -1580,7 +1888,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1600,7 +1912,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1620,7 +1936,11 @@
       "type": "HowTo",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1640,7 +1960,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1661,7 +1985,11 @@
       "topics": [
         "Philosophy",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1681,7 +2009,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1701,7 +2033,11 @@
       "type": "BlogPosting",
       "topics": [
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1721,7 +2057,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1741,7 +2081,11 @@
       "type": "HowTo",
       "topics": [
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1761,7 +2105,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1781,7 +2129,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1801,7 +2153,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1821,7 +2177,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1841,7 +2201,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1861,7 +2225,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1881,7 +2249,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1901,7 +2273,11 @@
       "type": "BlogPosting",
       "topics": [
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1921,7 +2297,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1941,7 +2321,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1963,7 +2347,11 @@
         "Consciousness",
         "Healthcare",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -1983,7 +2371,11 @@
       "type": "BlogPosting",
       "topics": [
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -2003,7 +2395,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -2023,7 +2419,11 @@
       "type": "BlogPosting",
       "topics": [
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -2044,7 +2444,11 @@
       "topics": [
         "AI & Technology",
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -2064,7 +2468,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.343Z",
     "status": "processed"
@@ -2084,7 +2492,11 @@
       "type": "BlogPosting",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2104,7 +2516,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2124,7 +2540,11 @@
       "type": "ScholarlyArticle",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2145,7 +2565,11 @@
       "topics": [
         "Healthcare",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2165,7 +2589,11 @@
       "type": "BlogPosting",
       "topics": [
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2186,7 +2614,11 @@
       "topics": [
         "AI & Technology",
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2206,7 +2638,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2226,7 +2662,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2246,7 +2686,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2267,7 +2711,11 @@
       "topics": [
         "Consciousness",
         "Work & Career"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2287,7 +2735,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2307,7 +2759,11 @@
       "type": "BlogPosting",
       "topics": [
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2327,7 +2783,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2347,7 +2807,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2367,7 +2831,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2387,7 +2855,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2407,7 +2879,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2427,7 +2903,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2447,7 +2927,11 @@
       "type": "BlogPosting",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2468,7 +2952,11 @@
       "topics": [
         "Education",
         "Work & Career"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2488,7 +2976,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2508,7 +3000,11 @@
       "type": "BlogPosting",
       "topics": [
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2528,7 +3024,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2548,7 +3048,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2568,7 +3072,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2588,7 +3096,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2608,7 +3120,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2628,7 +3144,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2648,7 +3168,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.344Z",
     "status": "processed"
@@ -2668,7 +3192,11 @@
       "type": "BlogPosting",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2688,7 +3216,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2708,7 +3240,11 @@
       "type": "BlogPosting",
       "topics": [
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2728,7 +3264,11 @@
       "type": "BlogPosting",
       "topics": [
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2748,7 +3288,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2768,7 +3312,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2788,7 +3336,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2808,7 +3360,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2829,7 +3385,11 @@
       "topics": [
         "Philosophy",
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2849,7 +3409,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2869,7 +3433,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2891,7 +3459,11 @@
         "AI & Technology",
         "Healthcare",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2911,7 +3483,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.345Z",
     "status": "processed"
@@ -2931,7 +3507,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -2951,7 +3531,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -2973,7 +3557,11 @@
         "Ethics",
         "Psychology",
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -2993,7 +3581,11 @@
       "type": "BlogPosting",
       "topics": [
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3013,7 +3605,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3033,7 +3629,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3054,7 +3654,11 @@
       "topics": [
         "Philosophy",
         "Science"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3075,7 +3679,11 @@
       "topics": [
         "Philosophy",
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3096,7 +3704,11 @@
       "topics": [
         "Philosophy",
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3116,7 +3728,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3136,7 +3752,11 @@
       "type": "ScholarlyArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3156,7 +3776,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3176,7 +3800,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3196,7 +3824,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3216,7 +3848,11 @@
       "type": "BlogPosting",
       "topics": [
         "Consciousness"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3236,7 +3872,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3257,7 +3897,11 @@
       "topics": [
         "Philosophy",
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3277,7 +3921,11 @@
       "type": "ScholarlyArticle",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3297,7 +3945,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3317,7 +3969,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3338,7 +3994,11 @@
       "topics": [
         "Philosophy",
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3358,7 +4018,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3378,7 +4042,11 @@
       "type": "BlogPosting",
       "topics": [
         "Religion & Spirituality"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3398,7 +4066,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.346Z",
     "status": "processed"
@@ -3418,7 +4090,11 @@
       "type": "ScholarlyArticle",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3438,7 +4114,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3458,7 +4138,11 @@
       "type": "BlogPosting",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3478,7 +4162,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3498,7 +4186,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3518,7 +4210,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3538,7 +4234,11 @@
       "type": "BlogPosting",
       "topics": [
         "Consciousness"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3558,7 +4258,11 @@
       "type": "BlogPosting",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3578,7 +4282,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3598,7 +4306,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3618,7 +4330,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3638,7 +4354,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3658,7 +4378,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3678,7 +4402,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3698,7 +4426,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3718,7 +4450,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3738,7 +4474,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3758,7 +4498,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.347Z",
     "status": "processed"
@@ -3778,7 +4522,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3798,7 +4546,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3818,7 +4570,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3838,7 +4594,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3859,7 +4619,11 @@
       "topics": [
         "Politics & Society",
         "Climate & Environment"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3881,7 +4645,11 @@
         "Politics & Society",
         "Ethics",
         "Work & Career"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3902,7 +4670,11 @@
       "topics": [
         "Politics & Society",
         "Healthcare"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3924,7 +4696,11 @@
         "Politics & Society",
         "Philosophy",
         "Education"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3944,7 +4720,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3964,7 +4744,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -3985,7 +4769,11 @@
       "topics": [
         "Politics & Society",
         "Work & Career"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4006,7 +4794,11 @@
       "topics": [
         "Politics & Society",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4026,7 +4818,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4046,7 +4842,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4066,7 +4866,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4088,7 +4892,11 @@
         "Politics & Society",
         "Economics",
         "Climate & Environment"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4109,7 +4917,11 @@
       "topics": [
         "Politics & Society",
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4129,7 +4941,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4150,7 +4966,11 @@
       "topics": [
         "Politics & Society",
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4170,7 +4990,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4190,7 +5014,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4211,7 +5039,11 @@
       "topics": [
         "AI & Technology",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4231,7 +5063,11 @@
       "type": "OpinionNewsArticle",
       "topics": [
         "Politics & Society"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4251,7 +5087,11 @@
       "type": "BlogPosting",
       "topics": [
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4272,7 +5112,11 @@
       "topics": [
         "Healthcare",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4292,7 +5136,11 @@
       "type": "HowTo",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4312,7 +5160,11 @@
       "type": "HowTo",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.348Z",
     "status": "processed"
@@ -4332,7 +5184,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4354,7 +5210,11 @@
         "Work & Career",
         "Digital Culture",
         "Healthcare"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4375,7 +5235,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4397,7 +5261,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4419,7 +5287,11 @@
         "Work & Career",
         "Digital Culture",
         "Climate & Environment"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4441,7 +5313,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4462,7 +5338,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4484,7 +5364,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4505,7 +5389,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4526,7 +5414,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4549,7 +5441,11 @@
         "Digital Culture",
         "AI & Technology",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4570,7 +5466,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4594,7 +5494,11 @@
         "Healthcare",
         "Mental Health",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4615,7 +5519,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4636,7 +5544,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4657,7 +5569,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4679,7 +5595,11 @@
         "Work & Career",
         "Digital Culture",
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4700,7 +5620,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4721,7 +5645,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4742,7 +5670,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4764,7 +5696,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4785,7 +5721,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.349Z",
     "status": "processed"
@@ -4807,7 +5747,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4827,7 +5771,11 @@
       "type": "BlogPosting",
       "topics": [
         "Philosophy"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4851,7 +5799,11 @@
         "Healthcare",
         "Politics & Society",
         "Work & Career"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4871,7 +5823,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4891,7 +5847,11 @@
       "type": "BlogPosting",
       "topics": [
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4911,7 +5871,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4932,7 +5896,11 @@
       "topics": [
         "AI & Technology",
         "Healthcare"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4952,7 +5920,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4972,7 +5944,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -4992,7 +5968,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5013,7 +5993,11 @@
       "topics": [
         "AI & Technology",
         "Healthcare"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5033,7 +6017,11 @@
       "type": "BlogPosting",
       "topics": [
         "Science"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5053,7 +6041,11 @@
       "type": "BlogPosting",
       "topics": [
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5073,7 +6065,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5093,7 +6089,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5113,7 +6113,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5133,7 +6137,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5153,7 +6161,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5173,7 +6185,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5193,7 +6209,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.350Z",
     "status": "processed"
@@ -5213,7 +6233,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5233,7 +6257,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5257,7 +6285,11 @@
         "Mental Health",
         "Education",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5277,7 +6309,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5298,7 +6334,11 @@
       "topics": [
         "AI & Technology",
         "Science"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5318,7 +6358,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5338,7 +6382,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5358,7 +6406,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5378,7 +6430,11 @@
       "type": "BlogPosting",
       "topics": [
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5398,7 +6454,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5418,7 +6478,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5438,7 +6502,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5458,7 +6526,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5478,7 +6550,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5498,7 +6574,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5518,7 +6598,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5538,7 +6622,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5558,7 +6646,11 @@
       "type": "BlogPosting",
       "topics": [
         "General"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5578,7 +6670,11 @@
       "type": "BlogPosting",
       "topics": [
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5600,7 +6696,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5621,7 +6721,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.351Z",
     "status": "processed"
@@ -5643,7 +6747,11 @@
         "Work & Career",
         "Digital Culture",
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5665,7 +6773,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5686,7 +6798,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5708,7 +6824,11 @@
         "Work & Career",
         "Digital Culture",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5730,7 +6850,11 @@
         "Work & Career",
         "Digital Culture",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5751,7 +6875,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5773,7 +6901,11 @@
         "Work & Career",
         "Digital Culture",
         "Mental Health"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5795,7 +6927,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5816,7 +6952,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5837,7 +6977,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5858,7 +7002,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.352Z",
     "status": "processed"
@@ -5881,7 +7029,11 @@
         "Digital Culture",
         "AI & Technology",
         "Mental Health"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -5902,7 +7054,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -5923,7 +7079,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -5944,7 +7104,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -5966,7 +7130,11 @@
         "Work & Career",
         "Digital Culture",
         "Mental Health"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -5987,7 +7155,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6009,7 +7181,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6030,7 +7206,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6051,7 +7231,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6072,7 +7256,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6093,7 +7281,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6114,7 +7306,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6135,7 +7331,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6156,7 +7356,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6177,7 +7381,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6199,7 +7407,11 @@
         "Work & Career",
         "Digital Culture",
         "Education"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6221,7 +7433,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6242,7 +7458,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6263,7 +7483,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.353Z",
     "status": "processed"
@@ -6284,7 +7508,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.354Z",
     "status": "processed"
@@ -6307,7 +7535,11 @@
         "Digital Culture",
         "AI & Technology",
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.354Z",
     "status": "processed"
@@ -6328,7 +7560,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.354Z",
     "status": "processed"
@@ -6349,7 +7585,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.354Z",
     "status": "processed"
@@ -6370,7 +7610,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.354Z",
     "status": "processed"
@@ -6392,7 +7636,11 @@
         "Work & Career",
         "Digital Culture",
         "Healthcare"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.354Z",
     "status": "processed"
@@ -6413,7 +7661,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.357Z",
     "status": "processed"
@@ -6434,7 +7686,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.357Z",
     "status": "processed"
@@ -6455,7 +7711,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.357Z",
     "status": "processed"
@@ -6479,7 +7739,11 @@
         "Healthcare",
         "Mental Health",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.357Z",
     "status": "processed"
@@ -6500,7 +7764,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6522,7 +7790,11 @@
         "Work & Career",
         "Digital Culture",
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6543,7 +7815,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6564,7 +7840,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6585,7 +7865,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6606,7 +7890,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6627,7 +7915,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6649,7 +7941,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6672,7 +7968,11 @@
         "Digital Culture",
         "AI & Technology",
         "Science"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6694,7 +7994,11 @@
         "Work & Career",
         "Digital Culture",
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6715,7 +8019,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6736,7 +8044,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6758,7 +8070,11 @@
         "Work & Career",
         "Digital Culture",
         "Education"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6780,7 +8096,11 @@
         "Work & Career",
         "Digital Culture",
         "Ethics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6801,7 +8121,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.358Z",
     "status": "processed"
@@ -6822,7 +8146,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6846,7 +8174,11 @@
         "Healthcare",
         "Mental Health",
         "Psychology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6867,7 +8199,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6888,7 +8224,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6909,7 +8249,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6930,7 +8274,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6951,7 +8299,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6972,7 +8324,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -6993,7 +8349,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7014,7 +8374,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7036,7 +8400,11 @@
         "Work & Career",
         "Digital Culture",
         "Writing & Creativity"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7057,7 +8425,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7079,7 +8451,11 @@
         "Work & Career",
         "Digital Culture",
         "Education"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7100,7 +8476,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7121,7 +8501,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7142,7 +8526,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7164,7 +8552,11 @@
         "Work & Career",
         "Digital Culture",
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.359Z",
     "status": "processed"
@@ -7186,7 +8578,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7207,7 +8603,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7228,7 +8628,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7249,7 +8653,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7271,7 +8679,11 @@
         "Work & Career",
         "Digital Culture",
         "Healthcare"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7292,7 +8704,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7313,7 +8729,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7334,7 +8754,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7356,7 +8780,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7379,7 +8807,11 @@
         "Digital Culture",
         "Ethics",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7401,7 +8833,11 @@
         "Work & Career",
         "Digital Culture",
         "Fitness & Nutrition"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7423,7 +8859,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7444,7 +8884,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.360Z",
     "status": "processed"
@@ -7466,7 +8910,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7487,7 +8935,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7508,7 +8960,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7530,7 +8986,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7551,7 +9011,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7572,7 +9036,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7594,7 +9062,11 @@
         "Work & Career",
         "Digital Culture",
         "AI & Technology"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7615,7 +9087,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7636,7 +9112,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7657,7 +9137,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7680,7 +9164,11 @@
         "Digital Culture",
         "Ethics",
         "Economics"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
@@ -7701,7 +9189,11 @@
       "topics": [
         "Work & Career",
         "Digital Culture"
-      ]
+      ],
+      "usageInfo": {
+        "@type": "CreativeWork",
+        "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+      }
     },
     "discoveredAt": "2025-08-11T17:10:51.361Z",
     "status": "processed"
