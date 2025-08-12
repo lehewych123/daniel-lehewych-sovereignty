@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 282,
+  "position": 94,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/science/nasas-quest-for-unidentified-anomalies-among-ufos",
       "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

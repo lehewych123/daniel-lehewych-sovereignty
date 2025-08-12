@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 247,
+  "position": 127,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/age-of-awareness/what-does-it-mean-to-be-a-better-human-c942d8b65264",

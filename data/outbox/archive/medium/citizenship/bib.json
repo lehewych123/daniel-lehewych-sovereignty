@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 39,
+  "position": 335,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/citizenship-84623f3825a4",

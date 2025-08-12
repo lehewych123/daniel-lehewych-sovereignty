@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 57,
+  "position": 317,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/how-setting-high-expectations-for-yourself-turns-y",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://theapeiron.co.uk/how-setting-high-expectations-for-yourself-turns-you-into-the-ideal-for-others-6106bbce8871",
       "https://daniellehewych.org/archive/medium/how-setting-high-expectations-for-yourself-turns-y"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

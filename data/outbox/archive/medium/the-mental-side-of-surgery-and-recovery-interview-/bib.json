@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 18,
+  "position": 359,
   "item": {
     "@type": [
+      "Interview",
       "MedicalScholarlyArticle",
       "Article"
     ],
@@ -24,7 +25,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-mental-side-of-surgery-and-recovery-interview-with-dr-warren-reich-96562123c70",
@@ -33,14 +34,14 @@
     "mentions": [
       {
         "@type": "Person",
-        "name": "Dr",
+        "name": "Dr. Warren Reich",
         "roleName": "Interviewee"
       }
     ],
-    "genre": "Health Research",
+    "genre": "Expert Interview",
     "contributor": {
       "@type": "Person",
-      "name": "Dr",
+      "name": "Dr. Warren Reich",
       "roleName": "Interviewee"
     },
     "usageInfo": {

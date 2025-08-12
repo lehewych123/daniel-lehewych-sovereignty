@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 265,
+  "position": 107,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/culture/florida-governor-ron-desantis-to-announce-presidential-run-in-twitter-spaces-with-ceo-elon-musk",

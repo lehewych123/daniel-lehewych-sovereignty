@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 130,
+  "position": 244,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/02/the-effects-of-remote-work-on-sleep/",

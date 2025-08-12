@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 144,
+  "position": 229,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/how-has-the-pandemic-transformed-interview-styles-and-is-it-for-the-good/",

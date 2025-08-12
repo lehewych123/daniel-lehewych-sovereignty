@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 23,
+  "position": 351,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/sex-differences-in-injury-recovery-30ca253ed0a2",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Injury Recovery",
-    "genre": "Health Research",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

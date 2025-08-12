@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 104,
+  "position": 270,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/11/communicating-boundaries-is-essential-for-reducing-remote-worker-burnout-but-is-this-enough/",

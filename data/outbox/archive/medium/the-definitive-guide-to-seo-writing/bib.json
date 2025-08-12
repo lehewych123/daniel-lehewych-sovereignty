@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 257,
+  "position": 117,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://writingcooperative.com/the-definitive-guide-to-seo-writing-29c1c8f1ae32",

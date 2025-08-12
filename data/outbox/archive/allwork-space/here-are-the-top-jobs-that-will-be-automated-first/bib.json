@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 120,
+  "position": 253,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/01/here-are-the-top-jobs-that-will-be-automated-first/",

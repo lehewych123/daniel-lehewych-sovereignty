@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 172,
+  "position": 202,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-s-what-s-in-store-for-job-stability-and-the-f",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/heres-whats-in-store-for-job-stability-and-the-future-of-work/",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Future of Work",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

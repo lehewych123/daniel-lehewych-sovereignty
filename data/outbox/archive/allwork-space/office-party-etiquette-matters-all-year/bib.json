@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 236,
+  "position": 138,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2023/02/office-party-etiquette-matters-all-year/",

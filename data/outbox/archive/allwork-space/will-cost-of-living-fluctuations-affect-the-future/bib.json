@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 128,
+  "position": 246,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/will-cost-of-living-fluctuations-affect-the-future",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/02/will-cost-of-living-fluctuations-affect-the-future-of-work/",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Future of Work",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

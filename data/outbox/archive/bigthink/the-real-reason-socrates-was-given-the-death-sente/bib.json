@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 245,
+  "position": 129,
   "item": {
     "@type": [
+      "ScholarlyArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/bigthink/the-real-reason-socrates-was-given-the-death-sente",
@@ -23,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "BigThink",
-      "issn": "2573-7651"
+      "issn": ""
     },
     "sameAs": [
       "https://bigthink.com/the-past/real-reason-socrates-death-sentence/",
@@ -35,7 +36,8 @@
         "name": "Socrates"
       }
     ],
-    "genre": "Commentary",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

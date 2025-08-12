@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 347,
+  "position": 27,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-generative-dynamics-of-language-13b550cab75d",

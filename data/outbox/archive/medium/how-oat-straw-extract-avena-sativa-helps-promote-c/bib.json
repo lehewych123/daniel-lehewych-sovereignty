@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 261,
+  "position": 113,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/how-oat-straw-extract-avena-sativa-helps-promote-c",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/how-oat-straw-extract-avena-sativa-helps-promote-cognitive-health-189830ea3c21",
@@ -41,8 +40,7 @@
       }
     ],
     "keywords": "Health Sciences, Cognitive Science",
-    "academicDiscipline": "Medicine",
-    "genre": "Health Research",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

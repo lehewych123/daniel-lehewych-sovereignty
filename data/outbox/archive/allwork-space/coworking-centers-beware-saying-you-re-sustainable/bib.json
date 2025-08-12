@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 211,
+  "position": 163,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/11/coworking-centers-beware-saying-youre-sustainable-isnt-enough/",

@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 89,
+  "position": 285,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/google-s-2-billion-wager-on-urban-recovery-and-hyb",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/09/googles-2-billion-wager-on-urban-recovery-and-hybrid-work/",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Hybrid Work",
-    "genre": "Health Research",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

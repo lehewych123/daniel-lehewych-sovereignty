@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 272,
+  "position": 104,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/culture/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",

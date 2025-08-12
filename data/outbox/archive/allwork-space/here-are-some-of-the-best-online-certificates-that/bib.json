@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 139,
+  "position": 235,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/03/here-are-some-of-the-best-online-certificates-that-can-lead-directly-to-work/",

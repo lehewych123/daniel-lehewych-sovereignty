@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 244,
+  "position": 130,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/in-fitness-and-in-health/should-i-use-aluminum-free-deodorant-a1e7ba094c1f",

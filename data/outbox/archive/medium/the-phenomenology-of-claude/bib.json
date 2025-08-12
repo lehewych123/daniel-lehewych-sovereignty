@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 348,
+  "position": 26,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-phenomenology-of-claude-3908fefd81fa",

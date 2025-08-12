@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 260,
+  "position": 114,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/why-you-should-be-supplementing-with-alpha-lipoic-acid-43f73ab62c3d",

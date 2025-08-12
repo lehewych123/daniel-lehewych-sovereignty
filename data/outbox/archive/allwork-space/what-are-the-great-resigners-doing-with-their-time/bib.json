@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 105,
+  "position": 269,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/11/what-are-the-great-resigners-doing-with-their-time/",

@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 207,
+  "position": 167,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/demand-for-virtual-assistant-jobs-continues-to-exp",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/10/demand-for-virtual-assistant-jobs-continues-to-explode-market-is-set-to-grow-by-4-12-billion/",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Market Dynamics",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 71,
+  "position": 304,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/zhuangzi-the-inborn-nature-and-the-heavenly-dao-6217b03b3650",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 235,
+  "position": 139,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/how-bad-incentives-rule-modern-commerce-a7345c5972d8",

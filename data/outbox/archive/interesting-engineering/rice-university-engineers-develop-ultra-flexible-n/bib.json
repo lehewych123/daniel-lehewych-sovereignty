@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 283,
+  "position": 95,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/rice-university-engineers-develop-ultra-flexible-n",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/science/rice-university-engineers-develop-ultra-flexible-nanoelectrodes-for-brain-stimulation-therapy",
@@ -37,15 +36,11 @@
       },
       {
         "@type": "Thing",
-        "name": "Psychotherapy"
-      },
-      {
-        "@type": "Thing",
         "name": "Neuroscience"
       }
     ],
-    "keywords": "Artificial Intelligence, Psychotherapy, Neuroscience",
-    "genre": "Opinion Piece",
+    "keywords": "Artificial Intelligence, Neuroscience",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 22,
+  "position": 350,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/sartre-bad-faith-and-its-incompatibility-with-human-freedom-91eb2753da1",

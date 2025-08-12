@@ -1,9 +1,10 @@
 {
   "@type": "ListItem",
-  "position": 198,
+  "position": 176,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
+      "TechArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/is-ai-the-future-of-graphic-design-work-meet-dall-",
@@ -24,7 +25,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/09/is-ai-the-future-of-graphic-design-work-meet-dall-e-2/",
@@ -37,7 +38,7 @@
       }
     ],
     "keywords": "Artificial Intelligence",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 306,
+  "position": 68,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/opin-4b5c89d2bc2a",

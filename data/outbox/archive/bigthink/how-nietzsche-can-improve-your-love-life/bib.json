@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 92,
+  "position": 283,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "BigThink",
-      "issn": "2573-7651"
+      "issn": ""
     },
     "sameAs": [
       "https://bigthink.com/thinking/nietzsche-improve-love-life/",

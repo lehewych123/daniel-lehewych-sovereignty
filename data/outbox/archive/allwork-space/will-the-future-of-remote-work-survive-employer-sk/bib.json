@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 213,
+  "position": 161,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/will-the-future-of-remote-work-survive-employer-sk",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/11/will-the-future-of-remote-work-survive-employer-skepticism/",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Remote Work",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

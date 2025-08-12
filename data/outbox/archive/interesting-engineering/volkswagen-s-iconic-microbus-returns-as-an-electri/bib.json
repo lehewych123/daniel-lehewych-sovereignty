@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 292,
+  "position": 85,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/transportation/volkswagens-iconic-microbus-returns-as-an-electric-marvel",

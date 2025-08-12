@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 248,
+  "position": 126,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/age-of-awareness/how-can-we-understand-colors-better-a69c1aa8ccd0",

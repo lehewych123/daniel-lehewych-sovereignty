@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 321,
+  "position": 52,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Qure.ai",
-      "issn": "2581-8104"
+      "issn": ""
     },
     "sameAs": [
       "https://www.qure.ai/blog/advancing-trauma-care-in-winter-sports",

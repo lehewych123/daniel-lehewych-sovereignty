@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 343,
+  "position": 31,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Qure.ai",
-      "issn": "2581-8104"
+      "issn": ""
     },
     "sameAs": [
       "https://www.qure.ai/blog/optimising-lung-cancer-pathways-and-neurocritical-ct-triage-with-ai",

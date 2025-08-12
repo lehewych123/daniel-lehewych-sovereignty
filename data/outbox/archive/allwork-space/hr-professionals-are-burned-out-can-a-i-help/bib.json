@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 220,
+  "position": 154,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/12/hr-professionals-are-burned-out-can-a-i-help/",

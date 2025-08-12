@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 19,
+  "position": 347,
   "item": {
     "@type": [
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/economic-observations-the-state-of-modern-economic",
@@ -23,13 +24,13 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/economic-observations-the-state-of-modern-economics-127621a5c653",
       "https://daniellehewych.org/archive/medium/economic-observations-the-state-of-modern-economic"
     ],
-    "genre": "Commentary",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

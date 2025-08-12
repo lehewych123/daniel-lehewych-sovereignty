@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 31,
+  "position": 340,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "HowTo",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/exercise-strategies-for-injury-rehabilitation",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/exercise-strategies-for-injury-rehabilitation-611d1d74d77f",
@@ -33,11 +33,16 @@
     "about": [
       {
         "@type": "Thing",
+        "name": "Injury Rehabilitation"
+      },
+      {
+        "@type": "Thing",
         "name": "Exercise Science"
       }
     ],
-    "keywords": "Exercise Science",
-    "genre": "Opinion Piece",
+    "keywords": "Injury Rehabilitation, Exercise Science",
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

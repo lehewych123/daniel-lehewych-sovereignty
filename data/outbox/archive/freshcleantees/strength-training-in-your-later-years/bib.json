@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 117,
+  "position": 259,
   "item": {
     "@type": [
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/freshcleantees/strength-training-in-your-later-years",
@@ -36,7 +37,7 @@
       }
     ],
     "keywords": "Artificial Intelligence",
-    "genre": "Commentary",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

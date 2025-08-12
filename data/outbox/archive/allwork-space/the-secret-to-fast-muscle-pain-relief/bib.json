@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 231,
+  "position": 142,
   "item": {
     "@type": [
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief",
@@ -23,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2023/02/the-secret-to-fast-muscle-pain-relief/",
@@ -36,7 +37,7 @@
       }
     ],
     "keywords": "Artificial Intelligence",
-    "genre": "Commentary",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

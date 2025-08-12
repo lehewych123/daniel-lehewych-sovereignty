@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 250,
+  "position": 124,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/why-you-should-be-supplementing-with-grape-seed-extract-80f1cbe57498",

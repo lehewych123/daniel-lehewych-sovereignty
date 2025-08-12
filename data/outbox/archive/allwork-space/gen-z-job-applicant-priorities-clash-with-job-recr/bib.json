@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 197,
+  "position": 177,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/09/gen-z-job-applicant-priorities-clash-with-job-recruiters/",

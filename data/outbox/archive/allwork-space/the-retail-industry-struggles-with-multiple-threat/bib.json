@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 109,
+  "position": 265,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/12/the-retail-industry-struggles-with-multiple-threats-and-not-enough-workers/",

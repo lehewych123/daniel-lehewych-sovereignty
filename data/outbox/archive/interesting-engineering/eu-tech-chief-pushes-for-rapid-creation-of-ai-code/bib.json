@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 280,
+  "position": 92,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "TechArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/eu-tech-chief-pushes-for-rapid-creation-of-ai-code",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/science/eu-tech-chief-pushes-for-rapid-creation-of-ai-code-of-conduct",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Artificial Intelligence",
-    "genre": "Opinion Piece",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

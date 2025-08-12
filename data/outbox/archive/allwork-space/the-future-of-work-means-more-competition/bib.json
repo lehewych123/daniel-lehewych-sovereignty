@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 129,
+  "position": 245,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/02/the-future-of-work-means-more-competition/",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 84,
+  "position": 290,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/in-fitness-and-in-health/should-you-use-knee-sleeves-when-squatting-e9bcbd02463a",

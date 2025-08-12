@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 11,
+  "position": 363,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/martin-heideggers-being-time-the-question-of-being-7bf1e5b390ad",

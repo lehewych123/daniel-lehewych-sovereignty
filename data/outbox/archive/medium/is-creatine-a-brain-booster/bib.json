@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 70,
+  "position": 303,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/in-fitness-and-in-health/is-creatine-a-brain-booster-c7bd6c1658e8",

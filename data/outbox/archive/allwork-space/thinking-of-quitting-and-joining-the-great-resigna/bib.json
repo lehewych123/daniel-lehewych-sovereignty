@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 93,
+  "position": 281,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/10/thinking-of-quitting-and-joining-the-great-resignation-heres-how-to-do-it-right/",

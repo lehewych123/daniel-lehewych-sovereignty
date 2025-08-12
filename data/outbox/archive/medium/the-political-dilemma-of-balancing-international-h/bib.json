@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 327,
+  "position": 47,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-political-dilemma-of-balancing-international-hospitality-with-domestic-concerns-5ae829c268e9",

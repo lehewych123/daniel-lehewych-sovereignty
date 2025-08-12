@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 16,
+  "position": 357,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/rousseaus-discourses-a-short-critique-4854dfc9ec3a",

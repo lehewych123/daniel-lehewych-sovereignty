@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 229,
+  "position": 144,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/daoist-lessons-for-life-from-zhuangzi-s-butterfly-",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/age-of-awareness/daoist-lessons-for-life-from-zhuangzis-butterfly-dream-7fb4eff75fea",
       "https://daniellehewych.org/archive/medium/daoist-lessons-for-life-from-zhuangzi-s-butterfly-"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

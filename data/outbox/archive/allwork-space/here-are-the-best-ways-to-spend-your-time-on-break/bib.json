@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 126,
+  "position": 248,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/01/here-are-the-best-ways-to-spend-your-time-on-break-at-work/",

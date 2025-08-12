@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 310,
+  "position": 64,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/why-you-should-supplement-with-berberine-02a1a697a8a3",

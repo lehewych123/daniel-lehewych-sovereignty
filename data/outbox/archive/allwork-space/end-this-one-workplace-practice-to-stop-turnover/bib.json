@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 221,
+  "position": 153,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/12/end-this-one-workplace-practice-to-stop-turnover/",

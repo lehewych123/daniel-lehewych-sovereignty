@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 212,
+  "position": 162,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/11/start-ignoring-email-deep-work-is-how-to-succeed/",

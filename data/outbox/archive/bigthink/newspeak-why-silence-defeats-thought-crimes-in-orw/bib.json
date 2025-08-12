@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 124,
+  "position": 250,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "BigThink",
-      "issn": "2573-7651"
+      "issn": ""
     },
     "sameAs": [
       "https://bigthink.com/thinking/silence-thought-newspeak/",

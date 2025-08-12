@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 263,
+  "position": 110,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/orbex-unveils-first-ever-marketplace-for-certified",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/orbex-unveils-first-ever-marketplace-for-certified-recycled-metals",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Market Dynamics",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 45,
+  "position": 329,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://theapeiron.co.uk/the-philosophy-of-metta-meditation-fafa6e5da8f3",

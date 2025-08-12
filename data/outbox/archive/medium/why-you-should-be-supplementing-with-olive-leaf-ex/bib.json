@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 251,
+  "position": 125,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/why-you-should-be-supplementing-with-olive-leaf-extract-dbe23ae1c187",

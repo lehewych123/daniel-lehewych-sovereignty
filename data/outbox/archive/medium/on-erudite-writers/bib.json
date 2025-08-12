@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 237,
+  "position": 137,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://writingcooperative.com/on-erudite-writers-dda49d4db53e",

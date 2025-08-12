@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 210,
+  "position": 164,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/11/top-5-metabolism-boosting-tricks-to-combat-the-perils-of-desk-work/",

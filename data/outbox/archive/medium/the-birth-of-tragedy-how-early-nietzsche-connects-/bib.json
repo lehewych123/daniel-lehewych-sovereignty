@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 17,
+  "position": 358,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-birth-of-tragedy-how-early-nietzsche-connects-to-late-nietzsche-3894b7e2822c",

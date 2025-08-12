@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 110,
+  "position": 264,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/12/not-getting-that-interview-heres-why-more-than-70-percent-of-resumes-are-rejected",

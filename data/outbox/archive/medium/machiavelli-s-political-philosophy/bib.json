@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 256,
+  "position": 118,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/machiavellis-political-philosophy-5cf71bc4caa4",

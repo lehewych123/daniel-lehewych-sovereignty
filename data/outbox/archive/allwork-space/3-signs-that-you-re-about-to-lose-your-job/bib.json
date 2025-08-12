@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 208,
+  "position": 166,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/10/3-signs-that-youre-about-to-lose-your-job/",

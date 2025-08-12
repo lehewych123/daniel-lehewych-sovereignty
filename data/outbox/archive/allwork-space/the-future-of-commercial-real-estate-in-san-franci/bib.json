@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 216,
+  "position": 158,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/11/the-future-of-commercial-real-estate-in-san-francisco-doesnt-look-good/",

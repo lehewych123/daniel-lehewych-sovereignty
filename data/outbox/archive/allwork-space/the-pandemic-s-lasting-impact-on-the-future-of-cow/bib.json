@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 224,
+  "position": 150,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/12/the-pandemics-lasting-impact-on-the-future-of-coworking/",

@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 305,
+  "position": 69,
   "item": {
     "@type": [
+      "ScholarlyArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/the-philosophical-hilbert-space",
@@ -23,13 +24,14 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-philosophical-hilbert-space-7bbf9b1c9354",
       "https://daniellehewych.org/archive/medium/the-philosophical-hilbert-space"
     ],
-    "genre": "Commentary",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

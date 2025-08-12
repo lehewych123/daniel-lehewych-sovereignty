@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 2,
+  "position": 370,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/dietary-supplements-for-injury-recovery",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/supplements-for-injuries-an-interview-with-kurtis-frank-bb4dda4b3a38",
@@ -38,10 +38,14 @@
       {
         "@type": "Thing",
         "name": "Dietary Supplements"
+      },
+      {
+        "@type": "Thing",
+        "name": "Dietary Supplements"
       }
     ],
-    "keywords": "Injury Recovery, Dietary Supplements",
-    "genre": "Opinion Piece",
+    "keywords": "Injury Recovery, Dietary Supplements, Dietary Supplements",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 179,
+  "position": 195,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/can-we-expect-unexpected-layoffs-in-2022/",

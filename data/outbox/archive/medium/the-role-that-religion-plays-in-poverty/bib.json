@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 14,
+  "position": 361,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-role-that-religion-plays-in-poverty-5e58c0631c13",

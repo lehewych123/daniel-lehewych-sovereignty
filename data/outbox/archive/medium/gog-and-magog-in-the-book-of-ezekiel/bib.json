@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 325,
+  "position": 48,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/gog-and-magog-in-the-book-of-ezekiel-402398aa1801",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 301,
+  "position": 73,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Qure.ai",
-      "issn": "2581-8104"
+      "issn": ""
     },
     "sameAs": [
       "https://www.qure.ai/blog/stroke-care-in-india-an-exploration-of-the-ai-powered-hub-spoke-model",

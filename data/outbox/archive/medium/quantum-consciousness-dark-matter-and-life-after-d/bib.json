@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 366,
+  "position": 8,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/grim-tidings/the-quantum-nature-of-consciousness-and-its-implications-for-post-mortem-survival-59c7e0a49e87",

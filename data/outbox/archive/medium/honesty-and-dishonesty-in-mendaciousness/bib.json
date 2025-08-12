@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 363,
+  "position": 11,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/grim-tidings/honesty-and-dishonesty-in-mendaciousness-c508aa08e3ad",

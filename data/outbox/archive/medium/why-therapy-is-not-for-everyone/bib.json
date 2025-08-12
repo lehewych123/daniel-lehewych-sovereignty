@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 42,
+  "position": 332,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/why-therapy-is-not-for-everyone",
@@ -24,20 +23,13 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/why-therapy-is-not-for-everyone-1f35dfdef30c",
       "https://daniellehewych.org/archive/medium/why-therapy-is-not-for-everyone"
     ],
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "Psychotherapy"
-      }
-    ],
-    "keywords": "Psychotherapy",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

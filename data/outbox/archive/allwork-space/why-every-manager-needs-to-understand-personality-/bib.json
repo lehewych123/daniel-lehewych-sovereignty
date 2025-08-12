@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 111,
+  "position": 263,
   "item": {
     "@type": [
+      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/why-every-manager-needs-to-understand-personality-",
@@ -23,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/12/why-every-manager-needs-to-understand-personality-traits-the-workplace/",
@@ -40,7 +41,7 @@
       }
     ],
     "keywords": "Artificial Intelligence, Workplace Dynamics",
-    "genre": "Commentary",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

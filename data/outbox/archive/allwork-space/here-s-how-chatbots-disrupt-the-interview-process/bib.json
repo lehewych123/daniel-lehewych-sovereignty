@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 174,
+  "position": 200,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/heres-how-chatbots-disrupt-the-interview-process/",

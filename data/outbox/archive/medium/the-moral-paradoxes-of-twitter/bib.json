@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 258,
+  "position": 116,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/the-moral-paradoxes-of-twitter-7e510077cc19",

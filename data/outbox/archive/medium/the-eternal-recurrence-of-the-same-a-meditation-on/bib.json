@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 335,
+  "position": 39,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-eternal-recurrence-of-the-same-a-meditation-on-the-biblical-vision-of-reality-34cb86a1086f",

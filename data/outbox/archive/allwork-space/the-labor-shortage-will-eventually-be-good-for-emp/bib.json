@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 88,
+  "position": 286,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/09/the-labor-shortage-will-eventually-be-good-for-employees-and-businesses-heres-why/",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 313,
+  "position": 61,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/science-transcendentalism-and-phenomenology-bff97a899a8c",

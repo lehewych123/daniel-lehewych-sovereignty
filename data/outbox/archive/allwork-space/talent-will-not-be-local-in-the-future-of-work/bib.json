@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 162,
+  "position": 212,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/06/talent-will-not-be-local-in-the-future-of-work/",

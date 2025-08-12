@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 219,
+  "position": 155,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/a-guide-for-workspace-mental-health-communication",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/12/a-guide-for-workspace-mental-health-communication/",
@@ -41,7 +40,7 @@
       }
     ],
     "keywords": "Health Sciences, Mental Health",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

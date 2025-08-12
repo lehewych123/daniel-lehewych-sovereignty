@@ -1,9 +1,10 @@
 {
   "@type": "ListItem",
-  "position": 294,
+  "position": 80,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
+      "TechArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-",
@@ -24,7 +25,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://writingcooperative.com/how-editors-and-employers-should-evaluate-the-use-of-ai-in-writing-cf30dc445c63",
@@ -37,7 +38,7 @@
       }
     ],
     "keywords": "Artificial Intelligence",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

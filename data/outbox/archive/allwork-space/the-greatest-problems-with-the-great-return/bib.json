@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 138,
+  "position": 236,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/03/the-greatest-problems-with-the-great-return/",

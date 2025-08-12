@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 354,
+  "position": 20,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-constitutional-case-against-banning-interstate-travel-for-abortion-72af15273a17",

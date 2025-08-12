@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 157,
+  "position": 217,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/05/is-your-company-pandemic-resilient-or-future-resilient/",

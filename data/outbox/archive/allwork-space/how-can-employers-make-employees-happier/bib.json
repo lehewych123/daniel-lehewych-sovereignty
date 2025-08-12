@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 133,
+  "position": 241,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/03/how-can-employers-make-employees-happier/",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 264,
+  "position": 111,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/the-pitfalls-of-over-communication-in-marketing-91ba937d8b18",

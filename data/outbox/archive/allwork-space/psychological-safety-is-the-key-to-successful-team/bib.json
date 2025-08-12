@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 204,
+  "position": 170,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/10/psychological-safety-is-the-key-to-successful-teams-according-to-google/",

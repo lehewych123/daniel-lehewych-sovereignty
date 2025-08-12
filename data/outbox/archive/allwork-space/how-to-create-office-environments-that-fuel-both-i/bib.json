@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 230,
+  "position": 145,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2023/02/how-to-create-office-environments-that-fuel-both-introverts-and-extroverts/",

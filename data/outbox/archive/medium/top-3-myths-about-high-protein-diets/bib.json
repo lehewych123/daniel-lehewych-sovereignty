@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 9,
+  "position": 365,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/top-3-myths-about-high-protein-diets",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/top-3-myths-about-high-protein-diets-723011a889f6",
@@ -37,8 +37,7 @@
       }
     ],
     "keywords": "Protein Science",
-    "academicDiscipline": "Medicine",
-    "genre": "Health Research",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

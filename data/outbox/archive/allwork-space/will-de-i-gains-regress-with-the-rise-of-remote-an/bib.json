@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 87,
+  "position": 287,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/will-de-i-gains-regress-with-the-rise-of-remote-an",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/09/will-dei-gains-regress-with-the-rise-of-remote-and-hybrid-work/",
@@ -41,7 +40,7 @@
       }
     ],
     "keywords": "Artificial Intelligence, Hybrid Work",
-    "genre": "Opinion Piece",
+    "genre": "Investigative Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

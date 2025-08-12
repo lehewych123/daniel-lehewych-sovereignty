@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 99,
+  "position": 275,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/11/how-meditation-helps-reduce-remote-work-stress-3-apps-to-get-started/",

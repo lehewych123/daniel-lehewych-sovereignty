@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 337,
+  "position": 37,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-inefficiency-of-ai-text-detecting-software-5b6de94aaa32",

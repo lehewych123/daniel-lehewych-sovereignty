@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 49,
+  "position": 325,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/cartesian-dualism-spinozas-parallelism-and-the-zombie-argument-77d8fe5071be",

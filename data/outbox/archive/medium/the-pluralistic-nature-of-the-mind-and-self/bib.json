@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 330,
+  "position": 44,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-pluralistic-nature-of-the-mind-and-self-8ea643886e3d",

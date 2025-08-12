@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 122,
+  "position": 252,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/01/guilty-of-a-messy-desk-heres-why-it-pays-to-clear-the-clutter/",

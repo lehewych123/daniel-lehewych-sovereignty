@@ -1,9 +1,10 @@
 {
   "@type": "ListItem",
-  "position": 13,
+  "position": 360,
   "item": {
     "@type": [
       "CriticalEssay",
+      "ScholarlyArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/deconstruction-and-its-problems-the-line-between-f",
@@ -24,7 +25,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/deconstruction-and-its-problems-the-line-between-freedom-and-rigidity-2e14048d3b11",
@@ -38,6 +39,7 @@
     ],
     "keywords": "Deconstruction",
     "genre": "Critical Essay",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

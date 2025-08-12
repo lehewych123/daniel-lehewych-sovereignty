@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 341,
+  "position": 33,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/metaphysics-in-the-book-of-genesis-9afa4f0c259a",

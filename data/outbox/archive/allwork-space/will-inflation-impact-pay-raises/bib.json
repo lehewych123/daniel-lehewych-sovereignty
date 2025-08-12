@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 171,
+  "position": 203,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/will-inflation-impact-pay-raises/",

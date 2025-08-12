@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 281,
+  "position": 93,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/science/nasas-panel-explores-the-enigma-of-unidentified-aerial-phenomena",

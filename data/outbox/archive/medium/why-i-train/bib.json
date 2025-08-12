@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 53,
+  "position": 322,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/why-i-train-3651d7232cd2",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 373,
+  "position": 1,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-price-of-justice-when-the-law-becomes-a-luxury-good-abbba43dfa98",

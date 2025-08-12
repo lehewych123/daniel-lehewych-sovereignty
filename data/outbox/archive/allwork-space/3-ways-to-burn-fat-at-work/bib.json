@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 227,
+  "position": 147,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2023/01/3-ways-to-burn-fat-at-work/",

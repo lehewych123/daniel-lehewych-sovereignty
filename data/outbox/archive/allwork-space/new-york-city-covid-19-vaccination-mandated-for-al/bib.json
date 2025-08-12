@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 108,
+  "position": 266,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/new-york-city-covid-19-vaccination-mandated-for-al",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/12/new-york-city-covid-19-vaccination-mandated-for-all-private-sector-workers/",
       "https://daniellehewych.org/archive/allwork-space/new-york-city-covid-19-vaccination-mandated-for-al"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

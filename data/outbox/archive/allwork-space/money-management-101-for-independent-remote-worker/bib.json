@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 112,
+  "position": 262,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/money-management-101-for-independent-remote-worker",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/12/money-management-101-for-independent-remote-workers/",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Remote Work",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

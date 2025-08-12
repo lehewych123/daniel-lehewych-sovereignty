@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 183,
+  "position": 192,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d",
@@ -30,7 +29,7 @@
       "https://www.newsweek.com/intentional-stance-its-role-political-discourse-opinion-1728829",
       "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

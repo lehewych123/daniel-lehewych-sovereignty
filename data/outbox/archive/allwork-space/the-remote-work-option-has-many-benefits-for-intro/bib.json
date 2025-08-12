@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 173,
+  "position": 201,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-remote-work-option-has-many-benefits-for-intro",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/the-remote-work-option-has-many-benefits-for-introverts/",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Remote Work",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

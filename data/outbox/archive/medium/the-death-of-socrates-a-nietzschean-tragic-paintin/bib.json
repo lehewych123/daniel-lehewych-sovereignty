@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 12,
+  "position": 362,
   "item": {
     "@type": [
+      "ScholarlyArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin",
@@ -23,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-death-of-socrates-a-nietzschean-tragic-painting-7aaab946358c",
@@ -46,7 +47,9 @@
       }
     ],
     "keywords": "Artificial Intelligence",
-    "genre": "Commentary",
+    "academicDiscipline": "Computer Science",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

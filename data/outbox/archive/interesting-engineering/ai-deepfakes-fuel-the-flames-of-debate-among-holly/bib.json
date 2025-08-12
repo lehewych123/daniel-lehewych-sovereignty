@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 284,
+  "position": 86,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/culture/ai-deepfakes-fuel-the-flames-of-debate-among-hollywood-stars",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 286,
+  "position": 88,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/north-koreas-new-space-launcher-reveals-progress-in-missile-technology",

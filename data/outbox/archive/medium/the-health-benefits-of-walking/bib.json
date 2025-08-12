@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 34,
+  "position": 343,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/the-health-benefits-of-walking",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-health-benefits-of-walking-c9adb1b91195",
@@ -37,8 +36,7 @@
       }
     ],
     "keywords": "Health Sciences",
-    "academicDiscipline": "Medicine",
-    "genre": "Health Research",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

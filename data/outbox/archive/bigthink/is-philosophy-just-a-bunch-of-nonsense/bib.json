@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 101,
+  "position": 273,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "BigThink",
-      "issn": "2573-7651"
+      "issn": ""
     },
     "sameAs": [
       "https://bigthink.com/thinking/philosophy-nonsense-useless/",

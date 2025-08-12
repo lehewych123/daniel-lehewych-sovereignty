@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 214,
+  "position": 159,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/11/2023-future-of-work-forecast-employee-autonomy-and-the-persistent-great-reshuffle/",

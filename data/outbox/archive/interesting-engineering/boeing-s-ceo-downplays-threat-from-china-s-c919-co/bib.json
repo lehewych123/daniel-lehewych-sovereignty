@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 285,
+  "position": 87,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/transportation/boeings-ceo-downplays-threat-from-chinas-c919-commercial-flight",

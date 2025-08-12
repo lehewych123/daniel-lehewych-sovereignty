@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 114,
+  "position": 256,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/freshcleantees/a-breakdown-of-cardio-for-older-men",
@@ -30,7 +29,14 @@
       "https://freshcleantees.com/blogs/blog/cardio-breakdown-for-older-men",
       "https://daniellehewych.org/archive/freshcleantees/a-breakdown-of-cardio-for-older-men"
     ],
-    "genre": "Opinion Piece",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Cardiovascular Exercise"
+      }
+    ],
+    "keywords": "Cardiovascular Exercise",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

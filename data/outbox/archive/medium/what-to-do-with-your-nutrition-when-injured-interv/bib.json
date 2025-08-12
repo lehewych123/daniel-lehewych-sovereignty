@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 4,
+  "position": 372,
   "item": {
     "@type": [
+      "Interview",
       "MedicalScholarlyArticle",
       "Article"
     ],
@@ -24,7 +25,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/what-to-do-with-your-nutrition-when-injured-interview-with-dr-layne-norton-cc571105c748",
@@ -39,16 +40,16 @@
     "mentions": [
       {
         "@type": "Person",
-        "name": "Dr",
+        "name": "Dr. Layne Norton",
         "roleName": "Interviewee"
       }
     ],
     "keywords": "Nutrition",
     "academicDiscipline": "Medicine",
-    "genre": "Health Research",
+    "genre": "Expert Interview",
     "contributor": {
       "@type": "Person",
-      "name": "Dr",
+      "name": "Dr. Layne Norton",
       "roleName": "Interviewee"
     },
     "usageInfo": {

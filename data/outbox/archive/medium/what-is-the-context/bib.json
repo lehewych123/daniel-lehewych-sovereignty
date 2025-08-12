@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 349,
+  "position": 25,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/what-is-the-context",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/what-is-the-context-2f53e91bbf2d",
       "https://daniellehewych.org/archive/medium/what-is-the-context"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Investigative Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

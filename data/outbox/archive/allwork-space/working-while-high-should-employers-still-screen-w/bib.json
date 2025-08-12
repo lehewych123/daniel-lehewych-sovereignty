@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 95,
+  "position": 280,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/10/working-while-high-should-employers-still-screen-workers-for-cannabis/",

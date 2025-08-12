@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 8,
+  "position": 366,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/david-hume-complications-with-abstract-ideas-5573aaa2fcd4",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 314,
+  "position": 60,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/a-philosophical-dialectic-with-spinozas-god-0f9673482aac",

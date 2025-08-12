@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 360,
+  "position": 14,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/virginia-woolf-acceptance-and-alienation-6515063ddd31",

@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 276,
+  "position": 96,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/air-new-zealand-launches-passenger-weight-survey-f",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/transportation/air-new-zealand-launches-passenger-weight-survey-for-data-collection",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Artificial Intelligence",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

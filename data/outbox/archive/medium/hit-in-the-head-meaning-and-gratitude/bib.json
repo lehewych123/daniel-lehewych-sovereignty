@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 20,
+  "position": 348,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/hit-in-the-head-meaning-and-gratitude-82c1742c5ac8",

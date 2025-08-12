@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 113,
+  "position": 261,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/12/what-should-we-expect-from-workforce-trends-in-2022/",

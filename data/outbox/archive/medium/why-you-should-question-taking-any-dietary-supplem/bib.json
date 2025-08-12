@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 253,
+  "position": 122,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-question-taking-any-dietary-supplem",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/why-you-should-question-taking-any-dietary-supplements-e4c5e48d60e3",
@@ -34,10 +34,14 @@
       {
         "@type": "Thing",
         "name": "Dietary Supplements"
+      },
+      {
+        "@type": "Thing",
+        "name": "Dietary Supplements"
       }
     ],
-    "keywords": "Dietary Supplements",
-    "genre": "Opinion Piece",
+    "keywords": "Dietary Supplements, Dietary Supplements",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

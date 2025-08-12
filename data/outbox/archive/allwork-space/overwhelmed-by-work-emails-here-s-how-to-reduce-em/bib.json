@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 194,
+  "position": 180,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "HowTo",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/09/overwhelmed-by-work-emails-heres-how-to-reduce-email-anxiety/",
@@ -41,7 +41,8 @@
       }
     ],
     "keywords": "Artificial Intelligence, Anxiety Disorders",
-    "genre": "Opinion Piece",
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

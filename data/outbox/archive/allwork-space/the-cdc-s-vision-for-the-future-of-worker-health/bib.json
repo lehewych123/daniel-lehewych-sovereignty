@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 238,
+  "position": 136,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2023/02/the-cdcs-vision-for-the-future-of-worker-health/",
@@ -41,7 +41,7 @@
       }
     ],
     "keywords": "Health Sciences, Future of Work",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

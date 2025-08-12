@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 192,
+  "position": 182,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/09/how-to-deal-with-a-bad-boss-in-person/",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 142,
+  "position": 231,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/here-are-three-significant-mistakes-you-can-make-as-a-freelancer-and-how-to-avoid-them/",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 163,
+  "position": 211,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/06/report-the-state-of-worker-mental-health/",

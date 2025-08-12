@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 59,
+  "position": 315,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/martin-heidegger-and-the-social-dilemma-acd6daa6ec56",

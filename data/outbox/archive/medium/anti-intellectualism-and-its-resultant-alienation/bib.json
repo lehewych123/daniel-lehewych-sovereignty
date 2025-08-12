@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 137,
+  "position": 237,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/anti-intellectualism-and-its-resultant-alienation-9c387b40ccd6",

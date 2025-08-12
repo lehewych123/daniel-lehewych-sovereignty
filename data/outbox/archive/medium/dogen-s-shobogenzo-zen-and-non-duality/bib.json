@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 353,
+  "position": 21,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/dogens-shobogenzo-zen-and-non-duality-e2980a6e9cb2",

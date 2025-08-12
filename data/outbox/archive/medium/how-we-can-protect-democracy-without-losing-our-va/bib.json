@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 367,
+  "position": 7,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/grim-tidings/how-we-can-protect-democracy-without-losing-our-values-2361e7e9891b",

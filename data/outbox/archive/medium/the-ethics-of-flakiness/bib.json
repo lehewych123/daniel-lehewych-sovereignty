@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 44,
+  "position": 330,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://theapeiron.co.uk/the-ethics-and-phenomenology-of-flakiness-3906e94c304b",

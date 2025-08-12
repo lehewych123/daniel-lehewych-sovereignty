@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 56,
+  "position": 318,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/the-most-discouraging-aspect-of-writing-for-money",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://writingcooperative.com/the-most-discouraging-aspect-of-writing-for-money-4d9ddaf61b95",
       "https://daniellehewych.org/archive/medium/the-most-discouraging-aspect-of-writing-for-money"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

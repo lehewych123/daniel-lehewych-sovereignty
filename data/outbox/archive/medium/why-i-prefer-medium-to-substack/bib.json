@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 307,
+  "position": 67,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/why-i-prefer-medium-to-substack-e3b3fa4cc3e3",

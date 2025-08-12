@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 340,
+  "position": 34,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Qure.ai",
-      "issn": "2581-8104"
+      "issn": ""
     },
     "sameAs": [
       "https://www.qure.ai/blog/role-of-large-language-models-in-healthcare",

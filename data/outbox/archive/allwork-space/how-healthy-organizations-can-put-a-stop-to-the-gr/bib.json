@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 103,
+  "position": 271,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/11/how-healthy-organizations-can-put-a-stop-to-the-great-resignation/",

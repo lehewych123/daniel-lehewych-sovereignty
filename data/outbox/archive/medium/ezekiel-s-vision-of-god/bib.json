@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 346,
+  "position": 28,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/ezekiels-vision-of-god-7f08bb1aaef8",

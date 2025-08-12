@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 5,
+  "position": 368,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/can-literature-make-us-worse-religious-scripture-as-literature-f60f041e7427",

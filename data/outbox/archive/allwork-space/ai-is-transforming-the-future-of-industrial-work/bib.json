@@ -1,9 +1,10 @@
 {
   "@type": "ListItem",
-  "position": 225,
+  "position": 149,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
+      "TechArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/ai-is-transforming-the-future-of-industrial-work",
@@ -24,7 +25,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2023/01/ai-is-transforming-the-future-of-industrial-work/",

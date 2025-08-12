@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 52,
+  "position": 321,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/can-science-explain-consciousness-ce4cfbff494d",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 82,
+  "position": 292,
   "item": {
     "@type": [
       "MedicalScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "PsychCentral",
-      "issn": "1930-7810"
+      "issn": ""
     },
     "sameAs": [
       "https://psychcentral.com/ptsd/posttraumatic-stress-disorder-ptsd-treatment",

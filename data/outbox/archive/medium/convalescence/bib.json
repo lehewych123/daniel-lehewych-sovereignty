@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 319,
+  "position": 55,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination-curated/convalescence-921e1b42de25",

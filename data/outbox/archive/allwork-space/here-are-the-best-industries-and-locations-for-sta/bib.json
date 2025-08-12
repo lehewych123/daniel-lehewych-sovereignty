@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 151,
+  "position": 223,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-industries-and-locations-for-sta",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/here-are-the-best-industries-and-locations-for-starting-up-your-own-business-in-2022/",
       "https://daniellehewych.org/archive/allwork-space/here-are-the-best-industries-and-locations-for-sta"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

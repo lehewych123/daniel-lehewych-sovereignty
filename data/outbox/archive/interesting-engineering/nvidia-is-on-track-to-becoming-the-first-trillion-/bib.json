@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 371,
+  "position": 3,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/nvidia-is-on-track-to-becoming-the-first-trillion-dollar-chipmaker",

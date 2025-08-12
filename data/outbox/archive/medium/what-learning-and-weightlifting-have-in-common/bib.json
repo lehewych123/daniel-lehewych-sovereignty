@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 232,
+  "position": 143,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/in-fitness-and-in-health/what-learning-and-weightlifting-have-in-common-f26a86d32b47",

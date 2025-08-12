@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 62,
+  "position": 312,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/things-to-keep-in-mind-when-starting-out-as-a-freelance-writer-1c98e84fdde1",

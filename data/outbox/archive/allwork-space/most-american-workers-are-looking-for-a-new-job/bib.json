@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 143,
+  "position": 232,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/most-american-workers-are-looking-for-a-new-job",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/most-american-workers-are-looking-for-a-new-job/",
       "https://daniellehewych.org/archive/allwork-space/most-american-workers-are-looking-for-a-new-job"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

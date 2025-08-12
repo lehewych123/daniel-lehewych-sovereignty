@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 322,
+  "position": 53,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/the-divine-i-am-a938b8c81197",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 300,
+  "position": 74,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-dithyramb-of-a-weeping-apollo-615748db09c0",

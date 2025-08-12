@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 3,
+  "position": 371,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/rasa-and-metal-linkin-park-meets-indian-aesthetics-a3ad8f59b00c",

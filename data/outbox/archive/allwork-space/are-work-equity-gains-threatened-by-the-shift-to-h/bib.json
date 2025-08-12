@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 97,
+  "position": 277,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/are-work-equity-gains-threatened-by-the-shift-to-h",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/10/are-work-equity-gains-threatened-by-the-shift-to-hybrid-and-remote-work/",
@@ -41,7 +40,7 @@
       }
     ],
     "keywords": "Artificial Intelligence, Remote Work",
-    "genre": "Opinion Piece",
+    "genre": "Investigative Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

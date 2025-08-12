@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 332,
+  "position": 42,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-will-to-power-as-art-5876fa661c7b",

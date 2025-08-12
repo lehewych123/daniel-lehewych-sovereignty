@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 318,
+  "position": 56,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/nietzsche-on-hatred-and-contempt-2ee0542e2815",

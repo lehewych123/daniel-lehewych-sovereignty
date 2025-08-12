@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 228,
+  "position": 146,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2023/02/5-brain-boosting-snacks-to-power-your-work-day/",

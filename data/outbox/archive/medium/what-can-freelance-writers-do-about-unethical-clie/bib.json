@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 83,
+  "position": 291,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://writingcooperative.com/what-can-freelance-writers-do-about-unethical-clients-3bcd7c4da2d1",

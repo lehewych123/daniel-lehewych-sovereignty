@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 266,
+  "position": 108,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/science/seti-institute-invites-public-to-participate-in-interplanetary-a-sign-in-space-project",

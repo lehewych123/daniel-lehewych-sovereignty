@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 149,
+  "position": 226,
   "item": {
     "@type": [
-      "HowTo",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/essential-steps-operators-overlook-when-choosing-a",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/essential-steps-operators-overlook-when-choosing-a-location-and-signing-a-coworking-space-lease/",
@@ -37,8 +36,7 @@
       }
     ],
     "keywords": "Coworking",
-    "genre": "Practical Guide",
-    "educationalLevel": "Beginner",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

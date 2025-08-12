@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 302,
+  "position": 72,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "TechArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Qure.ai",
-      "issn": "2581-8104"
+      "issn": ""
     },
     "sameAs": [
       "https://www.qure.ai/blog/ai-for-good-how-activating-radiology-ai-can-enhance-public%20health-social-equity",
@@ -41,7 +41,7 @@
       }
     ],
     "keywords": "Artificial Intelligence, Health Sciences",
-    "genre": "Opinion Piece",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

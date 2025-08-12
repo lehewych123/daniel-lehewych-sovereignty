@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 278,
+  "position": 98,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/nvidia-joins-trillion-dollar-club-riding-on-the-ai-boom",

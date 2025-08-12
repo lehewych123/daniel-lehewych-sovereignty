@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 355,
+  "position": 19,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/insights-from-zen-meditation-5d1d28dc248a",

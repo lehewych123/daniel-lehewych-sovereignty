@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 47,
+  "position": 327,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/climbing-diotimas-ladder-of-love-98f8ee38c4f4",

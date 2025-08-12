@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 176,
+  "position": 198,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/companies-need-to-invest-in-education-to-cultivate-new-talent/",

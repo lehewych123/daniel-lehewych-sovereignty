@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 222,
+  "position": 152,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-does-community-mean-in-coworking-your-answer-",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/12/what-does-community-mean-in-coworking-your-answer-matters/",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Coworking",
-    "genre": "Opinion Piece",
+    "genre": "Investigative Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

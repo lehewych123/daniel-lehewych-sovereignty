@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 368,
+  "position": 6,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/grim-tidings/walter-whites-tragic-complexity-9e43ab9b2909",

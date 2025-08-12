@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 274,
+  "position": 99,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/nvidia-to-build-israels-most-potent-ai-supercomputer",

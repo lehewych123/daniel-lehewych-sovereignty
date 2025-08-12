@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 239,
+  "position": 135,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/in-fitness-and-in-health/does-fluoride-lower-iq-b3607229b983",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 50,
+  "position": 324,
   "item": {
     "@type": [
       "Article"
@@ -23,12 +23,19 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/cardiomyopathy-b0b98fe96c6d",
       "https://daniellehewych.org/archive/medium/cardiomyopathy"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Cardiovascular Exercise"
+      }
+    ],
+    "keywords": "Cardiovascular Exercise",
     "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",

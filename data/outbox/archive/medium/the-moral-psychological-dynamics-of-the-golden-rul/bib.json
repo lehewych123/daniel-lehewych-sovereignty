@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 333,
+  "position": 41,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-moral-psychological-dynamics-of-the-golden-rule-in-christianity-5a511015194f",

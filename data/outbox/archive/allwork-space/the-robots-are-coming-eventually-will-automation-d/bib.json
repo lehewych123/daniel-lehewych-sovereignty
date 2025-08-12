@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 177,
+  "position": 197,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "TechArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-robots-are-coming-eventually-will-automation-d",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/the-robots-are-coming-eventually-will-automation-displace-half-the-worlds-workforce/",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Automation",
-    "genre": "Opinion Piece",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 249,
+  "position": 123,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/why-you-should-be-supplementing-with-fucoxanthin-a178d13add13",

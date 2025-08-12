@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 206,
+  "position": 168,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/10/four-great-stretches-to-help-alleviate-pain-without-leaving-your-desk/",

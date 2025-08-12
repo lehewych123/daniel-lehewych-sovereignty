@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 37,
+  "position": 337,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/why-testosterone-boosters-are-a-waste-of-money-f71fa0c0d3d6",

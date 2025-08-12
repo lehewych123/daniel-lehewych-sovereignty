@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 150,
+  "position": 224,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/heres-how-to-build-and-retain-a-strong-work-team",

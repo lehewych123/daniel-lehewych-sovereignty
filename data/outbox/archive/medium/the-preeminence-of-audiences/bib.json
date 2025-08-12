@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 350,
+  "position": 24,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-preeminence-of-audiences-8ad8088ae6ed",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 202,
+  "position": 172,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/age-of-awareness/nietzsches-existential-struggle-with-science-and-truth-d9863c90f6c",

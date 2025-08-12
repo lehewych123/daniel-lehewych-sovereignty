@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 312,
+  "position": 62,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-phenomenology-of-god-04f8b4e0fbcd",

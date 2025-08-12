@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 178,
+  "position": 196,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/07/this-is-the-personality-type-most-closely-associated-with-career-success/",

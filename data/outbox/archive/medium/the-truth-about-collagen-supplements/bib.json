@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 54,
+  "position": 320,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/the-truth-about-collagen-supplements",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-truth-about-collagen-supplements-e1c6c8a26d81",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Dietary Supplements",
-    "genre": "Health Research",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

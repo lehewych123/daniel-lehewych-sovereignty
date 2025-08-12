@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 241,
+  "position": 133,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/in-fitness-and-in-health/how-to-use-turmeric-to-fight-the-current-wave-of-norovirus-5ea1a09afcea",

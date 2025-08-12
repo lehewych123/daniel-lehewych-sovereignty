@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 156,
+  "position": 218,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/05/young-workers-face-reverse-ageism-in-the-workplace/",

@@ -1,8 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 1,
+  "position": 373,
   "item": {
     "@type": [
+      "Interview",
       "MedicalScholarlyArticle",
       "Article"
     ],
@@ -24,7 +25,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/functional-manual-therapy-fmt-an-interview-with-dr-cristiana-k-collins-pt-ph-d-cfmt-ncs-7dadbd559533",
@@ -33,21 +34,25 @@
     "about": [
       {
         "@type": "Thing",
-        "name": "Psychotherapy"
+        "name": "Manual Therapy"
+      },
+      {
+        "@type": "Thing",
+        "name": "Manual Therapy"
       }
     ],
     "mentions": [
       {
         "@type": "Person",
-        "name": "Dr",
+        "name": "Dr. Cristiana K. Collins",
         "roleName": "Interviewee"
       }
     ],
-    "keywords": "Psychotherapy",
-    "genre": "Health Research",
+    "keywords": "Manual Therapy, Manual Therapy",
+    "genre": "Expert Interview",
     "contributor": {
       "@type": "Person",
-      "name": "Dr",
+      "name": "Dr. Cristiana K. Collins",
       "roleName": "Interviewee"
     },
     "usageInfo": {

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 370,
+  "position": 4,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "BigThink",
-      "issn": "2573-7651"
+      "issn": ""
     },
     "sameAs": [
       "https://bigthink.com/thinking/spinoza/",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 155,
+  "position": 219,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/what-is-the-importance-of-task-automation-in-productivity-and-well-being/",

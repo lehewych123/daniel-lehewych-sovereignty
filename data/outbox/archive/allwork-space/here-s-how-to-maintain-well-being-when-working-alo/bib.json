@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 136,
+  "position": 238,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/03/heres-how-to-maintain-well-being-when-working-alone-from-home",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 324,
+  "position": 50,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Qure.ai",
-      "issn": "2581-8104"
+      "issn": ""
     },
     "sameAs": [
       "https://www.qure.ai/blog/the-importance-of-ai-in-msk-radiology",

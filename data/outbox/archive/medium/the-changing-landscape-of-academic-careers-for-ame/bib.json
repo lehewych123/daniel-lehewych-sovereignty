@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 357,
+  "position": 17,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/medium/the-changing-landscape-of-academic-careers-for-ame",
@@ -24,13 +23,13 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-changing-landscape-of-academic-careers-for-american-phd-holders-4fe02242a895",
       "https://daniellehewych.org/archive/medium/the-changing-landscape-of-academic-careers-for-ame"
     ],
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

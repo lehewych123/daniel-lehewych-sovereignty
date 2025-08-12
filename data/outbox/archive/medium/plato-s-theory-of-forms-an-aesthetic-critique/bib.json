@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 28,
+  "position": 345,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/platos-theory-of-forms-an-aesthetic-critique-48c6671a1377",

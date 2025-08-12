@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 107,
+  "position": 268,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-great-resignation-will-be-good-for-corporation",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Great Resignation",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

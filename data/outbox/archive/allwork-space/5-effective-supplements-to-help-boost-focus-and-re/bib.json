@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 91,
+  "position": 282,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/5-effective-supplements-to-help-boost-focus-and-re",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2021/10/5-effective-supplements-to-help-boost-focus-and-reduce-stress-at-work/",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Dietary Supplements",
-    "genre": "Health Research",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

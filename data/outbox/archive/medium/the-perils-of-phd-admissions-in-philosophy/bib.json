@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 344,
+  "position": 30,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-perils-of-phd-admissions-in-philosophy-1c5e0ce556e6",

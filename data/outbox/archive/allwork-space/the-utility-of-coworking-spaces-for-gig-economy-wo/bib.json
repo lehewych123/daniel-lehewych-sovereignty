@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 217,
+  "position": 157,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-utility-of-coworking-spaces-for-gig-economy-wo",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/12/the-utility-of-coworking-spaces-for-gig-economy-workers/",
@@ -41,7 +40,7 @@
       }
     ],
     "keywords": "Coworking, Economics",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

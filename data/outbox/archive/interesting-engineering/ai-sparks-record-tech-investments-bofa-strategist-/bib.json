@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 289,
+  "position": 82,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/ai-sparks-record-tech-investments-bofa-strategist-warns-of-baby-bubble",

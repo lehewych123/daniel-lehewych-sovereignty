@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 338,
+  "position": 36,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-son-of-man-and-the-end-of-days-d3e258e1a183",

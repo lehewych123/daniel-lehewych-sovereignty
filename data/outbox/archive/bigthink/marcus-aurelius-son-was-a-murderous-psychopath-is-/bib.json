@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 186,
+  "position": 188,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "BigThink",
-      "issn": "2573-7651"
+      "issn": ""
     },
     "sameAs": [
       "https://bigthink.com/the-past/marcus-aurelius-commodus-stoicism/",

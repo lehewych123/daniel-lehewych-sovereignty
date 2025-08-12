@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 334,
+  "position": 40,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-kingdom-of-ends-and-the-prioritization-of-more-than-bread-60b314d91af3",

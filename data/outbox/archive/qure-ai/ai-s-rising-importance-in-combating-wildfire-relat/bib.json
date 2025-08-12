@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 296,
+  "position": 78,
   "item": {
     "@type": [
-      "MedicalScholarlyArticle",
+      "TechArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/qure-ai/ai-s-rising-importance-in-combating-wildfire-relat",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Qure.ai",
-      "issn": "2581-8104"
+      "issn": ""
     },
     "sameAs": [
       "https://www.qure.ai/blog/ai-rising-importance-in-combating-wildfire-related-lung-health%20Issues",
@@ -41,8 +41,7 @@
       }
     ],
     "keywords": "Artificial Intelligence, Health Sciences",
-    "academicDiscipline": "Medicine",
-    "genre": "Health Research",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

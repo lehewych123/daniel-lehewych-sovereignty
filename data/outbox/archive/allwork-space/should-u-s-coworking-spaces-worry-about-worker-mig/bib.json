@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 182,
+  "position": 191,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/08/should-u-s-coworking-spaces-worry-about-worker-migration/",

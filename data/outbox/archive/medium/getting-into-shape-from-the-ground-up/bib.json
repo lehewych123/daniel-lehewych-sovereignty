@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 46,
+  "position": 328,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/getting-into-shape-from-the-ground-up-ebc23b7396a4",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 252,
+  "position": 121,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/why-you-should-be-supplementing-with-black-cumin-seed-nigella-sativa-c3e5324299f1",

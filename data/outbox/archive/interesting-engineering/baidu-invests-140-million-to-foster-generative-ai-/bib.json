@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 279,
+  "position": 91,
   "item": {
     "@type": [
       "TechArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/baidu-invests-140-million-to-foster-generative-ai-startups",

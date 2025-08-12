@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 364,
+  "position": 10,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-ambiguity-of-human-decision-making-abd16e333801",

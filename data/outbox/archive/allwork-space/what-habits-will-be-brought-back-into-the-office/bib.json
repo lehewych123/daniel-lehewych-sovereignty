@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 166,
+  "position": 208,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/06/what-habits-will-be-brought-back-into-the-office/",

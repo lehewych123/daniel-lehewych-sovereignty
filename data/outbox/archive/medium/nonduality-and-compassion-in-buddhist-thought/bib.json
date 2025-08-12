@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 119,
+  "position": 255,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/nonduality-and-compassion-in-buddhist-thought-2f987f761f8d",

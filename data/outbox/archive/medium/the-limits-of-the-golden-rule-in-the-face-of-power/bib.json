@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 342,
+  "position": 32,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-limits-of-the-golden-rule-in-the-face-of-power-dynamics-68a7c35c95b4",

@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 32,
+  "position": 341,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/personal-lessons-from-being-injured-554fb6c74e09",

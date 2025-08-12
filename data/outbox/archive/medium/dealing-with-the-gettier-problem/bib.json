@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 30,
+  "position": 339,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/dealing-with-the-gettier-problem-432fcd4d2dcb",

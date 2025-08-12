@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 277,
+  "position": 97,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Interesting Engineering",
-      "issn": "2333-5084"
+      "issn": ""
     },
     "sameAs": [
       "https://interestingengineering.com/innovation/china-accelerates-launch-of-large-language-models-as-elon-musk-visits-beijing",

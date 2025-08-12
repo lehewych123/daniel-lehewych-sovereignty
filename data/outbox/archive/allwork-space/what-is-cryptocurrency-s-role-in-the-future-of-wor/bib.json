@@ -1,9 +1,9 @@
 {
   "@type": "ListItem",
-  "position": 154,
+  "position": 220,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
+      "AnalysisNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-is-cryptocurrency-s-role-in-the-future-of-wor",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/04/what-is-cryptocurrencys-role-in-the-future-of-work/",
@@ -37,7 +37,7 @@
       }
     ],
     "keywords": "Future of Work",
-    "genre": "Opinion Piece",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

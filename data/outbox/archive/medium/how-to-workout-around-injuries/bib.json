@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 21,
+  "position": 349,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/how-to-workout-around-injuries-3c76c3ca92d5",

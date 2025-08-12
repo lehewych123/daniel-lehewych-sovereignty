@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 24,
+  "position": 352,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/spinoza-god-ideas-and-their-adequacy-cd88c207c4f3",

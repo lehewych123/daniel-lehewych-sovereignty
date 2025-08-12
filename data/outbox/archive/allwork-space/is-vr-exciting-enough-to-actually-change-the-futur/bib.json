@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 190,
+  "position": 184,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/08/is-vr-exciting-enough-to-actually-change-the-future-of-workspaces/",

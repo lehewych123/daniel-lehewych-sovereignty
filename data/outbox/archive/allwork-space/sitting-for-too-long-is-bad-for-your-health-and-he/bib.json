@@ -1,9 +1,8 @@
 {
   "@type": "ListItem",
-  "position": 167,
+  "position": 207,
   "item": {
     "@type": [
-      "OpinionNewsArticle",
       "Article"
     ],
     "@id": "https://daniellehewych.org/archive/allwork-space/sitting-for-too-long-is-bad-for-your-health-and-he",
@@ -24,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/06/sitting-for-too-long-is-bad-for-your-health-and-heres-what-you-can-do-about-it/",
@@ -37,7 +36,7 @@
       }
     ],
     "keywords": "Health Sciences",
-    "genre": "Opinion Piece",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

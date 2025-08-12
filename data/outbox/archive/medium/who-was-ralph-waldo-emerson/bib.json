@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 326,
+  "position": 49,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://medium.com/illumination/who-was-ralph-waldo-emerson-4f01e3452b1d",

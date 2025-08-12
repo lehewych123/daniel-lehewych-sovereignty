@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 135,
+  "position": 239,
   "item": {
     "@type": [
       "Article"
@@ -23,7 +23,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/03/here-are-the-best-online-side-hustles-to-make-passive-income-in-2022/",

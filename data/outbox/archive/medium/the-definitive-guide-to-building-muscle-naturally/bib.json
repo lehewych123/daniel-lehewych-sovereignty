@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 40,
+  "position": 334,
   "item": {
     "@type": [
       "HowTo",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/the-definitive-guide-to-building-muscle-naturally-3376acdefa30",

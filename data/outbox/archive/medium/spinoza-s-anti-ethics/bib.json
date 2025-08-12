@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 255,
+  "position": 119,
   "item": {
     "@type": [
       "ScholarlyArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Medium",
-      "issn": "2168-8878"
+      "issn": ""
     },
     "sameAs": [
       "https://daniellehewych.medium.com/spinozas-anti-ethics-95920171a3d7",

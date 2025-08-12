@@ -1,6 +1,6 @@
 {
   "@type": "ListItem",
-  "position": 189,
+  "position": 185,
   "item": {
     "@type": [
       "OpinionNewsArticle",
@@ -24,7 +24,7 @@
         "CreativeWork"
       ],
       "name": "Allwork.Space",
-      "issn": "2693-9304"
+      "issn": ""
     },
     "sameAs": [
       "https://allwork.space/2022/08/depression-is-making-you-sick-but-can-you-take-time-off-to-heal/",
