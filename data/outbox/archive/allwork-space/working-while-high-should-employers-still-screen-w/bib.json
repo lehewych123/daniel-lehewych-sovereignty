@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 95,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/working-while-high-should-employers-still-screen-w",
     "name": "Working While High: Should Employers Still Screen Workers for Cannabis?",
     "description": "Working While High: Should Employers Still Screen Workers for Cannabis?",
@@ -27,6 +30,7 @@
       "https://allwork.space/2021/10/working-while-high-should-employers-still-screen-workers-for-cannabis/",
       "https://daniellehewych.org/archive/allwork-space/working-while-high-should-employers-still-screen-w"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

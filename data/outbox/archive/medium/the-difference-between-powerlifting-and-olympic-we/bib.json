@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 75,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-difference-between-powerlifting-and-olympic-we",
     "name": "The Difference Between Powerlifting and Olympic Weightlifting — The Fast Answer",
     "description": "The Difference Between Powerlifting and Olympic Weightlifting — The Fast Answer",
@@ -27,6 +29,7 @@
       "https://medium.com/in-fitness-and-in-health/the-difference-between-powerlifting-and-olympic-weightlifting-the-fast-answer-70e185cadfa2",
       "https://daniellehewych.org/archive/medium/the-difference-between-powerlifting-and-olympic-we"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

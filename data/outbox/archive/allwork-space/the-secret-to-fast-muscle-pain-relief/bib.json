@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 231,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief",
     "name": "The Secret To Fast Muscle Pain Relief",
     "description": "The Secret To Fast Muscle Pain Relief",
@@ -27,6 +29,14 @@
       "https://allwork.space/2023/02/the-secret-to-fast-muscle-pain-relief/",
       "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

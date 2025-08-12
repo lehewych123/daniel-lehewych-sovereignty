@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 139,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-are-some-of-the-best-online-certificates-that",
     "name": "Here Are Some Of The Best Online Certificates That Can Lead Directly To Work",
     "description": "Here Are Some Of The Best Online Certificates That Can Lead Directly To Work",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/03/here-are-some-of-the-best-online-certificates-that-can-lead-directly-to-work/",
       "https://daniellehewych.org/archive/allwork-space/here-are-some-of-the-best-online-certificates-that"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

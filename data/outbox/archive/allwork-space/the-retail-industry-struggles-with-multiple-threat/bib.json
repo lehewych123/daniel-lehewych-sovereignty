@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 109,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-retail-industry-struggles-with-multiple-threat",
     "name": "The Retail Industry Struggles with Multiple Threats and Not Enough Workers, Here’s How It Will Change",
     "description": "The Retail Industry Struggles with Multiple Threats and Not Enough Workers, Here’s How It Will Change",
@@ -27,6 +29,14 @@
       "https://allwork.space/2021/12/the-retail-industry-struggles-with-multiple-threats-and-not-enough-workers/",
       "https://daniellehewych.org/archive/allwork-space/the-retail-industry-struggles-with-multiple-threat"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

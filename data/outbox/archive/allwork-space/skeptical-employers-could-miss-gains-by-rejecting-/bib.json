@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 175,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/skeptical-employers-could-miss-gains-by-rejecting-",
     "name": "Skeptical Employers Could Miss Gains By Rejecting A Four-day Work Week",
     "description": "Skeptical Employers Could Miss Gains By Rejecting A Four-day Work Week",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/07/skeptical-employers-could-miss-gains-by-rejecting-a-four-day-work-week/",
       "https://daniellehewych.org/archive/allwork-space/skeptical-employers-could-miss-gains-by-rejecting-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

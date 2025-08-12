@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 283,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/rice-university-engineers-develop-ultra-flexible-n",
     "name": "Rice University engineers develop ultra-flexible nanoelectrodes for brain stimulation therapy",
     "description": "Rice University engineers develop ultra-flexible nanoelectrodes for brain stimulation therapy",
@@ -27,6 +30,22 @@
       "https://interestingengineering.com/science/rice-university-engineers-develop-ultra-flexible-nanoelectrodes-for-brain-stimulation-therapy",
       "https://daniellehewych.org/archive/interesting-engineering/rice-university-engineers-develop-ultra-flexible-n"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Psychotherapy"
+      },
+      {
+        "@type": "Thing",
+        "name": "Neuroscience"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Psychotherapy, Neuroscience",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

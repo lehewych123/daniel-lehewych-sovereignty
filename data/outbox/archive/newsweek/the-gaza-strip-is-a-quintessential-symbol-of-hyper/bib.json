@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 240,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper",
     "name": "The Gaza Strip is a Quintessential Symbol of Hyperpartisanship",
     "description": "The Gaza Strip is a Quintessential Symbol of Hyperpartisanship",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/gaza-strip-quintessential-symbol-hyperpartisanship-opinion-1784721",
       "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

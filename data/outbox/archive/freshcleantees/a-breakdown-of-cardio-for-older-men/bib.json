@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 114,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/freshcleantees/a-breakdown-of-cardio-for-older-men",
     "name": "A Breakdown of Cardio for Older Men",
     "description": "A Breakdown of Cardio for Older Men",
@@ -27,6 +30,7 @@
       "https://freshcleantees.com/blogs/blog/cardio-breakdown-for-older-men",
       "https://daniellehewych.org/archive/freshcleantees/a-breakdown-of-cardio-for-older-men"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

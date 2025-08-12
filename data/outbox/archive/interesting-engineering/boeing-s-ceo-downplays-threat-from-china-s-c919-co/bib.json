@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 285,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/boeing-s-ceo-downplays-threat-from-china-s-c919-co",
     "name": "Boeing’s CEO downplays threat from China’s C919 commercial flight",
     "description": "Boeing’s CEO downplays threat from China’s C919 commercial flight",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/transportation/boeings-ceo-downplays-threat-from-chinas-c919-commercial-flight",
       "https://daniellehewych.org/archive/interesting-engineering/boeing-s-ceo-downplays-threat-from-china-s-c919-co"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 253,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-question-taking-any-dietary-supplem",
     "name": "Why You Should Question Taking Any Dietary Supplements",
     "description": "Why You Should Question Taking Any Dietary Supplements",
@@ -27,6 +30,14 @@
       "https://medium.com/illumination/why-you-should-question-taking-any-dietary-supplements-e4c5e48d60e3",
       "https://daniellehewych.org/archive/medium/why-you-should-question-taking-any-dietary-supplem"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Dietary Supplements"
+      }
+    ],
+    "keywords": "Dietary Supplements",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

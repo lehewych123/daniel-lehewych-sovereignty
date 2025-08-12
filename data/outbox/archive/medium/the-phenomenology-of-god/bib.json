@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 312,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-god",
     "name": "The Phenomenology of God",
     "description": "The Phenomenology of God",
@@ -27,6 +30,20 @@
       "https://daniellehewych.medium.com/the-phenomenology-of-god-04f8b4e0fbcd",
       "https://daniellehewych.org/archive/medium/the-phenomenology-of-god"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Phenomenology"
+      },
+      {
+        "@type": "Thing",
+        "name": "Theology"
+      }
+    ],
+    "keywords": "Phenomenology, Theology",
+    "academicDiscipline": "Philosophy",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Graduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

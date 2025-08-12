@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 143,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/most-american-workers-are-looking-for-a-new-job",
     "name": "Most American Workers are Looking For a New Job",
     "description": "Most American Workers are Looking For a New Job",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/04/most-american-workers-are-looking-for-a-new-job/",
       "https://daniellehewych.org/archive/allwork-space/most-american-workers-are-looking-for-a-new-job"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

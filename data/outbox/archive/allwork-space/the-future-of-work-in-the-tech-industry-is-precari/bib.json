@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 188,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-in-the-tech-industry-is-precari",
     "name": "The Future of Work in the Tech Industry is Precarious",
     "description": "The Future of Work in the Tech Industry is Precarious",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/08/the-future-of-work-in-the-tech-industry-is-precarious/",
       "https://daniellehewych.org/archive/allwork-space/the-future-of-work-in-the-tech-industry-is-precari"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

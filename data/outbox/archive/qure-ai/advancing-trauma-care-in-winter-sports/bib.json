@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 321,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/qure-ai/advancing-trauma-care-in-winter-sports",
     "name": "Advancing Trauma Care in Winter Sports",
     "description": "Advancing Trauma Care in Winter Sports",
@@ -27,6 +29,7 @@
       "https://www.qure.ai/blog/advancing-trauma-care-in-winter-sports",
       "https://daniellehewych.org/archive/qure-ai/advancing-trauma-care-in-winter-sports"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

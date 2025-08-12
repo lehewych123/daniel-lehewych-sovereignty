@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 256,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/machiavelli-s-political-philosophy",
     "name": "Machiavelli’s Political Philosophy",
     "description": "Machiavelli’s Political Philosophy",
@@ -27,6 +29,14 @@
       "https://medium.com/illumination/machiavellis-political-philosophy-5cf71bc4caa4",
       "https://daniellehewych.org/archive/medium/machiavelli-s-political-philosophy"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Political Philosophy"
+      }
+    ],
+    "keywords": "Political Philosophy",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

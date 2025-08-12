@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 113,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-should-we-expect-from-workforce-trends-in-202",
     "name": "What Should We Expect From Workforce Trends In 2022?",
     "description": "What Should We Expect From Workforce Trends In 2022?",
@@ -27,6 +30,7 @@
       "https://allwork.space/2021/12/what-should-we-expect-from-workforce-trends-in-2022/",
       "https://daniellehewych.org/archive/allwork-space/what-should-we-expect-from-workforce-trends-in-202"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

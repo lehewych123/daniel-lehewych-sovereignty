@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 54,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-truth-about-collagen-supplements",
     "name": "The Truth About Collagen Supplements",
     "description": "The Truth About Collagen Supplements",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/the-truth-about-collagen-supplements-e1c6c8a26d81",
       "https://daniellehewych.org/archive/medium/the-truth-about-collagen-supplements"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Dietary Supplements"
+      }
+    ],
+    "keywords": "Dietary Supplements",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

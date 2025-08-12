@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 232,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/what-learning-and-weightlifting-have-in-common",
     "name": "What Learning and Weightlifting Have in Common",
     "description": "What Learning and Weightlifting Have in Common",
@@ -27,6 +29,7 @@
       "https://medium.com/in-fitness-and-in-health/what-learning-and-weightlifting-have-in-common-f26a86d32b47",
       "https://daniellehewych.org/archive/medium/what-learning-and-weightlifting-have-in-common"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

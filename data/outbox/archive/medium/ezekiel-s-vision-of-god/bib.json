@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 346,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/ezekiel-s-vision-of-god",
     "name": "Ezekiel’s Vision of God",
     "description": "Ezekiel’s Vision of God",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/ezekiels-vision-of-god-7f08bb1aaef8",
       "https://daniellehewych.org/archive/medium/ezekiel-s-vision-of-god"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Theology"
+      }
+    ],
+    "keywords": "Theology",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

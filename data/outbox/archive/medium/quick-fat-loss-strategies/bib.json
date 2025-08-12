@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 36,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/quick-fat-loss-strategies",
     "name": "Quick Fat Loss Strategies",
     "description": "Quick Fat Loss Strategies",
@@ -27,6 +30,8 @@
       "https://daniellehewych.medium.com/quick-fat-loss-strategies-f3e507be510c",
       "https://daniellehewych.org/archive/medium/quick-fat-loss-strategies"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

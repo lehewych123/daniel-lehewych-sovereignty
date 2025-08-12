@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 168,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-s-why-curiosity-and-authenticity-go-a-long-wa",
     "name": "Here’s Why Curiosity And Authenticity Go A Long Way In The Workplace",
     "description": "Here’s Why Curiosity And Authenticity Go A Long Way In The Workplace",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/06/heres-why-curiosity-and-authenticity-go-a-long-way-in-the-workplace/",
       "https://daniellehewych.org/archive/allwork-space/here-s-why-curiosity-and-authenticity-go-a-long-wa"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Workplace Dynamics"
+      }
+    ],
+    "keywords": "Workplace Dynamics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

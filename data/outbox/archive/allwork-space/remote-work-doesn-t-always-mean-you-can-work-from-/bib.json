@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 180,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/remote-work-doesn-t-always-mean-you-can-work-from-",
     "name": "Remote Work Doesn’t Always Mean You Can Work From Anywhere",
     "description": "Remote Work Doesn’t Always Mean You Can Work From Anywhere",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/07/remote-work-doesnt-always-mean-you-can-work-from-anywhere/",
       "https://daniellehewych.org/archive/allwork-space/remote-work-doesn-t-always-mean-you-can-work-from-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Remote Work",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

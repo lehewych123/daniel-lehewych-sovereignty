@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 297,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-strife-of-opposites-voltaire-and-frederick-the",
     "name": "The Strife of Opposites: Voltaire and Frederick the Great",
     "description": "The Strife of Opposites: Voltaire and Frederick the Great",
@@ -27,6 +29,14 @@
       "https://medium.com/illumination/the-strife-of-opposites-voltaire-and-frederick-the-great-ffc0d8aa562c",
       "https://daniellehewych.org/archive/medium/the-strife-of-opposites-voltaire-and-frederick-the"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

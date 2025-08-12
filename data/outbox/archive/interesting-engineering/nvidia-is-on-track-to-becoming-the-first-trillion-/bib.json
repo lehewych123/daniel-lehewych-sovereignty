@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 371,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-is-on-track-to-becoming-the-first-trillion-",
     "name": "Nvidia is on track to becoming the first trillion-dollar chipmaker",
     "description": "Nvidia is on track to becoming the first trillion-dollar chipmaker",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/innovation/nvidia-is-on-track-to-becoming-the-first-trillion-dollar-chipmaker",
       "https://daniellehewych.org/archive/interesting-engineering/nvidia-is-on-track-to-becoming-the-first-trillion-"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

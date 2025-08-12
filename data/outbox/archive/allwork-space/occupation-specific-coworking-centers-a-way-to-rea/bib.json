@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 205,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/occupation-specific-coworking-centers-a-way-to-rea",
     "name": "Occupation-Specific Coworking Centers: A Way To Reach New Prospective Members Or A Recipe For Disaster?",
     "description": "Occupation-Specific Coworking Centers: A Way To Reach New Prospective Members Or A Recipe For Disaster?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/10/occupation-specific-coworking-centers-a-way-to-reach-new-prospective-members-or-a-recipe-for-disaster/",
       "https://daniellehewych.org/archive/allwork-space/occupation-specific-coworking-centers-a-way-to-rea"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      }
+    ],
+    "keywords": "Coworking",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

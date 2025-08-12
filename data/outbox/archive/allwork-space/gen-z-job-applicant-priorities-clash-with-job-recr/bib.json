@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 197,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/gen-z-job-applicant-priorities-clash-with-job-recr",
     "name": "Gen Z Job Applicant Priorities Clash With Job Recruiters",
     "description": "Gen Z Job Applicant Priorities Clash With Job Recruiters",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/09/gen-z-job-applicant-priorities-clash-with-job-recruiters/",
       "https://daniellehewych.org/archive/allwork-space/gen-z-job-applicant-priorities-clash-with-job-recr"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

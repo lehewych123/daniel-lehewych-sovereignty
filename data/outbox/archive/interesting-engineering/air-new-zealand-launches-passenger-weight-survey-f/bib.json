@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 276,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/air-new-zealand-launches-passenger-weight-survey-f",
     "name": "Air New Zealand launches passenger weight survey for data collection",
     "description": "Air New Zealand launches passenger weight survey for data collection",
@@ -27,6 +30,14 @@
       "https://interestingengineering.com/transportation/air-new-zealand-launches-passenger-weight-survey-for-data-collection",
       "https://daniellehewych.org/archive/interesting-engineering/air-new-zealand-launches-passenger-weight-survey-f"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

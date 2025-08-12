@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 196,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/despite-a-looming-recession-the-great-resignation-",
     "name": "Despite A Looming Recession, The Great Resignation Isn’t Slowing Down",
     "description": "Despite A Looming Recession, The Great Resignation Isn’t Slowing Down",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/09/despite-a-looming-recession-the-great-resignation-isnt-slowing-down/",
       "https://daniellehewych.org/archive/allwork-space/despite-a-looming-recession-the-great-resignation-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Great Resignation"
+      }
+    ],
+    "keywords": "Great Resignation",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 198,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/is-ai-the-future-of-graphic-design-work-meet-dall-",
     "name": "Is AI The Future Of Graphic Design Work? Meet DALL-E 2",
     "description": "Is AI The Future Of Graphic Design Work? Meet DALL-E 2",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/09/is-ai-the-future-of-graphic-design-work-meet-dall-e-2/",
       "https://daniellehewych.org/archive/allwork-space/is-ai-the-future-of-graphic-design-work-meet-dall-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

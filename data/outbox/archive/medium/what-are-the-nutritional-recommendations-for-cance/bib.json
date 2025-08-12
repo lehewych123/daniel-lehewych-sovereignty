@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 262,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/what-are-the-nutritional-recommendations-for-cance",
     "name": "What are the Nutritional Recommendations for Cancer Patients?",
     "description": "What are the Nutritional Recommendations for Cancer Patients?",
@@ -27,6 +30,14 @@
       "https://medium.com/illumination/what-are-the-nutritional-recommendations-for-cancer-patients-ecbb7a0145b9",
       "https://daniellehewych.org/archive/medium/what-are-the-nutritional-recommendations-for-cance"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Nutrition"
+      }
+    ],
+    "keywords": "Nutrition",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

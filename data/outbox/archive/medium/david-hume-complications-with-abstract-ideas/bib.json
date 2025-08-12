@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 8,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/david-hume-complications-with-abstract-ideas",
     "name": "David Hume: Complications With Abstract Ideas",
     "description": "David Hume: Complications With Abstract Ideas",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/david-hume-complications-with-abstract-ideas-5573aaa2fcd4",
       "https://daniellehewych.org/archive/medium/david-hume-complications-with-abstract-ideas"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

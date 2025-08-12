@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 309,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/what-insights-can-etymology-provide-regarding-the-",
     "name": "What Insights Can Etymology Provide Regarding the History of Morals?",
     "description": "What Insights Can Etymology Provide Regarding the History of Morals?",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/what-insights-can-etymology-provide-regarding-the-history-of-morals-e9b8c198eddb",
       "https://daniellehewych.org/archive/medium/what-insights-can-etymology-provide-regarding-the-"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

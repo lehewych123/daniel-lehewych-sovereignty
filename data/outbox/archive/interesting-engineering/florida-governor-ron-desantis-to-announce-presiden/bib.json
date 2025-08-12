@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 265,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/florida-governor-ron-desantis-to-announce-presiden",
     "name": "Florida Governor Ron DeSantis to announce Presidential run on Twitter Spaces with CEO Elon Musk",
     "description": "Florida Governor Ron DeSantis to announce Presidential run on Twitter Spaces with CEO Elon Musk",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/culture/florida-governor-ron-desantis-to-announce-presidential-run-in-twitter-spaces-with-ceo-elon-musk",
       "https://daniellehewych.org/archive/interesting-engineering/florida-governor-ron-desantis-to-announce-presiden"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

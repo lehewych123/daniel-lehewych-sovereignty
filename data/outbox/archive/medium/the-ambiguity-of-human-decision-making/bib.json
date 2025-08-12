@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 364,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-ambiguity-of-human-decision-making",
     "name": "The Ambiguity of Human Decision-Making",
     "description": "The Ambiguity of Human Decision-Making",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-ambiguity-of-human-decision-making-abd16e333801",
       "https://daniellehewych.org/archive/medium/the-ambiguity-of-human-decision-making"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

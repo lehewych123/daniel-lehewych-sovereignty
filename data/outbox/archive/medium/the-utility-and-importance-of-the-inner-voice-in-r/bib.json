@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 303,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-utility-and-importance-of-the-inner-voice-in-r",
     "name": "The Utility and Importance of the Inner Voice in Reading Comprehension",
     "description": "The Utility and Importance of the Inner Voice in Reading Comprehension",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-utility-and-importance-of-the-inner-voice-in-reading-comprehension-5d8d4e4fe83e",
       "https://daniellehewych.org/archive/medium/the-utility-and-importance-of-the-inner-voice-in-r"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

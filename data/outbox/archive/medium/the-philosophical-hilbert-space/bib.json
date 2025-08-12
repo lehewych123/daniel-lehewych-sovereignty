@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 305,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-philosophical-hilbert-space",
     "name": "The Philosophical Hilbert Space",
     "description": "The Philosophical Hilbert Space",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-philosophical-hilbert-space-7bbf9b1c9354",
       "https://daniellehewych.org/archive/medium/the-philosophical-hilbert-space"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

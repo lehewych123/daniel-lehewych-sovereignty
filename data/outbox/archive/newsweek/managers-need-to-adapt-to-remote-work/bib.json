@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 76,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/managers-need-to-adapt-to-remote-work",
     "name": "Managers Need to Adapt to Remote Work",
     "description": "Managers Need to Adapt to Remote Work",
@@ -27,6 +30,14 @@
       "https://www.newsweek.com/managers-need-adapt-remote-work-opinion-1603062",
       "https://daniellehewych.org/archive/newsweek/managers-need-to-adapt-to-remote-work"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Remote Work",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

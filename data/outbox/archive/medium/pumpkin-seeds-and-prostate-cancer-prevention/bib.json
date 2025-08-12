@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 215,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/pumpkin-seeds-and-prostate-cancer-prevention",
     "name": "Pumpkin Seeds and Prostate Cancer Prevention",
     "description": "Pumpkin Seeds and Prostate Cancer Prevention",
@@ -27,6 +29,7 @@
       "https://medium.com/in-fitness-and-in-health/pumpkin-seeds-and-prostate-cancer-prevention-b608ef013190",
       "https://daniellehewych.org/archive/medium/pumpkin-seeds-and-prostate-cancer-prevention"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 34,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-health-benefits-of-walking",
     "name": "The Health Benefits of Walking",
     "description": "The Health Benefits of Walking",
@@ -27,6 +30,15 @@
       "https://daniellehewych.medium.com/the-health-benefits-of-walking-c9adb1b91195",
       "https://daniellehewych.org/archive/medium/the-health-benefits-of-walking"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      }
+    ],
+    "keywords": "Health Sciences",
+    "academicDiscipline": "Medicine",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

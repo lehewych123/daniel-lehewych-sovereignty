@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 325,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/gog-and-magog-in-the-book-of-ezekiel",
     "name": "Gog and Magog in the Book of Ezekiel",
     "description": "Gog and Magog in the Book of Ezekiel",
@@ -27,6 +29,7 @@
       "https://medium.com/illumination/gog-and-magog-in-the-book-of-ezekiel-402398aa1801",
       "https://daniellehewych.org/archive/medium/gog-and-magog-in-the-book-of-ezekiel"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

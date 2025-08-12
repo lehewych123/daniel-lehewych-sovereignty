@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 289,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/ai-sparks-record-tech-investments-bofa-strategist-",
     "name": "AI sparks record tech investments, BofA strategist warns of ‘baby bubble’",
     "description": "AI sparks record tech investments, BofA strategist warns of ‘baby bubble’",
@@ -27,6 +30,14 @@
       "https://interestingengineering.com/innovation/ai-sparks-record-tech-investments-bofa-strategist-warns-of-baby-bubble",
       "https://daniellehewych.org/archive/interesting-engineering/ai-sparks-record-tech-investments-bofa-strategist-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

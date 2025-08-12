@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 237,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/on-erudite-writers",
     "name": "On Erudite Writers",
     "description": "On Erudite Writers",
@@ -27,6 +29,7 @@
       "https://writingcooperative.com/on-erudite-writers-dda49d4db53e",
       "https://daniellehewych.org/archive/medium/on-erudite-writers"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

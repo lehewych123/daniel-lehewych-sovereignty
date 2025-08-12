@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 274,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-to-build-israel-s-most-potent-ai-supercompu",
     "name": "Nvidia to build Israel’s most potent AI supercomputer",
     "description": "Nvidia to build Israel’s most potent AI supercomputer",
@@ -27,6 +30,14 @@
       "https://interestingengineering.com/innovation/nvidia-to-build-israels-most-potent-ai-supercomputer",
       "https://daniellehewych.org/archive/interesting-engineering/nvidia-to-build-israel-s-most-potent-ai-supercompu"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

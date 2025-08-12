@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 369,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-myth-of-deservedness",
     "name": "The Myth of “Deservedness”",
     "description": "The Myth of “Deservedness”",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-myth-of-deservedness-be8f86127aa6",
       "https://daniellehewych.org/archive/medium/the-myth-of-deservedness"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

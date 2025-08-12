@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 252,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-black-cumin-s",
     "name": "Why You Should Be Supplementing with Black Cumin Seed (Nigella Sativa)",
     "description": "Why You Should Be Supplementing with Black Cumin Seed (Nigella Sativa)",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/why-you-should-be-supplementing-with-black-cumin-seed-nigella-sativa-c3e5324299f1",
       "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-black-cumin-s"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

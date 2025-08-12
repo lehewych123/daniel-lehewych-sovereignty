@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 117,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/freshcleantees/strength-training-in-your-later-years",
     "name": "Strength Training In Your Later Years",
     "description": "Strength Training In Your Later Years",
@@ -27,6 +29,14 @@
       "https://freshcleantees.com/blogs/blog/strength-training-in-your-later-years",
       "https://daniellehewych.org/archive/freshcleantees/strength-training-in-your-later-years"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

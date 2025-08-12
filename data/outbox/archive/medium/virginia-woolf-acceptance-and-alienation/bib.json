@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 360,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/virginia-woolf-acceptance-and-alienation",
     "name": "Virginia Woolf: Acceptance and Alienation",
     "description": "Virginia Woolf: Acceptance and Alienation",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/virginia-woolf-acceptance-and-alienation-6515063ddd31",
       "https://daniellehewych.org/archive/medium/virginia-woolf-acceptance-and-alienation"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

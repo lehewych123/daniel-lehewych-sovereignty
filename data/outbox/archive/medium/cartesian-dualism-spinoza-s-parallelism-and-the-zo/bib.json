@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 49,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/cartesian-dualism-spinoza-s-parallelism-and-the-zo",
     "name": "Cartesian Dualism, Spinoza’s Parallelism, and the Zombie Argument",
     "description": "Cartesian Dualism, Spinoza’s Parallelism, and the Zombie Argument",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/cartesian-dualism-spinozas-parallelism-and-the-zombie-argument-77d8fe5071be",
       "https://daniellehewych.org/archive/medium/cartesian-dualism-spinoza-s-parallelism-and-the-zo"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Baruch Spinoza"
+      }
+    ],
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

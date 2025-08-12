@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 159,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-has-created-a-coach-career-boom",
     "name": "The Pandemic has Created a Coach Career Boom",
     "description": "The Pandemic has Created a Coach Career Boom",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/06/the-pandemic-has-created-a-coach-career-boom/",
       "https://daniellehewych.org/archive/allwork-space/the-pandemic-has-created-a-coach-career-boom"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

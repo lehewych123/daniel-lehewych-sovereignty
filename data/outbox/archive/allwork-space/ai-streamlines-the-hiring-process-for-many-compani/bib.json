@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 96,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/ai-streamlines-the-hiring-process-for-many-compani",
     "name": "AI Streamlines the Hiring Process for Many Companies, but is That a Good Thing?",
     "description": "AI Streamlines the Hiring Process for Many Companies, but is That a Good Thing?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2021/10/ai-streamlines-the-hiring-process-for-many-companies-but-is-that-a-good-thing/",
       "https://daniellehewych.org/archive/allwork-space/ai-streamlines-the-hiring-process-for-many-compani"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

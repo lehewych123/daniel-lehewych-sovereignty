@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 362,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/embrace-the-paradox-of-willing",
     "name": "Embrace the Paradox of Willing",
     "description": "Embrace the Paradox of Willing",
@@ -27,6 +29,7 @@
       "https://medium.com/grim-tidings/embracing-the-paradox-of-willing-bb57ef1c6420",
       "https://daniellehewych.org/archive/medium/embrace-the-paradox-of-willing"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

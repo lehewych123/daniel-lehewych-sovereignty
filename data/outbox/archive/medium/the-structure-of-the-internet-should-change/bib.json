@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 311,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-structure-of-the-internet-should-change",
     "name": "The Structure of the Internet Should Change",
     "description": "The Structure of the Internet Should Change",
@@ -27,6 +30,7 @@
       "https://daniellehewych.medium.com/the-structure-of-the-internet-should-change-cee3d01f323c",
       "https://daniellehewych.org/archive/medium/the-structure-of-the-internet-should-change"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

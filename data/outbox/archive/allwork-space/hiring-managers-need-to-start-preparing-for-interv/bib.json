@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 169,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/hiring-managers-need-to-start-preparing-for-interv",
     "name": "Hiring Managers Need to Start Preparing for Interviews Differently",
     "description": "Hiring Managers Need to Start Preparing for Interviews Differently",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/06/hiring-managers-need-to-start-preparing-for-interviews-differently/",
       "https://daniellehewych.org/archive/allwork-space/hiring-managers-need-to-start-preparing-for-interv"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 277,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/china-accelerates-launch-of-large-language-models-",
     "name": "China accelerates launch of large-language models as Elon Musk visits Beijing",
     "description": "China accelerates launch of large-language models as Elon Musk visits Beijing",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/innovation/china-accelerates-launch-of-large-language-models-as-elon-musk-visits-beijing",
       "https://daniellehewych.org/archive/interesting-engineering/china-accelerates-launch-of-large-language-models-"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

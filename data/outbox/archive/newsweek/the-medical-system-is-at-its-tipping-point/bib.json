@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 100,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-medical-system-is-at-its-tipping-point",
     "name": "The Medical System is at its Tipping Point",
     "description": "The Medical System is at its Tipping Point",
@@ -27,6 +30,7 @@
       "https://www.newsweek.com/medical-system-its-tipping-point-opinion-1646492",
       "https://daniellehewych.org/archive/newsweek/the-medical-system-is-at-its-tipping-point"
     ],
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

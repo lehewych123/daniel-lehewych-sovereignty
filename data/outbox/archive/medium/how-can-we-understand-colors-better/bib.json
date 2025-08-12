@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 248,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/how-can-we-understand-colors-better",
     "name": "How Can We Understand Colors Better?",
     "description": "How Can We Understand Colors Better?",
@@ -27,6 +30,7 @@
       "https://medium.com/age-of-awareness/how-can-we-understand-colors-better-a69c1aa8ccd0",
       "https://daniellehewych.org/archive/medium/how-can-we-understand-colors-better"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

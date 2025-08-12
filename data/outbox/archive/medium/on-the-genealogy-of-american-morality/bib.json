@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 361,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/on-the-genealogy-of-american-morality",
     "name": "On the Genealogy of American Morality",
     "description": "On the Genealogy of American Morality",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/on-the-genealogy-of-american-morality-a1fdf2151a69",
       "https://daniellehewych.org/archive/medium/on-the-genealogy-of-american-morality"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

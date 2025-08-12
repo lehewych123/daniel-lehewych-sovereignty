@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 26,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-health-implications-of-protein-interview-with-",
     "name": "The Health Implications of Protein: Interview with Dr. Donald Layman",
     "description": "The Health Implications of Protein: Interview with Dr. Donald Layman",
@@ -27,6 +30,31 @@
       "https://daniellehewych.medium.com/the-health-implications-of-protein-interview-with-dr-donald-layman-4c72e3f20311",
       "https://daniellehewych.org/archive/medium/the-health-implications-of-protein-interview-with-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Protein Science"
+      },
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Dr",
+        "roleName": "Interviewee"
+      }
+    ],
+    "keywords": "Protein Science, Health Sciences",
+    "genre": "Trend Analysis",
+    "contentReferenceTime": "future",
+    "contributor": {
+      "@type": "Person",
+      "name": "Dr",
+      "roleName": "Interviewee"
+    },
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

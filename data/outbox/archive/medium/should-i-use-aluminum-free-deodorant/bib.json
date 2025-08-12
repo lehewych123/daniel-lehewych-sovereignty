@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 244,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/should-i-use-aluminum-free-deodorant",
     "name": "Should I Use Aluminum-Free Deodorant?",
     "description": "Should I Use Aluminum-Free Deodorant?",
@@ -27,6 +30,7 @@
       "https://medium.com/in-fitness-and-in-health/should-i-use-aluminum-free-deodorant-a1e7ba094c1f",
       "https://daniellehewych.org/archive/medium/should-i-use-aluminum-free-deodorant"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

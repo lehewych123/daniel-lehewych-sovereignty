@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 133,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-can-employers-make-employees-happier",
     "name": "How Can Employers Make Employees Happier?",
     "description": "How Can Employers Make Employees Happier?",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/03/how-can-employers-make-employees-happier/",
       "https://daniellehewych.org/archive/allwork-space/how-can-employers-make-employees-happier"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

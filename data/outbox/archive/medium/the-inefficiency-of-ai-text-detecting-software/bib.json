@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 337,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-inefficiency-of-ai-text-detecting-software",
     "name": "The Inefficiency of AI-Text Detecting Software",
     "description": "The Inefficiency of AI-Text Detecting Software",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/the-inefficiency-of-ai-text-detecting-software-5b6de94aaa32",
       "https://daniellehewych.org/archive/medium/the-inefficiency-of-ai-text-detecting-software"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

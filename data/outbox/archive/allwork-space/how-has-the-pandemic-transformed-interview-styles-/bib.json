@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 144,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-has-the-pandemic-transformed-interview-styles-",
     "name": "How Has The Pandemic Transformed Interview Styles? (And, Is It For The Good?)",
     "description": "How Has The Pandemic Transformed Interview Styles? (And, Is It For The Good?)",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/04/how-has-the-pandemic-transformed-interview-styles-and-is-it-for-the-good/",
       "https://daniellehewych.org/archive/allwork-space/how-has-the-pandemic-transformed-interview-styles-"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

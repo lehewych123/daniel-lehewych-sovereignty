@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 345,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-politicking",
     "name": "The Phenomenology of Politicking",
     "description": "The Phenomenology of Politicking",
@@ -27,6 +30,16 @@
       "https://daniellehewych.medium.com/the-phenomenology-of-politicking-be1db25d4871",
       "https://daniellehewych.org/archive/medium/the-phenomenology-of-politicking"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Phenomenology"
+      }
+    ],
+    "keywords": "Phenomenology",
+    "academicDiscipline": "Philosophy",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Graduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

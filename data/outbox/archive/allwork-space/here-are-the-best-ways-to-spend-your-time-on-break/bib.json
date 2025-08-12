@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 126,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-ways-to-spend-your-time-on-break",
     "name": "Here Are The Best Ways To Spend Your Time On Break At Work",
     "description": "Here Are The Best Ways To Spend Your Time On Break At Work",
@@ -27,6 +30,8 @@
       "https://allwork.space/2022/01/here-are-the-best-ways-to-spend-your-time-on-break-at-work/",
       "https://daniellehewych.org/archive/allwork-space/here-are-the-best-ways-to-spend-your-time-on-break"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

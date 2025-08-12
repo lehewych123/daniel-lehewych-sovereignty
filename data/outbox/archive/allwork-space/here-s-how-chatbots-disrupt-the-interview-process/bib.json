@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 174,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-chatbots-disrupt-the-interview-process",
     "name": "Here’s How Chatbots Disrupt the Interview Process",
     "description": "Here’s How Chatbots Disrupt the Interview Process",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/07/heres-how-chatbots-disrupt-the-interview-process/",
       "https://daniellehewych.org/archive/allwork-space/here-s-how-chatbots-disrupt-the-interview-process"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

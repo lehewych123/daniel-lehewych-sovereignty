@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 39,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/citizenship",
     "name": "Citizenship",
     "description": "Citizenship",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/citizenship-84623f3825a4",
       "https://daniellehewych.org/archive/medium/citizenship"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

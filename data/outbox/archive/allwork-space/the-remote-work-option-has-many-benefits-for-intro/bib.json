@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 173,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-remote-work-option-has-many-benefits-for-intro",
     "name": "The Remote Work Option Has Many Benefits for Introverts",
     "description": "The Remote Work Option Has Many Benefits for Introverts",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/07/the-remote-work-option-has-many-benefits-for-introverts/",
       "https://daniellehewych.org/archive/allwork-space/the-remote-work-option-has-many-benefits-for-intro"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Remote Work",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

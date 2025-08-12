@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 267,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/unlocking-the-mysteries-of-lava-worlds-a-guiding-l",
     "name": "Unlocking the mysteries of lava worlds: A guiding light for the James Webb Space Telescope",
     "description": "Unlocking the mysteries of lava worlds: A guiding light for the James Webb Space Telescope",
@@ -27,6 +30,7 @@
       "https://interestingengineering.com/science/unlocking-the-mysteries-of-lava-worlds-a-guiding-light-for-the-james-webb-space-telescope",
       "https://daniellehewych.org/archive/interesting-engineering/unlocking-the-mysteries-of-lava-worlds-a-guiding-l"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

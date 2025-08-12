@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 42,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-therapy-is-not-for-everyone",
     "name": "Why Therapy Is Not For Everyone",
     "description": "Why Therapy Is Not For Everyone",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/why-therapy-is-not-for-everyone-1f35dfdef30c",
       "https://daniellehewych.org/archive/medium/why-therapy-is-not-for-everyone"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Psychotherapy"
+      }
+    ],
+    "keywords": "Psychotherapy",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

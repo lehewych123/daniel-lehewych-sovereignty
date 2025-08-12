@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 38,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/heidegger-spinoza-ontological-anticipation-and-int",
     "name": "Heidegger & Spinoza: Ontological Anticipation and Interpretation",
     "description": "Heidegger & Spinoza: Ontological Anticipation and Interpretation",
@@ -27,6 +30,25 @@
       "https://daniellehewych.medium.com/heidegger-spinoza-ontological-anticipation-and-interpretation-9a6e6ffba09e",
       "https://daniellehewych.org/archive/medium/heidegger-spinoza-ontological-anticipation-and-int"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Logic"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Martin Heidegger"
+      },
+      {
+        "@type": "Person",
+        "name": "Baruch Spinoza"
+      }
+    ],
+    "keywords": "Logic",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

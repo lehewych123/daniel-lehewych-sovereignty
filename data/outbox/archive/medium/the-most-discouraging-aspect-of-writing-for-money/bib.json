@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 56,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-most-discouraging-aspect-of-writing-for-money",
     "name": "The Most Discouraging Aspect of Writing for Money",
     "description": "The Most Discouraging Aspect of Writing for Money",
@@ -27,6 +30,7 @@
       "https://writingcooperative.com/the-most-discouraging-aspect-of-writing-for-money-4d9ddaf61b95",
       "https://daniellehewych.org/archive/medium/the-most-discouraging-aspect-of-writing-for-money"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 150,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-build-and-retain-a-strong-work-team",
     "name": "Here’s How To Build And Retain A Strong Work Team",
     "description": "Here’s How To Build And Retain A Strong Work Team",
@@ -27,6 +30,15 @@
       "https://allwork.space/2022/04/heres-how-to-build-and-retain-a-strong-work-team",
       "https://daniellehewych.org/archive/allwork-space/here-s-how-to-build-and-retain-a-strong-work-team"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 125,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-role-does-higher-education-have-in-the-future",
     "name": "What Role Does Higher Education Have In The Future Of Work?",
     "description": "What Role Does Higher Education Have In The Future Of Work?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/01/what-role-does-higher-education-have-in-the-future-of-work/",
       "https://daniellehewych.org/archive/allwork-space/what-role-does-higher-education-have-in-the-future"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 118,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/freshcleantees/the-secrets-to-feeling-great-as-you-age",
     "name": "The Secrets to Feeling Great As You Age",
     "description": "The Secrets to Feeling Great As You Age",
@@ -27,6 +30,8 @@
       "https://freshcleantees.com/blogs/blog/secrets-to-feeling-good-as-you-age",
       "https://daniellehewych.org/archive/freshcleantees/the-secrets-to-feeling-great-as-you-age"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

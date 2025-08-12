@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 320,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-book-of-wanderings",
     "name": "The Book of Wanderings",
     "description": "The Book of Wanderings",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-book-of-wanderings-30a216da5300",
       "https://daniellehewych.org/archive/medium/the-book-of-wanderings"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

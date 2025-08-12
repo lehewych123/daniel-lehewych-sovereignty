@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 273,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/twitter-the-fractured-mirror-of-our-collective-unc",
     "name": "Twitter — The Fractured Mirror of Our Collective Unconscious",
     "description": "Twitter — The Fractured Mirror of Our Collective Unconscious",
@@ -27,6 +29,7 @@
       "https://medium.com/illumination/twitter-the-fractured-mirror-of-our-collective-unconscious-fc46bef6fe4",
       "https://daniellehewych.org/archive/medium/twitter-the-fractured-mirror-of-our-collective-unc"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

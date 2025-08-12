@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 290,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/boosting-green-hydrogen-korean-researchers-reduce-",
     "name": "Boosting green hydrogen: Korean researchers reduce rare metals in production",
     "description": "Boosting green hydrogen: Korean researchers reduce rare metals in production",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/innovation/boosting-green-hydrogen-korean-researchers-reduce-rare-metals-in-production",
       "https://daniellehewych.org/archive/interesting-engineering/boosting-green-hydrogen-korean-researchers-reduce-"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

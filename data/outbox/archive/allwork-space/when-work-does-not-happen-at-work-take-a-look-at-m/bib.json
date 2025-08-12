@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 164,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/when-work-does-not-happen-at-work-take-a-look-at-m",
     "name": "When Work Does Not Happen At Work, Take A Look At Management",
     "description": "When Work Does Not Happen At Work, Take A Look At Management",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/06/when-work-does-not-happen-at-work-take-a-look-at-management/",
       "https://daniellehewych.org/archive/allwork-space/when-work-does-not-happen-at-work-take-a-look-at-m"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

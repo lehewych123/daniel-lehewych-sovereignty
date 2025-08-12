@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 192,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-to-deal-with-a-bad-boss-in-person",
     "name": "How To Deal With A Bad Boss In Person",
     "description": "How To Deal With A Bad Boss In Person",
@@ -27,6 +30,8 @@
       "https://allwork.space/2022/09/how-to-deal-with-a-bad-boss-in-person/",
       "https://daniellehewych.org/archive/allwork-space/how-to-deal-with-a-bad-boss-in-person"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

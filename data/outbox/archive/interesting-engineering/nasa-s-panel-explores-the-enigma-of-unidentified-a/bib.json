@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 281,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-panel-explores-the-enigma-of-unidentified-a",
     "name": "NASA’s panel explores the enigma of unidentified aerial phenomena",
     "description": "NASA’s panel explores the enigma of unidentified aerial phenomena",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/science/nasas-panel-explores-the-enigma-of-unidentified-aerial-phenomena",
       "https://daniellehewych.org/archive/interesting-engineering/nasa-s-panel-explores-the-enigma-of-unidentified-a"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

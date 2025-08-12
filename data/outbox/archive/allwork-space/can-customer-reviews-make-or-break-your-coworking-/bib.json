@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 193,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/can-customer-reviews-make-or-break-your-coworking-",
     "name": "Can Customer Reviews Make Or Break Your Coworking Space?",
     "description": "Can Customer Reviews Make Or Break Your Coworking Space?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/09/can-customer-reviews-make-or-break-your-coworking-space/",
       "https://daniellehewych.org/archive/allwork-space/can-customer-reviews-make-or-break-your-coworking-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      }
+    ],
+    "keywords": "Coworking",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

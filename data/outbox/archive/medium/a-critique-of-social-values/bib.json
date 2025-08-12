@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 315,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/a-critique-of-social-values",
     "name": "A Critique of Social Values",
     "description": "A Critique of Social Values",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/a-critique-of-social-values-65d434993e44",
       "https://daniellehewych.org/archive/medium/a-critique-of-social-values"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

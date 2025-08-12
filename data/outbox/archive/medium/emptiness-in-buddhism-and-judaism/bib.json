@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 323,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/emptiness-in-buddhism-and-judaism",
     "name": "“Emptiness” in Buddhism and Judaism",
     "description": "“Emptiness” in Buddhism and Judaism",
@@ -27,6 +29,18 @@
       "https://medium.com/illumination/emptiness-in-buddhism-and-judaism-34e6d47840c8",
       "https://daniellehewych.org/archive/medium/emptiness-in-buddhism-and-judaism"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Buddhism"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Buddhism",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 17,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-birth-of-tragedy-how-early-nietzsche-connects-",
     "name": "The Birth of Tragedy: How Early Nietzsche Connects to Late Nietzsche",
     "description": "The Birth of Tragedy: How Early Nietzsche Connects to Late Nietzsche",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/the-birth-of-tragedy-how-early-nietzsche-connects-to-late-nietzsche-3894b7e2822c",
       "https://daniellehewych.org/archive/medium/the-birth-of-tragedy-how-early-nietzsche-connects-"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Friedrich Nietzsche"
+      }
+    ],
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

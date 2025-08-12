@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 226,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-is-an-open-coworking-space",
     "name": "What is an “Open” Coworking Space?",
     "description": "What is an “Open” Coworking Space?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2023/01/what-is-an-open-coworking-space/",
       "https://daniellehewych.org/archive/allwork-space/what-is-an-open-coworking-space"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      }
+    ],
+    "keywords": "Coworking",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 160,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/workers-want-wage-increases-because-of-inflation",
     "name": "Workers Want Wage Increases Because of Inflation",
     "description": "Workers Want Wage Increases Because of Inflation",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/06/workers-want-wage-increases-because-of-inflation/",
       "https://daniellehewych.org/archive/allwork-space/workers-want-wage-increases-because-of-inflation"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

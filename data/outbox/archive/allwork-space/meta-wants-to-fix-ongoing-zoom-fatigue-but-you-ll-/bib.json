@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 209,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/meta-wants-to-fix-ongoing-zoom-fatigue-but-you-ll-",
     "name": "Meta Wants To Fix Ongoing Zoom Fatigue — But You’ll Be Waiting A While",
     "description": "Meta Wants To Fix Ongoing Zoom Fatigue — But You’ll Be Waiting A While",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/11/meta-wants-to-fix-ongoing-zoom-fatigue-but-youll-be-waiting-a-while/",
       "https://daniellehewych.org/archive/allwork-space/meta-wants-to-fix-ongoing-zoom-fatigue-but-you-ll-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

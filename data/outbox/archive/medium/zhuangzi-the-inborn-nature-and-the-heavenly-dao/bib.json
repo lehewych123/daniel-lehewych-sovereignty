@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 71,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/zhuangzi-the-inborn-nature-and-the-heavenly-dao",
     "name": "Zhuangzi, The Inborn Nature and The Heavenly Dao",
     "description": "Zhuangzi, The Inborn Nature and The Heavenly Dao",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/zhuangzi-the-inborn-nature-and-the-heavenly-dao-6217b03b3650",
       "https://daniellehewych.org/archive/medium/zhuangzi-the-inborn-nature-and-the-heavenly-dao"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

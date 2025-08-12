@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 178,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/this-is-the-personality-type-most-closely-associat",
     "name": "This Is The Personality Type Most Closely Associated With Career Success",
     "description": "This Is The Personality Type Most Closely Associated With Career Success",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/07/this-is-the-personality-type-most-closely-associated-with-career-success/",
       "https://daniellehewych.org/archive/allwork-space/this-is-the-personality-type-most-closely-associat"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

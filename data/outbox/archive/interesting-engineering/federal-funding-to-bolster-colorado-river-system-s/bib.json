@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 270,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/federal-funding-to-bolster-colorado-river-system-s",
     "name": "Federal funding to bolster Colorado River system’s drought resilience",
     "description": "Federal funding to bolster Colorado River system’s drought resilience",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/science/federal-funding-to-bolster-colorado-river-systems-drought-resilience",
       "https://daniellehewych.org/archive/interesting-engineering/federal-funding-to-bolster-colorado-river-system-s"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

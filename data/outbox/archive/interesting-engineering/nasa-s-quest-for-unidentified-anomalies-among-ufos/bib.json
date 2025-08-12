@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 282,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos",
     "name": "NASA’s quest for unidentified anomalies among UFOs",
     "description": "NASA’s quest for unidentified anomalies among UFOs",
@@ -27,6 +30,7 @@
       "https://interestingengineering.com/science/nasas-quest-for-unidentified-anomalies-among-ufos",
       "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 372,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/christianity-and-familial-piety",
     "name": "Christianity and Familial Piety",
     "description": "Christianity and Familial Piety",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/christianity-and-familial-piety-b7bf24f6b3c6",
       "https://daniellehewych.org/archive/medium/christianity-and-familial-piety"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Christianity"
+      }
+    ],
+    "keywords": "Christianity",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

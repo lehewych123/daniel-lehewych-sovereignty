@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 326,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/who-was-ralph-waldo-emerson",
     "name": "Who Was Ralph Waldo Emerson?",
     "description": "Who Was Ralph Waldo Emerson?",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/who-was-ralph-waldo-emerson-4f01e3452b1d",
       "https://daniellehewych.org/archive/medium/who-was-ralph-waldo-emerson"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

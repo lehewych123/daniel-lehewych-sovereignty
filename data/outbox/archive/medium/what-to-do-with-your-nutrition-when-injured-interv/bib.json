@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 4,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/what-to-do-with-your-nutrition-when-injured-interv",
     "name": "What To Do With Your Nutrition When Injured: Interview With Dr. Layne Norton",
     "description": "What To Do With Your Nutrition When Injured: Interview With Dr. Layne Norton",
@@ -27,6 +30,27 @@
       "https://daniellehewych.medium.com/what-to-do-with-your-nutrition-when-injured-interview-with-dr-layne-norton-cc571105c748",
       "https://daniellehewych.org/archive/medium/what-to-do-with-your-nutrition-when-injured-interv"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Nutrition"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Dr",
+        "roleName": "Interviewee"
+      }
+    ],
+    "keywords": "Nutrition",
+    "academicDiscipline": "Medicine",
+    "genre": "Health Research",
+    "contributor": {
+      "@type": "Person",
+      "name": "Dr",
+      "roleName": "Interviewee"
+    },
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 77,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/credentialism-and-its-pitfalls",
     "name": "Credentialism and its Pitfalls",
     "description": "Credentialism and its Pitfalls",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/credentialism-its-pitfalls-opinion-1604285",
       "https://daniellehewych.org/archive/newsweek/credentialism-and-its-pitfalls"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

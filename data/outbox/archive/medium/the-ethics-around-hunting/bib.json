@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 25,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-ethics-around-hunting",
     "name": "The Ethics Around Hunting",
     "description": "The Ethics Around Hunting",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/the-ethics-around-hunting-beb9e4c1a4e7",
       "https://daniellehewych.org/archive/medium/the-ethics-around-hunting"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Ethics"
+      }
+    ],
+    "keywords": "Ethics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

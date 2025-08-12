@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 151,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-industries-and-locations-for-sta",
     "name": "Here Are The Best Industries And Locations For Starting Up Your Own Business In 2022",
     "description": "Here Are The Best Industries And Locations For Starting Up Your Own Business In 2022",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/04/here-are-the-best-industries-and-locations-for-starting-up-your-own-business-in-2022/",
       "https://daniellehewych.org/archive/allwork-space/here-are-the-best-industries-and-locations-for-sta"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

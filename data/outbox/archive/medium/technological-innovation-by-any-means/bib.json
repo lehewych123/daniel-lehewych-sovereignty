@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 6,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/technological-innovation-by-any-means",
     "name": "Technological Innovation: By Any Means",
     "description": "Technological Innovation: By Any Means",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/technological-innovation-by-any-means-99e6721eaa96",
       "https://daniellehewych.org/archive/medium/technological-innovation-by-any-means"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Logic"
+      }
+    ],
+    "keywords": "Logic",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

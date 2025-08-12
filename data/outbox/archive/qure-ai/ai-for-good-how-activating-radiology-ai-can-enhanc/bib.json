@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 302,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
     "name": "AI for good - How activating radiology AI can enhance public health & social equity",
     "description": "AI for good - How activating radiology AI can enhance public health & social equity",
@@ -27,6 +30,18 @@
       "https://www.qure.ai/blog/ai-for-good-how-activating-radiology-ai-can-enhance-public%20health-social-equity",
       "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Health Sciences",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

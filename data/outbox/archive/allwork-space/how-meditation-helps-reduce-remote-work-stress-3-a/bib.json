@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 99,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-meditation-helps-reduce-remote-work-stress-3-a",
     "name": "How Meditation Helps Reduce Remote Work Stress + 3 Apps to Get Started",
     "description": "How Meditation Helps Reduce Remote Work Stress + 3 Apps to Get Started",
@@ -27,6 +29,18 @@
       "https://allwork.space/2021/11/how-meditation-helps-reduce-remote-work-stress-3-apps-to-get-started/",
       "https://daniellehewych.org/archive/allwork-space/how-meditation-helps-reduce-remote-work-stress-3-a"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Meditation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Meditation, Remote Work",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

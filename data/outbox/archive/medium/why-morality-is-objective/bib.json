@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 27,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-morality-is-objective",
     "name": "Why Morality is Objective",
     "description": "Why Morality is Objective",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/why-morality-is-objective-9babb735d117",
       "https://daniellehewych.org/archive/medium/why-morality-is-objective"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

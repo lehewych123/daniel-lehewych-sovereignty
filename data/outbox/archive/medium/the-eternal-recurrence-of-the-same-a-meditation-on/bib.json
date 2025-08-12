@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 335,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-eternal-recurrence-of-the-same-a-meditation-on",
     "name": "The Eternal Recurrence of the Same: A Meditation on the Biblical Vision of Reality",
     "description": "The Eternal Recurrence of the Same: A Meditation on the Biblical Vision of Reality",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/the-eternal-recurrence-of-the-same-a-meditation-on-the-biblical-vision-of-reality-34cb86a1086f",
       "https://daniellehewych.org/archive/medium/the-eternal-recurrence-of-the-same-a-meditation-on"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Meditation"
+      }
+    ],
+    "keywords": "Meditation",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 260,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-alpha-lipoic-",
     "name": "Why You Should Be Supplementing with Alpha-Lipoic Acid",
     "description": "Why You Should Be Supplementing with Alpha-Lipoic Acid",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/why-you-should-be-supplementing-with-alpha-lipoic-acid-43f73ab62c3d",
       "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-alpha-lipoic-"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

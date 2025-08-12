@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 235,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/how-bad-incentives-rule-modern-commerce",
     "name": "How Bad Incentives Rule Modern Commerce",
     "description": "How Bad Incentives Rule Modern Commerce",
@@ -27,6 +29,7 @@
       "https://medium.com/illumination/how-bad-incentives-rule-modern-commerce-a7345c5972d8",
       "https://daniellehewych.org/archive/medium/how-bad-incentives-rule-modern-commerce"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

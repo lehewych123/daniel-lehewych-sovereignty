@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 344,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-perils-of-phd-admissions-in-philosophy",
     "name": "The Perils of PhD Admissions in Philosophy",
     "description": "The Perils of PhD Admissions in Philosophy",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-perils-of-phd-admissions-in-philosophy-1c5e0ce556e6",
       "https://daniellehewych.org/archive/medium/the-perils-of-phd-admissions-in-philosophy"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

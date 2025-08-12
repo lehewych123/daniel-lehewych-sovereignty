@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 351,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/what-is-social-intelligence",
     "name": "What is Social Intelligence?",
     "description": "What is Social Intelligence?",
@@ -27,6 +30,7 @@
       "https://daniellehewych.medium.com/what-is-social-intelligence-2bcb518d5437",
       "https://daniellehewych.org/archive/medium/what-is-social-intelligence"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

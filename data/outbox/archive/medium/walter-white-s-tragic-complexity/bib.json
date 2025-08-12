@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 368,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity",
     "name": "Walter White’s Tragic Complexity",
     "description": "Walter White’s Tragic Complexity",
@@ -27,6 +29,7 @@
       "https://medium.com/grim-tidings/walter-whites-tragic-complexity-9e43ab9b2909",
       "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 299,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony",
     "name": "On the Notion of “Philogony”",
     "description": "On the Notion of “Philogony”",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/on-the-notion-of-philogony-7407e1ffbdab",
       "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

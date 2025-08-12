@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 152,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-data-literacy-in-career-advancem",
     "name": "The Importance of Data Literacy in Career Advancement: Explained",
     "description": "The Importance of Data Literacy in Career Advancement: Explained",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/04/the-importance-of-data-literacy-in-career-advancement-explained/",
       "https://daniellehewych.org/archive/allwork-space/the-importance-of-data-literacy-in-career-advancem"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

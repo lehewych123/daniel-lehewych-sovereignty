@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 61,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/meaningfulness-its-moral-implications-and-the-path",
     "name": "Meaningfulness, Its Moral Implications and the Path Forward",
     "description": "Meaningfulness, Its Moral Implications and the Path Forward",
@@ -27,6 +30,7 @@
       "https://www.newsweek.com/meaningfulness-its-moral-implications-path-forward-opinion-1572915",
       "https://daniellehewych.org/archive/newsweek/meaningfulness-its-moral-implications-and-the-path"
     ],
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

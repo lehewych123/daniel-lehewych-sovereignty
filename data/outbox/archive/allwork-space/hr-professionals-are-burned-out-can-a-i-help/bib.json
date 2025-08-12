@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 220,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/hr-professionals-are-burned-out-can-a-i-help",
     "name": "HR Professionals Are Burned Out. Can A.I. Help?",
     "description": "HR Professionals Are Burned Out. Can A.I. Help?",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/12/hr-professionals-are-burned-out-can-a-i-help/",
       "https://daniellehewych.org/archive/allwork-space/hr-professionals-are-burned-out-can-a-i-help"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

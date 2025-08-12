@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 51,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/derek-parfit-on-personal-identity",
     "name": "Derek Parfit on Personal Identity",
     "description": "Derek Parfit on Personal Identity",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/derek-parfit-on-personal-identity-f545ec46f494",
       "https://daniellehewych.org/archive/medium/derek-parfit-on-personal-identity"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 110,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/not-getting-that-interview-here-s-why-more-than-70",
     "name": "Not Getting That Interview? Here’s Why More Than 70 Percent of Resumes Are Rejected",
     "description": "Not Getting That Interview? Here’s Why More Than 70 Percent of Resumes Are Rejected",
@@ -27,6 +30,7 @@
       "https://allwork.space/2021/12/not-getting-that-interview-heres-why-more-than-70-percent-of-resumes-are-rejected",
       "https://daniellehewych.org/archive/allwork-space/not-getting-that-interview-here-s-why-more-than-70"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

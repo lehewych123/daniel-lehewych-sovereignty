@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 74,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-importance-of-funding-public-colleges",
     "name": "The Importance of Funding Public Colleges",
     "description": "The Importance of Funding Public Colleges",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/importance-funding-public-colleges-opinion-1598346",
       "https://daniellehewych.org/archive/newsweek/the-importance-of-funding-public-colleges"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

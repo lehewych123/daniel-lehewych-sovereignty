@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 213,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/will-the-future-of-remote-work-survive-employer-sk",
     "name": "Will the Future of Remote Work Survive Employer Skepticism?",
     "description": "Will the Future of Remote Work Survive Employer Skepticism?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/11/will-the-future-of-remote-work-survive-employer-skepticism/",
       "https://daniellehewych.org/archive/allwork-space/will-the-future-of-remote-work-survive-employer-sk"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Remote Work",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

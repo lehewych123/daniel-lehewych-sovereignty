@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 221,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/end-this-one-workplace-practice-to-stop-turnover",
     "name": "End This One Workplace Practice To Stop Turnover",
     "description": "End This One Workplace Practice To Stop Turnover",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/12/end-this-one-workplace-practice-to-stop-turnover/",
       "https://daniellehewych.org/archive/allwork-space/end-this-one-workplace-practice-to-stop-turnover"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Workplace Dynamics"
+      }
+    ],
+    "keywords": "Workplace Dynamics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

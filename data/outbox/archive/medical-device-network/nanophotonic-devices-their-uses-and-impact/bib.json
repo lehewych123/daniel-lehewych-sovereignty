@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 200,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medical-device-network/nanophotonic-devices-their-uses-and-impact",
     "name": "Nanophotonic devices: their uses and impact",
     "description": "Nanophotonic devices: their uses and impact",
@@ -27,6 +29,7 @@
       "https://www.medicaldevice-network.com/features/nanophotonic-devices-their-uses-and-impact/",
       "https://daniellehewych.org/archive/medical-device-network/nanophotonic-devices-their-uses-and-impact"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

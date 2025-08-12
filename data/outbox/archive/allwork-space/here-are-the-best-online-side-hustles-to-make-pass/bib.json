@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 135,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-online-side-hustles-to-make-pass",
     "name": "Here Are The Best Online Side-hustles To Make Passive Income In 2022",
     "description": "Here Are The Best Online Side-hustles To Make Passive Income In 2022",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/03/here-are-the-best-online-side-hustles-to-make-passive-income-in-2022/",
       "https://daniellehewych.org/archive/allwork-space/here-are-the-best-online-side-hustles-to-make-pass"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

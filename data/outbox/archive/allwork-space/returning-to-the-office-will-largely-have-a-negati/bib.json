@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 140,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/returning-to-the-office-will-largely-have-a-negati",
     "name": "Returning to the Office will Largely have a Negative Impact on Mental Health",
     "description": "Returning to the Office will Largely have a Negative Impact on Mental Health",
@@ -27,6 +30,19 @@
       "https://allwork.space/2022/03/returning-to-the-office-will-largely-have-a-negative-impact-on-mental-health/",
       "https://daniellehewych.org/archive/allwork-space/returning-to-the-office-will-largely-have-a-negati"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      },
+      {
+        "@type": "Thing",
+        "name": "Mental Health"
+      }
+    ],
+    "keywords": "Health Sciences, Mental Health",
+    "academicDiscipline": "Medicine",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

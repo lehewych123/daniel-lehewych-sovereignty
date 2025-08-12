@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 3,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/rasa-and-metal-linkin-park-meets-indian-aesthetics",
     "name": "Rasa and Metal: Linkin Park Meets Indian Aesthetics",
     "description": "Rasa and Metal: Linkin Park Meets Indian Aesthetics",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/rasa-and-metal-linkin-park-meets-indian-aesthetics-a3ad8f59b00c",
       "https://daniellehewych.org/archive/medium/rasa-and-metal-linkin-park-meets-indian-aesthetics"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Aesthetics"
+      }
+    ],
+    "keywords": "Aesthetics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

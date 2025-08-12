@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 266,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/seti-institute-invites-public-to-participate-in-in",
     "name": "SETI Institute invites public to participate in interplanetary ‘A Sign in Space’ Project",
     "description": "SETI Institute invites public to participate in interplanetary ‘A Sign in Space’ Project",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/science/seti-institute-invites-public-to-participate-in-interplanetary-a-sign-in-space-project",
       "https://daniellehewych.org/archive/interesting-engineering/seti-institute-invites-public-to-participate-in-in"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

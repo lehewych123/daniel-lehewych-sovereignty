@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 233,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-science-based-approach-to-food-pyramids",
     "name": "The Science-Based Approach to Food Pyramids",
     "description": "The Science-Based Approach to Food Pyramids",
@@ -27,6 +29,7 @@
       "https://medium.com/in-fitness-and-in-health/the-science-based-approach-to-food-pyramids-b5450874f42f",
       "https://daniellehewych.org/archive/medium/the-science-based-approach-to-food-pyramids"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

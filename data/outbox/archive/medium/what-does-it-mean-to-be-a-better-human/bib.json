@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 247,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/what-does-it-mean-to-be-a-better-human",
     "name": "What Does it Mean to be a “Better Human?”",
     "description": "What Does it Mean to be a “Better Human?”",
@@ -27,6 +30,7 @@
       "https://medium.com/age-of-awareness/what-does-it-mean-to-be-a-better-human-c942d8b65264",
       "https://daniellehewych.org/archive/medium/what-does-it-mean-to-be-a-better-human"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

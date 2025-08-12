@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 230,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-to-create-office-environments-that-fuel-both-i",
     "name": "How To Create Office Environments That Fuel Both Introverts and Extroverts",
     "description": "How To Create Office Environments That Fuel Both Introverts and Extroverts",
@@ -27,6 +30,8 @@
       "https://allwork.space/2023/02/how-to-create-office-environments-that-fuel-both-introverts-and-extroverts/",
       "https://daniellehewych.org/archive/allwork-space/how-to-create-office-environments-that-fuel-both-i"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

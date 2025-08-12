@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 87,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/will-de-i-gains-regress-with-the-rise-of-remote-an",
     "name": "Will DE&I Gains Regress With The Rise Of Remote And Hybrid Work?",
     "description": "Will DE&I Gains Regress With The Rise Of Remote And Hybrid Work?",
@@ -27,6 +30,18 @@
       "https://allwork.space/2021/09/will-dei-gains-regress-with-the-rise-of-remote-and-hybrid-work/",
       "https://daniellehewych.org/archive/allwork-space/will-de-i-gains-regress-with-the-rise-of-remote-an"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Hybrid Work"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Hybrid Work",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

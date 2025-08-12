@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 250,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-grape-seed-ex",
     "name": "Why You Should be Supplementing with Grape Seed Extract",
     "description": "Why You Should be Supplementing with Grape Seed Extract",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/why-you-should-be-supplementing-with-grape-seed-extract-80f1cbe57498",
       "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-grape-seed-ex"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

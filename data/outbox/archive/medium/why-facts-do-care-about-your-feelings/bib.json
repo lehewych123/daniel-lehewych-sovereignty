@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 359,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-facts-do-care-about-your-feelings",
     "name": "Why Facts Do Care About Your Feelings",
     "description": "Why Facts Do Care About Your Feelings",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/why-facts-do-care-about-your-feelings-0ba6b01133bf",
       "https://daniellehewych.org/archive/medium/why-facts-do-care-about-your-feelings"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

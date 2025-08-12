@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 66,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/ubi-is-the-economic-response-to-climate-change",
     "name": "UBI is the Economic Response to Climate Change",
     "description": "UBI is the Economic Response to Climate Change",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/ubi-economic-response-climate-change-opinion-1586842",
       "https://daniellehewych.org/archive/newsweek/ubi-is-the-economic-response-to-climate-change"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

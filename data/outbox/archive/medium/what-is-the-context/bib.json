@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 349,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/what-is-the-context",
     "name": "What is “The Context”?",
     "description": "What is “The Context”?",
@@ -27,6 +30,7 @@
       "https://daniellehewych.medium.com/what-is-the-context-2f53e91bbf2d",
       "https://daniellehewych.org/archive/medium/what-is-the-context"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

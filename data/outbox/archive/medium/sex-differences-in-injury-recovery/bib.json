@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 23,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery",
     "name": "Sex Differences in Injury Recovery",
     "description": "Sex Differences in Injury Recovery",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/sex-differences-in-injury-recovery-30ca253ed0a2",
       "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Injury Recovery"
+      }
+    ],
+    "keywords": "Injury Recovery",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

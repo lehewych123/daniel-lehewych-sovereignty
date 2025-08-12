@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 166,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-habits-will-be-brought-back-into-the-office",
     "name": "What Habits Will Be Brought Back Into The Office?",
     "description": "What Habits Will Be Brought Back Into The Office?",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/06/what-habits-will-be-brought-back-into-the-office/",
       "https://daniellehewych.org/archive/allwork-space/what-habits-will-be-brought-back-into-the-office"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

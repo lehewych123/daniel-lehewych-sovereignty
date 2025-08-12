@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 122,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/guilty-of-a-messy-desk-here-s-why-it-pays-to-clear",
     "name": "Guilty Of A Messy Desk? Here’s Why It Pays To Clear The Clutter",
     "description": "Guilty Of A Messy Desk? Here’s Why It Pays To Clear The Clutter",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/01/guilty-of-a-messy-desk-heres-why-it-pays-to-clear-the-clutter/",
       "https://daniellehewych.org/archive/allwork-space/guilty-of-a-messy-desk-here-s-why-it-pays-to-clear"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

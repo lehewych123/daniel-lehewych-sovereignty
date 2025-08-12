@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 340,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/qure-ai/role-of-large-language-models-llms-in-healthcare",
     "name": "Role of Large Language Models (LLMs) in Healthcare",
     "description": "Role of Large Language Models (LLMs) in Healthcare",
@@ -27,6 +29,18 @@
       "https://www.qure.ai/blog/role-of-large-language-models-in-healthcare",
       "https://daniellehewych.org/archive/qure-ai/role-of-large-language-models-llms-in-healthcare"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Large Language Models"
+      },
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      }
+    ],
+    "keywords": "Large Language Models, Health Sciences",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"
