@@ -1,0 +1,35 @@
+{
+  "@type": "ListItem",
+  "position": 183,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d",
+    "name": "The Intentional Stance and its Role in Political Discourse",
+    "description": "The Intentional Stance and its Role in Political Discourse",
+    "url": "https://www.newsweek.com/intentional-stance-its-role-political-discourse-opinion-1728829",
+    "datePublished": "2022-08-01T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Newsweek",
+      "issn": "0028-9604"
+    },
+    "sameAs": [
+      "https://www.newsweek.com/intentional-stance-its-role-political-discourse-opinion-1728829",
+      "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

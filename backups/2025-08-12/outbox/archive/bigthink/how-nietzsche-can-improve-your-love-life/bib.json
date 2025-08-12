@@ -1,0 +1,35 @@
+{
+  "@type": "ListItem",
+  "position": 92,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/bigthink/how-nietzsche-can-improve-your-love-life",
+    "name": "How Nietzsche can improve your love life",
+    "description": "How Nietzsche can improve your love life",
+    "url": "https://bigthink.com/thinking/nietzsche-improve-love-life/",
+    "datePublished": "2021-10-13T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "BigThink",
+      "issn": "2573-7651"
+    },
+    "sameAs": [
+      "https://bigthink.com/thinking/nietzsche-improve-love-life/",
+      "https://daniellehewych.org/archive/bigthink/how-nietzsche-can-improve-your-love-life"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

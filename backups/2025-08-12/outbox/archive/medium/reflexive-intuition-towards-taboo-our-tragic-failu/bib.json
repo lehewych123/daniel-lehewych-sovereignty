@@ -1,0 +1,35 @@
+{
+  "@type": "ListItem",
+  "position": 29,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/reflexive-intuition-towards-taboo-our-tragic-failu",
+    "name": "Reflexive Intuition Towards Taboo: Our Tragic Failure to Think in Relation to Taboos",
+    "description": "Reflexive Intuition Towards Taboo: Our Tragic Failure to Think in Relation to Taboos",
+    "url": "https://daniellehewych.medium.com/reflexive-intuition-towards-taboo-our-tragic-failure-to-think-in-relation-to-taboos-a093f72a8b10",
+    "datePublished": "2019-12-02T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": "2168-8878"
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/reflexive-intuition-towards-taboo-our-tragic-failure-to-think-in-relation-to-taboos-a093f72a8b10",
+      "https://daniellehewych.org/archive/medium/reflexive-intuition-towards-taboo-our-tragic-failu"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

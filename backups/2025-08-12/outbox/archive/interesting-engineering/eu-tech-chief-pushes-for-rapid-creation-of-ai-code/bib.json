@@ -1,0 +1,35 @@
+{
+  "@type": "ListItem",
+  "position": 280,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/interesting-engineering/eu-tech-chief-pushes-for-rapid-creation-of-ai-code",
+    "name": "EU tech chief pushes for rapid creation of AI code of conduct",
+    "description": "EU tech chief pushes for rapid creation of AI code of conduct",
+    "url": "https://interestingengineering.com/science/eu-tech-chief-pushes-for-rapid-creation-of-ai-code-of-conduct",
+    "datePublished": "2023-05-31T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Interesting Engineering",
+      "issn": "2333-5084"
+    },
+    "sameAs": [
+      "https://interestingengineering.com/science/eu-tech-chief-pushes-for-rapid-creation-of-ai-code-of-conduct",
+      "https://daniellehewych.org/archive/interesting-engineering/eu-tech-chief-pushes-for-rapid-creation-of-ai-code"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
