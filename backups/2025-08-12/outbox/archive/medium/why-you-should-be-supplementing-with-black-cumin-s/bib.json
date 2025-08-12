@@ -1,0 +1,35 @@
+{
+  "@type": "ListItem",
+  "position": 252,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-black-cumin-s",
+    "name": "Why You Should Be Supplementing with Black Cumin Seed (Nigella Sativa)",
+    "description": "Why You Should Be Supplementing with Black Cumin Seed (Nigella Sativa)",
+    "url": "https://medium.com/illumination/why-you-should-be-supplementing-with-black-cumin-seed-nigella-sativa-c3e5324299f1",
+    "datePublished": "2023-04-25T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": "2168-8878"
+    },
+    "sameAs": [
+      "https://medium.com/illumination/why-you-should-be-supplementing-with-black-cumin-seed-nigella-sativa-c3e5324299f1",
+      "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-black-cumin-s"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

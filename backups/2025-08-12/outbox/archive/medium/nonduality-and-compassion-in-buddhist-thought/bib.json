@@ -1,0 +1,35 @@
+{
+  "@type": "ListItem",
+  "position": 119,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/nonduality-and-compassion-in-buddhist-thought",
+    "name": "Nonduality and Compassion in Buddhist Thought",
+    "description": "Nonduality and Compassion in Buddhist Thought",
+    "url": "https://daniellehewych.medium.com/nonduality-and-compassion-in-buddhist-thought-2f987f761f8d",
+    "datePublished": "2022-01-02T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": "2168-8878"
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/nonduality-and-compassion-in-buddhist-thought-2f987f761f8d",
+      "https://daniellehewych.org/archive/medium/nonduality-and-compassion-in-buddhist-thought"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

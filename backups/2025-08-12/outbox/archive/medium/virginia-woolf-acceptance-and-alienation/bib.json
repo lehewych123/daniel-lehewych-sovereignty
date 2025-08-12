@@ -1,0 +1,35 @@
+{
+  "@type": "ListItem",
+  "position": 360,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/medium/virginia-woolf-acceptance-and-alienation",
+    "name": "Virginia Woolf: Acceptance and Alienation",
+    "description": "Virginia Woolf: Acceptance and Alienation",
+    "url": "https://daniellehewych.medium.com/virginia-woolf-acceptance-and-alienation-6515063ddd31",
+    "datePublished": "2024-09-16T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": "2168-8878"
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/virginia-woolf-acceptance-and-alienation-6515063ddd31",
+      "https://daniellehewych.org/archive/medium/virginia-woolf-acceptance-and-alienation"
+    ],
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
