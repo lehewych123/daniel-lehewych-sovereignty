@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 216,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-commercial-real-estate-in-san-franci",
     "name": "The Future of Commercial Real Estate in San Francisco Doesn’t Look Good",
     "description": "The Future of Commercial Real Estate in San Francisco Doesn’t Look Good",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/11/the-future-of-commercial-real-estate-in-san-francisco-doesnt-look-good/",
       "https://daniellehewych.org/archive/allwork-space/the-future-of-commercial-real-estate-in-san-franci"
     ],
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

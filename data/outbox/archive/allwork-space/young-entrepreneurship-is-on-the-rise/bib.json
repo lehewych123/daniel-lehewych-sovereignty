@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 170,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/young-entrepreneurship-is-on-the-rise",
     "name": "Young Entrepreneurship Is On The Rise",
     "description": "Young Entrepreneurship Is On The Rise",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/06/young-entrepreneurship-is-on-the-rise/",
       "https://daniellehewych.org/archive/allwork-space/young-entrepreneurship-is-on-the-rise"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

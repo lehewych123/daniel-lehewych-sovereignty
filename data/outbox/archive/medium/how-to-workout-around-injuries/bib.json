@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 21,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/how-to-workout-around-injuries",
     "name": "How to Workout Around Injuries",
     "description": "How to Workout Around Injuries",
@@ -27,6 +30,8 @@
       "https://daniellehewych.medium.com/how-to-workout-around-injuries-3c76c3ca92d5",
       "https://daniellehewych.org/archive/medium/how-to-workout-around-injuries"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

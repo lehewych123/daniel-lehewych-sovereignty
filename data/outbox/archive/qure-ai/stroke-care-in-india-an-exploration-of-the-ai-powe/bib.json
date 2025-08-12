@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 301,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/qure-ai/stroke-care-in-india-an-exploration-of-the-ai-powe",
     "name": "Stroke Care in India: An Exploration of the AI-Powered Hub & Spoke Model",
     "description": "Stroke Care in India: An Exploration of the AI-Powered Hub & Spoke Model",
@@ -27,6 +30,14 @@
       "https://www.qure.ai/blog/stroke-care-in-india-an-exploration-of-the-ai-powered-hub-spoke-model",
       "https://daniellehewych.org/archive/qure-ai/stroke-care-in-india-an-exploration-of-the-ai-powe"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

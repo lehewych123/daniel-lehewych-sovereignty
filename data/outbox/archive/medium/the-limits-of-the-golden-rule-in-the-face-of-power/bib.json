@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 342,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-limits-of-the-golden-rule-in-the-face-of-power",
     "name": "The Limits of the Golden Rule in the Face of Power Dynamics",
     "description": "The Limits of the Golden Rule in the Face of Power Dynamics",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-limits-of-the-golden-rule-in-the-face-of-power-dynamics-68a7c35c95b4",
       "https://daniellehewych.org/archive/medium/the-limits-of-the-golden-rule-in-the-face-of-power"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

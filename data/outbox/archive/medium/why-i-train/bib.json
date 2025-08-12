@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 53,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-i-train",
     "name": "Why I Train",
     "description": "Why I Train",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/why-i-train-3651d7232cd2",
       "https://daniellehewych.org/archive/medium/why-i-train"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

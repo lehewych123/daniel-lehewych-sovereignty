@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 67,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/how-to-get-the-rich-to-pay-taxes",
     "name": "How to Get the Rich to Pay Taxes",
     "description": "How to Get the Rich to Pay Taxes",
@@ -27,6 +30,8 @@
       "https://www.newsweek.com/how-get-rich-pay-taxes-opinion-1590609",
       "https://daniellehewych.org/archive/newsweek/how-to-get-the-rich-to-pay-taxes"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

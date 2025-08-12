@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 275,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/us-ready-for-space-warfare-says-brigadier-general-",
     "name": "US ready for space warfare, says brigadier general Morehouse",
     "description": "US ready for space warfare, says brigadier general Morehouse",
@@ -27,6 +30,7 @@
       "https://interestingengineering.com/culture/us-ready-for-space-warfare-says-brigadier-general-morehouse",
       "https://daniellehewych.org/archive/interesting-engineering/us-ready-for-space-warfare-says-brigadier-general-"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 10,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Review",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/ray-dalio-s-principles-philosophical-book-review",
     "name": "Ray Dalio’s Principles: Philosophical Book-Review",
     "description": "Ray Dalio’s Principles: Philosophical Book-Review",
@@ -27,6 +30,7 @@
       "https://daniellehewych.medium.com/ray-dalios-principles-philosophical-book-review-b3a31a29892c",
       "https://daniellehewych.org/archive/medium/ray-dalio-s-principles-philosophical-book-review"
     ],
+    "genre": "Critical Review",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

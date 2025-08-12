@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 242,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/an-intentional-approach-to-creative-development",
     "name": "An Intentional Approach To Creative Development",
     "description": "An Intentional Approach To Creative Development",
@@ -27,6 +29,7 @@
       "https://writingcooperative.com/an-intentional-approach-to-creative-development-72d4add55e8b",
       "https://daniellehewych.org/archive/medium/an-intentional-approach-to-creative-development"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

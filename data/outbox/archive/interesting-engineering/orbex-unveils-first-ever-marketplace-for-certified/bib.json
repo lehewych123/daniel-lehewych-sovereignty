@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 263,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/orbex-unveils-first-ever-marketplace-for-certified",
     "name": "Orbex unveils first-ever marketplace for certified recycled metals",
     "description": "Orbex unveils first-ever marketplace for certified recycled metals",
@@ -27,6 +30,14 @@
       "https://interestingengineering.com/innovation/orbex-unveils-first-ever-marketplace-for-certified-recycled-metals",
       "https://daniellehewych.org/archive/interesting-engineering/orbex-unveils-first-ever-marketplace-for-certified"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Market Dynamics"
+      }
+    ],
+    "keywords": "Market Dynamics",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

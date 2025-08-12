@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 141,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/bigthink/the-subtle-art-of-language-why-artificial-general-",
     "name": "The subtle art of language: why artificial general intelligence might be impossible",
     "description": "The subtle art of language: why artificial general intelligence might be impossible",
@@ -27,6 +29,7 @@
       "https://bigthink.com/the-future/artificial-general-intelligence-impossible/",
       "https://daniellehewych.org/archive/bigthink/the-subtle-art-of-language-why-artificial-general-"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

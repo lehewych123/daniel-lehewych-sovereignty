@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 48,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/emotional-intelligence-and-the-nature-of-mind",
     "name": "Emotional Intelligence and The Nature of Mind",
     "description": "Emotional Intelligence and The Nature of Mind",
@@ -27,6 +29,7 @@
       "https://theapeiron.co.uk/emotional-intelligence-and-the-nature-of-mind-5f15edefe800",
       "https://daniellehewych.org/archive/medium/emotional-intelligence-and-the-nature-of-mind"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

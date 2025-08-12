@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 59,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-and-the-social-dilemma",
     "name": "Martin Heidegger and the Social Dilemma",
     "description": "Martin Heidegger and the Social Dilemma",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/martin-heidegger-and-the-social-dilemma-acd6daa6ec56",
       "https://daniellehewych.org/archive/medium/martin-heidegger-and-the-social-dilemma"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Martin Heidegger"
+      }
+    ],
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

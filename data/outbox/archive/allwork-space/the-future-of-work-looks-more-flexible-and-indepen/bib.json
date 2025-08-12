@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 98,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-looks-more-flexible-and-indepen",
     "name": "The Future of Work Looks More Flexible and Independent — According To Adobe Report",
     "description": "The Future of Work Looks More Flexible and Independent — According To Adobe Report",
@@ -27,6 +30,14 @@
       "https://allwork.space/2021/10/the-future-of-work-looks-more-flexible-and-independent-according-to-adobe-report/",
       "https://daniellehewych.org/archive/allwork-space/the-future-of-work-looks-more-flexible-and-indepen"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 245,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/bigthink/the-real-reason-socrates-was-given-the-death-sente",
     "name": "The real reason Socrates was given the death sentence",
     "description": "The real reason Socrates was given the death sentence",
@@ -27,6 +29,13 @@
       "https://bigthink.com/the-past/real-reason-socrates-death-sentence/",
       "https://daniellehewych.org/archive/bigthink/the-real-reason-socrates-was-given-the-death-sente"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Socrates"
+      }
+    ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

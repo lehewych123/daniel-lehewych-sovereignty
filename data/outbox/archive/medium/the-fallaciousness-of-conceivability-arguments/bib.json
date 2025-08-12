@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 132,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-fallaciousness-of-conceivability-arguments",
     "name": "The Fallaciousness of Conceivability Arguments",
     "description": "The Fallaciousness of Conceivability Arguments",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-fallaciousness-of-conceivability-arguments-7a1e49592673",
       "https://daniellehewych.org/archive/medium/the-fallaciousness-of-conceivability-arguments"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

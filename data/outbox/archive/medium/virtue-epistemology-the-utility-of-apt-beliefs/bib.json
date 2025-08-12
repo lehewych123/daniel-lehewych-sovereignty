@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 35,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/virtue-epistemology-the-utility-of-apt-beliefs",
     "name": "Virtue Epistemology: The Utility of ‘Apt Beliefs’",
     "description": "Virtue Epistemology: The Utility of ‘Apt Beliefs’",
@@ -27,6 +30,16 @@
       "https://daniellehewych.medium.com/virtue-epistemology-the-utility-of-apt-beliefs-5fdaede09d1",
       "https://daniellehewych.org/archive/medium/virtue-epistemology-the-utility-of-apt-beliefs"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Epistemology"
+      }
+    ],
+    "keywords": "Epistemology",
+    "academicDiscipline": "Philosophy",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Graduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

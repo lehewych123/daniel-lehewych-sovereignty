@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 322,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-divine-i-am",
     "name": "The Divine “I AM”",
     "description": "The Divine “I AM”",
@@ -27,6 +29,14 @@
       "https://medium.com/illumination/the-divine-i-am-a938b8c81197",
       "https://daniellehewych.org/archive/medium/the-divine-i-am"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Divinity"
+      }
+    ],
+    "keywords": "Divinity",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 300,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-dithyramb-of-a-weeping-apollo",
     "name": "The Dithyramb of a Weeping Apollo",
     "description": "The Dithyramb of a Weeping Apollo",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-dithyramb-of-a-weeping-apollo-615748db09c0",
       "https://daniellehewych.org/archive/medium/the-dithyramb-of-a-weeping-apollo"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

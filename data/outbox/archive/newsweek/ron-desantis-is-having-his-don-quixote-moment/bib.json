@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 246,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
     "name": "Ron DeSantis is Having His \"Don Quixote\" Moment",
     "description": "Ron DeSantis is Having His \"Don Quixote\" Moment",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/ron-desantis-having-his-don-quixote-moment-opinion-1791875",
       "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

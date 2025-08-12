@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 291,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/meta-tests-news-sharing-limits-in-canada-in-respon",
     "name": "Meta tests news-sharing limits in Canada in response to proposed “Online News Act”",
     "description": "Meta tests news-sharing limits in Canada in response to proposed “Online News Act”",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/science/meta-tests-news-sharing-limits-in-canada-in-response-to-proposed-online-news-act",
       "https://daniellehewych.org/archive/interesting-engineering/meta-tests-news-sharing-limits-in-canada-in-respon"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

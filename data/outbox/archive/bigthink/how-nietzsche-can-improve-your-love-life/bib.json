@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 92,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/bigthink/how-nietzsche-can-improve-your-love-life",
     "name": "How Nietzsche can improve your love life",
     "description": "How Nietzsche can improve your love life",
@@ -27,6 +30,14 @@
       "https://bigthink.com/thinking/nietzsche-improve-love-life/",
       "https://daniellehewych.org/archive/bigthink/how-nietzsche-can-improve-your-love-life"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Friedrich Nietzsche"
+      }
+    ],
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

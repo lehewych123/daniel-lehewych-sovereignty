@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 177,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-robots-are-coming-eventually-will-automation-d",
     "name": "The Robots Are Coming, Eventually. Will Automation Displace Half The World’s Workforce?",
     "description": "The Robots Are Coming, Eventually. Will Automation Displace Half The World’s Workforce?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/07/the-robots-are-coming-eventually-will-automation-displace-half-the-worlds-workforce/",
       "https://daniellehewych.org/archive/allwork-space/the-robots-are-coming-eventually-will-automation-d"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      }
+    ],
+    "keywords": "Automation",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

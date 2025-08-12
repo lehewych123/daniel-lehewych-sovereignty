@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 208,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/3-signs-that-you-re-about-to-lose-your-job",
     "name": "3 Signs That You’re About To Lose Your Job",
     "description": "3 Signs That You’re About To Lose Your Job",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/10/3-signs-that-youre-about-to-lose-your-job/",
       "https://daniellehewych.org/archive/allwork-space/3-signs-that-you-re-about-to-lose-your-job"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

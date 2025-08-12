@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 264,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-pitfalls-of-over-communication-in-marketing",
     "name": "The Pitfalls of Over-Communication in Marketing",
     "description": "The Pitfalls of Over-Communication in Marketing",
@@ -27,6 +29,14 @@
       "https://medium.com/illumination/the-pitfalls-of-over-communication-in-marketing-91ba937d8b18",
       "https://daniellehewych.org/archive/medium/the-pitfalls-of-over-communication-in-marketing"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Market Dynamics"
+      }
+    ],
+    "keywords": "Market Dynamics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

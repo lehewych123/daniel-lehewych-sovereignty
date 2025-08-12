@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 69,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/zhuangzi-and-mozi-the-ontological-difference",
     "name": "Zhuangzi and Mozi: The Ontological Difference",
     "description": "Zhuangzi and Mozi: The Ontological Difference",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/zhuangzi-and-mozi-the-ontological-difference-5e044605bbae",
       "https://daniellehewych.org/archive/medium/zhuangzi-and-mozi-the-ontological-difference"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Logic"
+      }
+    ],
+    "keywords": "Logic",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

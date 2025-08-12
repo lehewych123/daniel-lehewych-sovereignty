@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 40,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-definitive-guide-to-building-muscle-naturally",
     "name": "The Definitive Guide to Building Muscle Naturally",
     "description": "The Definitive Guide to Building Muscle Naturally",
@@ -27,6 +30,8 @@
       "https://daniellehewych.medium.com/the-definitive-guide-to-building-muscle-naturally-3376acdefa30",
       "https://daniellehewych.org/archive/medium/the-definitive-guide-to-building-muscle-naturally"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

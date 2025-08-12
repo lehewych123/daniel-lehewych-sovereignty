@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 63,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-future-of-the-u-s-prison-system",
     "name": "The Future of the U.S. Prison System",
     "description": "The Future of the U.S. Prison System",
@@ -27,6 +30,7 @@
       "https://www.newsweek.com/future-us-prison-system-opinion-1575862",
       "https://daniellehewych.org/archive/newsweek/the-future-of-the-u-s-prison-system"
     ],
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

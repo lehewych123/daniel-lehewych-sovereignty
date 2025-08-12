@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 31,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/exercise-strategies-for-injury-rehabilitation",
     "name": "Exercise Strategies for Injury Rehabilitation",
     "description": "Exercise Strategies for Injury Rehabilitation",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/exercise-strategies-for-injury-rehabilitation-611d1d74d77f",
       "https://daniellehewych.org/archive/medium/exercise-strategies-for-injury-rehabilitation"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Exercise Science"
+      }
+    ],
+    "keywords": "Exercise Science",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

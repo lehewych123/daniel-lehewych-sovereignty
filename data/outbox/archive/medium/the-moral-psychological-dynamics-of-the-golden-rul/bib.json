@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 333,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-moral-psychological-dynamics-of-the-golden-rul",
     "name": "The Moral Psychological Dynamics of The Golden Rule in Christianity",
     "description": "The Moral Psychological Dynamics of The Golden Rule in Christianity",
@@ -27,6 +29,22 @@
       "https://daniellehewych.medium.com/the-moral-psychological-dynamics-of-the-golden-rule-in-christianity-5a511015194f",
       "https://daniellehewych.org/archive/medium/the-moral-psychological-dynamics-of-the-golden-rul"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Logic"
+      },
+      {
+        "@type": "Thing",
+        "name": "Psychology"
+      },
+      {
+        "@type": "Thing",
+        "name": "Christianity"
+      }
+    ],
+    "keywords": "Logic, Psychology, Christianity",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

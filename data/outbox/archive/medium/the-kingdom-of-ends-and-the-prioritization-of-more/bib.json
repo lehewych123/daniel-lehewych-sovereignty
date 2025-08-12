@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 334,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-kingdom-of-ends-and-the-prioritization-of-more",
     "name": "The Kingdom of Ends and the Prioritization of “More-Than-Bread”",
     "description": "The Kingdom of Ends and the Prioritization of “More-Than-Bread”",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-kingdom-of-ends-and-the-prioritization-of-more-than-bread-60b314d91af3",
       "https://daniellehewych.org/archive/medium/the-kingdom-of-ends-and-the-prioritization-of-more"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

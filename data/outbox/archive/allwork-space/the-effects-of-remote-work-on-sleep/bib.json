@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 130,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-effects-of-remote-work-on-sleep",
     "name": "The Effects Of Remote Work On Sleep",
     "description": "The Effects Of Remote Work On Sleep",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/02/the-effects-of-remote-work-on-sleep/",
       "https://daniellehewych.org/archive/allwork-space/the-effects-of-remote-work-on-sleep"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Remote Work",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

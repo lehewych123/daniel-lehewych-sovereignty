@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 204,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/psychological-safety-is-the-key-to-successful-team",
     "name": "Psychological Safety Is The Key To Successful Teams, According To Google",
     "description": "Psychological Safety Is The Key To Successful Teams, According To Google",
@@ -27,6 +29,18 @@
       "https://allwork.space/2022/10/psychological-safety-is-the-key-to-successful-teams-according-to-google/",
       "https://daniellehewych.org/archive/allwork-space/psychological-safety-is-the-key-to-successful-team"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Logic"
+      },
+      {
+        "@type": "Thing",
+        "name": "Psychology"
+      }
+    ],
+    "keywords": "Logic, Psychology",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 258,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-moral-paradoxes-of-twitter",
     "name": "The Moral Paradoxes of Twitter",
     "description": "The Moral Paradoxes of Twitter",
@@ -27,6 +29,7 @@
       "https://medium.com/illumination/the-moral-paradoxes-of-twitter-7e510077cc19",
       "https://daniellehewych.org/archive/medium/the-moral-paradoxes-of-twitter"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

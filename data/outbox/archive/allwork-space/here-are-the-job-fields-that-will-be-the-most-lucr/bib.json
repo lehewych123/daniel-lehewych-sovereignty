@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 134,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-job-fields-that-will-be-the-most-lucr",
     "name": "Here Are The Job Fields That Will Be The Most Lucrative By 2030",
     "description": "Here Are The Job Fields That Will Be The Most Lucrative By 2030",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/03/here-are-the-job-fields-that-will-be-the-most-lucrative-by-2030/",
       "https://daniellehewych.org/archive/allwork-space/here-are-the-job-fields-that-will-be-the-most-lucr"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

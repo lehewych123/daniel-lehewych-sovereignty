@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 195,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/5-free-places-to-work-that-aren-t-starbucks",
     "name": "5 Free Places To Work That Aren’t Starbucks",
     "description": "5 Free Places To Work That Aren’t Starbucks",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/09/5-free-places-to-work-that-arent-starbucks/",
       "https://daniellehewych.org/archive/allwork-space/5-free-places-to-work-that-aren-t-starbucks"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

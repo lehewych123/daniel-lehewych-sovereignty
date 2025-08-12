@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 251,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-olive-leaf-ex",
     "name": "Why You Should Be Supplementing with Olive Leaf Extract",
     "description": "Why You Should Be Supplementing with Olive Leaf Extract",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/why-you-should-be-supplementing-with-olive-leaf-extract-dbe23ae1c187",
       "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-olive-leaf-ex"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

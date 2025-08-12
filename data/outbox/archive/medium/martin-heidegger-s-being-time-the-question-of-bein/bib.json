@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 11,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-s-being-time-the-question-of-bein",
     "name": "Martin Heidegger’s Being & Time: The Question of Being",
     "description": "Martin Heidegger’s Being & Time: The Question of Being",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/martin-heideggers-being-time-the-question-of-being-7bf1e5b390ad",
       "https://daniellehewych.org/archive/medium/martin-heidegger-s-being-time-the-question-of-bein"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Martin Heidegger"
+      }
+    ],
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

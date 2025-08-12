@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 176,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/companies-need-to-invest-in-education-to-cultivate",
     "name": "Companies Need To Invest In Education To Cultivate New Talent",
     "description": "Companies Need To Invest In Education To Cultivate New Talent",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/07/companies-need-to-invest-in-education-to-cultivate-new-talent/",
       "https://daniellehewych.org/archive/allwork-space/companies-need-to-invest-in-education-to-cultivate"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 211,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/coworking-centers-beware-saying-you-re-sustainable",
     "name": "Coworking Centers Beware: Saying You’re Sustainable Isn’t Enough",
     "description": "Coworking Centers Beware: Saying You’re Sustainable Isn’t Enough",
@@ -27,6 +29,18 @@
       "https://allwork.space/2022/11/coworking-centers-beware-saying-youre-sustainable-isnt-enough/",
       "https://daniellehewych.org/archive/allwork-space/coworking-centers-beware-saying-you-re-sustainable"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Coworking",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 84,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/should-you-use-knee-sleeves-when-squatting",
     "name": "Should You Use Knee Sleeves When Squatting?",
     "description": "Should You Use Knee Sleeves When Squatting?",
@@ -27,6 +30,7 @@
       "https://medium.com/in-fitness-and-in-health/should-you-use-knee-sleeves-when-squatting-e9bcbd02463a",
       "https://daniellehewych.org/archive/medium/should-you-use-knee-sleeves-when-squatting"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 259,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-lutein",
     "name": "Why You Should Be Supplementing with Lutein",
     "description": "Why You Should Be Supplementing with Lutein",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/why-you-should-be-supplementing-with-lutein-b40528500527",
       "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-lutein"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

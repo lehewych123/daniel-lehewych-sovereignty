@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 137,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/anti-intellectualism-and-its-resultant-alienation",
     "name": "Anti-intellectualism and Its Resultant Alienation",
     "description": "Anti-intellectualism and Its Resultant Alienation",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/anti-intellectualism-and-its-resultant-alienation-9c387b40ccd6",
       "https://daniellehewych.org/archive/medium/anti-intellectualism-and-its-resultant-alienation"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

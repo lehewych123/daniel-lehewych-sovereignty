@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 228,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/5-brain-boosting-snacks-to-power-your-work-day",
     "name": "5 Brain-Boosting Snacks To Power Your Work Day",
     "description": "5 Brain-Boosting Snacks To Power Your Work Day",
@@ -27,6 +29,18 @@
       "https://allwork.space/2023/02/5-brain-boosting-snacks-to-power-your-work-day/",
       "https://daniellehewych.org/archive/allwork-space/5-brain-boosting-snacks-to-power-your-work-day"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Neuroscience"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Neuroscience",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

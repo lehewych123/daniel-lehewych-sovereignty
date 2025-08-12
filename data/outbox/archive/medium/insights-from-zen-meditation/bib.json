@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 355,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/insights-from-zen-meditation",
     "name": "Insights from Zen Meditation",
     "description": "Insights from Zen Meditation",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/insights-from-zen-meditation-5d1d28dc248a",
       "https://daniellehewych.org/archive/medium/insights-from-zen-meditation"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Meditation"
+      }
+    ],
+    "keywords": "Meditation",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 78,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/is-high-intensity-interval-training-hiit-worth-it",
     "name": "Is High-Intensity-Interval-Training (HIIT) Worth It?",
     "description": "Is High-Intensity-Interval-Training (HIIT) Worth It?",
@@ -27,6 +30,14 @@
       "https://medium.com/in-fitness-and-in-health/is-high-intensity-interval-training-hiit-worth-it-c4efbb6b6098",
       "https://daniellehewych.org/archive/medium/is-high-intensity-interval-training-hiit-worth-it"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 86,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/hyperpartisanship-is-ruining-america",
     "name": "Hyperpartisanship is Ruining America",
     "description": "Hyperpartisanship is Ruining America",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/hyperpartisanship-ruining-america-opinion-1629005",
       "https://daniellehewych.org/archive/newsweek/hyperpartisanship-is-ruining-america"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

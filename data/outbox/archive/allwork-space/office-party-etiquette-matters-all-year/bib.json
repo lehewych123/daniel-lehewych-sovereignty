@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 236,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/office-party-etiquette-matters-all-year",
     "name": "Office Party Etiquette Matters All Year",
     "description": "Office Party Etiquette Matters All Year",
@@ -27,6 +29,7 @@
       "https://allwork.space/2023/02/office-party-etiquette-matters-all-year/",
       "https://daniellehewych.org/archive/allwork-space/office-party-etiquette-matters-all-year"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

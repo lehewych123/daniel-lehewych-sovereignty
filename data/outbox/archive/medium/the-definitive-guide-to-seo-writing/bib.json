@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 257,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-definitive-guide-to-seo-writing",
     "name": "The Definitive Guide to SEO Writing",
     "description": "The Definitive Guide to SEO Writing",
@@ -27,6 +30,8 @@
       "https://writingcooperative.com/the-definitive-guide-to-seo-writing-29c1c8f1ae32",
       "https://daniellehewych.org/archive/medium/the-definitive-guide-to-seo-writing"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

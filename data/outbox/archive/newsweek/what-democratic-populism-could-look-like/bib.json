@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 218,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like",
     "name": "What Democratic Populism Could Look Like",
     "description": "What Democratic Populism Could Look Like",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/what-democratic-populism-could-look-like-opinion-1764270",
       "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

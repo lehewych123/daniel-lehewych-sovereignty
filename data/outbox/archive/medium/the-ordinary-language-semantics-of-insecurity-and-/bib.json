@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 365,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-ordinary-language-semantics-of-insecurity-and-",
     "name": "The Ordinary Language Semantics of Insecurity and Excuses",
     "description": "The Ordinary Language Semantics of Insecurity and Excuses",
@@ -27,6 +29,7 @@
       "https://medium.com/grim-tidings/the-ordinary-language-semantics-of-insecurity-and-excuses-a78b9c9f6163",
       "https://daniellehewych.org/archive/medium/the-ordinary-language-semantics-of-insecurity-and-"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 336,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-biblical-character-of-paul",
     "name": "The Biblical Character of Paul",
     "description": "The Biblical Character of Paul",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-biblical-character-of-paul-a07cdda03f32",
       "https://daniellehewych.org/archive/medium/the-biblical-character-of-paul"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 165,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/will-the-2020s-be-like-the-roaring-20s",
     "name": "Will The 2020s Be Like The Roaring 20s?",
     "description": "Will The 2020s Be Like The Roaring 20s?",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/06/will-the-2020s-be-like-the-roaring-20s/",
       "https://daniellehewych.org/archive/allwork-space/will-the-2020s-be-like-the-roaring-20s"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

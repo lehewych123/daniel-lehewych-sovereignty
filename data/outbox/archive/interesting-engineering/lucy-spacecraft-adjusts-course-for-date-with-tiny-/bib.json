@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 268,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/lucy-spacecraft-adjusts-course-for-date-with-tiny-",
     "name": "Lucy spacecraft adjusts course for date with tiny asteroid Dinkinesh before historic Trojan mission",
     "description": "Lucy spacecraft adjusts course for date with tiny asteroid Dinkinesh before historic Trojan mission",
@@ -27,6 +30,7 @@
       "https://interestingengineering.com/science/lucy-spacecraft-adjusts-course-for-date-with-tiny-asteroid-dinkinesh-before-historic-trojan-mission",
       "https://daniellehewych.org/archive/interesting-engineering/lucy-spacecraft-adjusts-course-for-date-with-tiny-"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

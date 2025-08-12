@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 207,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/demand-for-virtual-assistant-jobs-continues-to-exp",
     "name": "Demand For Virtual Assistant Jobs Continues to Explode — Market Is Set To Grow By $4.12 Billion",
     "description": "Demand For Virtual Assistant Jobs Continues to Explode — Market Is Set To Grow By $4.12 Billion",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/10/demand-for-virtual-assistant-jobs-continues-to-explode-market-is-set-to-grow-by-4-12-billion/",
       "https://daniellehewych.org/archive/allwork-space/demand-for-virtual-assistant-jobs-continues-to-exp"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Market Dynamics"
+      }
+    ],
+    "keywords": "Market Dynamics",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

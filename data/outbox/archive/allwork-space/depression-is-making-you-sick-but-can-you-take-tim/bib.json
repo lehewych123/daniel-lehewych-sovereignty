@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 189,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/depression-is-making-you-sick-but-can-you-take-tim",
     "name": "Depression Is Making You Sick, But Can You Take Time Off To Heal?",
     "description": "Depression Is Making You Sick, But Can You Take Time Off To Heal?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/08/depression-is-making-you-sick-but-can-you-take-time-off-to-heal/",
       "https://daniellehewych.org/archive/allwork-space/depression-is-making-you-sick-but-can-you-take-tim"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Depression"
+      }
+    ],
+    "keywords": "Depression",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

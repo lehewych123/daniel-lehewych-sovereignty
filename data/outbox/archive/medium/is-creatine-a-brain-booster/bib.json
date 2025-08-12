@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 70,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/is-creatine-a-brain-booster",
     "name": "Is Creatine a Brain Booster?",
     "description": "Is Creatine a Brain Booster?",
@@ -27,6 +30,18 @@
       "https://medium.com/in-fitness-and-in-health/is-creatine-a-brain-booster-c7bd6c1658e8",
       "https://daniellehewych.org/archive/medium/is-creatine-a-brain-booster"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Neuroscience"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Neuroscience",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

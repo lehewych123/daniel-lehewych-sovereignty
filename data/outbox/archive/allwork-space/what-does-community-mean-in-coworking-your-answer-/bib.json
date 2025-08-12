@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 222,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-does-community-mean-in-coworking-your-answer-",
     "name": "What Does “Community” Mean In Coworking? Your Answer Matters",
     "description": "What Does “Community” Mean In Coworking? Your Answer Matters",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/12/what-does-community-mean-in-coworking-your-answer-matters/",
       "https://daniellehewych.org/archive/allwork-space/what-does-community-mean-in-coworking-your-answer-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      }
+    ],
+    "keywords": "Coworking",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

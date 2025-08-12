@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 29,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/reflexive-intuition-towards-taboo-our-tragic-failu",
     "name": "Reflexive Intuition Towards Taboo: Our Tragic Failure to Think in Relation to Taboos",
     "description": "Reflexive Intuition Towards Taboo: Our Tragic Failure to Think in Relation to Taboos",
@@ -27,6 +29,14 @@
       "https://daniellehewych.medium.com/reflexive-intuition-towards-taboo-our-tragic-failure-to-think-in-relation-to-taboos-a093f72a8b10",
       "https://daniellehewych.org/archive/medium/reflexive-intuition-towards-taboo-our-tragic-failu"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 163,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/report-the-state-of-worker-mental-health",
     "name": "Report: The State of Worker Mental Health",
     "description": "Report: The State of Worker Mental Health",
@@ -27,6 +30,18 @@
       "https://allwork.space/2022/06/report-the-state-of-worker-mental-health/",
       "https://daniellehewych.org/archive/allwork-space/report-the-state-of-worker-mental-health"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      },
+      {
+        "@type": "Thing",
+        "name": "Mental Health"
+      }
+    ],
+    "keywords": "Health Sciences, Mental Health",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

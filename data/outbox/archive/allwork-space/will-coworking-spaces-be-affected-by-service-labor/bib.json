@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 102,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/will-coworking-spaces-be-affected-by-service-labor",
     "name": "Will Coworking Spaces Be Affected by Service Labor Shortages?",
     "description": "Will Coworking Spaces Be Affected by Service Labor Shortages?",
@@ -27,6 +30,18 @@
       "https://allwork.space/2021/11/will-coworking-spaces-be-affected-by-service-labor-shortages/",
       "https://daniellehewych.org/archive/allwork-space/will-coworking-spaces-be-affected-by-service-labor"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      },
+      {
+        "@type": "Thing",
+        "name": "Labor Economics"
+      }
+    ],
+    "keywords": "Coworking, Labor Economics",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

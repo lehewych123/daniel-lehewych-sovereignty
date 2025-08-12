@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 91,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/5-effective-supplements-to-help-boost-focus-and-re",
     "name": "5 Effective Supplements to Help Boost Focus and Reduce Stress at Work",
     "description": "5 Effective Supplements to Help Boost Focus and Reduce Stress at Work",
@@ -27,6 +30,14 @@
       "https://allwork.space/2021/10/5-effective-supplements-to-help-boost-focus-and-reduce-stress-at-work/",
       "https://daniellehewych.org/archive/allwork-space/5-effective-supplements-to-help-boost-focus-and-re"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Dietary Supplements"
+      }
+    ],
+    "keywords": "Dietary Supplements",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

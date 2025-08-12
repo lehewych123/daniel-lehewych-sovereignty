@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 82,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/psychcentral/post-traumatic-stress-disorder-ptsd-treatment",
     "name": "Post-Traumatic Stress Disorder (PTSD) Treatment",
     "description": "Post-Traumatic Stress Disorder (PTSD) Treatment",
@@ -27,6 +30,7 @@
       "https://psychcentral.com/ptsd/posttraumatic-stress-disorder-ptsd-treatment",
       "https://daniellehewych.org/archive/psychcentral/post-traumatic-stress-disorder-ptsd-treatment"
     ],
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

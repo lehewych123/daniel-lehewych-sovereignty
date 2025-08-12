@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 124,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/bigthink/newspeak-why-silence-defeats-thought-crimes-in-orw",
     "name": "Newspeak: Why silence defeats “thought crimes” in Orwell’s 1984",
     "description": "Newspeak: Why silence defeats “thought crimes” in Orwell’s 1984",
@@ -27,6 +29,7 @@
       "https://bigthink.com/thinking/silence-thought-newspeak/",
       "https://daniellehewych.org/archive/bigthink/newspeak-why-silence-defeats-thought-crimes-in-orw"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

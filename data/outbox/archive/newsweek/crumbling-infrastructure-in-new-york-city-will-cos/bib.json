@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 161,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/crumbling-infrastructure-in-new-york-city-will-cos",
     "name": "Crumbling Infrastructure in New York City Will Cost Lives if Gone Unfixed",
     "description": "Crumbling Infrastructure in New York City Will Cost Lives if Gone Unfixed",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/crumbling-infrastructure-new-york-city-will-cost-lives-if-gone-unfixed-opinion-1714094",
       "https://daniellehewych.org/archive/newsweek/crumbling-infrastructure-in-new-york-city-will-cos"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

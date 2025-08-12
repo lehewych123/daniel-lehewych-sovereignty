@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 358,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-mathematics-of-enlightenment",
     "name": "The Mathematics of Enlightenment",
     "description": "The Mathematics of Enlightenment",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-mathematics-of-enlightenment-cab788019a20",
       "https://daniellehewych.org/archive/medium/the-mathematics-of-enlightenment"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

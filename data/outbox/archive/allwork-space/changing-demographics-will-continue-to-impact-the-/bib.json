@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 131,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/changing-demographics-will-continue-to-impact-the-",
     "name": "Changing Demographics Will Continue To Impact The Future Of Work",
     "description": "Changing Demographics Will Continue To Impact The Future Of Work",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/02/changing-demographics-will-continue-to-impact-the-future-of-work/",
       "https://daniellehewych.org/archive/allwork-space/changing-demographics-will-continue-to-impact-the-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

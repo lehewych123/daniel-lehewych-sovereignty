@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 146,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-academic-jobs-is-precarious",
     "name": "The Future of Academic Jobs is Precarious",
     "description": "The Future of Academic Jobs is Precarious",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/04/the-future-of-academic-jobs-is-precarious/",
       "https://daniellehewych.org/archive/allwork-space/the-future-of-academic-jobs-is-precarious"
     ],
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

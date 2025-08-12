@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 73,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/white-progressives-are-hypocrites-on-gentrificatio",
     "name": "White Progressives are Hypocrites on Gentrification",
     "description": "White Progressives are Hypocrites on Gentrification",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/white-progressives-are-hypocrites-gentrification-opinion-1596875",
       "https://daniellehewych.org/archive/newsweek/white-progressives-are-hypocrites-on-gentrificatio"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

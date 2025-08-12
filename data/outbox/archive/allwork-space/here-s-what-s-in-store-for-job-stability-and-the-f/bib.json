@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 172,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/here-s-what-s-in-store-for-job-stability-and-the-f",
     "name": "Here’s What’s In Store For Job Stability And The Future Of Work",
     "description": "Here’s What’s In Store For Job Stability And The Future Of Work",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/07/heres-whats-in-store-for-job-stability-and-the-future-of-work/",
       "https://daniellehewych.org/archive/allwork-space/here-s-what-s-in-store-for-job-stability-and-the-f"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

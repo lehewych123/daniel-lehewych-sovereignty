@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 327,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-political-dilemma-of-balancing-international-h",
     "name": "The Political Dilemma of Balancing International Hospitality with Domestic Concerns",
     "description": "The Political Dilemma of Balancing International Hospitality with Domestic Concerns",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-political-dilemma-of-balancing-international-hospitality-with-domestic-concerns-5ae829c268e9",
       "https://daniellehewych.org/archive/medium/the-political-dilemma-of-balancing-international-h"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 238,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health",
     "name": "The CDC’s Vision For The Future Of Worker Health",
     "description": "The CDC’s Vision For The Future Of Worker Health",
@@ -27,6 +30,18 @@
       "https://allwork.space/2023/02/the-cdcs-vision-for-the-future-of-worker-health/",
       "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      },
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Health Sciences, Future of Work",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

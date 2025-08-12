@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 234,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-africa-s-economy-will-harness-digital-tech-in-",
     "name": "How Africa’s Economy will Harness Digital Tech in the Future of Work",
     "description": "How Africa’s Economy will Harness Digital Tech in the Future of Work",
@@ -27,6 +30,18 @@
       "https://allwork.space/2023/02/how-africas-economy-will-harness-digital-tech-in-the-future-of-work/",
       "https://daniellehewych.org/archive/allwork-space/how-africa-s-economy-will-harness-digital-tech-in-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      },
+      {
+        "@type": "Thing",
+        "name": "Economics"
+      }
+    ],
+    "keywords": "Future of Work, Economics",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

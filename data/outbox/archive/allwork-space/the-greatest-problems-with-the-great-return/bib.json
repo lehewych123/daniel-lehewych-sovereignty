@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 138,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-greatest-problems-with-the-great-return",
     "name": "The Greatest Problems With The ‘Great Return’",
     "description": "The Greatest Problems With The ‘Great Return’",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/03/the-greatest-problems-with-the-great-return/",
       "https://daniellehewych.org/archive/allwork-space/the-greatest-problems-with-the-great-return"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

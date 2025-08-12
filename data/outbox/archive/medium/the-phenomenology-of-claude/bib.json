@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 348,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-claude",
     "name": "The Phenomenology of Claude",
     "description": "The Phenomenology of Claude",
@@ -27,6 +30,16 @@
       "https://daniellehewych.medium.com/the-phenomenology-of-claude-3908fefd81fa",
       "https://daniellehewych.org/archive/medium/the-phenomenology-of-claude"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Phenomenology"
+      }
+    ],
+    "keywords": "Phenomenology",
+    "academicDiscipline": "Philosophy",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Graduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 313,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/science-transcendentalism-and-phenomenology",
     "name": "Science, Transcendentalism, and Phenomenology",
     "description": "Science, Transcendentalism, and Phenomenology",
@@ -27,6 +30,16 @@
       "https://medium.com/illumination/science-transcendentalism-and-phenomenology-bff97a899a8c",
       "https://daniellehewych.org/archive/medium/science-transcendentalism-and-phenomenology"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Phenomenology"
+      }
+    ],
+    "keywords": "Phenomenology",
+    "academicDiscipline": "Philosophy",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Graduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

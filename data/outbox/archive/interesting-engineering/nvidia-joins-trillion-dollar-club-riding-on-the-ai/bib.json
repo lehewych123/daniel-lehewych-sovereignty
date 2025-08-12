@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 278,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-joins-trillion-dollar-club-riding-on-the-ai",
     "name": "Nvidia joins trillion-dollar club, riding on the AI boom",
     "description": "Nvidia joins trillion-dollar club, riding on the AI boom",
@@ -27,6 +30,14 @@
       "https://interestingengineering.com/innovation/nvidia-joins-trillion-dollar-club-riding-on-the-ai-boom",
       "https://daniellehewych.org/archive/interesting-engineering/nvidia-joins-trillion-dollar-club-riding-on-the-ai"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

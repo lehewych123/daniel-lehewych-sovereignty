@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 55,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/on-the-knowledge-of-good-evil",
     "name": "On the Knowledge of Good & Evil",
     "description": "On the Knowledge of Good & Evil",
@@ -27,6 +29,7 @@
       "https://theapeiron.co.uk/on-the-knowledge-of-good-evil-669d553fefc3",
       "https://daniellehewych.org/archive/medium/on-the-knowledge-of-good-evil"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

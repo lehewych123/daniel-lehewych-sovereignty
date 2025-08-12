@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 32,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/personal-lessons-from-being-injured",
     "name": "Personal Lessons from Being Injured",
     "description": "Personal Lessons from Being Injured",
@@ -27,6 +30,8 @@
       "https://daniellehewych.medium.com/personal-lessons-from-being-injured-554fb6c74e09",
       "https://daniellehewych.org/archive/medium/personal-lessons-from-being-injured"
     ],
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

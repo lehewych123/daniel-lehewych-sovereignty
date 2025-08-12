@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 127,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-will-not-kill-the-creative-economy",
     "name": "The pandemic will not kill the creative economy",
     "description": "The pandemic will not kill the creative economy",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/01/the-pandemic-will-not-kill-the-creative-economy/",
       "https://daniellehewych.org/archive/allwork-space/the-pandemic-will-not-kill-the-creative-economy"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Economics"
+      }
+    ],
+    "keywords": "Economics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

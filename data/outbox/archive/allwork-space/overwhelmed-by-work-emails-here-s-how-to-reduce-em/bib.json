@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 194,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em",
     "name": "Overwhelmed By Work Emails? Here’s How To Reduce Email Anxiety",
     "description": "Overwhelmed By Work Emails? Here’s How To Reduce Email Anxiety",
@@ -27,6 +30,18 @@
       "https://allwork.space/2022/09/overwhelmed-by-work-emails-heres-how-to-reduce-email-anxiety/",
       "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Anxiety Disorders"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Anxiety Disorders",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

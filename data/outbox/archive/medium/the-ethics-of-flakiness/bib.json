@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 44,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-ethics-of-flakiness",
     "name": "The Ethics of Flakiness",
     "description": "The Ethics of Flakiness",
@@ -27,6 +29,14 @@
       "https://theapeiron.co.uk/the-ethics-and-phenomenology-of-flakiness-3906e94c304b",
       "https://daniellehewych.org/archive/medium/the-ethics-of-flakiness"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Ethics"
+      }
+    ],
+    "keywords": "Ethics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

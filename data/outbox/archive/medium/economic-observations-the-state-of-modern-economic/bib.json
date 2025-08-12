@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 19,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/economic-observations-the-state-of-modern-economic",
     "name": "Economic Observations: The State of Modern Economics",
     "description": "Economic Observations: The State of Modern Economics",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/economic-observations-the-state-of-modern-economics-127621a5c653",
       "https://daniellehewych.org/archive/medium/economic-observations-the-state-of-modern-economic"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 45,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-philosophy-of-metta-meditation",
     "name": "The Philosophy of Metta Meditation",
     "description": "The Philosophy of Metta Meditation",
@@ -27,6 +29,14 @@
       "https://theapeiron.co.uk/the-philosophy-of-metta-meditation-fafa6e5da8f3",
       "https://daniellehewych.org/archive/medium/the-philosophy-of-metta-meditation"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Meditation"
+      }
+    ],
+    "keywords": "Meditation",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

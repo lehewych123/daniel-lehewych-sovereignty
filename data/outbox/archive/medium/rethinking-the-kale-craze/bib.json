@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 298,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/rethinking-the-kale-craze",
     "name": "Rethinking the Kale Craze",
     "description": "Rethinking the Kale Craze",
@@ -27,6 +29,7 @@
       "https://medium.com/illumination/rethinking-the-kale-craze-42b363b209ca",
       "https://daniellehewych.org/archive/medium/rethinking-the-kale-craze"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

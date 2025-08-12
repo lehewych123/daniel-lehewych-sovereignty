@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 286,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/north-korea-s-new-space-launcher-reveals-progress-",
     "name": "North Korea’s new space launcher reveals progress in missile technology",
     "description": "North Korea’s new space launcher reveals progress in missile technology",
@@ -27,6 +30,14 @@
       "https://interestingengineering.com/innovation/north-koreas-new-space-launcher-reveals-progress-in-missile-technology",
       "https://daniellehewych.org/archive/interesting-engineering/north-korea-s-new-space-launcher-reveals-progress-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Technology"
+      }
+    ],
+    "keywords": "Technology",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

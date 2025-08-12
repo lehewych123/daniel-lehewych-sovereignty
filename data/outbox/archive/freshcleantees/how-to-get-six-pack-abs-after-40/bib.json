@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 115,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/freshcleantees/how-to-get-six-pack-abs-after-40",
     "name": "How to Get Six-Pack Abs After 40",
     "description": "How to Get Six-Pack Abs After 40",
@@ -27,6 +30,8 @@
       "https://freshcleantees.com/blogs/blog/abs-after-40",
       "https://daniellehewych.org/archive/freshcleantees/how-to-get-six-pack-abs-after-40"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

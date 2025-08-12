@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 225,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/ai-is-transforming-the-future-of-industrial-work",
     "name": "AI Is Transforming The Future Of Industrial Work",
     "description": "AI Is Transforming The Future Of Industrial Work",
@@ -27,6 +30,14 @@
       "https://allwork.space/2023/01/ai-is-transforming-the-future-of-industrial-work/",
       "https://daniellehewych.org/archive/allwork-space/ai-is-transforming-the-future-of-industrial-work"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

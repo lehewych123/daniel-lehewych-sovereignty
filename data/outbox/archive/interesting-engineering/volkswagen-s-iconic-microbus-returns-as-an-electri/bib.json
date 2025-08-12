@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 292,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/volkswagen-s-iconic-microbus-returns-as-an-electri",
     "name": "Volkswagen’s iconic microbus returns as an electric marvel",
     "description": "Volkswagen’s iconic microbus returns as an electric marvel",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/transportation/volkswagens-iconic-microbus-returns-as-an-electric-marvel",
       "https://daniellehewych.org/archive/interesting-engineering/volkswagen-s-iconic-microbus-returns-as-an-electri"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

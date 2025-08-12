@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 13,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "CriticalEssay",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/deconstruction-and-its-problems-the-line-between-f",
     "name": "Deconstruction And Its Problems: The Line Between Freedom and Rigidity",
     "description": "Deconstruction And Its Problems: The Line Between Freedom and Rigidity",
@@ -27,6 +30,14 @@
       "https://daniellehewych.medium.com/deconstruction-and-its-problems-the-line-between-freedom-and-rigidity-2e14048d3b11",
       "https://daniellehewych.org/archive/medium/deconstruction-and-its-problems-the-line-between-f"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Deconstruction"
+      }
+    ],
+    "keywords": "Deconstruction",
+    "genre": "Critical Essay",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 33,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/poverty-in-north-korea",
     "name": "Poverty in North Korea",
     "description": "Poverty in North Korea",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/poverty-in-north-korea-801cd99b4ec8",
       "https://daniellehewych.org/archive/medium/poverty-in-north-korea"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 90,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/new-york-will-become-a-climate-change-hotspot",
     "name": "New York Will Become a Climate Change Hotspot",
     "description": "New York Will Become a Climate Change Hotspot",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/new-york-will-become-climate-change-hotspot-opinion-1635958",
       "https://daniellehewych.org/archive/newsweek/new-york-will-become-a-climate-change-hotspot"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

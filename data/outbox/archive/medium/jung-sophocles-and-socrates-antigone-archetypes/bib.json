@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 15,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/jung-sophocles-and-socrates-antigone-archetypes",
     "name": "Jung, Sophocles, and Socrates: Antigone Archetypes",
     "description": "Jung, Sophocles, and Socrates: Antigone Archetypes",
@@ -27,6 +29,13 @@
       "https://daniellehewych.medium.com/jung-sophocles-and-socrates-antigone-archetypes-bd298c8eaf02",
       "https://daniellehewych.org/archive/medium/jung-sophocles-and-socrates-antigone-archetypes"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Socrates"
+      }
+    ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

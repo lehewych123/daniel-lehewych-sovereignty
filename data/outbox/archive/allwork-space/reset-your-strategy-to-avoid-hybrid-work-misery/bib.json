@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 203,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/reset-your-strategy-to-avoid-hybrid-work-misery",
     "name": "Reset Your Strategy To Avoid Hybrid Work Misery",
     "description": "Reset Your Strategy To Avoid Hybrid Work Misery",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/10/reset-your-strategy-to-avoid-hybrid-work-misery/",
       "https://daniellehewych.org/archive/allwork-space/reset-your-strategy-to-avoid-hybrid-work-misery"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Hybrid Work"
+      }
+    ],
+    "keywords": "Hybrid Work",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

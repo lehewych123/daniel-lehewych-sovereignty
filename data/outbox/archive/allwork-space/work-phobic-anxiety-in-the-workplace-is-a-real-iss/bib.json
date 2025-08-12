@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 199,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/work-phobic-anxiety-in-the-workplace-is-a-real-iss",
     "name": "Work Phobic Anxiety In The Workplace Is A Real Issue; Here’s How To Navigate It",
     "description": "Work Phobic Anxiety In The Workplace Is A Real Issue; Here’s How To Navigate It",
@@ -27,6 +30,18 @@
       "https://allwork.space/2022/09/work-phobic-anxiety-in-the-workplace-is-a-real-issue-heres-how-to-navigate-it/",
       "https://daniellehewych.org/archive/allwork-space/work-phobic-anxiety-in-the-workplace-is-a-real-iss"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Anxiety Disorders"
+      },
+      {
+        "@type": "Thing",
+        "name": "Workplace Dynamics"
+      }
+    ],
+    "keywords": "Anxiety Disorders, Workplace Dynamics",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

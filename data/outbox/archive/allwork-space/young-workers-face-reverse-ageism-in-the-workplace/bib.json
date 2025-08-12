@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 156,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/young-workers-face-reverse-ageism-in-the-workplace",
     "name": "Young Workers Face Reverse Ageism In The Workplace",
     "description": "Young Workers Face Reverse Ageism In The Workplace",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/05/young-workers-face-reverse-ageism-in-the-workplace/",
       "https://daniellehewych.org/archive/allwork-space/young-workers-face-reverse-ageism-in-the-workplace"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Workplace Dynamics"
+      }
+    ],
+    "keywords": "Workplace Dynamics",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

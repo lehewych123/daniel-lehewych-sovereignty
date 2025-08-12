@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 94,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/working-out-with-a-wrist-fracture",
     "name": "Working Out With a Wrist Fracture",
     "description": "Working Out With a Wrist Fracture",
@@ -27,6 +29,7 @@
       "https://medium.com/in-fitness-and-in-health/working-out-with-a-wrist-fracture-831e56bbe758",
       "https://daniellehewych.org/archive/medium/working-out-with-a-wrist-fracture"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

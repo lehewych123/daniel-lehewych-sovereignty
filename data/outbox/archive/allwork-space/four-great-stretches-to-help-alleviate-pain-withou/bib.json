@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 206,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/four-great-stretches-to-help-alleviate-pain-withou",
     "name": "Four Great Stretches To Help Alleviate Pain Without Leaving Your Desk",
     "description": "Four Great Stretches To Help Alleviate Pain Without Leaving Your Desk",
@@ -27,6 +29,14 @@
       "https://allwork.space/2022/10/four-great-stretches-to-help-alleviate-pain-without-leaving-your-desk/",
       "https://daniellehewych.org/archive/allwork-space/four-great-stretches-to-help-alleviate-pain-withou"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

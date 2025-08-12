@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 210,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/top-5-metabolism-boosting-tricks-to-combat-the-per",
     "name": "Top 5 Metabolism-Boosting Tricks To Combat The Perils Of Desk Work",
     "description": "Top 5 Metabolism-Boosting Tricks To Combat The Perils Of Desk Work",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/11/top-5-metabolism-boosting-tricks-to-combat-the-perils-of-desk-work/",
       "https://daniellehewych.org/archive/allwork-space/top-5-metabolism-boosting-tricks-to-combat-the-per"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 347,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-generative-dynamics-of-language",
     "name": "The Generative Dynamics of Language",
     "description": "The Generative Dynamics of Language",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-generative-dynamics-of-language-13b550cab75d",
       "https://daniellehewych.org/archive/medium/the-generative-dynamics-of-language"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

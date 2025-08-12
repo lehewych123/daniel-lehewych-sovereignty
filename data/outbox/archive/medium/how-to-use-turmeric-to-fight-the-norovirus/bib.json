@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 241,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/how-to-use-turmeric-to-fight-the-norovirus",
     "name": "How to Use Turmeric to Fight the Norovirus",
     "description": "How to Use Turmeric to Fight the Norovirus",
@@ -27,6 +30,8 @@
       "https://medium.com/in-fitness-and-in-health/how-to-use-turmeric-to-fight-the-current-wave-of-norovirus-5ea1a09afcea",
       "https://daniellehewych.org/archive/medium/how-to-use-turmeric-to-fight-the-norovirus"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

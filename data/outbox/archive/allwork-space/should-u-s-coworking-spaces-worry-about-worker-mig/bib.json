@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 182,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/should-u-s-coworking-spaces-worry-about-worker-mig",
     "name": "Should U.S. Coworking Spaces Worry About Worker Migration?",
     "description": "Should U.S. Coworking Spaces Worry About Worker Migration?",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/08/should-u-s-coworking-spaces-worry-about-worker-migration/",
       "https://daniellehewych.org/archive/allwork-space/should-u-s-coworking-spaces-worry-about-worker-mig"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      }
+    ],
+    "keywords": "Coworking",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

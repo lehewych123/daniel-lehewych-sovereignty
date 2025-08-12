@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 88,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-labor-shortage-will-eventually-be-good-for-emp",
     "name": "The Labor Shortage Will (Eventually) Be Good for Employees and Businesses, Here’s Why",
     "description": "The Labor Shortage Will (Eventually) Be Good for Employees and Businesses, Here’s Why",
@@ -27,6 +30,14 @@
       "https://allwork.space/2021/09/the-labor-shortage-will-eventually-be-good-for-employees-and-businesses-heres-why/",
       "https://daniellehewych.org/archive/allwork-space/the-labor-shortage-will-eventually-be-good-for-emp"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Labor Economics"
+      }
+    ],
+    "keywords": "Labor Economics",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

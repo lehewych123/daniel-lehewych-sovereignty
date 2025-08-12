@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 158,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-to-improve-the-employee-onboarding-process",
     "name": "How to Improve the Employee Onboarding Process",
     "description": "How to Improve the Employee Onboarding Process",
@@ -27,6 +30,8 @@
       "https://allwork.space/2022/05/how-to-improve-the-employee-onboarding-process/",
       "https://daniellehewych.org/archive/allwork-space/how-to-improve-the-employee-onboarding-process"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

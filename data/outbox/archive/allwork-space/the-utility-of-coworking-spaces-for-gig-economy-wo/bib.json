@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 217,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-utility-of-coworking-spaces-for-gig-economy-wo",
     "name": "The Utility of Coworking Spaces for Gig Economy Workers",
     "description": "The Utility of Coworking Spaces for Gig Economy Workers",
@@ -27,6 +30,18 @@
       "https://allwork.space/2022/12/the-utility-of-coworking-spaces-for-gig-economy-workers/",
       "https://daniellehewych.org/archive/allwork-space/the-utility-of-coworking-spaces-for-gig-economy-wo"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      },
+      {
+        "@type": "Thing",
+        "name": "Economics"
+      }
+    ],
+    "keywords": "Coworking, Economics",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

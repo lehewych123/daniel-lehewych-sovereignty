@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 279,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/baidu-invests-140-million-to-foster-generative-ai-",
     "name": "Baidu invests $140 million to foster generative AI startups",
     "description": "Baidu invests $140 million to foster generative AI startups",
@@ -27,6 +30,14 @@
       "https://interestingengineering.com/innovation/baidu-invests-140-million-to-foster-generative-ai-startups",
       "https://daniellehewych.org/archive/interesting-engineering/baidu-invests-140-million-to-foster-generative-ai-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

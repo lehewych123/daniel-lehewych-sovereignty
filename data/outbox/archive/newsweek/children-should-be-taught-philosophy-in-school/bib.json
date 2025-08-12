@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 85,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/children-should-be-taught-philosophy-in-school",
     "name": "Children Should be Taught Philosophy in School",
     "description": "Children Should be Taught Philosophy in School",
@@ -27,6 +30,7 @@
       "https://www.newsweek.com/children-should-taught-philosophy-school-opinion-1624698",
       "https://daniellehewych.org/archive/newsweek/children-should-be-taught-philosophy-in-school"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

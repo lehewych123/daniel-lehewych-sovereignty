@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 328,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/divinity-as-genderless-in-world-religions",
     "name": "Divinity as Genderless in World Religions",
     "description": "Divinity as Genderless in World Religions",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/divinity-as-genderless-in-world-religions-8866d7366136",
       "https://daniellehewych.org/archive/medium/divinity-as-genderless-in-world-religions"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

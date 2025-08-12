@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 269,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/virgin-galactic-sets-stage-for-final-test-flight-b",
     "name": "Virgin Galactic sets stage for final test flight before commercial launch",
     "description": "Virgin Galactic sets stage for final test flight before commercial launch",
@@ -27,6 +30,7 @@
       "https://interestingengineering.com/transportation/virgin-galactic-sets-stage-for-final-test-flight-before-commercial-launch",
       "https://daniellehewych.org/archive/interesting-engineering/virgin-galactic-sets-stage-for-final-test-flight-b"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

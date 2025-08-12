@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 224,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-s-lasting-impact-on-the-future-of-cow",
     "name": "The Pandemic’s Lasting Impact on the Future of Coworking",
     "description": "The Pandemic’s Lasting Impact on the Future of Coworking",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/12/the-pandemics-lasting-impact-on-the-future-of-coworking/",
       "https://daniellehewych.org/archive/allwork-space/the-pandemic-s-lasting-impact-on-the-future-of-cow"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Coworking"
+      }
+    ],
+    "keywords": "Coworking",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

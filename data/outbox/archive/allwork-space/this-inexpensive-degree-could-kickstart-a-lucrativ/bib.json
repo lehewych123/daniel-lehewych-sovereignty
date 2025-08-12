@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 181,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/this-inexpensive-degree-could-kickstart-a-lucrativ",
     "name": "This Inexpensive Degree Could Kickstart A Lucrative Career",
     "description": "This Inexpensive Degree Could Kickstart A Lucrative Career",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/07/this-inexpensive-degree-could-kickstart-a-lucrative-career/",
       "https://daniellehewych.org/archive/allwork-space/this-inexpensive-degree-could-kickstart-a-lucrativ"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

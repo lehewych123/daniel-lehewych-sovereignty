@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 57,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/how-setting-high-expectations-for-yourself-turns-y",
     "name": "How Setting High-Expectations for Yourself Turns you into the Ideal for Others",
     "description": "How Setting High-Expectations for Yourself Turns you into the Ideal for Others",
@@ -27,6 +30,7 @@
       "https://theapeiron.co.uk/how-setting-high-expectations-for-yourself-turns-you-into-the-ideal-for-others-6106bbce8871",
       "https://daniellehewych.org/archive/medium/how-setting-high-expectations-for-yourself-turns-y"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

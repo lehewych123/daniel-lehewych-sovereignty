@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 367,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/how-we-can-protect-democracy-without-losing-our-va",
     "name": "How We Can Protect Democracy Without Losing Our Values",
     "description": "How We Can Protect Democracy Without Losing Our Values",
@@ -27,6 +29,7 @@
       "https://medium.com/grim-tidings/how-we-can-protect-democracy-without-losing-our-values-2361e7e9891b",
       "https://daniellehewych.org/archive/medium/how-we-can-protect-democracy-without-losing-our-va"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

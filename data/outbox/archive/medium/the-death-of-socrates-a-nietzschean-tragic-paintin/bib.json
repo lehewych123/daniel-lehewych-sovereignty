@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 12,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin",
     "name": "The Death of Socrates: A Nietzschean Tragic Painting",
     "description": "The Death of Socrates: A Nietzschean Tragic Painting",
@@ -27,6 +29,24 @@
       "https://daniellehewych.medium.com/the-death-of-socrates-a-nietzschean-tragic-painting-7aaab946358c",
       "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Friedrich Nietzsche"
+      },
+      {
+        "@type": "Person",
+        "name": "Socrates"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 352,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/merleau-ponty-the-phantom-limb-and-pareidolia",
     "name": "Merleau-Ponty, The Phantom Limb, and Pareidolia",
     "description": "Merleau-Ponty, The Phantom Limb, and Pareidolia",
@@ -27,6 +29,13 @@
       "https://daniellehewych.medium.com/merleau-ponty-the-phantom-limb-and-pareidolia-aa81d6db6272",
       "https://daniellehewych.org/archive/medium/merleau-ponty-the-phantom-limb-and-pareidolia"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Maurice Merleau-Ponty"
+      }
+    ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

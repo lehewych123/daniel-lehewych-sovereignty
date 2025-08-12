@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 338,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-son-of-man-and-the-end-of-days",
     "name": "The Son of Man and the End of Days",
     "description": "The Son of Man and the End of Days",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-son-of-man-and-the-end-of-days-d3e258e1a183",
       "https://daniellehewych.org/archive/medium/the-son-of-man-and-the-end-of-days"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

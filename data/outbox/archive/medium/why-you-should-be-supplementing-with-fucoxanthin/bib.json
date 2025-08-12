@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 249,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-fucoxanthin",
     "name": "Why You Should Be Supplementing with Fucoxanthin",
     "description": "Why You Should Be Supplementing with Fucoxanthin",
@@ -27,6 +30,7 @@
       "https://medium.com/illumination/why-you-should-be-supplementing-with-fucoxanthin-a178d13add13",
       "https://daniellehewych.org/archive/medium/why-you-should-be-supplementing-with-fucoxanthin"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 116,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/freshcleantees/how-to-have-a-fresh-and-fit-thanksgiving",
     "name": "How to Have a Fresh and Fit Thanksgiving",
     "description": "How to Have a Fresh and Fit Thanksgiving",
@@ -27,6 +30,8 @@
       "https://freshcleantees.com/blogs/blog/fresh-and-fit-thanksgiving",
       "https://daniellehewych.org/archive/freshcleantees/how-to-have-a-fresh-and-fit-thanksgiving"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

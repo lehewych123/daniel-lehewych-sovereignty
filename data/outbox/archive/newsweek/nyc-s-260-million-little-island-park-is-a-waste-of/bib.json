@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 68,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/nyc-s-260-million-little-island-park-is-a-waste-of",
     "name": "NYC's $260 Million Little Island Park is a Waste of Money",
     "description": "NYC's $260 Million Little Island Park is a Waste of Money",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/nycs-260-million-little-island-park-waste-money-opinion-1594822",
       "https://daniellehewych.org/archive/newsweek/nyc-s-260-million-little-island-park-is-a-waste-of"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

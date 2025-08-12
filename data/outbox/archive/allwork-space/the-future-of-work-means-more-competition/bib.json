@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 129,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-means-more-competition",
     "name": "The Future Of Work Means More Competition",
     "description": "The Future Of Work Means More Competition",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/02/the-future-of-work-means-more-competition/",
       "https://daniellehewych.org/archive/allwork-space/the-future-of-work-means-more-competition"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

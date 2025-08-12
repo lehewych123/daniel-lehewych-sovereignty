@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 324,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/qure-ai/the-importance-of-ai-in-msk-radiology",
     "name": "The Importance of AI in MSK Radiology",
     "description": "The Importance of AI in MSK Radiology",
@@ -27,6 +30,14 @@
       "https://www.qure.ai/blog/the-importance-of-ai-in-msk-radiology",
       "https://daniellehewych.org/archive/qure-ai/the-importance-of-ai-in-msk-radiology"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

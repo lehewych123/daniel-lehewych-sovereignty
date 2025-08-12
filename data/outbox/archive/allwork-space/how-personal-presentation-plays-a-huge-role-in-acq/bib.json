@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 123,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/how-personal-presentation-plays-a-huge-role-in-acq",
     "name": "How personal presentation plays a huge role in acquiring jobs",
     "description": "How personal presentation plays a huge role in acquiring jobs",
@@ -27,6 +29,7 @@
       "https://allwork.space/2022/01/how-personal-presentation-plays-a-huge-role-in-acquiring-jobs/",
       "https://daniellehewych.org/archive/allwork-space/how-personal-presentation-plays-a-huge-role-in-acq"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

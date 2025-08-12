@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 332,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-will-to-power-as-art",
     "name": "The Will to Power as Art",
     "description": "The Will to Power as Art",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-will-to-power-as-art-5876fa661c7b",
       "https://daniellehewych.org/archive/medium/the-will-to-power-as-art"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

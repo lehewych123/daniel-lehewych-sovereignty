@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 317,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/qure-ai/the-imperative-of-ai-for-improving-radiological-ac",
     "name": "The Imperative of AI for Improving Radiological Accuracy",
     "description": "The Imperative of AI for Improving Radiological Accuracy",
@@ -27,6 +30,18 @@
       "https://www.qure.ai/blog/the-imperative-of-ai-for-improving-radiological-accuracy",
       "https://daniellehewych.org/archive/qure-ai/the-imperative-of-ai-for-improving-radiological-ac"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Logic"
+      },
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Logic, Artificial Intelligence",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

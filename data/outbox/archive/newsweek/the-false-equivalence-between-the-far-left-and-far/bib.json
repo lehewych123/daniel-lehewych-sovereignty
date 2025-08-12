@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 191,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-false-equivalence-between-the-far-left-and-far",
     "name": "The 'False Equivalence' Between the Far-Left and Far-Right",
     "description": "The 'False Equivalence' Between the Far-Left and Far-Right",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/false-equivalence-between-far-left-far-right-opinion-1736759",
       "https://daniellehewych.org/archive/newsweek/the-false-equivalence-between-the-far-left-and-far"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

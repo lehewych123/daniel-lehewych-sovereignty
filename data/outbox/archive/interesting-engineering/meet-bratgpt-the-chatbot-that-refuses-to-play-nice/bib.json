@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 272,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/interesting-engineering/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",
     "name": "Meet BratGPT, the chatbot that refuses to play nice",
     "description": "Meet BratGPT, the chatbot that refuses to play nice",
@@ -27,6 +29,7 @@
       "https://interestingengineering.com/culture/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",
       "https://daniellehewych.org/archive/interesting-engineering/meet-bratgpt-the-chatbot-that-refuses-to-play-nice"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

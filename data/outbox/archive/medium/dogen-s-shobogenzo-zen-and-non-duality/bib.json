@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 353,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/dogen-s-shobogenzo-zen-and-non-duality",
     "name": "Dogen’s Shobogenzo: Zen and Non-Duality",
     "description": "Dogen’s Shobogenzo: Zen and Non-Duality",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/dogens-shobogenzo-zen-and-non-duality-e2980a6e9cb2",
       "https://daniellehewych.org/archive/medium/dogen-s-shobogenzo-zen-and-non-duality"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

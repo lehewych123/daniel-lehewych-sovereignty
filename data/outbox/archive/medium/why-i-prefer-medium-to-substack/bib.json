@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 307,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-i-prefer-medium-to-substack",
     "name": "Why I Prefer Medium to Substack",
     "description": "Why I Prefer Medium to Substack",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/why-i-prefer-medium-to-substack-e3b3fa4cc3e3",
       "https://daniellehewych.org/archive/medium/why-i-prefer-medium-to-substack"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

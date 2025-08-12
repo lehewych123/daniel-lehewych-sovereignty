@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 219,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/a-guide-for-workspace-mental-health-communication",
     "name": "A Guide For Workspace Mental Health Communication",
     "description": "A Guide For Workspace Mental Health Communication",
@@ -27,6 +30,18 @@
       "https://allwork.space/2022/12/a-guide-for-workspace-mental-health-communication/",
       "https://daniellehewych.org/archive/allwork-space/a-guide-for-workspace-mental-health-communication"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      },
+      {
+        "@type": "Thing",
+        "name": "Mental Health"
+      }
+    ],
+    "keywords": "Health Sciences, Mental Health",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

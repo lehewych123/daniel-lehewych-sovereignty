@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 162,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/talent-will-not-be-local-in-the-future-of-work",
     "name": "Talent Will Not Be Local In The Future Of Work",
     "description": "Talent Will Not Be Local In The Future Of Work",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/06/talent-will-not-be-local-in-the-future-of-work/",
       "https://daniellehewych.org/archive/allwork-space/talent-will-not-be-local-in-the-future-of-work"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

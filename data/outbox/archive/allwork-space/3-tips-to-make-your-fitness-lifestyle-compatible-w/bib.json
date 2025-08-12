@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 201,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/3-tips-to-make-your-fitness-lifestyle-compatible-w",
     "name": "3 Tips To Make Your Fitness Lifestyle Compatible With Work",
     "description": "3 Tips To Make Your Fitness Lifestyle Compatible With Work",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/10/3-tips-to-make-your-fitness-lifestyle-compatible-with-work/",
       "https://daniellehewych.org/archive/allwork-space/3-tips-to-make-your-fitness-lifestyle-compatible-w"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Physical Fitness"
+      }
+    ],
+    "keywords": "Physical Fitness",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

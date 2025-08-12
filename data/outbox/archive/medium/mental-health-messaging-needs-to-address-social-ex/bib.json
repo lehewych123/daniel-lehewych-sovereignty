@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 145,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex",
     "name": "Mental Health Messaging Needs To Address Social Exclusion",
     "description": "Mental Health Messaging Needs To Address Social Exclusion",
@@ -27,6 +30,19 @@
       "https://daniellehewych.medium.com/mental-health-messaging-needs-to-address-social-exclusion-42b540fbf12c",
       "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      },
+      {
+        "@type": "Thing",
+        "name": "Mental Health"
+      }
+    ],
+    "keywords": "Health Sciences, Mental Health",
+    "academicDiscipline": "Medicine",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

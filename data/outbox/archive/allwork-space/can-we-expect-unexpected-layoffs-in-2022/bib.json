@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 179,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/can-we-expect-unexpected-layoffs-in-2022",
     "name": "Can We Expect Unexpected Layoffs In 2022?",
     "description": "Can We Expect Unexpected Layoffs In 2022?",
@@ -27,6 +30,7 @@
       "https://allwork.space/2022/07/can-we-expect-unexpected-layoffs-in-2022/",
       "https://daniellehewych.org/archive/allwork-space/can-we-expect-unexpected-layoffs-in-2022"
     ],
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

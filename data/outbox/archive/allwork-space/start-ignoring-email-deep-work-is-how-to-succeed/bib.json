@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 212,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/start-ignoring-email-deep-work-is-how-to-succeed",
     "name": "Start Ignoring Email — Deep Work Is How To Succeed",
     "description": "Start Ignoring Email — Deep Work Is How To Succeed",
@@ -27,6 +30,15 @@
       "https://allwork.space/2022/11/start-ignoring-email-deep-work-is-how-to-succeed/",
       "https://daniellehewych.org/archive/allwork-space/start-ignoring-email-deep-work-is-how-to-succeed"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

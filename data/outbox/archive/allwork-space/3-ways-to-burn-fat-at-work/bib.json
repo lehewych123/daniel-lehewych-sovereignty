@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 227,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/3-ways-to-burn-fat-at-work",
     "name": "3 Ways To Burn Fat At Work",
     "description": "3 Ways To Burn Fat At Work",
@@ -27,6 +30,8 @@
       "https://allwork.space/2023/01/3-ways-to-burn-fat-at-work/",
       "https://daniellehewych.org/archive/allwork-space/3-ways-to-burn-fat-at-work"
     ],
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

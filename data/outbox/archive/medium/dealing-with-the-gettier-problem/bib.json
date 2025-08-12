@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 30,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/dealing-with-the-gettier-problem",
     "name": "Dealing With The Gettier Problem",
     "description": "Dealing With The Gettier Problem",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/dealing-with-the-gettier-problem-432fcd4d2dcb",
       "https://daniellehewych.org/archive/medium/dealing-with-the-gettier-problem"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

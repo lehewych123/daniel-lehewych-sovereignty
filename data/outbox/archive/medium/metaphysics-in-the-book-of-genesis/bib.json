@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 341,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/metaphysics-in-the-book-of-genesis",
     "name": "Metaphysics in The Book of Genesis",
     "description": "Metaphysics in The Book of Genesis",
@@ -27,6 +30,16 @@
       "https://daniellehewych.medium.com/metaphysics-in-the-book-of-genesis-9afa4f0c259a",
       "https://daniellehewych.org/archive/medium/metaphysics-in-the-book-of-genesis"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Metaphysics"
+      }
+    ],
+    "keywords": "Metaphysics",
+    "academicDiscipline": "Philosophy",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Graduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

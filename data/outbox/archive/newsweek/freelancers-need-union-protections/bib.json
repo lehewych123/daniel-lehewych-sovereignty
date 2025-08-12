@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 81,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/freelancers-need-union-protections",
     "name": "Freelancers Need Union Protections",
     "description": "Freelancers Need Union Protections",
@@ -27,6 +29,7 @@
       "https://www.newsweek.com/freelancers-need-union-protections-opinion-1616655",
       "https://daniellehewych.org/archive/newsweek/freelancers-need-union-protections"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

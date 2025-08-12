@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 62,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/things-to-keep-in-mind-when-starting-out-as-a-free",
     "name": "Things to Keep in Mind When Starting Out as a Freelance Writer",
     "description": "Things to Keep in Mind When Starting Out as a Freelance Writer",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/things-to-keep-in-mind-when-starting-out-as-a-freelance-writer-1c98e84fdde1",
       "https://daniellehewych.org/archive/medium/things-to-keep-in-mind-when-starting-out-as-a-free"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

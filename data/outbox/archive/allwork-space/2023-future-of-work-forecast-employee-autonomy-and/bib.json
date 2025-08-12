@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 214,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/2023-future-of-work-forecast-employee-autonomy-and",
     "name": "2023 Future Of Work Forecast: Employee Autonomy And The Persistent Great Reshuffle",
     "description": "2023 Future Of Work Forecast: Employee Autonomy And The Persistent Great Reshuffle",
@@ -27,6 +30,14 @@
       "https://allwork.space/2022/11/2023-future-of-work-forecast-employee-autonomy-and-the-persistent-great-reshuffle/",
       "https://daniellehewych.org/archive/allwork-space/2023-future-of-work-forecast-employee-autonomy-and"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Future of Work"
+      }
+    ],
+    "keywords": "Future of Work",
+    "genre": "Trend Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

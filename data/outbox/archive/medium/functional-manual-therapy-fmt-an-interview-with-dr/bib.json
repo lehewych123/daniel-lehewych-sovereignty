@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 1,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/functional-manual-therapy-fmt-an-interview-with-dr",
     "name": "Functional Manual Therapy (FMT): An Interview With Dr. Cristiana K. Collins PT, Ph.D., CFMT, NCS",
     "description": "Functional Manual Therapy (FMT): An Interview With Dr. Cristiana K. Collins PT, Ph.D., CFMT, NCS",
@@ -27,6 +30,26 @@
       "https://daniellehewych.medium.com/functional-manual-therapy-fmt-an-interview-with-dr-cristiana-k-collins-pt-ph-d-cfmt-ncs-7dadbd559533",
       "https://daniellehewych.org/archive/medium/functional-manual-therapy-fmt-an-interview-with-dr"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Psychotherapy"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Dr",
+        "roleName": "Interviewee"
+      }
+    ],
+    "keywords": "Psychotherapy",
+    "genre": "Health Research",
+    "contributor": {
+      "@type": "Person",
+      "name": "Dr",
+      "roleName": "Interviewee"
+    },
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

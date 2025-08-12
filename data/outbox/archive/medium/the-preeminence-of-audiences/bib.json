@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 350,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-preeminence-of-audiences",
     "name": "The Preeminence of Audiences",
     "description": "The Preeminence of Audiences",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-preeminence-of-audiences-8ad8088ae6ed",
       "https://daniellehewych.org/archive/medium/the-preeminence-of-audiences"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

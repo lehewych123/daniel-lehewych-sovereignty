@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 9,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/top-3-myths-about-high-protein-diets",
     "name": "Top 3 Myths About High Protein Diets",
     "description": "Top 3 Myths About High Protein Diets",
@@ -27,6 +30,15 @@
       "https://daniellehewych.medium.com/top-3-myths-about-high-protein-diets-723011a889f6",
       "https://daniellehewych.org/archive/medium/top-3-myths-about-high-protein-diets"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Protein Science"
+      }
+    ],
+    "keywords": "Protein Science",
+    "academicDiscipline": "Medicine",
+    "genre": "Health Research",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 294,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-",
     "name": "How Editors and Employers Should Evaluate the Use of AI in Writing",
     "description": "How Editors and Employers Should Evaluate the Use of AI in Writing",
@@ -27,6 +30,14 @@
       "https://writingcooperative.com/how-editors-and-employers-should-evaluate-the-use-of-ai-in-writing-cf30dc445c63",
       "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

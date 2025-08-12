@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 356,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/the-parable-of-the-phantom-city-in-the-lotus-sutra",
     "name": "The Parable of the Phantom City in the Lotus Sutra",
     "description": "The Parable of the Phantom City in the Lotus Sutra",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/the-parable-of-the-phantom-city-in-the-lotus-sutra-a85345c31271",
       "https://daniellehewych.org/archive/medium/the-parable-of-the-phantom-city-in-the-lotus-sutra"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

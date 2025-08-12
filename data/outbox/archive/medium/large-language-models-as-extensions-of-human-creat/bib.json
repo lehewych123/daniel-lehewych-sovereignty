@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 316,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/large-language-models-as-extensions-of-human-creat",
     "name": "Large Language Models as Extensions of Human Creativity",
     "description": "Large Language Models as Extensions of Human Creativity",
@@ -27,6 +29,14 @@
       "https://medium.com/illumination/large-language-models-as-extensions-of-human-creativity-cdbffde30194",
       "https://daniellehewych.org/archive/medium/large-language-models-as-extensions-of-human-creat"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Large Language Models"
+      }
+    ],
+    "keywords": "Large Language Models",
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

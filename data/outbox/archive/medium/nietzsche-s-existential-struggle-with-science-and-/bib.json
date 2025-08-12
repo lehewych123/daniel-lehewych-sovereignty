@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 202,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/nietzsche-s-existential-struggle-with-science-and-",
     "name": "Nietzsche’s existential struggle with “science” and “truth.”",
     "description": "Nietzsche’s existential struggle with “science” and “truth.”",
@@ -27,6 +30,14 @@
       "https://medium.com/age-of-awareness/nietzsches-existential-struggle-with-science-and-truth-d9863c90f6c",
       "https://daniellehewych.org/archive/medium/nietzsche-s-existential-struggle-with-science-and-"
     ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Friedrich Nietzsche"
+      }
+    ],
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

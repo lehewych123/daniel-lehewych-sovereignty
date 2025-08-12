@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 155,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/allwork-space/what-is-the-importance-of-task-automation-in-produ",
     "name": "What Is The Importance Of Task Automation In Productivity And Well-being?",
     "description": "What Is The Importance Of Task Automation In Productivity And Well-being?",
@@ -27,6 +30,15 @@
       "https://allwork.space/2022/04/what-is-the-importance-of-task-automation-in-productivity-and-well-being/",
       "https://daniellehewych.org/archive/allwork-space/what-is-the-importance-of-task-automation-in-produ"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Automation"
+      }
+    ],
+    "keywords": "Automation",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

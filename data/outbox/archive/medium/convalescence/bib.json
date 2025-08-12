@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 319,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/convalescence",
     "name": "Convalescence",
     "description": "Convalescence",
@@ -27,6 +29,7 @@
       "https://medium.com/illumination-curated/convalescence-921e1b42de25",
       "https://daniellehewych.org/archive/medium/convalescence"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

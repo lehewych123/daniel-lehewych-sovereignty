@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 107,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/newsweek/the-great-resignation-will-be-good-for-corporation",
     "name": "The Great Resignation Will be Good for Corporations, Not Workers",
     "description": "The Great Resignation Will be Good for Corporations, Not Workers",
@@ -27,6 +30,14 @@
       "https://www.newsweek.com/great-resignation-will-good-corporations-not-workers-opinion-1654089",
       "https://daniellehewych.org/archive/newsweek/the-great-resignation-will-be-good-for-corporation"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Great Resignation"
+      }
+    ],
+    "keywords": "Great Resignation",
+    "genre": "Opinion Piece",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

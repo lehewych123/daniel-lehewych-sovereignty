@@ -2,7 +2,10 @@
   "@type": "ListItem",
   "position": 343,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/qure-ai/optimising-lung-cancer-pathways-and-neurocritical-",
     "name": "Optimising Lung Cancer Pathways and Neurocritical CT Triage with AI",
     "description": "Optimising Lung Cancer Pathways and Neurocritical CT Triage with AI",
@@ -27,6 +30,14 @@
       "https://www.qure.ai/blog/optimising-lung-cancer-pathways-and-neurocritical-ct-triage-with-ai",
       "https://daniellehewych.org/archive/qure-ai/optimising-lung-cancer-pathways-and-neurocritical-"
     ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Technology Analysis",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"

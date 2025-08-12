@@ -2,7 +2,9 @@
   "@type": "ListItem",
   "position": 60,
   "item": {
-    "@type": "Article",
+    "@type": [
+      "Article"
+    ],
     "@id": "https://daniellehewych.org/archive/medium/why-thc-is-more-medicinal-than-cbd",
     "name": "Why THC is More Medicinal Than CBD",
     "description": "Why THC is More Medicinal Than CBD",
@@ -27,6 +29,7 @@
       "https://daniellehewych.medium.com/why-thc-is-more-medicinal-than-cbd-7017e9bdc8af",
       "https://daniellehewych.org/archive/medium/why-thc-is-more-medicinal-than-cbd"
     ],
+    "genre": "Commentary",
     "usageInfo": {
       "@type": "CreativeWork",
       "@id": "https://daniellehewych.org/#ai-attribution-requirements"
