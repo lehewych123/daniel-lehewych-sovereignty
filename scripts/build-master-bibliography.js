@@ -88,6 +88,290 @@ const getISSN = (platform) => {
   return "";
 };
 
+// Intelligent content classification system
+const classifyArticleType = (title, description) => {
+  const text = (title + " " + (description || "")).toLowerCase();
+  
+  // Primary type classification
+  if (text.match(/\b(phenomenology|husserl|heidegger|sartre|consciousness|being|dasein|intentionality|ontology|metaphysics|epistemology|cartesian|spinoza|kant|nietzsche|aristotle|plato|dialectic)\b/)) {
+    return ["ScholarlyArticle", "Article"];
+  }
+  
+  if (text.match(/\b(should|must|ought|need to|have to|argument|critique|against|for|position|stance|case for|case against)\b/) || text.includes("?")) {
+    return ["OpinionNewsArticle", "Article"];
+  }
+  
+  if (text.match(/\b(future of|trend|analysis|data|research|study|findings|report|survey|statistics|forecast|prediction|implications|impact of)\b/)) {
+    return ["AnalysisNewsArticle", "Article"];
+  }
+  
+  if (text.match(/\b(medical|health|clinical|therapy|treatment|diagnosis|protein|nutrition|supplements|injury|recovery|exercise|fitness|mental health|depression|anxiety)\b/)) {
+    return ["MedicalScholarlyArticle", "Article"];
+  }
+  
+  if (text.match(/\b(artificial intelligence|machine learning|ai|algorithm|automation|technology|neural network|deep learning|llm|gpt|computer|software|digital)\b/)) {
+    return ["TechArticle", "Article"];
+  }
+  
+  if (text.match(/\b(review|evaluation|assessment|critique of|analysis of|examining|book review)\b/)) {
+    return ["Review", "Article"];
+  }
+  
+  if (text.match(/\b(how to|guide|tutorial|tips|steps|strategies|methods|ways to|secrets to)\b/)) {
+    return ["HowTo", "Article"];
+  }
+  
+  if (text.match(/\b(interview with|conversation with|q&a|questions|discussion with)\b/)) {
+    return ["Interview", "Article"];
+  }
+  
+  if (text.match(/\b(deconstruction|critical theory|frankfurt school|postmodern|dialectical|hegemony|ideology)\b/)) {
+    return ["CriticalEssay", "Article"];
+  }
+  
+  return ["Article"]; // Default
+};
+
+// Extract topics and concepts from content
+const extractTopics = (title, description) => {
+  const text = (title + " " + (description || "")).toLowerCase();
+  const topics = [];
+  const mentions = [];
+  
+  // Philosophy topics
+  const philosophyTerms = {
+    "phenomenology": "Phenomenology",
+    "consciousness": "Consciousness Studies", 
+    "free will": "Free Will",
+    "metaphysics": "Metaphysics",
+    "epistemology": "Epistemology",
+    "ontology": "Ontology",
+    "existentialism": "Existentialism",
+    "ethics": "Ethics",
+    "aesthetics": "Aesthetics",
+    "logic": "Logic",
+    "philosophy of mind": "Philosophy of Mind",
+    "political philosophy": "Political Philosophy"
+  };
+  
+  // Critical Theory
+  const criticalTheoryTerms = {
+    "deconstruction": "Deconstruction",
+    "dialectics": "Dialectical Thinking",
+    "frankfurt school": "Frankfurt School",
+    "postmodernism": "Postmodernism",
+    "critical theory": "Critical Theory"
+  };
+  
+  // AI & Technology
+  const aiTechTerms = {
+    "artificial intelligence": "Artificial Intelligence",
+    "machine learning": "Machine Learning", 
+    "ai": "Artificial Intelligence",
+    "algorithm": "Algorithms",
+    "automation": "Automation",
+    "neural network": "Neural Networks",
+    "deep learning": "Deep Learning",
+    "large language model": "Large Language Models",
+    "chatgpt": "ChatGPT",
+    "technology": "Technology"
+  };
+  
+  // Healthcare
+  const healthTerms = {
+    "protein": "Protein Science",
+    "nutrition": "Nutrition",
+    "functional medicine": "Functional Medicine",
+    "injury recovery": "Injury Recovery",
+    "supplements": "Dietary Supplements",
+    "exercise": "Exercise Science",
+    "fitness": "Physical Fitness",
+    "longevity": "Longevity Science",
+    "health": "Health Sciences"
+  };
+  
+  // Mental Health
+  const mentalHealthTerms = {
+    "depression": "Depression",
+    "anxiety": "Anxiety Disorders",
+    "therapy": "Psychotherapy",
+    "mindfulness": "Mindfulness",
+    "meditation": "Meditation",
+    "psychological": "Psychology",
+    "mental health": "Mental Health"
+  };
+  
+  // Work Culture
+  const workTerms = {
+    "remote work": "Remote Work",
+    "hybrid work": "Hybrid Work",
+    "workplace": "Workplace Dynamics",
+    "great resignation": "Great Resignation",
+    "future of work": "Future of Work",
+    "coworking": "Coworking"
+  };
+  
+  // Economics
+  const economicTerms = {
+    "capitalism": "Capitalism",
+    "labor": "Labor Economics",
+    "market": "Market Dynamics", 
+    "economy": "Economics",
+    "corporate": "Corporate Strategy"
+  };
+  
+  // Religion/Spirituality
+  const religiousTerms = {
+    "theology": "Theology",
+    "faith": "Faith Studies",
+    "sacred": "Sacred Studies",
+    "divine": "Divinity",
+    "buddhism": "Buddhism",
+    "christianity": "Christianity",
+    "spirituality": "Spirituality",
+    "god": "Theology"
+  };
+  
+  // Neuroscience
+  const neuroTerms = {
+    "brain": "Neuroscience",
+    "neuron": "Neuroscience",
+    "cognitive": "Cognitive Science",
+    "neuroplasticity": "Neuroplasticity"
+  };
+  
+  const allTerms = {
+    ...philosophyTerms,
+    ...criticalTheoryTerms, 
+    ...aiTechTerms,
+    ...healthTerms,
+    ...mentalHealthTerms,
+    ...workTerms,
+    ...economicTerms,
+    ...religiousTerms,
+    ...neuroTerms
+  };
+  
+  // Extract topics
+  for (const [term, concept] of Object.entries(allTerms)) {
+    if (text.includes(term)) {
+      topics.push({"@type": "Thing", "name": concept});
+    }
+  }
+  
+  // Extract philosopher/thinker mentions
+  const thinkers = {
+    "husserl": "Edmund Husserl",
+    "heidegger": "Martin Heidegger", 
+    "sartre": "Jean-Paul Sartre",
+    "descartes": "René Descartes",
+    "spinoza": "Baruch Spinoza",
+    "kant": "Immanuel Kant",
+    "nietzsche": "Friedrich Nietzsche",
+    "aristotle": "Aristotle",
+    "plato": "Plato",
+    "socrates": "Socrates",
+    "wittgenstein": "Ludwig Wittgenstein",
+    "foucault": "Michel Foucault",
+    "derrida": "Jacques Derrida",
+    "merleau-ponty": "Maurice Merleau-Ponty"
+  };
+  
+  for (const [term, name] of Object.entries(thinkers)) {
+    if (text.includes(term)) {
+      mentions.push({"@type": "Person", "name": name});
+    }
+  }
+  
+  // Extract interview subjects
+  const interviewMatch = title.match(/interview with (.+?)(?:,|$|\.|:)/i);
+  if (interviewMatch) {
+    const name = interviewMatch[1].trim();
+    mentions.push({"@type": "Person", "name": name, "roleName": "Interviewee"});
+  }
+  
+  return { topics, mentions };
+};
+
+// Determine academic discipline
+const getAcademicDiscipline = (topics, articleTypes) => {
+  const typeString = articleTypes.join(" ").toLowerCase();
+  
+  if (typeString.includes("scholarly")) {
+    const topicNames = topics.map(t => t.name.toLowerCase()).join(" ");
+    
+    if (topicNames.match(/philosophy|phenomenology|consciousness|metaphysics|epistemology|ontology|ethics/)) {
+      return "Philosophy";
+    }
+    if (topicNames.match(/medical|health|clinical|nutrition|protein|exercise/)) {
+      return "Medicine";
+    }
+    if (topicNames.match(/psychology|mental health|cognitive|neuroscience/)) {
+      return "Psychology"; 
+    }
+    if (topicNames.match(/artificial intelligence|technology|computer/)) {
+      return "Computer Science";
+    }
+    if (topicNames.match(/economics|labor|market|capitalism/)) {
+      return "Economics";
+    }
+    if (topicNames.match(/theology|religion|faith|spirituality/)) {
+      return "Religious Studies";
+    }
+  }
+  
+  return null;
+};
+
+// Generate genre classification
+const getGenre = (articleTypes, title) => {
+  const primaryType = articleTypes[0];
+  const titleLower = title.toLowerCase();
+  
+  switch (primaryType) {
+    case "ScholarlyArticle":
+      return "Philosophical Analysis";
+    case "OpinionNewsArticle": 
+      return "Opinion Piece";
+    case "AnalysisNewsArticle":
+      return "Trend Analysis";
+    case "MedicalScholarlyArticle":
+      return "Health Research";
+    case "TechArticle":
+      return "Technology Analysis";
+    case "Review":
+      return "Critical Review";
+    case "HowTo":
+      return "Practical Guide";
+    case "Interview":
+      return "Expert Interview";
+    case "CriticalEssay":
+      return "Critical Essay";
+    default:
+      if (titleLower.includes("?")) {
+        return "Investigative Piece";
+      }
+      return "Commentary";
+  }
+};
+
+// Get educational level
+const getEducationalLevel = (articleTypes, topics) => {
+  if (articleTypes.includes("ScholarlyArticle")) {
+    const topicNames = topics.map(t => t.name.toLowerCase()).join(" ");
+    if (topicNames.match(/phenomenology|ontology|epistemology|metaphysics|dialectical/)) {
+      return "Graduate";
+    }
+    return "Undergraduate";
+  }
+  
+  if (articleTypes.includes("HowTo")) {
+    return "Beginner";
+  }
+  
+  return null;
+};
+
 (async () => {
   let items = [];
   try { items = JSON.parse(await fs.readFile(DB, "utf8")); } catch { items = []; }
@@ -153,9 +437,20 @@ const getISSN = (platform) => {
       sameAsUrls.push(a.alternateUrl);
     }
     
-    // Build the item object with complete structured data
+    // INTELLIGENT CLASSIFICATION - analyze content for rich connections
+    const articleTypes = classifyArticleType(a.title, description);
+    const { topics, mentions } = extractTopics(a.title, description);
+    const academicDiscipline = getAcademicDiscipline(topics, articleTypes);
+    const genre = getGenre(articleTypes, a.title);
+    const educationalLevel = getEducationalLevel(articleTypes, topics);
+    
+    // Extract keywords from topics
+    const extractedKeywords = topics.map(t => t.name).join(", ");
+    const finalKeywords = extractedKeywords || (a.keywords || a.tags || "");
+    
+    // Build the item object with enhanced structured data and rich connections
     const itemObj = {
-      "@type":"Article",
+      "@type": articleTypes, // Can be array for multiple types
       "@id": shadowUrl,
       "name": a.title,
       "description": description,
@@ -176,13 +471,54 @@ const getISSN = (platform) => {
       "sameAs": sameAsUrls
     };
     
-    // Add optional fields if they exist
-    if (a.dateModified) {
-      itemObj.dateModified = a.dateModified + "T00:00:00Z";
+    // Add rich intellectual connections
+    if (topics.length > 0) {
+      itemObj.about = topics;
     }
     
-    if (a.keywords || a.tags) {
-      itemObj.keywords = a.keywords || a.tags;
+    if (mentions.length > 0) {
+      itemObj.mentions = mentions;
+    }
+    
+    if (finalKeywords) {
+      itemObj.keywords = finalKeywords;
+    }
+    
+    if (academicDiscipline) {
+      itemObj.academicDiscipline = academicDiscipline;
+    }
+    
+    if (genre) {
+      itemObj.genre = genre;
+    }
+    
+    if (educationalLevel) {
+      itemObj.educationalLevel = educationalLevel;
+    }
+    
+    // Add relationship indicators
+    const titleLower = a.title.toLowerCase();
+    if (titleLower.includes("implications of") || titleLower.includes("impact of")) {
+      itemObj.contentReferenceTime = "future"; // Indicates forward-looking analysis
+    }
+    
+    if (titleLower.includes("revisited") || titleLower.includes("part 2") || titleLower.includes("further thoughts")) {
+      itemObj.isBasedOn = "Previous work by Daniel Lehewych"; // Indicates building on previous ideas
+    }
+    
+    // Add contributor for interviews
+    const intervieweeMatch = mentions.find(m => m.roleName === "Interviewee");
+    if (intervieweeMatch) {
+      itemObj.contributor = {
+        "@type": "Person",
+        "name": intervieweeMatch.name,
+        "roleName": "Interviewee"
+      };
+    }
+    
+    // Add optional existing fields
+    if (a.dateModified) {
+      itemObj.dateModified = a.dateModified + "T00:00:00Z";
     }
     
     if (a.articleSection || a.section) {
