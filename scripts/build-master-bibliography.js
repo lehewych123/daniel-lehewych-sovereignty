@@ -10,123 +10,134 @@ const OUTBOX = path.join(__dirname, "..", "data", "outbox");
 
 const slug = s => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-// ISSN mappings for legitimate publications
+// ISSN mappings - corrected and simplified
 const ISSN_MAP = {
-  // Current platforms
-  "Medium": "2168-8878",
+  // Verified ISSNs from authoritative sources:
   "Newsweek": "0028-9604",
-  "BigThink": "2573-7651",
-  "Big Think": "2573-7651",
-  "Allwork.Space": "2693-9304",
-  "PsychCentral": "1930-7810",
-  "Psych Central": "1930-7810",
-  "Qure.ai": "2581-8104",
-  "Interesting Engineering": "2333-5084",
-  "Freethink": "2573-7317",
-  
-  // Major editorial/magazine outlets
-  "Harvard Business Review": "0017-8012",
+  "Harvard Business Review": "0017-8012", 
   "MIT Technology Review": "1099-274X",
-  "The Atlantic": "1072-7825",
-  "The New Yorker": "0028-792X",
-  "Wired": "1059-1028",
-  "Fast Company": "1085-9241",
-  "Forbes": "0015-6914",
-  "Inc.": "0162-8968",
-  "Entrepreneur": "0163-3341",
-  
-  // Scientific publications
-  "Scientific American": "0036-8733",
-  "Nature": "0028-0836",
   "Science": "0036-8075",
-  "PLOS ONE": "1932-6203",
-  
-  // Philosophy outlets
-  "Philosophy Now": "0961-5970",
-  "Aeon": "2633-5921",
-  "Quillette": "2573-7228",
-  "3 Quarks Daily": "2573-7880",
-  
-  // Tech publications
-  "TechCrunch": "2156-2652",
-  "Ars Technica": "1945-8266",
-  "The Verge": "2334-9603",
-  "IEEE Spectrum": "0018-9235",
-  
-  // Medical/Psychology publications
-  "Psychology Today": "0033-3107",
+  "Nature": "0028-0836",
+  "Scientific American": "0036-8733",
+  "The Atlantic": "1072-7825",
+  "The Economist": "0013-0613",
   "The Lancet": "0140-6736",
   "JAMA": "0098-7484",
   "BMJ": "0959-8138",
-  
-  // Policy/Economics
-  "The Economist": "0013-0613",
+  "Forbes": "0015-6914",
+  "Inc.": "0162-8968",
+  "Entrepreneur": "0163-3341",
+  "Wired": "1059-1028",
+  "Psychology Today": "0033-3107",
   "Foreign Policy": "0015-7228",
   "Foreign Affairs": "0015-7120",
   
-  // General interest
-  "Slate": "1091-2339",
-  "Salon": "1078-0432",
-  "Vox": "2376-9793",
-  "The Conversation": "2201-5639"
+  // Web platforms WITHOUT ISSNs (return empty string):
+  "Medium": "",
+  "BigThink": "",
+  "Big Think": "",
+  "Allwork.Space": "",
+  "Allwork": "",
+  "Qure.ai": "",
+  "Freethink": "",
+  "PsychCentral": "",
+  "Psych Central": "",
+  "Interesting Engineering": "",
+  
+  // Philosophy/culture sites (most are web-only):
+  "Philosophy Now": "0961-5970",
+  "Aeon": "",
+  "Quillette": "",
+  "3 Quarks Daily": "",
+  "The Conversation": "",
+  
+  // Default for unknown platforms:
+  "default": ""
 };
 
-// Get ISSN for a platform, with fallback for unknown platforms
+// Function to get ISSN - simplified
 const getISSN = (platform) => {
-  if (!platform) return "";
-  
-  // First try exact match
-  if (ISSN_MAP[platform]) return ISSN_MAP[platform];
-  
-  // Try case-insensitive match
-  const normalized = platform.toLowerCase();
-  for (const [key, value] of Object.entries(ISSN_MAP)) {
-    if (key.toLowerCase() === normalized) return value;
-  }
-  
-  // Default empty for unknown platforms
-  return "";
+  return ISSN_MAP[platform] || ISSN_MAP["default"] || "";
 };
 
-// Intelligent content classification system
+// Intelligent content classification system - improved logic
 const classifyArticleType = (title, description) => {
   const text = (title + " " + (description || "")).toLowerCase();
   
-  // Primary type classification
-  if (text.match(/\b(phenomenology|husserl|heidegger|sartre|consciousness|being|dasein|intentionality|ontology|metaphysics|epistemology|cartesian|spinoza|kant|nietzsche|aristotle|plato|dialectic)\b/)) {
-    return ["ScholarlyArticle", "Article"];
-  }
-  
-  if (text.match(/\b(should|must|ought|need to|have to|argument|critique|against|for|position|stance|case for|case against)\b/) || text.includes("?")) {
-    return ["OpinionNewsArticle", "Article"];
-  }
-  
-  if (text.match(/\b(future of|trend|analysis|data|research|study|findings|report|survey|statistics|forecast|prediction|implications|impact of)\b/)) {
-    return ["AnalysisNewsArticle", "Article"];
-  }
-  
-  if (text.match(/\b(medical|health|clinical|therapy|treatment|diagnosis|protein|nutrition|supplements|injury|recovery|exercise|fitness|mental health|depression|anxiety)\b/)) {
-    return ["MedicalScholarlyArticle", "Article"];
-  }
-  
-  if (text.match(/\b(artificial intelligence|machine learning|ai|algorithm|automation|technology|neural network|deep learning|llm|gpt|computer|software|digital)\b/)) {
-    return ["TechArticle", "Article"];
-  }
-  
-  if (text.match(/\b(review|evaluation|assessment|critique of|analysis of|examining|book review)\b/)) {
-    return ["Review", "Article"];
-  }
-  
-  if (text.match(/\b(how to|guide|tutorial|tips|steps|strategies|methods|ways to|secrets to)\b/)) {
-    return ["HowTo", "Article"];
-  }
-  
-  if (text.match(/\b(interview with|conversation with|q&a|questions|discussion with)\b/)) {
+  // Check for interviews FIRST (highest priority)
+  if (text.match(/\b(interview with|conversation with|q&a|questions|discussion with|interview:)\b/i)) {
+    // Medical/health interview
+    if (text.match(/\b(dr\.|doctor|medical|health|protein|nutrition|therapy|injury|recovery)\b/)) {
+      return ["Interview", "MedicalScholarlyArticle", "Article"];
+    }
     return ["Interview", "Article"];
   }
   
-  if (text.match(/\b(deconstruction|critical theory|frankfurt school|postmodern|dialectical|hegemony|ideology)\b/)) {
-    return ["CriticalEssay", "Article"];
+  // Philosophy - check for philosophical content
+  if (text.match(/\b(phenomenology|husserl|heidegger|sartre|consciousness|being|dasein|intentionality|ontology|metaphysics|epistemology|cartesian|spinoza|kant|nietzsche|aristotle|plato|socrates|dialectic|existential|philosophical)\b/)) {
+    return ["ScholarlyArticle", "Article"];
+  }
+  
+  // Critical Theory and deconstruction
+  if (text.match(/\b(deconstruction|critical theory|frankfurt school|postmodern|dialectical|hegemony|ideology|foucault|derrida)\b/)) {
+    return ["CriticalEssay", "ScholarlyArticle", "Article"];
+  }
+  
+  // Medical/Health content
+  if (text.match(/\b(medical|clinical|diagnosis|treatment|patient|surgery|disease|syndrome)\b/)) {
+    return ["MedicalScholarlyArticle", "Article"];
+  }
+  
+  // Health/Fitness/Nutrition (non-medical)
+  if (text.match(/\b(protein|nutrition|supplements|exercise|fitness|workout|training|diet|muscle|fat loss|injury recovery)\b/)) {
+    // If it's a how-to guide
+    if (text.match(/\b(how to|guide|tips|steps|strategies|definitive guide|secrets)\b/)) {
+      return ["HowTo", "Article"];
+    }
+    return ["AnalysisNewsArticle", "Article"];
+  }
+  
+  // Technology and AI
+  if (text.match(/\b(artificial intelligence|machine learning|\bai\b|algorithm|automation|neural network|deep learning|llm|gpt|chatgpt|technology|software|digital)\b/)) {
+    // If discussing implications or future
+    if (text.match(/\b(future of|implications|impact|ethics|should|must)\b/)) {
+      return ["AnalysisNewsArticle", "TechArticle", "Article"];
+    }
+    return ["TechArticle", "Article"];
+  }
+  
+  // Work and workplace culture
+  if (text.match(/\b(workplace|remote work|hybrid work|coworking|future of work|great resignation|employee|employer|job|career|labor)\b/)) {
+    // Opinion pieces about work
+    if (text.match(/\b(should|must|need to|why|how to)\b/)) {
+      return ["OpinionNewsArticle", "Article"];
+    }
+    // Analysis of trends
+    if (text.match(/\b(future|trend|forecast|prediction|impact|implications)\b/)) {
+      return ["AnalysisNewsArticle", "Article"];
+    }
+    return ["Article"];
+  }
+  
+  // Book/media reviews
+  if (text.match(/\b(book review|review of|evaluation of|critique of|analysis of)\b/)) {
+    return ["Review", "Article"];
+  }
+  
+  // How-to guides and tutorials
+  if (text.match(/\b(how to|guide to|tutorial|tips for|steps to|strategies for|methods|ways to|secrets to|definitive guide)\b/)) {
+    return ["HowTo", "Article"];
+  }
+  
+  // Opinion pieces - check for opinion indicators
+  if (text.match(/\b(should|must|ought|need to|have to|argument|critique|against|why we|why you|case for|case against)\b/) || 
+      (text.includes("?") && !text.match(/\b(what is|how does|can you explain)\b/))) {
+    return ["OpinionNewsArticle", "Article"];
+  }
+  
+  // Analysis and research
+  if (text.match(/\b(future of|trend|analysis|data|research|study|findings|report|survey|statistics|forecast|prediction|implications of|impact of|state of)\b/)) {
+    return ["AnalysisNewsArticle", "Article"];
   }
   
   return ["Article"]; // Default
@@ -177,24 +188,34 @@ const extractTopics = (title, description) => {
     "technology": "Technology"
   };
   
-  // Healthcare
+  // Healthcare - expanded and improved
   const healthTerms = {
     "protein": "Protein Science",
     "nutrition": "Nutrition",
     "functional medicine": "Functional Medicine",
+    "functional manual therapy": "Manual Therapy",
+    "manual therapy": "Manual Therapy",
+    "physical therapy": "Physical Therapy",
     "injury recovery": "Injury Recovery",
+    "injury rehabilitation": "Injury Rehabilitation",
     "supplements": "Dietary Supplements",
+    "dietary supplements": "Dietary Supplements",
     "exercise": "Exercise Science",
     "fitness": "Physical Fitness",
+    "resistance training": "Resistance Training",
+    "weight training": "Weight Training",
+    "cardio": "Cardiovascular Exercise",
     "longevity": "Longevity Science",
     "health": "Health Sciences"
   };
   
-  // Mental Health
+  // Mental Health - differentiated from physical therapy
   const mentalHealthTerms = {
     "depression": "Depression",
     "anxiety": "Anxiety Disorders",
-    "therapy": "Psychotherapy",
+    "psychotherapy": "Psychotherapy",
+    "cognitive therapy": "Cognitive Therapy",
+    "mental health therapy": "Mental Health Therapy",
     "mindfulness": "Mindfulness",
     "meditation": "Meditation",
     "psychological": "Psychology",
@@ -283,11 +304,47 @@ const extractTopics = (title, description) => {
     }
   }
   
-  // Extract interview subjects
-  const interviewMatch = title.match(/interview with (.+?)(?:,|$|\.|:)/i);
-  if (interviewMatch) {
-    const name = interviewMatch[1].trim();
-    mentions.push({"@type": "Person", "name": name, "roleName": "Interviewee"});
+  // Extract interview subjects - improved to get full names
+  // Use title (not lowercased text) for better name extraction
+  const interviewPatterns = [
+    /Interview [Ww]ith (.+?)(?:$|\n)/i,
+    /Interview: (.+?)(?:$|\n)/i,
+    /Q&A [Ww]ith (.+?)(?:$|\n)/i,
+    /Conversation [Ww]ith (.+?)(?:$|\n)/i,
+    /Discussion [Ww]ith (.+?)(?:$|\n)/i
+  ];
+  
+  for (const pattern of interviewPatterns) {
+    const match = title.match(pattern);
+    if (match) {
+      let name = match[1].trim();
+      
+      // Clean up common trailing punctuation
+      name = name.replace(/[,.:;]+$/, '');
+      
+      // If name contains "PT" or "Ph.D." etc, extract up to those credentials
+      const credentialMatch = name.match(/^(.+?)\s+(PT|Ph\.?D|MD|NCS|CFMT|DPT|MS|BS|BA|MA)(\b|,)/i);
+      if (credentialMatch) {
+        name = credentialMatch[1].trim();
+      }
+      
+      // Keep full name with title if present
+      if (name && name.length > 2) {
+        mentions.push({"@type": "Person", "name": name, "roleName": "Interviewee"});
+      }
+      break; // Only process first match
+    }
+  }
+  
+  // Also check for Dr. mentions in the original title (not lowercased)
+  const doctorPattern = /Dr\.?\s+([A-Z][a-z]+(?:\s+[A-Z]\.?\s*)?(?:\s+[A-Z][a-z]+)*)/g;
+  let doctorMatch;
+  while ((doctorMatch = doctorPattern.exec(title)) !== null) {
+    const fullName = "Dr. " + doctorMatch[1];
+    // Check if not already added
+    if (!mentions.some(m => m.name === fullName || m.name.includes(doctorMatch[1]))) {
+      mentions.push({"@type": "Person", "name": fullName});
+    }
   }
   
   return { topics, mentions };
@@ -380,13 +437,23 @@ const getEducationalLevel = (articleTypes, topics) => {
     process.exit(0);
   }
 
-  // Sort by date ascending; tie-break by title
-  items.sort((a, b) => (a.date || "").localeCompare(b.date || "") || (a.title||"").localeCompare(b.title||""));
+  // Sort by date DESCENDING (newest first) to match /archive order
+  items.sort((a, b) => {
+    const dateA = a.date || "1970-01-01";
+    const dateB = b.date || "1970-01-01";
+    // Sort descending (newest first)
+    const dateCompare = dateB.localeCompare(dateA);
+    // If dates are equal, sort by title ascending
+    return dateCompare !== 0 ? dateCompare : (a.title || "").localeCompare(b.title || "");
+  });
 
   const list = {
     "@context":"https://schema.org",
     "@type":"ItemList",
-    "name":"Daniel Lehewych — Master Bibliography",
+    "@id": "https://daniellehewych.org/#complete-bibliography",
+    "name": "Complete Works of Daniel Lehewych",
+    "description": "Comprehensive bibliography of all published works by Daniel Lehewych across all platforms",
+    "author": {"@id": "https://daniellehewych.org/#daniel-lehewych"},
     "numberOfItems": items.length,
     "itemListElement": []
   };
