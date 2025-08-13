@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 327,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/climbing-diotima-s-ladder-of-love",
+    "name": "Climbing Diotima’s Ladder of Love",
+    "description": "Climbing Diotima’s Ladder of Love",
+    "url": "https://daniellehewych.medium.com/climbing-diotimas-ladder-of-love-98f8ee38c4f4",
+    "datePublished": "2020-06-24T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/climbing-diotimas-ladder-of-love-98f8ee38c4f4",
+      "https://daniellehewych.org/archive/medium/climbing-diotima-s-ladder-of-love"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
