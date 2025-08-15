@@ -45,7 +45,7 @@ jobs:
           username: ${{ secrets.SMTP_USER }}
           password: ${{ secrets.SMTP_PASS }}
           secure: true
-          from: ${{ secrets.MAIL_FROM }}
+          from: Daniel Lehewych <${{ secrets.SMTP_USERNAME }}>
           to: ${{ secrets.MAIL_TO }}
           subject: "SOV-ARCH Outbox · ${{ github.repository }} · Run #${{ github.run_number }}"
           convert_markdown: true
