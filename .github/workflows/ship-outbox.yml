@@ -42,8 +42,8 @@ jobs:
         with:
           server_address: ${{ secrets.SMTP_HOST }}
           server_port: ${{ secrets.SMTP_PORT }}
-          username: ${{ secrets.SMTP_USER }}
-          password: ${{ secrets.SMTP_PASS }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
           secure: true
           from: Daniel Lehewych <${{ secrets.SMTP_USERNAME }}>
           to: ${{ secrets.MAIL_TO }}
