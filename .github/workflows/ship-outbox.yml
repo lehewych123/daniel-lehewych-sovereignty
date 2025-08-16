@@ -28,6 +28,11 @@ jobs:
           if (( ${#files[@]} > 0 )); then
             echo "present=true" >> "$GITHUB_OUTPUT"
             echo "count=${#files[@]}" >> "$GITHUB_OUTPUT"
+            # Create a simple notification if missing
+            if [ ! -f data/notification.md ]; then
+              echo "# Outbox Shipment" > data/notification.md
+              echo "Shipping ${#files[@]} files from outbox" >> data/notification.md
+            fi
           else
             echo "present=false" >> "$GITHUB_OUTPUT"
           fi
@@ -38,15 +43,15 @@ jobs:
 
       - name: Send email with outbox
         if: steps.scan.outputs.present == 'true'
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v4
         with:
-          server_address: ${{ secrets.SMTP_HOST }}
-          server_port: ${{ secrets.SMTP_PORT }}
+          server_address: smtp.gmail.com
+          server_port: 465
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
           secure: true
           from: Daniel Lehewych <${{ secrets.SMTP_USERNAME }}>
-          to: ${{ secrets.EMAIL_TO }}
+          to: lehewych123@gmail.com, daniel.lehewych.writer@gmail.com, dlehewych@gradcenter.cuny.edu
           subject: "SOV-ARCH Outbox · ${{ github.repository }} · Run #${{ github.run_number }}"
           convert_markdown: true
           html_body: file://data/notification.md
