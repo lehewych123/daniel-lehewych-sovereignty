@@ -32,6 +32,8 @@ jobs:
             if [ ! -f data/notification.md ]; then
               echo "# Outbox Shipment" > data/notification.md
               echo "Shipping ${#files[@]} files from outbox" >> data/notification.md
+              echo "" >> data/notification.md
+              echo "Note: Large payloads (>20MB) will be compressed automatically." >> data/notification.md
             fi
           else
             echo "present=false" >> "$GITHUB_OUTPUT"
@@ -41,8 +43,34 @@ jobs:
         if: steps.scan.outputs.present == 'false'
         run: echo "No outbox found (no new/updated items). Skipping." && exit 0
 
-      - name: Send email with outbox
+      - name: Check outbox size and prepare payload
+        id: prep
         if: steps.scan.outputs.present == 'true'
+        run: |
+          # Calculate total size
+          total_size=$(du -sb data/outbox | cut -f1)
+          mb_size=$((total_size / 1048576))
+          echo "Total size: ${mb_size}MB"
+          echo "size_mb=${mb_size}" >> "$GITHUB_OUTPUT"
+          
+          # If over 20MB, create a compressed archive instead
+          if [ $mb_size -gt 20 ]; then
+            echo "Size exceeds 20MB, creating compressed archive..."
+            cd data
+            tar -czf outbox-archive.tar.gz outbox/
+            cd ..
+            echo "use_archive=true" >> "$GITHUB_OUTPUT"
+            echo "Created compressed archive: $(du -h data/outbox-archive.tar.gz | cut -f1)"
+          else
+            echo "use_archive=false" >> "$GITHUB_OUTPUT"
+          fi
+          
+          # Count articles for reporting
+          article_count=$(find data/outbox -name 'meta.json' | wc -l)
+          echo "article_count=${article_count}" >> "$GITHUB_OUTPUT"
+
+      - name: Send email with direct attachments (small payload)
+        if: steps.scan.outputs.present == 'true' && steps.prep.outputs.use_archive == 'false'
         uses: dawidd6/action-send-mail@v4
         with:
           server_address: smtp.gmail.com
@@ -52,14 +80,35 @@ jobs:
           secure: true
           from: Daniel Lehewych <${{ secrets.SMTP_USERNAME }}>
           to: lehewych123@gmail.com, daniel.lehewych.writer@gmail.com, dlehewych@gradcenter.cuny.edu
-          subject: "SOV-ARCH Outbox · ${{ github.repository }} · Run #${{ github.run_number }}"
+          subject: "SOV-ARCH Outbox · ${{ steps.prep.outputs.article_count }} articles · ${{ github.repository }}"
           convert_markdown: true
           html_body: file://data/notification.md
           attachments: |
-            data/outbox/**/header.html
-            data/outbox/**/page.html
-            data/outbox/**/schema.json
-            data/outbox/**/topic.json
-            data/outbox/**/related.json
-            data/outbox/**/bib.json
             data/outbox/**/meta.json
+            data/notification.md
+
+      - name: Send email with compressed archive (large payload)
+        if: steps.scan.outputs.present == 'true' && steps.prep.outputs.use_archive == 'true'
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          secure: true
+          from: Daniel Lehewych <${{ secrets.SMTP_USERNAME }}>
+          to: lehewych123@gmail.com, daniel.lehewych.writer@gmail.com, dlehewych@gradcenter.cuny.edu
+          subject: "SOV-ARCH Outbox [COMPRESSED] · ${{ steps.prep.outputs.article_count }} articles · ${{ github.repository }}"
+          body: |
+            The outbox payload exceeded 20MB and has been compressed.
+            Total articles: ${{ steps.prep.outputs.article_count }}
+            
+            Extract the attached archive to access all outbox files.
+          attachments: |
+            data/outbox-archive.tar.gz
+            data/notification.md
+
+      - name: Cleanup temporary files
+        if: always()
+        run: |
+          rm -f data/outbox-archive.tar.gz
