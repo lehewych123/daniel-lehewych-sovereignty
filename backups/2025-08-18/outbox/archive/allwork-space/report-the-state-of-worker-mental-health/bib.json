@@ -1,0 +1,50 @@
+{
+  "@type": "ListItem",
+  "position": 211,
+  "item": {
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/report-the-state-of-worker-mental-health",
+    "name": "Report: The State of Worker Mental Health",
+    "description": "Report: The State of Worker Mental Health",
+    "url": "https://allwork.space/2022/06/report-the-state-of-worker-mental-health/",
+    "datePublished": "2022-06-15T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2022/06/report-the-state-of-worker-mental-health/",
+      "https://daniellehewych.org/archive/allwork-space/report-the-state-of-worker-mental-health"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      },
+      {
+        "@type": "Thing",
+        "name": "Mental Health"
+      }
+    ],
+    "keywords": "Health Sciences, Mental Health",
+    "genre": "Trend Analysis",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@type": "ListItem",
+  "position": 168,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/four-great-stretches-to-help-alleviate-pain-withou",
+    "name": "Four Great Stretches To Help Alleviate Pain Without Leaving Your Desk",
+    "description": "Four Great Stretches To Help Alleviate Pain Without Leaving Your Desk",
+    "url": "https://allwork.space/2022/10/four-great-stretches-to-help-alleviate-pain-without-leaving-your-desk/",
+    "datePublished": "2022-10-26T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2022/10/four-great-stretches-to-help-alleviate-pain-without-leaving-your-desk/",
+      "https://daniellehewych.org/archive/allwork-space/four-great-stretches-to-help-alleviate-pain-withou"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
