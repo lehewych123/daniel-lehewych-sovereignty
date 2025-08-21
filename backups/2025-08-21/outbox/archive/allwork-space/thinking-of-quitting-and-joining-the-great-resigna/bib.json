@@ -1,0 +1,46 @@
+{
+  "@type": "ListItem",
+  "position": 281,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/thinking-of-quitting-and-joining-the-great-resigna",
+    "name": "Thinking of Quitting and Joining the Great Resignation? Here’s How to Do it Right",
+    "description": "Thinking of Quitting and Joining the Great Resignation? Here’s How to Do it Right",
+    "url": "https://allwork.space/2021/10/thinking-of-quitting-and-joining-the-great-resignation-heres-how-to-do-it-right/",
+    "datePublished": "2021-10-19T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2021/10/thinking-of-quitting-and-joining-the-great-resignation-heres-how-to-do-it-right/",
+      "https://daniellehewych.org/archive/allwork-space/thinking-of-quitting-and-joining-the-great-resigna"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Great Resignation"
+      }
+    ],
+    "keywords": "Great Resignation",
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
