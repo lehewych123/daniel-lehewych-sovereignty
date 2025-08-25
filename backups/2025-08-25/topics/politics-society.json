@@ -1,0 +1,360 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Topic: Politics & Society",
+  "numberOfItems": 32,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-we-can-protect-democracy-without-losing-our-va",
+        "name": "How We Can Protect Democracy Without Losing Our Values",
+        "url": "https://medium.com/grim-tidings/how-we-can-protect-democracy-without-losing-our-values-2361e7e9891b",
+        "datePublished": "2024-11-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/what-is-social-intelligence",
+        "name": "What is Social Intelligence?",
+        "url": "https://daniellehewych.medium.com/what-is-social-intelligence-2bcb518d5437",
+        "datePublished": "2024-06-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-politicking",
+        "name": "The Phenomenology of Politicking",
+        "url": "https://daniellehewych.medium.com/the-phenomenology-of-politicking-be1db25d4871",
+        "datePublished": "2024-05-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-political-dilemma-of-balancing-international-h",
+        "name": "The Political Dilemma of Balancing International Hospitality with Domestic Concerns",
+        "url": "https://daniellehewych.medium.com/the-political-dilemma-of-balancing-international-hospitality-with-domestic-concerns-5ae829c268e9",
+        "datePublished": "2024-02-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/a-critique-of-social-values",
+        "name": "A Critique of Social Values",
+        "url": "https://medium.com/illumination/a-critique-of-social-values-65d434993e44",
+        "datePublished": "2024-01-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
+        "name": "AI for good - How activating radiology AI can enhance public health & social equity",
+        "url": "https://www.qure.ai/blog/ai-for-good-how-activating-radiology-ai-can-enhance-public%20health-social-equity",
+        "datePublished": "2023-10-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/machiavelli-s-political-philosophy",
+        "name": "Machiavelli’s Political Philosophy",
+        "url": "https://medium.com/illumination/machiavellis-political-philosophy-5cf71bc4caa4",
+        "datePublished": "2023-04-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
+        "name": "Ron DeSantis is Having His \"Don Quixote\" Moment",
+        "url": "https://www.newsweek.com/ron-desantis-having-his-don-quixote-moment-opinion-1791875",
+        "datePublished": "2023-04-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper",
+        "name": "The Gaza Strip is a Quintessential Symbol of Hyperpartisanship",
+        "url": "https://www.newsweek.com/gaza-strip-quintessential-symbol-hyperpartisanship-opinion-1784721",
+        "datePublished": "2023-03-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like",
+        "name": "What Democratic Populism Could Look Like",
+        "url": "https://www.newsweek.com/what-democratic-populism-could-look-like-opinion-1764270",
+        "datePublished": "2022-12-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-false-equivalence-between-the-far-left-and-far",
+        "name": "The 'False Equivalence' Between the Far-Left and Far-Right",
+        "url": "https://www.newsweek.com/false-equivalence-between-far-left-far-right-opinion-1736759",
+        "datePublished": "2022-09-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d",
+        "name": "The Intentional Stance and its Role in Political Discourse",
+        "url": "https://www.newsweek.com/intentional-stance-its-role-political-discourse-opinion-1728829",
+        "datePublished": "2022-08-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/crumbling-infrastructure-in-new-york-city-will-cos",
+        "name": "Crumbling Infrastructure in New York City Will Cost Lives if Gone Unfixed",
+        "url": "https://www.newsweek.com/crumbling-infrastructure-new-york-city-will-cost-lives-if-gone-unfixed-opinion-1714094",
+        "datePublished": "2022-06-10T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex",
+        "name": "Mental Health Messaging Needs To Address Social Exclusion",
+        "url": "https://daniellehewych.medium.com/mental-health-messaging-needs-to-address-social-exclusion-42b540fbf12c",
+        "datePublished": "2022-04-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-great-resignation-will-be-good-for-corporation",
+        "name": "The Great Resignation Will be Good for Corporations, Not Workers",
+        "url": "https://www.newsweek.com/great-resignation-will-good-corporations-not-workers-opinion-1654089",
+        "datePublished": "2021-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-medical-system-is-at-its-tipping-point",
+        "name": "The Medical System is at its Tipping Point",
+        "url": "https://www.newsweek.com/medical-system-its-tipping-point-opinion-1646492",
+        "datePublished": "2021-11-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/new-york-will-become-a-climate-change-hotspot",
+        "name": "New York Will Become a Climate Change Hotspot",
+        "url": "https://www.newsweek.com/new-york-will-become-climate-change-hotspot-opinion-1635958",
+        "datePublished": "2021-10-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/hyperpartisanship-is-ruining-america",
+        "name": "Hyperpartisanship is Ruining America",
+        "url": "https://www.newsweek.com/hyperpartisanship-ruining-america-opinion-1629005",
+        "datePublished": "2021-09-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/children-should-be-taught-philosophy-in-school",
+        "name": "Children Should be Taught Philosophy in School",
+        "url": "https://www.newsweek.com/children-should-taught-philosophy-school-opinion-1624698",
+        "datePublished": "2021-09-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/freelancers-need-union-protections",
+        "name": "Freelancers Need Union Protections",
+        "url": "https://www.newsweek.com/freelancers-need-union-protections-opinion-1616655",
+        "datePublished": "2021-08-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/who-is-behind-the-internet-s-hatred-of-joe-biden",
+        "name": "Who is Behind the Internet's Hatred of Joe Biden?",
+        "url": "https://www.newsweek.com/who-behind-internets-hatred-joe-biden-opinion-1609350",
+        "datePublished": "2021-07-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/credentialism-and-its-pitfalls",
+        "name": "Credentialism and its Pitfalls",
+        "url": "https://www.newsweek.com/credentialism-its-pitfalls-opinion-1604285",
+        "datePublished": "2021-06-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/managers-need-to-adapt-to-remote-work",
+        "name": "Managers Need to Adapt to Remote Work",
+        "url": "https://www.newsweek.com/managers-need-adapt-remote-work-opinion-1603062",
+        "datePublished": "2021-06-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-importance-of-funding-public-colleges",
+        "name": "The Importance of Funding Public Colleges",
+        "url": "https://www.newsweek.com/importance-funding-public-colleges-opinion-1598346",
+        "datePublished": "2021-06-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/white-progressives-are-hypocrites-on-gentrificatio",
+        "name": "White Progressives are Hypocrites on Gentrification",
+        "url": "https://www.newsweek.com/white-progressives-are-hypocrites-gentrification-opinion-1596875",
+        "datePublished": "2021-06-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/nyc-s-260-million-little-island-park-is-a-waste-of",
+        "name": "NYC's $260 Million Little Island Park is a Waste of Money",
+        "url": "https://www.newsweek.com/nycs-260-million-little-island-park-waste-money-opinion-1594822",
+        "datePublished": "2021-05-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/how-to-get-the-rich-to-pay-taxes",
+        "name": "How to Get the Rich to Pay Taxes",
+        "url": "https://www.newsweek.com/how-get-rich-pay-taxes-opinion-1590609",
+        "datePublished": "2021-05-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/ubi-is-the-economic-response-to-climate-change",
+        "name": "UBI is the Economic Response to Climate Change",
+        "url": "https://www.newsweek.com/ubi-economic-response-climate-change-opinion-1586842",
+        "datePublished": "2021-04-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/identity-politics-are-toxic",
+        "name": "Identity Politics are Toxic",
+        "url": "https://www.newsweek.com/identity-politics-are-toxic-opinion-1581059",
+        "datePublished": "2021-04-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-future-of-the-u-s-prison-system",
+        "name": "The Future of the U.S. Prison System",
+        "url": "https://www.newsweek.com/future-us-prison-system-opinion-1575862",
+        "datePublished": "2021-03-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/meaningfulness-its-moral-implications-and-the-path",
+        "name": "Meaningfulness, Its Moral Implications and the Path Forward",
+        "url": "https://www.newsweek.com/meaningfulness-its-moral-implications-path-forward-opinion-1572915",
+        "datePublished": "2021-03-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-and-the-social-dilemma",
+        "name": "Martin Heidegger and the Social Dilemma",
+        "url": "https://daniellehewych.medium.com/martin-heidegger-and-the-social-dilemma-acd6daa6ec56",
+        "datePublished": "2021-01-22T00:00:00Z"
+      }
+    }
+  ]
+}

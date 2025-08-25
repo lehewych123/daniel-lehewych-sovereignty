@@ -1,0 +1,39 @@
+{
+  "@type": "ListItem",
+  "position": 368,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/can-literature-make-us-worse-religious-scripture-a",
+    "name": "Can Literature Make Us Worse?: Religious Scripture as Literature.",
+    "description": "Can Literature Make Us Worse?: Religious Scripture as Literature.",
+    "url": "https://daniellehewych.medium.com/can-literature-make-us-worse-religious-scripture-as-literature-f60f041e7427",
+    "datePublished": "2019-10-23T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/can-literature-make-us-worse-religious-scripture-as-literature-f60f041e7427",
+      "https://daniellehewych.org/archive/medium/can-literature-make-us-worse-religious-scripture-a"
+    ],
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
