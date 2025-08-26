@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 48,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/gog-and-magog-in-the-book-of-ezekiel",
+    "name": "Gog and Magog in the Book of Ezekiel",
+    "description": "Gog and Magog in the Book of Ezekiel",
+    "url": "https://medium.com/illumination/gog-and-magog-in-the-book-of-ezekiel-402398aa1801",
+    "datePublished": "2024-02-22T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://medium.com/illumination/gog-and-magog-in-the-book-of-ezekiel-402398aa1801",
+      "https://daniellehewych.org/archive/medium/gog-and-magog-in-the-book-of-ezekiel"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
