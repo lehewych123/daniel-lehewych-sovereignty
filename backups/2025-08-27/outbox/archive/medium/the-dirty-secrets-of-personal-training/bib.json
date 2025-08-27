@@ -1,0 +1,47 @@
+{
+  "@type": "ListItem",
+  "position": 333,
+  "item": {
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/the-dirty-secrets-of-personal-training",
+    "name": "The Dirty Secrets of Personal Training",
+    "description": "The Dirty Secrets of Personal Training",
+    "url": "https://daniellehewych.medium.com/the-dirty-secrets-of-personal-training-3d3666441ae5",
+    "datePublished": "2020-02-11T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/the-dirty-secrets-of-personal-training-3d3666441ae5",
+      "https://daniellehewych.org/archive/medium/the-dirty-secrets-of-personal-training"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
