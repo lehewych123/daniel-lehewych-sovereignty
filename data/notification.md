@@ -1,17 +1,17 @@
-# Sovereignty System Report - 2025-08-27
+# Sovereignty System Report - 2025-08-28
 
 ## Updates (1)
 
-### 1. The Heterofatalism Trap (UPDATE v3)
+### 1. The Heterofatalism Trap (UPDATE v4)
 
-**Subject Line:** SOV-ARCH UPDATE v3 · Quillette · "The Heterofatalism Trap" · 2025-08-24
+**Subject Line:** SOV-ARCH UPDATE v4 · Quillette · "The Heterofatalism Trap" · 2025-08-24
 **Platform:** Quillette
 **Date:** 2025-08-24
 **URL:** https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times/
 **Type:** BlogPosting
 **Topics:** General
 **URL Slug:** `/archive/quillette/the-heterofatalism-trap`
-**Fingerprint:** 0a18a97930e2289788b3ad8f6ee2e09fcfb6f99561efef6f741e411480b31e0e
+**Fingerprint:** b7996e8e4a1e5bd04c1b8822d12e93ff0d4b5ebcbb02465eedf04593d78e6726
 **Outbox:** data/outbox/archive/quillette/the-heterofatalism-trap (header.html, page.html, schema.json, topic.json, related.json, bib.json, meta.json)
 **Change Detected:** Title or description modified
 
@@ -25,7 +25,7 @@
   "@type": "BlogPosting",
   "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap",
   "headline": "The Heterofatalism Trap",
-  "description": "3 days ago ... Essays about contemporary dating are mistaking cruelty for liberation. Daniel Lehewych. 24 Aug 2025 · 14 min read.",
+  "description": "4 days ago ... Essays about contemporary dating are mistaking cruelty for liberation. Daniel Lehewych. 24 Aug 2025 · 14 min read.",
   "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
   "author": {
     "@id": "https://daniellehewych.org/#daniel-lehewych"
@@ -161,7 +161,7 @@
     "@type": "Article",
     "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap",
     "name": "The Heterofatalism Trap",
-    "description": "3 days ago ... Essays about contemporary dating are mistaking cruelty for liberation. Daniel Lehewych. 24 Aug 2025 · 14 min read.",
+    "description": "4 days ago ... Essays about contemporary dating are mistaking cruelty for liberation. Daniel Lehewych. 24 Aug 2025 · 14 min read.",
     "url": "https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times/",
     "datePublished": "2025-08-24T00:00:00Z",
     "author": {
@@ -187,16 +187,19 @@
 
 ---
 
-## Skipped (for review): 2
+## Skipped (for review): 3
 
 - 1. **Podcast #299: A Jewish Girl in Revolutionary Iran** — https://quillette.com/2025/08/22/podcast-a-jewish-girl-in-revolutionary-iran-roya-hakakian/
   - Host: quillette.com
   - Reason: author-mismatch
-- 2. **Knee Wraps Squats Bodybuilding , Best Sale Black Car Wraps** — https://jacobmushi.com/?ahg=22.28498317.2.96
+- 2. **Quillette's Substack | Substack** — https://quillette.substack.com/
+  - Host: quillette.substack.com
+  - Reason: fetch-failed: HTTP 403
+- 3. **Knee Wraps Squats Bodybuilding , Best Sale Black Car Wraps** — https://jacobmushi.com/?ahg=22.28498317.2.96
   - Host: jacobmushi.com
   - Reason: author-mismatch
 
 ---
 
 ## Metadata
-work_id=https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times | fingerprint=0a18a97930e2289788b3ad8f6ee2e09fcfb6f99561efef6f741e411480b31e0e | version=3
+work_id=https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times | fingerprint=b7996e8e4a1e5bd04c1b8822d12e93ff0d4b5ebcbb02465eedf04593d78e6726 | version=4
