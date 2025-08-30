@@ -2,11 +2,22 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Topic: General",
-  "numberOfItems": 105,
+  "numberOfItems": 106,
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap",
+        "name": "The Heterofatalism Trap",
+        "url": "https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times/",
+        "datePublished": "2025-08-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-is-on-track-to-becoming-the-first-trillion-",
@@ -17,7 +28,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/bigthink/what-spinoza-can-teach-us-about-living-a-great-lif",
@@ -28,7 +39,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-myth-of-deservedness",
@@ -39,7 +50,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-ordinary-language-semantics-of-insecurity-and-",
@@ -50,7 +61,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-ambiguity-of-human-decision-making",
@@ -61,7 +72,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/honesty-and-dishonesty-in-mendaciousness",
@@ -72,7 +83,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/embrace-the-paradox-of-willing",
@@ -83,7 +94,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/on-the-genealogy-of-american-morality",
@@ -94,7 +105,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/virginia-woolf-acceptance-and-alienation",
@@ -105,7 +116,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-mathematics-of-enlightenment",
@@ -116,7 +127,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 12,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-parable-of-the-phantom-city-in-the-lotus-sutra",
@@ -127,7 +138,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 13,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/insights-from-zen-meditation",
@@ -138,7 +149,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 14,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/dogen-s-shobogenzo-zen-and-non-duality",
@@ -149,7 +160,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 15,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/merleau-ponty-the-phantom-limb-and-pareidolia",
@@ -160,7 +171,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 16,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-preeminence-of-audiences",
@@ -171,7 +182,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 17,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/what-is-the-context",
@@ -182,7 +193,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 18,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-generative-dynamics-of-language",
@@ -193,7 +204,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 19,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-limits-of-the-golden-rule-in-the-face-of-power",
@@ -204,7 +215,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 20,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-son-of-man-and-the-end-of-days",
@@ -215,7 +226,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 21,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-biblical-character-of-paul",
@@ -226,7 +237,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 22,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-eternal-recurrence-of-the-same-a-meditation-on",
@@ -237,7 +248,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 23,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-kingdom-of-ends-and-the-prioritization-of-more",
@@ -248,7 +259,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 24,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-will-to-power-as-art",
@@ -259,7 +270,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 25,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/dialetheism-in-ecclesiastes",
@@ -270,7 +281,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 26,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/divinity-as-genderless-in-world-religions",
@@ -281,7 +292,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 27,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/who-was-ralph-waldo-emerson",
@@ -292,7 +303,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 28,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/gog-and-magog-in-the-book-of-ezekiel",
@@ -303,7 +314,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 29,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-book-of-wanderings",
@@ -314,7 +325,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 30,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/convalescence",
@@ -325,7 +336,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 31,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/nietzsche-on-hatred-and-contempt",
@@ -336,7 +347,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 32,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/large-language-models-as-extensions-of-human-creat",
@@ -347,7 +358,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 33,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/nietzsche-s-napolean",
@@ -358,7 +369,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 34,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/why-i-prefer-medium-to-substack",
@@ -369,7 +380,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 35,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/on-the-authentic-pathway-to-creativity",
@@ -380,7 +391,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 36,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-utility-and-importance-of-the-inner-voice-in-r",
@@ -391,7 +402,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 37,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-dithyramb-of-a-weeping-apollo",
@@ -402,7 +413,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 37,
+      "position": 38,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony",
@@ -413,7 +424,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 38,
+      "position": 39,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/rethinking-the-kale-craze",
@@ -424,7 +435,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 39,
+      "position": 40,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/volkswagen-s-iconic-microbus-returns-as-an-electri",
@@ -435,7 +446,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 40,
+      "position": 41,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/russia-s-fsb-alleges-nsa-used-malware-to-exploit-a",
@@ -446,7 +457,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 41,
+      "position": 42,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/boeing-s-ceo-downplays-threat-from-china-s-c919-co",
@@ -457,7 +468,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 42,
+      "position": 43,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos",
@@ -468,7 +479,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 43,
+      "position": 44,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-panel-explores-the-enigma-of-unidentified-a",
@@ -479,7 +490,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 44,
+      "position": 45,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/china-accelerates-launch-of-large-language-models-",
@@ -490,7 +501,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 45,
+      "position": 46,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/us-ready-for-space-warfare-says-brigadier-general-",
@@ -501,7 +512,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 46,
+      "position": 47,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/twitter-the-fractured-mirror-of-our-collective-unc",
@@ -512,7 +523,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 47,
+      "position": 48,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",
@@ -523,7 +534,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 49,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/ford-partners-with-tesla-on-electric-vehicle-charg",
@@ -534,7 +545,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 50,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/federal-funding-to-bolster-colorado-river-system-s",
@@ -545,7 +556,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 51,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/virgin-galactic-sets-stage-for-final-test-flight-b",
@@ -556,7 +567,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 51,
+      "position": 52,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/lucy-spacecraft-adjusts-course-for-date-with-tiny-",
@@ -567,7 +578,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 52,
+      "position": 53,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/unlocking-the-mysteries-of-lava-worlds-a-guiding-l",
@@ -578,7 +589,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 53,
+      "position": 54,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/seti-institute-invites-public-to-participate-in-in",
@@ -589,7 +600,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 54,
+      "position": 55,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/florida-governor-ron-desantis-to-announce-presiden",
@@ -600,7 +611,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 56,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/how-can-we-understand-colors-better",
@@ -611,7 +622,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 56,
+      "position": 57,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/what-does-it-mean-to-be-a-better-human",
@@ -622,7 +633,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 57,
+      "position": 58,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/bigthink/the-real-reason-socrates-was-given-the-death-sente",
@@ -633,7 +644,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 58,
+      "position": 59,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/should-i-use-aluminum-free-deodorant",
@@ -644,7 +655,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 59,
+      "position": 60,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration",
@@ -655,7 +666,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 60,
+      "position": 61,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/how-to-use-turmeric-to-fight-the-norovirus",
@@ -666,7 +677,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 61,
+      "position": 62,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/why-fluoride-does-not-lower-iq",
@@ -677,7 +688,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 62,
+      "position": 63,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/how-bad-incentives-rule-modern-commerce",
@@ -688,7 +699,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 63,
+      "position": 64,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/daoist-lessons-for-life-from-zhuangzi-s-butterfly-",
@@ -699,7 +710,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 64,
+      "position": 65,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/pumpkin-seeds-and-prostate-cancer-prevention",
@@ -710,7 +721,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 65,
+      "position": 66,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medical-device-network/nanophotonic-devices-their-uses-and-impact",
@@ -721,7 +732,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 66,
+      "position": 67,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/bigthink/marcus-aurelius-son-was-a-murderous-psychopath-is-",
@@ -732,7 +743,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 67,
+      "position": 68,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/bigthink/the-subtle-art-of-language-why-artificial-general-",
@@ -743,7 +754,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 68,
+      "position": 69,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/anti-intellectualism-and-its-resultant-alienation",
@@ -754,7 +765,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 69,
+      "position": 70,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-fallaciousness-of-conceivability-arguments",
@@ -765,7 +776,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 70,
+      "position": 71,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/bigthink/newspeak-why-silence-defeats-thought-crimes-in-orw",
@@ -776,7 +787,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 71,
+      "position": 72,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/bigthink/tearing-down-maslow-s-hierarchy-why-self-actualiza",
@@ -787,7 +798,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 72,
+      "position": 73,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/freshcleantees/how-to-have-a-fresh-and-fit-thanksgiving",
@@ -798,7 +809,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 73,
+      "position": 74,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/freshcleantees/how-to-get-six-pack-abs-after-40",
@@ -809,7 +820,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 74,
+      "position": 75,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/freshcleantees/a-breakdown-of-cardio-for-older-men",
@@ -820,7 +831,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 75,
+      "position": 76,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/bigthink/how-nietzsche-can-improve-your-love-life",
@@ -831,7 +842,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 76,
+      "position": 77,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/should-you-use-knee-sleeves-when-squatting",
@@ -842,7 +853,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 77,
+      "position": 78,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-difference-between-powerlifting-and-olympic-we",
@@ -853,7 +864,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 78,
+      "position": 79,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/zhuangzi-the-inborn-nature-and-the-heavenly-dao",
@@ -864,7 +875,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 79,
+      "position": 80,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/zhuangzi-and-mozi-the-ontological-difference",
@@ -875,7 +886,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 80,
+      "position": 81,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/why-thc-is-more-medicinal-than-cbd",
@@ -886,7 +897,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 81,
+      "position": 82,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/how-setting-high-expectations-for-yourself-turns-y",
@@ -897,7 +908,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 82,
+      "position": 83,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/derek-parfit-on-personal-identity",
@@ -908,7 +919,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 83,
+      "position": 84,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/cardiomyopathy",
@@ -919,7 +930,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 84,
+      "position": 85,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/cartesian-dualism-spinoza-s-parallelism-and-the-zo",
@@ -930,7 +941,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 85,
+      "position": 86,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/climbing-diotima-s-ladder-of-love",
@@ -941,7 +952,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 86,
+      "position": 87,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/getting-into-shape-from-the-ground-up",
@@ -952,7 +963,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 87,
+      "position": 88,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/citizenship",
@@ -963,7 +974,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 88,
+      "position": 89,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/heidegger-spinoza-ontological-anticipation-and-int",
@@ -974,7 +985,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 89,
+      "position": 90,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/quick-fat-loss-strategies",
@@ -985,7 +996,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 90,
+      "position": 91,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/poverty-in-north-korea",
@@ -996,7 +1007,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 91,
+      "position": 92,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/personal-lessons-from-being-injured",
@@ -1007,7 +1018,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 92,
+      "position": 93,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/dealing-with-the-gettier-problem",
@@ -1018,7 +1029,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 93,
+      "position": 94,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/plato-s-theory-of-forms-an-aesthetic-critique",
@@ -1029,7 +1040,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 94,
+      "position": 95,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/why-morality-is-objective",
@@ -1040,7 +1051,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 95,
+      "position": 96,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery",
@@ -1051,7 +1062,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 96,
+      "position": 97,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/hit-in-the-head-meaning-and-gratitude",
@@ -1062,7 +1073,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 97,
+      "position": 98,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-birth-of-tragedy-how-early-nietzsche-connects-",
@@ -1073,7 +1084,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 98,
+      "position": 99,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/rousseau-s-discourses-a-short-critique",
@@ -1084,7 +1095,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 99,
+      "position": 100,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/jung-sophocles-and-socrates-antigone-archetypes",
@@ -1095,7 +1106,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 100,
+      "position": 101,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-role-that-religion-plays-in-poverty",
@@ -1106,7 +1117,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 101,
+      "position": 102,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/deconstruction-and-its-problems-the-line-between-f",
@@ -1117,7 +1128,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 102,
+      "position": 103,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-s-being-time-the-question-of-bein",
@@ -1128,7 +1139,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 103,
+      "position": 104,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/david-hume-complications-with-abstract-ideas",
@@ -1139,7 +1150,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 104,
+      "position": 105,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/aristotle-and-descartes-on-animals",
@@ -1150,7 +1161,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 105,
+      "position": 106,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/rasa-and-metal-linkin-park-meets-indian-aesthetics",
