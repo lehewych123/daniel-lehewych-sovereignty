@@ -1,0 +1,39 @@
+{
+  "@type": "ListItem",
+  "position": 49,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/who-was-ralph-waldo-emerson",
+    "name": "Who Was Ralph Waldo Emerson?",
+    "description": "Who Was Ralph Waldo Emerson?",
+    "url": "https://medium.com/illumination/who-was-ralph-waldo-emerson-4f01e3452b1d",
+    "datePublished": "2024-02-22T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://medium.com/illumination/who-was-ralph-waldo-emerson-4f01e3452b1d",
+      "https://daniellehewych.org/archive/medium/who-was-ralph-waldo-emerson"
+    ],
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
