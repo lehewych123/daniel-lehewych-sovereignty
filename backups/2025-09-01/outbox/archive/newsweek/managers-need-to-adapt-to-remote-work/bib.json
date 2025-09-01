@@ -1,0 +1,46 @@
+{
+  "@type": "ListItem",
+  "position": 299,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/newsweek/managers-need-to-adapt-to-remote-work",
+    "name": "Managers Need to Adapt to Remote Work",
+    "description": "Managers Need to Adapt to Remote Work",
+    "url": "https://www.newsweek.com/managers-need-adapt-remote-work-opinion-1603062",
+    "datePublished": "2021-06-23T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Newsweek",
+      "issn": "0028-9604"
+    },
+    "sameAs": [
+      "https://www.newsweek.com/managers-need-adapt-remote-work-opinion-1603062",
+      "https://daniellehewych.org/archive/newsweek/managers-need-to-adapt-to-remote-work"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Remote Work",
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

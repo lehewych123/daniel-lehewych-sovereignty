@@ -1,0 +1,46 @@
+{
+  "@type": "ListItem",
+  "position": 352,
+  "item": {
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery",
+    "name": "Sex Differences in Injury Recovery",
+    "description": "Sex Differences in Injury Recovery",
+    "url": "https://daniellehewych.medium.com/sex-differences-in-injury-recovery-30ca253ed0a2",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/sex-differences-in-injury-recovery-30ca253ed0a2",
+      "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Injury Recovery"
+      }
+    ],
+    "keywords": "Injury Recovery",
+    "genre": "Trend Analysis",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

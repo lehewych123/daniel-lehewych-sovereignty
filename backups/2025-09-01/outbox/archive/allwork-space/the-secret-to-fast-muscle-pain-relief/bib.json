@@ -1,0 +1,46 @@
+{
+  "@type": "ListItem",
+  "position": 143,
+  "item": {
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief",
+    "name": "The Secret To Fast Muscle Pain Relief",
+    "description": "The Secret To Fast Muscle Pain Relief",
+    "url": "https://allwork.space/2023/02/the-secret-to-fast-muscle-pain-relief/",
+    "datePublished": "2023-02-08T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2023/02/the-secret-to-fast-muscle-pain-relief/",
+      "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Artificial Intelligence",
+    "genre": "Trend Analysis",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
