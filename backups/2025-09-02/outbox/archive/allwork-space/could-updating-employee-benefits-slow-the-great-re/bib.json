@@ -1,0 +1,45 @@
+{
+  "@type": "ListItem",
+  "position": 190,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/could-updating-employee-benefits-slow-the-great-re",
+    "name": "Could Updating Employee Benefits Slow The Great Resignation?",
+    "description": "Could Updating Employee Benefits Slow The Great Resignation?",
+    "url": "https://allwork.space/2022/08/could-updating-employee-benefits-slow-the-great-resignation/",
+    "datePublished": "2022-08-05T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2022/08/could-updating-employee-benefits-slow-the-great-resignation/",
+      "https://daniellehewych.org/archive/allwork-space/could-updating-employee-benefits-slow-the-great-re"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Great Resignation"
+      }
+    ],
+    "keywords": "Great Resignation",
+    "genre": "Investigative Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 53,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/qure-ai/advancing-trauma-care-in-winter-sports",
+    "name": "Advancing Trauma Care in Winter Sports",
+    "description": "Advancing Trauma Care in Winter Sports",
+    "url": "https://www.qure.ai/blog/advancing-trauma-care-in-winter-sports",
+    "datePublished": "2024-02-15T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Qure.ai",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://www.qure.ai/blog/advancing-trauma-care-in-winter-sports",
+      "https://daniellehewych.org/archive/qure-ai/advancing-trauma-care-in-winter-sports"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
