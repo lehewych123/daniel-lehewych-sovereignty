@@ -1,0 +1,54 @@
+{
+  "@type": "ListItem",
+  "position": 121,
+  "item": {
+    "@type": [
+      "AnalysisNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/the-far-reaching-health-benefits-of-resistance-tra",
+    "name": "The Far-Reaching Health Benefits of Resistance Training",
+    "description": "The Far-Reaching Health Benefits of Resistance Training",
+    "url": "https://medium.com/illumination/the-far-reaching-health-benefits-of-resistance-training-96d28f42040a",
+    "datePublished": "2023-04-26T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://medium.com/illumination/the-far-reaching-health-benefits-of-resistance-training-96d28f42040a",
+      "https://daniellehewych.org/archive/medium/the-far-reaching-health-benefits-of-resistance-tra"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Resistance Training"
+      },
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Resistance Training, Health Sciences",
+    "genre": "Trend Analysis",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
