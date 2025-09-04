@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 313,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/things-to-keep-in-mind-when-starting-out-as-a-free",
+    "name": "Things to Keep in Mind When Starting Out as a Freelance Writer",
+    "description": "Things to Keep in Mind When Starting Out as a Freelance Writer",
+    "url": "https://daniellehewych.medium.com/things-to-keep-in-mind-when-starting-out-as-a-freelance-writer-1c98e84fdde1",
+    "datePublished": "2021-03-06T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/things-to-keep-in-mind-when-starting-out-as-a-freelance-writer-1c98e84fdde1",
+      "https://daniellehewych.org/archive/medium/things-to-keep-in-mind-when-starting-out-as-a-free"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
