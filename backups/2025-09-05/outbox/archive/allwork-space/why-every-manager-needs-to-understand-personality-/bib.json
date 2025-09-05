@@ -1,0 +1,50 @@
+{
+  "@type": "ListItem",
+  "position": 264,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/why-every-manager-needs-to-understand-personality-",
+    "name": "Why Every Manager Needs To Understand Personality Traits In The Workplace",
+    "description": "Why Every Manager Needs To Understand Personality Traits In The Workplace",
+    "url": "https://allwork.space/2021/12/why-every-manager-needs-to-understand-personality-traits-the-workplace/",
+    "datePublished": "2021-12-15T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2021/12/why-every-manager-needs-to-understand-personality-traits-the-workplace/",
+      "https://daniellehewych.org/archive/allwork-space/why-every-manager-needs-to-understand-personality-"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Workplace Dynamics"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Workplace Dynamics",
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
