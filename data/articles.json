@@ -9223,5 +9223,34 @@
     },
     "discoveredAt": "2025-08-25T15:26:35.076Z",
     "lastUpdated": "2025-09-02T15:26:46.383Z"
+  },
+  {
+    "id": 375,
+    "platform": "Newsweek",
+    "title": "Newsweek - News, Analysis, Politics, Business, Technology",
+    "subtitle": "",
+    "url": "https://www.newsweek.com/",
+    "normalizedUrl": "https://newsweek.com/",
+    "date": "2025-09-05",
+    "wordCount": 0,
+    "topics": [
+      "Politics & Society",
+      "AI & Technology",
+      "Economics"
+    ],
+    "status": "processed",
+    "snippet": "2 hours ago ... By Daniel Lehewych · Ilan Berman. A Wrong Turn in the Indo-Pacific | Opinion · By Ilan Berman · Josh Hammer. Trump's National Guard Deployment and the Art of ...",
+    "fingerprint": "408181f3ea1ebd43ac9d4c6c06b479c5b82660c84ecb873022377e190f496945",
+    "version": 1,
+    "schemas": {
+      "urlSlug": "/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+      "type": "OpinionNewsArticle",
+      "topics": [
+        "Politics & Society",
+        "AI & Technology",
+        "Economics"
+      ]
+    },
+    "discoveredAt": "2025-09-05T15:24:24.801Z"
   }
 ]
