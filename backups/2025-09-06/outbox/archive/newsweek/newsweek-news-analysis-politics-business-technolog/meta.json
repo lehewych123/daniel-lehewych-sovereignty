@@ -1,0 +1,17 @@
+{
+  "title": "Newsweek - News, Analysis, Politics, Business, Technology",
+  "platform": "Newsweek",
+  "date": "2025-09-05",
+  "url": "https://www.newsweek.com/",
+  "shadowUrl": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+  "urlSlug": "/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+  "type": "OpinionNewsArticle",
+  "topics": [
+    "Politics & Society",
+    "AI & Technology",
+    "Economics"
+  ],
+  "fingerprint": "408181f3ea1ebd43ac9d4c6c06b479c5b82660c84ecb873022377e190f496945",
+  "version": 1,
+  "discoveredAt": "2025-09-05T15:24:24.801Z"
+}
