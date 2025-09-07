@@ -9239,9 +9239,9 @@
       "Economics"
     ],
     "status": "processed",
-    "snippet": "2 hours ago ... By Daniel Lehewych · Ilan Berman. A Wrong Turn in the Indo-Pacific | Opinion · By Ilan Berman · Josh Hammer. Trump's National Guard Deployment and the Art of ...",
-    "fingerprint": "408181f3ea1ebd43ac9d4c6c06b479c5b82660c84ecb873022377e190f496945",
-    "version": 1,
+    "snippet": "4 hours ago ... By Daniel Lehewych · Ilan Berman. A Wrong Turn in the Indo-Pacific | Opinion · By Ilan Berman · Josh Hammer. Trump's National Guard Deployment and the Art of ...",
+    "fingerprint": "e75ed03a3294b6a5fbf98d49d854b0f715721c78f67d5533e6da5ac51141a227",
+    "version": 2,
     "schemas": {
       "urlSlug": "/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
       "type": "OpinionNewsArticle",
@@ -9251,6 +9251,7 @@
         "Economics"
       ]
     },
-    "discoveredAt": "2025-09-05T15:24:24.801Z"
+    "discoveredAt": "2025-09-05T15:24:24.801Z",
+    "lastUpdated": "2025-09-07T15:20:14.389Z"
   }
 ]
