@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 142,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/the-science-based-approach-to-food-pyramids",
+    "name": "The Science-Based Approach to Food Pyramids",
+    "description": "The Science-Based Approach to Food Pyramids",
+    "url": "https://medium.com/in-fitness-and-in-health/the-science-based-approach-to-food-pyramids-b5450874f42f",
+    "datePublished": "2023-02-10T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://medium.com/in-fitness-and-in-health/the-science-based-approach-to-food-pyramids-b5450874f42f",
+      "https://daniellehewych.org/archive/medium/the-science-based-approach-to-food-pyramids"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

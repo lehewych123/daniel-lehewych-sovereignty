@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 24,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/what-is-social-intelligence",
+    "name": "What is Social Intelligence?",
+    "description": "What is Social Intelligence?",
+    "url": "https://daniellehewych.medium.com/what-is-social-intelligence-2bcb518d5437",
+    "datePublished": "2024-06-27T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/what-is-social-intelligence-2bcb518d5437",
+      "https://daniellehewych.org/archive/medium/what-is-social-intelligence"
+    ],
+    "genre": "Investigative Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
