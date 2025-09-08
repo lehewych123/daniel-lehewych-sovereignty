@@ -1,0 +1,51 @@
+{
+  "@type": "ListItem",
+  "position": 181,
+  "item": {
+    "@type": [
+      "HowTo",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em",
+    "name": "Overwhelmed By Work Emails? Here’s How To Reduce Email Anxiety",
+    "description": "Overwhelmed By Work Emails? Here’s How To Reduce Email Anxiety",
+    "url": "https://allwork.space/2022/09/overwhelmed-by-work-emails-heres-how-to-reduce-email-anxiety/",
+    "datePublished": "2022-09-14T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2022/09/overwhelmed-by-work-emails-heres-how-to-reduce-email-anxiety/",
+      "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Anxiety Disorders"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Anxiety Disorders",
+    "genre": "Practical Guide",
+    "educationalLevel": "Beginner",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 16,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/why-facts-do-care-about-your-feelings",
+    "name": "Why Facts Do Care About Your Feelings",
+    "description": "Why Facts Do Care About Your Feelings",
+    "url": "https://daniellehewych.medium.com/why-facts-do-care-about-your-feelings-0ba6b01133bf",
+    "datePublished": "2024-09-09T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/why-facts-do-care-about-your-feelings-0ba6b01133bf",
+      "https://daniellehewych.org/archive/medium/why-facts-do-care-about-your-feelings"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

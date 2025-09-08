@@ -1,0 +1,39 @@
+{
+  "@type": "ListItem",
+  "position": 253,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/guilty-of-a-messy-desk-here-s-why-it-pays-to-clear",
+    "name": "Guilty Of A Messy Desk? Here’s Why It Pays To Clear The Clutter",
+    "description": "Guilty Of A Messy Desk? Here’s Why It Pays To Clear The Clutter",
+    "url": "https://allwork.space/2022/01/guilty-of-a-messy-desk-heres-why-it-pays-to-clear-the-clutter/",
+    "datePublished": "2022-01-05T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2022/01/guilty-of-a-messy-desk-heres-why-it-pays-to-clear-the-clutter/",
+      "https://daniellehewych.org/archive/allwork-space/guilty-of-a-messy-desk-here-s-why-it-pays-to-clear"
+    ],
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
