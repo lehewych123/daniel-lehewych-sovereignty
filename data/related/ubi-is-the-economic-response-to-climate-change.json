@@ -9,6 +9,17 @@
       "position": 1,
       "item": {
         "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/new-york-will-become-a-climate-change-hotspot",
         "name": "New York Will Become a Climate Change Hotspot",
         "url": "https://www.newsweek.com/new-york-will-become-climate-change-hotspot-opinion-1635958",
@@ -17,7 +28,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/nyc-s-260-million-little-island-park-is-a-waste-of",
@@ -28,7 +39,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
@@ -39,24 +50,13 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper",
         "name": "The Gaza Strip is a Quintessential Symbol of Hyperpartisanship",
         "url": "https://www.newsweek.com/gaza-strip-quintessential-symbol-hyperpartisanship-opinion-1784721",
         "datePublished": "2023-03-03T00:00:00Z"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "item": {
-        "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like",
-        "name": "What Democratic Populism Could Look Like",
-        "url": "https://www.newsweek.com/what-democratic-populism-could-look-like-opinion-1764270",
-        "datePublished": "2022-12-07T00:00:00Z"
       }
     }
   ]

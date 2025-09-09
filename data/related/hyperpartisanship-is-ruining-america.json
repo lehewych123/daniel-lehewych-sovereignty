@@ -9,6 +9,17 @@
       "position": 1,
       "item": {
         "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
         "name": "Ron DeSantis is Having His \"Don Quixote\" Moment",
         "url": "https://www.newsweek.com/ron-desantis-having-his-don-quixote-moment-opinion-1791875",
@@ -17,7 +28,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper",
@@ -28,7 +39,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like",
@@ -39,24 +50,13 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-false-equivalence-between-the-far-left-and-far",
         "name": "The 'False Equivalence' Between the Far-Left and Far-Right",
         "url": "https://www.newsweek.com/false-equivalence-between-far-left-far-right-opinion-1736759",
         "datePublished": "2022-09-06T00:00:00Z"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "item": {
-        "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d",
-        "name": "The Intentional Stance and its Role in Political Discourse",
-        "url": "https://www.newsweek.com/intentional-stance-its-role-political-discourse-opinion-1728829",
-        "datePublished": "2022-08-01T00:00:00Z"
       }
     }
   ]

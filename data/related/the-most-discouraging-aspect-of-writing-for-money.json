@@ -31,6 +31,17 @@
       "position": 3,
       "item": {
         "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/will-inflation-impact-pay-raises",
         "name": "Will Inflation Impact Pay Raises?",
         "url": "https://allwork.space/2022/07/will-inflation-impact-pay-raises/",
@@ -39,24 +50,13 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity",
         "name": "Walter White’s Tragic Complexity",
         "url": "https://medium.com/grim-tidings/walter-whites-tragic-complexity-9e43ab9b2909",
         "datePublished": "2024-12-04T00:00:00Z"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "item": {
-        "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/medium/the-constitutional-case-against-banning-interstate",
-        "name": "The Constitutional Case Against Banning Interstate Travel for Abortion",
-        "url": "https://daniellehewych.medium.com/the-constitutional-case-against-banning-interstate-travel-for-abortion-72af15273a17",
-        "datePublished": "2024-08-02T00:00:00Z"
       }
     }
   ]

@@ -2,11 +2,22 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Topic: AI & Technology",
-  "numberOfItems": 58,
+  "numberOfItems": 59,
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity",
@@ -17,7 +28,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-constitutional-case-against-banning-interstate",
@@ -28,7 +39,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/optimising-lung-cancer-pathways-and-neurocritical-",
@@ -39,7 +50,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/role-of-large-language-models-llms-in-healthcare",
@@ -50,7 +61,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-inefficiency-of-ai-text-detecting-software",
@@ -61,7 +72,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/the-importance-of-ai-in-msk-radiology",
@@ -72,7 +83,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/emptiness-in-buddhism-and-judaism",
@@ -83,7 +94,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/the-imperative-of-ai-for-improving-radiological-ac",
@@ -94,7 +105,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
@@ -105,7 +116,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/stroke-care-in-india-an-exploration-of-the-ai-powe",
@@ -116,7 +127,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 12,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-strife-of-opposites-voltaire-and-frederick-the",
@@ -127,7 +138,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 13,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/ai-s-rising-importance-in-combating-wildfire-relat",
@@ -138,7 +149,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 14,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-",
@@ -149,7 +160,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 15,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/ai-on-the-frontline-of-a-e",
@@ -160,7 +171,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 16,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/ai-sparks-record-tech-investments-bofa-strategist-",
@@ -171,7 +182,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 17,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/north-korea-s-new-space-launcher-reveals-progress-",
@@ -182,7 +193,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 18,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/ai-deepfakes-fuel-the-flames-of-debate-among-holly",
@@ -193,7 +204,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 19,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/rice-university-engineers-develop-ultra-flexible-n",
@@ -204,7 +215,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 20,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/eu-tech-chief-pushes-for-rapid-creation-of-ai-code",
@@ -215,7 +226,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 21,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/baidu-invests-140-million-to-foster-generative-ai-",
@@ -226,7 +237,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 22,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-joins-trillion-dollar-club-riding-on-the-ai",
@@ -237,7 +248,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 23,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/air-new-zealand-launches-passenger-weight-survey-f",
@@ -248,7 +259,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 24,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-to-build-israel-s-most-potent-ai-supercompu",
@@ -259,7 +270,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 25,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-far-reaching-health-benefits-of-resistance-tra",
@@ -270,7 +281,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 26,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/how-africa-s-economy-will-harness-digital-tech-in-",
@@ -281,7 +292,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 27,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief",
@@ -292,7 +303,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 28,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/5-brain-boosting-snacks-to-power-your-work-day",
@@ -303,7 +314,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 29,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/ai-is-transforming-the-future-of-industrial-work",
@@ -314,7 +325,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 30,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/start-ignoring-email-deep-work-is-how-to-succeed",
@@ -325,7 +336,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 31,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/coworking-centers-beware-saying-you-re-sustainable",
@@ -336,7 +347,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 32,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/meta-wants-to-fix-ongoing-zoom-fatigue-but-you-ll-",
@@ -347,7 +358,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 33,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/four-great-stretches-to-help-alleviate-pain-withou",
@@ -358,7 +369,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 34,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/is-ai-the-future-of-graphic-design-work-meet-dall-",
@@ -369,7 +380,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 35,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em",
@@ -380,7 +391,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 36,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/want-a-raise-make-small-changes-to-boost-willpower",
@@ -391,7 +402,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 37,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/skeptical-employers-could-miss-gains-by-rejecting-",
@@ -402,7 +413,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 37,
+      "position": 38,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/will-inflation-impact-pay-raises",
@@ -413,7 +424,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 38,
+      "position": 39,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-job-safety-for-retaining-and-sat",
@@ -424,7 +435,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 39,
+      "position": 40,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-data-literacy-in-career-advancem",
@@ -435,7 +446,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 40,
+      "position": 41,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-build-and-retain-a-strong-work-team",
@@ -446,7 +457,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 41,
+      "position": 42,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex",
@@ -457,7 +468,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 42,
+      "position": 43,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-maintain-well-being-when-working-alo",
@@ -468,7 +479,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 43,
+      "position": 44,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/freshcleantees/strength-training-in-your-later-years",
@@ -479,7 +490,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 44,
+      "position": 45,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/why-every-manager-needs-to-understand-personality-",
@@ -490,7 +501,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 45,
+      "position": 46,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/the-retail-industry-struggles-with-multiple-threat",
@@ -501,7 +512,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 46,
+      "position": 47,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/are-work-equity-gains-threatened-by-the-shift-to-h",
@@ -512,7 +523,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 47,
+      "position": 48,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/ai-streamlines-the-hiring-process-for-many-compani",
@@ -523,7 +534,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 49,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/allwork-space/will-de-i-gains-regress-with-the-rise-of-remote-an",
@@ -534,7 +545,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 50,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/is-high-intensity-interval-training-hiit-worth-it",
@@ -545,7 +556,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 51,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/is-creatine-a-brain-booster",
@@ -556,7 +567,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 51,
+      "position": 52,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-most-discouraging-aspect-of-writing-for-money",
@@ -567,7 +578,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 52,
+      "position": 53,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/why-i-train",
@@ -578,7 +589,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 53,
+      "position": 54,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/can-science-explain-consciousness",
@@ -589,7 +600,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 54,
+      "position": 55,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-dirty-secrets-of-personal-training",
@@ -600,7 +611,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 56,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/reflexive-intuition-towards-taboo-our-tragic-failu",
@@ -611,7 +622,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 56,
+      "position": 57,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/sartre-bad-faith-and-its-incompatibility-with-huma",
@@ -622,7 +633,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 57,
+      "position": 58,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin",
@@ -633,7 +644,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 58,
+      "position": 59,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/technological-innovation-by-any-means",

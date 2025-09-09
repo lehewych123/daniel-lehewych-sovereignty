@@ -53,10 +53,10 @@
       "position": 5,
       "item": {
         "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity",
-        "name": "Walter White’s Tragic Complexity",
-        "url": "https://medium.com/grim-tidings/walter-whites-tragic-complexity-9e43ab9b2909",
-        "datePublished": "2024-12-04T00:00:00Z"
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
       }
     }
   ]

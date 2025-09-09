@@ -9,6 +9,17 @@
       "position": 1,
       "item": {
         "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/ubi-is-the-economic-response-to-climate-change",
         "name": "UBI is the Economic Response to Climate Change",
         "url": "https://www.newsweek.com/ubi-economic-response-climate-change-opinion-1586842",
@@ -17,7 +28,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
@@ -28,7 +39,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper",
@@ -39,24 +50,13 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like",
         "name": "What Democratic Populism Could Look Like",
         "url": "https://www.newsweek.com/what-democratic-populism-could-look-like-opinion-1764270",
         "datePublished": "2022-12-07T00:00:00Z"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "item": {
-        "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/newsweek/the-false-equivalence-between-the-far-left-and-far",
-        "name": "The 'False Equivalence' Between the Far-Left and Far-Right",
-        "url": "https://www.newsweek.com/false-equivalence-between-far-left-far-right-opinion-1736759",
-        "datePublished": "2022-09-06T00:00:00Z"
       }
     }
   ]

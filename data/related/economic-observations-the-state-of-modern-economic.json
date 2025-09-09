@@ -42,10 +42,10 @@
       "position": 4,
       "item": {
         "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/interesting-engineering/orbex-unveils-first-ever-marketplace-for-certified",
-        "name": "Orbex unveils first-ever marketplace for certified recycled metals",
-        "url": "https://interestingengineering.com/innovation/orbex-unveils-first-ever-marketplace-for-certified-recycled-metals",
-        "datePublished": "2023-05-23T00:00:00Z"
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
       }
     },
     {
@@ -53,10 +53,10 @@
       "position": 5,
       "item": {
         "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/allwork-space/demand-for-virtual-assistant-jobs-continues-to-exp",
-        "name": "Demand For Virtual Assistant Jobs Continues to Explode — Market Is Set To Grow By $4.12 Billion",
-        "url": "https://allwork.space/2022/10/demand-for-virtual-assistant-jobs-continues-to-explode-market-is-set-to-grow-by-4-12-billion/",
-        "datePublished": "2022-10-27T00:00:00Z"
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/orbex-unveils-first-ever-marketplace-for-certified",
+        "name": "Orbex unveils first-ever marketplace for certified recycled metals",
+        "url": "https://interestingengineering.com/innovation/orbex-unveils-first-ever-marketplace-for-certified-recycled-metals",
+        "datePublished": "2023-05-23T00:00:00Z"
       }
     }
   ]

@@ -2,11 +2,22 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Topic: Politics & Society",
-  "numberOfItems": 32,
+  "numberOfItems": 33,
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/how-we-can-protect-democracy-without-losing-our-va",
@@ -17,7 +28,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/what-is-social-intelligence",
@@ -28,7 +39,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-politicking",
@@ -39,7 +50,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 5,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/the-political-dilemma-of-balancing-international-h",
@@ -50,7 +61,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/a-critique-of-social-values",
@@ -61,7 +72,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
@@ -72,7 +83,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/machiavelli-s-political-philosophy",
@@ -83,7 +94,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
@@ -94,7 +105,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper",
@@ -105,7 +116,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/what-democratic-populism-could-look-like",
@@ -116,7 +127,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 12,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-false-equivalence-between-the-far-left-and-far",
@@ -127,7 +138,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 13,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d",
@@ -138,7 +149,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 14,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/crumbling-infrastructure-in-new-york-city-will-cos",
@@ -149,7 +160,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 15,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex",
@@ -160,7 +171,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 16,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-great-resignation-will-be-good-for-corporation",
@@ -171,7 +182,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 17,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-medical-system-is-at-its-tipping-point",
@@ -182,7 +193,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 18,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/new-york-will-become-a-climate-change-hotspot",
@@ -193,7 +204,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 19,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/hyperpartisanship-is-ruining-america",
@@ -204,7 +215,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 20,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/children-should-be-taught-philosophy-in-school",
@@ -215,7 +226,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 21,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/freelancers-need-union-protections",
@@ -226,7 +237,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 22,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/who-is-behind-the-internet-s-hatred-of-joe-biden",
@@ -237,7 +248,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 23,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/credentialism-and-its-pitfalls",
@@ -248,7 +259,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 24,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/managers-need-to-adapt-to-remote-work",
@@ -259,7 +270,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 25,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-importance-of-funding-public-colleges",
@@ -270,7 +281,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 26,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/white-progressives-are-hypocrites-on-gentrificatio",
@@ -281,7 +292,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 27,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/nyc-s-260-million-little-island-park-is-a-waste-of",
@@ -292,7 +303,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 28,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/how-to-get-the-rich-to-pay-taxes",
@@ -303,7 +314,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 29,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/ubi-is-the-economic-response-to-climate-change",
@@ -314,7 +325,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 30,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/identity-politics-are-toxic",
@@ -325,7 +336,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 31,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/the-future-of-the-u-s-prison-system",
@@ -336,7 +347,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 32,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/newsweek/meaningfulness-its-moral-implications-and-the-path",
@@ -347,7 +358,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 33,
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-and-the-social-dilemma",
