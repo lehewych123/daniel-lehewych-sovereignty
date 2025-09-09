@@ -1,0 +1,54 @@
+{
+  "@type": "ListItem",
+  "position": 353,
+  "item": {
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/spinoza-god-ideas-and-their-adequacy",
+    "name": "Spinoza: God, Ideas and Their Adequacy",
+    "description": "Spinoza: God, Ideas and Their Adequacy",
+    "url": "https://daniellehewych.medium.com/spinoza-god-ideas-and-their-adequacy-cd88c207c4f3",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/spinoza-god-ideas-and-their-adequacy-cd88c207c4f3",
+      "https://daniellehewych.org/archive/medium/spinoza-god-ideas-and-their-adequacy"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Theology"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Baruch Spinoza"
+      }
+    ],
+    "keywords": "Theology",
+    "academicDiscipline": "Religious Studies",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
