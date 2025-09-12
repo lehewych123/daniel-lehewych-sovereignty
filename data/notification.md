@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2025-09-11
+# Sovereignty System Report - 2025-09-12
 
 Nothing new today.
 
@@ -7,13 +7,13 @@ Nothing new today.
 - 1. **The Conservative Case for Climate Resilience | Opinion - Newsweek** — https://www.newsweek.com/conservative-case-climate-resilience-opinion-2124171
   - Host: newsweek.com
   - Reason: author-mismatch
-- 2. **How to Watch Vanderbilt vs Virginia Tech: Live Stream College ...** — https://news.ad3.com/news/us-news/where-was-trump-during-viral-trump-is-dead-rumours-internet-abuzz-as-he-vanished-from-public-view-11756782557013.html
-  - Host: news.ad3.com
-  - Reason: language=other
-- 3. **The Conservative Case for Climate Resilience | Opinion** — https://www.msn.com/en-us/news/world/the-conservative-case-for-climate-resilience-opinion/ar-AA1LWLwW
-  - Host: msn.com
+- 2. **REVOLVING Definition & Meaning - Merriam-Webster** — https://www.merriam-webster.com/dictionary/revolving
+  - Host: merriam-webster.com
   - Reason: author-mismatch
-- 4. **Daniel Ricciardo's Mega-Money Aston Martin Hypercar Hits Auction ...** — https://www.newsweek.com/sports/racing/daniel-ricciardos-mega-money-aston-martin-hypercar-hits-auction-2124654
+- 3. **Can the U.S. Military Stop Venezuela's Drug Cartels? Newsweek ...** — https://www.newsweek.com/can-us-military-stop-venezuelas-drug-cartels-newsweek-contributors-debate-2126625
+  - Host: newsweek.com
+  - Reason: author-mismatch
+- 4. **Most Gen Z Women Have Fertility Anxiety by Age 23—Survey ...** — https://www.newsweek.com/most-gen-z-women-have-fertility-anxiety-age-23-2127241
   - Host: newsweek.com
   - Reason: author-mismatch
 
