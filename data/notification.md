@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2025-09-15
+# Sovereignty System Report - 2025-09-16
 
 Nothing new today.
 
@@ -10,7 +10,7 @@ Nothing new today.
 - 2. **REVOLVING Definition & Meaning - Merriam-Webster** — https://www.merriam-webster.com/dictionary/revolving
   - Host: merriam-webster.com
   - Reason: author-mismatch
-- 3. **Colts' Anthony Richardson Speaks Out on Being Backup QB In ...** — https://www.newsweek.com/sports/nfl/colts-anthony-richardson-speaks-out-being-backup-qb-week-1-2124170
+- 3. **Donald Trump Risks Finding Himself on Wrong Side of One '80/20 ...** — https://www.newsweek.com/donald-trump-risks-finding-himself-wrong-side-one-80-20-issue-2124725
   - Host: newsweek.com
   - Reason: author-mismatch
 - 4. **Two Best Friends Plan To Share Hotel Room—Unprepared for What ...** — https://www.newsweek.com/friends-share-hotel-rooms-unique-shower-design-2127793
@@ -25,16 +25,16 @@ Nothing new today.
 - 7. **Report: Yankees' Anthony Volpe Receiving Treatment for 4-Month ...** — https://www.newsweek.com/sports/mlb/report-yankees-anthony-volpe-receiving-treatment-4-month-old-injury-2128383
   - Host: newsweek.com
   - Reason: author-mismatch
-- 8. **Trump Deploys F-35s to Puerto Rico in War on Drug Cartels: Report ...** — https://www.newsweek.com/trump-deploys-f-35s-puerto-rico-war-drug-cartels-report-2124984
+- 8. **Daniel Ricciardo Hints at Shocking Racing Return With Ford Racing ...** — https://www.newsweek.com/sports/racing/daniel-ricciardo-hints-shocking-racing-return-ford-racing-2125017
   - Host: newsweek.com
   - Reason: author-mismatch
-- 9. **Daniel Ricciardo Hints at Shocking Racing Return With Ford Racing ...** — https://www.newsweek.com/sports/racing/daniel-ricciardo-hints-shocking-racing-return-ford-racing-2125017
+- 9. **FEMA Employees File Whistleblower Complaints—'Won't Be ...** — https://www.newsweek.com/fema-employee-whistleblower-complaint-2124403
   - Host: newsweek.com
   - Reason: author-mismatch
-- 10. **King Charles' Popularity Slump Not Going Away—Author - Newsweek** — https://www.newsweek.com/king-charles-popularity-prince-george-valentine-low-power-palace-2127003
+- 10. **Donald Trump's Epstein Problem Keeps Coming Back - Newsweek** — https://www.newsweek.com/donald-trump-jeffrey-epstein-case-2127616
   - Host: newsweek.com
   - Reason: author-mismatch
-- 11. **Donald Trump's Reaction to Carlos Alcaraz's US Open Win Goes ...** — https://www.newsweek.com/donald-trumps-reaction-carlos-alcarazs-us-open-win-goes-viral-2126210
+- 11. **The Summer I Turned Pretty Season 3 Episode 10 – Release Date ...** — https://www.newsweek.com/entertainment/tv/summer-i-turned-pretty-season-3-episode-10-release-date-schedule-how-watch-2123013
   - Host: newsweek.com
   - Reason: author-mismatch
 
