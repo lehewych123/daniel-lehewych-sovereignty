@@ -1,13 +1,10 @@
-# Sovereignty System Report - 2025-09-24
+# Sovereignty System Report - 2025-09-25
 
 Nothing new today.
 
-## Skipped (for review): 2
+## Skipped (for review): 1
 
-- 1. **REVOLVING Definition & Meaning - Merriam-Webster** — https://www.merriam-webster.com/dictionary/revolving
-  - Host: merriam-webster.com
-  - Reason: author-mismatch
-- 2. **NEW DEAL Definition & Meaning - Merriam-Webster** — https://www.merriam-webster.com/dictionary/New%20Deal
+- 1. **NEW DEAL Definition & Meaning - Merriam-Webster** — https://www.merriam-webster.com/dictionary/New%20Deal
   - Host: merriam-webster.com
   - Reason: author-mismatch
 
