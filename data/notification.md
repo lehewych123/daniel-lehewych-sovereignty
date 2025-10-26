@@ -1,10 +1,10 @@
-# Sovereignty System Report - 2025-10-25
+# Sovereignty System Report - 2025-10-26
 
 Nothing new today.
 
 ## Skipped (for review): 2
 
-- 1. **TIDEWAY Synonyms: 23 Similar Words | Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/tideway
+- 1. **SWASH Synonyms: 103 Similar and Opposite Words | Merriam ...** — https://www.merriam-webster.com/thesaurus/swash
   - Host: merriam-webster.com
   - Reason: author-mismatch
 - 2. **DEATH TRAP Definition & Meaning - Merriam-Webster** — https://www.merriam-webster.com/dictionary/death%20trap
