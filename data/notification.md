@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2025-11-28
+# Sovereignty System Report - 2025-11-29
 
 Nothing new today.
 
