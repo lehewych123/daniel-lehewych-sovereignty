@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2026-01-03
+# Sovereignty System Report - 2026-01-04
 
 Nothing new today.
 
@@ -10,9 +10,9 @@ Nothing new today.
 - 2. **A Paranoid End-of-the-Year Update | Grim Tidings** — https://medium.com/grim-tidings/a-paranoid-end-of-the-year-update-ee8b40e63108
   - Host: medium.com
   - Reason: fetch-failed: HTTP 403
-- 3. **Do I need a cute girlfriend? - Quora** — https://www.quora.com/Do-I-need-a-cute-girlfriend
-  - Host: quora.com
-  - Reason: fetch-failed: HTTP 403
+- 3. **https://www.newsweek.com/sitemap/articles-1.xml.gz** — https://www.newsweek.com/sitemap/articles-1.xml.gz
+  - Host: newsweek.com
+  - Reason: language=other
 
 ---
 
