@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Topic: Religion & Spirituality",
+  "numberOfItems": 12,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/christianity-and-familial-piety",
+        "name": "Christianity and Familial Piety",
+        "url": "https://daniellehewych.medium.com/christianity-and-familial-piety-b7bf24f6b3c6",
+        "datePublished": "2025-06-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/ezekiel-s-vision-of-god",
+        "name": "Ezekiel’s Vision of God",
+        "url": "https://daniellehewych.medium.com/ezekiels-vision-of-god-7f08bb1aaef8",
+        "datePublished": "2024-05-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/existential-fear-of-the-living-god",
+        "name": "Existential Fear of the “Living God”",
+        "url": "https://daniellehewych.medium.com/existential-fear-of-the-living-god-2ada6683d9e1",
+        "datePublished": "2024-04-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-moral-psychological-dynamics-of-the-golden-rul",
+        "name": "The Moral Psychological Dynamics of The Golden Rule in Christianity",
+        "url": "https://daniellehewych.medium.com/the-moral-psychological-dynamics-of-the-golden-rule-in-christianity-5a511015194f",
+        "datePublished": "2024-03-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/emptiness-in-buddhism-and-judaism",
+        "name": "“Emptiness” in Buddhism and Judaism",
+        "url": "https://medium.com/illumination/emptiness-in-buddhism-and-judaism-34e6d47840c8",
+        "datePublished": "2024-02-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-divine-i-am",
+        "name": "The Divine “I AM”",
+        "url": "https://medium.com/illumination/the-divine-i-am-a938b8c81197",
+        "datePublished": "2024-02-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/a-philosophical-dialectic-with-spinoza-s-god",
+        "name": "A Philosophical Dialectic with Spinoza’s God",
+        "url": "https://medium.com/illumination/a-philosophical-dialectic-with-spinozas-god-0f9673482aac",
+        "datePublished": "2024-01-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-god",
+        "name": "The Phenomenology of God",
+        "url": "https://daniellehewych.medium.com/the-phenomenology-of-god-04f8b4e0fbcd",
+        "datePublished": "2024-01-10T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/nonduality-and-compassion-in-buddhist-thought",
+        "name": "Nonduality and Compassion in Buddhist Thought",
+        "url": "https://daniellehewych.medium.com/nonduality-and-compassion-in-buddhist-thought-2f987f761f8d",
+        "datePublished": "2022-01-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/spinoza-god-ideas-and-their-adequacy",
+        "name": "Spinoza: God, Ideas and Their Adequacy",
+        "url": "https://daniellehewych.medium.com/spinoza-god-ideas-and-their-adequacy-cd88c207c4f3",
+        "datePublished": "2019-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/sartre-bad-faith-and-its-incompatibility-with-huma",
+        "name": "Sartre: Bad Faith and its Incompatibility with Human Freedom",
+        "url": "https://daniellehewych.medium.com/sartre-bad-faith-and-its-incompatibility-with-human-freedom-91eb2753da1",
+        "datePublished": "2019-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/can-literature-make-us-worse-religious-scripture-a",
+        "name": "Can Literature Make Us Worse?: Religious Scripture as Literature.",
+        "url": "https://daniellehewych.medium.com/can-literature-make-us-worse-religious-scripture-as-literature-f60f041e7427",
+        "datePublished": "2019-10-23T00:00:00Z"
+      }
+    }
+  ]
+}
