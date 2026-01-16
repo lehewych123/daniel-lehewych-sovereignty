@@ -1,12 +1,12 @@
-# Sovereignty System Report - 2026-01-15
+# Sovereignty System Report - 2026-01-16
 
 Nothing new today.
 
 ## Skipped (for review): 4
 
-- 1. **The Medium Con: How a $600 Million Platform Achieved Profitability ...** — https://daniellehewych.medium.com/the-medium-con-how-a-600-million-platform-achieved-profitability-by-impoverishing-its-writers-999fe42af945
-  - Host: daniellehewych.medium.com
-  - Reason: fetch-failed: HTTP 403
+- 1. **TIDEWAY Synonyms: 23 Similar Words | Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/tideway
+  - Host: merriam-webster.com
+  - Reason: author-mismatch
 - 2. **SLUICEWAY Synonyms: 23 Similar Words | Merriam-Webster ...** — https://www.merriam-webster.com/thesaurus/sluiceway
   - Host: merriam-webster.com
   - Reason: author-mismatch
