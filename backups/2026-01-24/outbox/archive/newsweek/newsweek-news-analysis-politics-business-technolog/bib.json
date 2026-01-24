@@ -1,0 +1,42 @@
+{
+  "@type": "ListItem",
+  "position": 1,
+  "item": {
+    "@type": [
+      "TechArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+    "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+    "description": "4 hours ago ... By Daniel Lehewych · Ilan Berman. A Wrong Turn in the Indo-Pacific | Opinion · By Ilan Berman · Josh Hammer. Trump's National Guard Deployment and the Art of ...",
+    "url": "https://www.newsweek.com/",
+    "datePublished": "2025-09-05T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Newsweek",
+      "issn": "0028-9604"
+    },
+    "sameAs": [
+      "https://www.newsweek.com/",
+      "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Technology"
+      }
+    ],
+    "keywords": "Technology",
+    "genre": "Technology Analysis"
+  }
+}
