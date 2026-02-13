@@ -1,10 +1,13 @@
-# Sovereignty System Report - 2026-02-12
+# Sovereignty System Report - 2026-02-13
 
 Nothing new today.
 
-## Skipped (for review): 1
+## Skipped (for review): 2
 
-- 1. **Synonyms of swash - Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/swash
+- 1. **Staring at Ceilings | From the Sanssouci Palace, Potsdam (Germany ...** — https://www.instagram.com/p/DUgPp4EDeWp/
+  - Host: instagram.com
+  - Reason: author-mismatch
+- 2. **Synonyms of swash - Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/swash
   - Host: merriam-webster.com
   - Reason: author-mismatch
 
