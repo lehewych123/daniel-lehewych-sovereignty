@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/ron-desantis-is-having-his-don-quixote-moment",
+        "name": "Ron DeSantis is Having His \"Don Quixote\" Moment",
+        "url": "https://www.newsweek.com/ron-desantis-having-his-don-quixote-moment-opinion-1791875",
+        "datePublished": "2023-04-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-gaza-strip-is-a-quintessential-symbol-of-hyper",
+        "name": "The Gaza Strip is a Quintessential Symbol of Hyperpartisanship",
+        "url": "https://www.newsweek.com/gaza-strip-quintessential-symbol-hyperpartisanship-opinion-1784721",
+        "datePublished": "2023-03-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-false-equivalence-between-the-far-left-and-far",
+        "name": "The 'False Equivalence' Between the Far-Left and Far-Right",
+        "url": "https://www.newsweek.com/false-equivalence-between-far-left-far-right-opinion-1736759",
+        "datePublished": "2022-09-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/the-intentional-stance-and-its-role-in-political-d",
+        "name": "The Intentional Stance and its Role in Political Discourse",
+        "url": "https://www.newsweek.com/intentional-stance-its-role-political-discourse-opinion-1728829",
+        "datePublished": "2022-08-01T00:00:00Z"
+      }
+    }
+  ]
+}
