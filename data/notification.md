@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2026-03-06
+# Sovereignty System Report - 2026-03-07
 
 Nothing new today.
 
@@ -7,10 +7,10 @@ Nothing new today.
 - 1. **Authority Legitimacy Archives** — https://bigthink.com/t/authority-legitimacy/
   - Host: bigthink.com
   - Reason: author-mismatch
-- 2. **Synonyms of swash - Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/swash
-  - Host: merriam-webster.com
+- 2. **Leadership Theory Archives** — https://bigthink.com/t/leadership-theory/
+  - Host: bigthink.com
   - Reason: author-mismatch
-- 3. **Leadership Theory Archives** — https://bigthink.com/t/leadership-theory/
+- 3. **Philosophy** — https://bigthink.com/philosophy-is-not-dying/?paging=97&contentType=articles
   - Host: bigthink.com
   - Reason: author-mismatch
 
