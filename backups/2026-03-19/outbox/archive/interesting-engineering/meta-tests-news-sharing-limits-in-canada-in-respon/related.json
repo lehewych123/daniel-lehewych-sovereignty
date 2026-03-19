@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-structure-of-the-internet-should-change",
+        "name": "The Structure of the Internet Should Change",
+        "url": "https://daniellehewych.medium.com/the-structure-of-the-internet-should-change-cee3d01f323c",
+        "datePublished": "2023-12-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health",
+        "name": "The CDC’s Vision For The Future Of Worker Health",
+        "url": "https://allwork.space/2023/02/the-cdcs-vision-for-the-future-of-worker-health/",
+        "datePublished": "2023-02-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/office-party-etiquette-matters-all-year",
+        "name": "Office Party Etiquette Matters All Year",
+        "url": "https://allwork.space/2023/02/office-party-etiquette-matters-all-year/",
+        "datePublished": "2023-02-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-africa-s-economy-will-harness-digital-tech-in-",
+        "name": "How Africa’s Economy will Harness Digital Tech in the Future of Work",
+        "url": "https://allwork.space/2023/02/how-africas-economy-will-harness-digital-tech-in-the-future-of-work/",
+        "datePublished": "2023-02-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief",
+        "name": "The Secret To Fast Muscle Pain Relief",
+        "url": "https://allwork.space/2023/02/the-secret-to-fast-muscle-pain-relief/",
+        "datePublished": "2023-02-08T00:00:00Z"
+      }
+    }
+  ]
+}
