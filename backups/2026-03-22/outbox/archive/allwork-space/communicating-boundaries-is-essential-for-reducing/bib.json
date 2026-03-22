@@ -1,0 +1,46 @@
+{
+  "@type": "ListItem",
+  "position": 272,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/communicating-boundaries-is-essential-for-reducing",
+    "name": "Communicating Boundaries Is Essential For Reducing Remote Worker Burnout, But Is This Enough?",
+    "description": "Communicating Boundaries Is Essential For Reducing Remote Worker Burnout, But Is This Enough?",
+    "url": "https://allwork.space/2021/11/communicating-boundaries-is-essential-for-reducing-remote-worker-burnout-but-is-this-enough/",
+    "datePublished": "2021-11-25T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2021/11/communicating-boundaries-is-essential-for-reducing-remote-worker-burnout-but-is-this-enough/",
+      "https://daniellehewych.org/archive/allwork-space/communicating-boundaries-is-essential-for-reducing"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Remote Work",
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
