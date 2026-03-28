@@ -1,0 +1,1174 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Topic: General",
+  "numberOfItems": 106,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap",
+        "name": "The Heterofatalism Trap",
+        "url": "https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times/",
+        "datePublished": "2025-08-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-is-on-track-to-becoming-the-first-trillion-",
+        "name": "Nvidia is on track to becoming the first trillion-dollar chipmaker",
+        "url": "https://interestingengineering.com/innovation/nvidia-is-on-track-to-becoming-the-first-trillion-dollar-chipmaker",
+        "datePublished": "2025-06-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/what-spinoza-can-teach-us-about-living-a-great-lif",
+        "name": "What Spinoza can teach us about living a great life",
+        "url": "https://bigthink.com/thinking/spinoza/",
+        "datePublished": "2025-05-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-myth-of-deservedness",
+        "name": "The Myth of “Deservedness”",
+        "url": "https://daniellehewych.medium.com/the-myth-of-deservedness-be8f86127aa6",
+        "datePublished": "2024-12-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-ordinary-language-semantics-of-insecurity-and-",
+        "name": "The Ordinary Language Semantics of Insecurity and Excuses",
+        "url": "https://medium.com/grim-tidings/the-ordinary-language-semantics-of-insecurity-and-excuses-a78b9c9f6163",
+        "datePublished": "2024-10-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-ambiguity-of-human-decision-making",
+        "name": "The Ambiguity of Human Decision-Making",
+        "url": "https://daniellehewych.medium.com/the-ambiguity-of-human-decision-making-abd16e333801",
+        "datePublished": "2024-10-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/honesty-and-dishonesty-in-mendaciousness",
+        "name": "Honesty and Dishonesty in Mendaciousness",
+        "url": "https://medium.com/grim-tidings/honesty-and-dishonesty-in-mendaciousness-c508aa08e3ad",
+        "datePublished": "2024-10-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/embrace-the-paradox-of-willing",
+        "name": "Embrace the Paradox of Willing",
+        "url": "https://medium.com/grim-tidings/embracing-the-paradox-of-willing-bb57ef1c6420",
+        "datePublished": "2024-10-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/on-the-genealogy-of-american-morality",
+        "name": "On the Genealogy of American Morality",
+        "url": "https://daniellehewych.medium.com/on-the-genealogy-of-american-morality-a1fdf2151a69",
+        "datePublished": "2024-10-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/virginia-woolf-acceptance-and-alienation",
+        "name": "Virginia Woolf: Acceptance and Alienation",
+        "url": "https://daniellehewych.medium.com/virginia-woolf-acceptance-and-alienation-6515063ddd31",
+        "datePublished": "2024-09-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-mathematics-of-enlightenment",
+        "name": "The Mathematics of Enlightenment",
+        "url": "https://daniellehewych.medium.com/the-mathematics-of-enlightenment-cab788019a20",
+        "datePublished": "2024-08-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-parable-of-the-phantom-city-in-the-lotus-sutra",
+        "name": "The Parable of the Phantom City in the Lotus Sutra",
+        "url": "https://daniellehewych.medium.com/the-parable-of-the-phantom-city-in-the-lotus-sutra-a85345c31271",
+        "datePublished": "2024-08-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/insights-from-zen-meditation",
+        "name": "Insights from Zen Meditation",
+        "url": "https://daniellehewych.medium.com/insights-from-zen-meditation-5d1d28dc248a",
+        "datePublished": "2024-08-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/dogen-s-shobogenzo-zen-and-non-duality",
+        "name": "Dogen’s Shobogenzo: Zen and Non-Duality",
+        "url": "https://daniellehewych.medium.com/dogens-shobogenzo-zen-and-non-duality-e2980a6e9cb2",
+        "datePublished": "2024-07-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/merleau-ponty-the-phantom-limb-and-pareidolia",
+        "name": "Merleau-Ponty, The Phantom Limb, and Pareidolia",
+        "url": "https://daniellehewych.medium.com/merleau-ponty-the-phantom-limb-and-pareidolia-aa81d6db6272",
+        "datePublished": "2024-07-10T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-preeminence-of-audiences",
+        "name": "The Preeminence of Audiences",
+        "url": "https://daniellehewych.medium.com/the-preeminence-of-audiences-8ad8088ae6ed",
+        "datePublished": "2024-06-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/what-is-the-context",
+        "name": "What is “The Context”?",
+        "url": "https://daniellehewych.medium.com/what-is-the-context-2f53e91bbf2d",
+        "datePublished": "2024-06-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-generative-dynamics-of-language",
+        "name": "The Generative Dynamics of Language",
+        "url": "https://daniellehewych.medium.com/the-generative-dynamics-of-language-13b550cab75d",
+        "datePublished": "2024-05-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-limits-of-the-golden-rule-in-the-face-of-power",
+        "name": "The Limits of the Golden Rule in the Face of Power Dynamics",
+        "url": "https://daniellehewych.medium.com/the-limits-of-the-golden-rule-in-the-face-of-power-dynamics-68a7c35c95b4",
+        "datePublished": "2024-04-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-son-of-man-and-the-end-of-days",
+        "name": "The Son of Man and the End of Days",
+        "url": "https://daniellehewych.medium.com/the-son-of-man-and-the-end-of-days-d3e258e1a183",
+        "datePublished": "2024-04-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-biblical-character-of-paul",
+        "name": "The Biblical Character of Paul",
+        "url": "https://daniellehewych.medium.com/the-biblical-character-of-paul-a07cdda03f32",
+        "datePublished": "2024-04-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-eternal-recurrence-of-the-same-a-meditation-on",
+        "name": "The Eternal Recurrence of the Same: A Meditation on the Biblical Vision of Reality",
+        "url": "https://daniellehewych.medium.com/the-eternal-recurrence-of-the-same-a-meditation-on-the-biblical-vision-of-reality-34cb86a1086f",
+        "datePublished": "2024-03-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-kingdom-of-ends-and-the-prioritization-of-more",
+        "name": "The Kingdom of Ends and the Prioritization of “More-Than-Bread”",
+        "url": "https://daniellehewych.medium.com/the-kingdom-of-ends-and-the-prioritization-of-more-than-bread-60b314d91af3",
+        "datePublished": "2024-03-21T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-will-to-power-as-art",
+        "name": "The Will to Power as Art",
+        "url": "https://daniellehewych.medium.com/the-will-to-power-as-art-5876fa661c7b",
+        "datePublished": "2024-03-18T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/dialetheism-in-ecclesiastes",
+        "name": "Dialetheism in Ecclesiastes",
+        "url": "https://daniellehewych.medium.com/dialetheism-in-ecclesiastes-ad5dc1ace67b",
+        "datePublished": "2024-03-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/divinity-as-genderless-in-world-religions",
+        "name": "Divinity as Genderless in World Religions",
+        "url": "https://daniellehewych.medium.com/divinity-as-genderless-in-world-religions-8866d7366136",
+        "datePublished": "2024-02-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/who-was-ralph-waldo-emerson",
+        "name": "Who Was Ralph Waldo Emerson?",
+        "url": "https://medium.com/illumination/who-was-ralph-waldo-emerson-4f01e3452b1d",
+        "datePublished": "2024-02-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/gog-and-magog-in-the-book-of-ezekiel",
+        "name": "Gog and Magog in the Book of Ezekiel",
+        "url": "https://medium.com/illumination/gog-and-magog-in-the-book-of-ezekiel-402398aa1801",
+        "datePublished": "2024-02-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-book-of-wanderings",
+        "name": "The Book of Wanderings",
+        "url": "https://daniellehewych.medium.com/the-book-of-wanderings-30a216da5300",
+        "datePublished": "2024-02-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/convalescence",
+        "name": "Convalescence",
+        "url": "https://medium.com/illumination-curated/convalescence-921e1b42de25",
+        "datePublished": "2024-02-09T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/nietzsche-on-hatred-and-contempt",
+        "name": "Nietzsche on ‘Hatred’ and ‘Contempt’",
+        "url": "https://daniellehewych.medium.com/nietzsche-on-hatred-and-contempt-2ee0542e2815",
+        "datePublished": "2024-02-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/large-language-models-as-extensions-of-human-creat",
+        "name": "Large Language Models as Extensions of Human Creativity",
+        "url": "https://medium.com/illumination/large-language-models-as-extensions-of-human-creativity-cdbffde30194",
+        "datePublished": "2024-02-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/nietzsche-s-napolean",
+        "name": "Nietzsche’s Napolean",
+        "url": "https://daniellehewych.medium.com/nietzsches-napolean-b99584af2642",
+        "datePublished": "2023-12-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/why-i-prefer-medium-to-substack",
+        "name": "Why I Prefer Medium to Substack",
+        "url": "https://daniellehewych.medium.com/why-i-prefer-medium-to-substack-e3b3fa4cc3e3",
+        "datePublished": "2023-11-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/on-the-authentic-pathway-to-creativity",
+        "name": "On the Authentic Pathway to Creativity",
+        "url": "https://daniellehewych.medium.com/opin-4b5c89d2bc2a",
+        "datePublished": "2023-11-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-utility-and-importance-of-the-inner-voice-in-r",
+        "name": "The Utility and Importance of the Inner Voice in Reading Comprehension",
+        "url": "https://daniellehewych.medium.com/the-utility-and-importance-of-the-inner-voice-in-reading-comprehension-5d8d4e4fe83e",
+        "datePublished": "2023-10-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-dithyramb-of-a-weeping-apollo",
+        "name": "The Dithyramb of a Weeping Apollo",
+        "url": "https://daniellehewych.medium.com/the-dithyramb-of-a-weeping-apollo-615748db09c0",
+        "datePublished": "2023-10-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony",
+        "name": "On the Notion of “Philogony”",
+        "url": "https://daniellehewych.medium.com/on-the-notion-of-philogony-7407e1ffbdab",
+        "datePublished": "2023-10-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/rethinking-the-kale-craze",
+        "name": "Rethinking the Kale Craze",
+        "url": "https://medium.com/illumination/rethinking-the-kale-craze-42b363b209ca",
+        "datePublished": "2023-09-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/volkswagen-s-iconic-microbus-returns-as-an-electri",
+        "name": "Volkswagen’s iconic microbus returns as an electric marvel",
+        "url": "https://interestingengineering.com/transportation/volkswagens-iconic-microbus-returns-as-an-electric-marvel",
+        "datePublished": "2023-06-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/russia-s-fsb-alleges-nsa-used-malware-to-exploit-a",
+        "name": "Russia’s FSB alleges NSA used malware to exploit Apple phones",
+        "url": "https://interestingengineering.com/culture/russias-fsb-alleges-nsa-used-malware-to-exploit-apple-phones",
+        "datePublished": "2023-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/boeing-s-ceo-downplays-threat-from-china-s-c919-co",
+        "name": "Boeing’s CEO downplays threat from China’s C919 commercial flight",
+        "url": "https://interestingengineering.com/transportation/boeings-ceo-downplays-threat-from-chinas-c919-commercial-flight",
+        "datePublished": "2023-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos",
+        "name": "NASA’s quest for unidentified anomalies among UFOs",
+        "url": "https://interestingengineering.com/science/nasas-quest-for-unidentified-anomalies-among-ufos",
+        "datePublished": "2023-05-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-panel-explores-the-enigma-of-unidentified-a",
+        "name": "NASA’s panel explores the enigma of unidentified aerial phenomena",
+        "url": "https://interestingengineering.com/science/nasas-panel-explores-the-enigma-of-unidentified-aerial-phenomena",
+        "datePublished": "2023-05-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/china-accelerates-launch-of-large-language-models-",
+        "name": "China accelerates launch of large-language models as Elon Musk visits Beijing",
+        "url": "https://interestingengineering.com/innovation/china-accelerates-launch-of-large-language-models-as-elon-musk-visits-beijing",
+        "datePublished": "2023-05-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/us-ready-for-space-warfare-says-brigadier-general-",
+        "name": "US ready for space warfare, says brigadier general Morehouse",
+        "url": "https://interestingengineering.com/culture/us-ready-for-space-warfare-says-brigadier-general-morehouse",
+        "datePublished": "2023-05-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/twitter-the-fractured-mirror-of-our-collective-unc",
+        "name": "Twitter — The Fractured Mirror of Our Collective Unconscious",
+        "url": "https://medium.com/illumination/twitter-the-fractured-mirror-of-our-collective-unconscious-fc46bef6fe4",
+        "datePublished": "2023-05-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",
+        "name": "Meet BratGPT, the chatbot that refuses to play nice",
+        "url": "https://interestingengineering.com/culture/meet-bratgpt-the-chatbot-that-refuses-to-play-nice",
+        "datePublished": "2023-05-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/ford-partners-with-tesla-on-electric-vehicle-charg",
+        "name": "Ford partners with Tesla on electric vehicle charging initiatives",
+        "url": "https://interestingengineering.com/transportation/ford-partners-with-tesla-on-electric-vehicle-charging-initiatives",
+        "datePublished": "2023-05-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/federal-funding-to-bolster-colorado-river-system-s",
+        "name": "Federal funding to bolster Colorado River system’s drought resilience",
+        "url": "https://interestingengineering.com/science/federal-funding-to-bolster-colorado-river-systems-drought-resilience",
+        "datePublished": "2023-05-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/virgin-galactic-sets-stage-for-final-test-flight-b",
+        "name": "Virgin Galactic sets stage for final test flight before commercial launch",
+        "url": "https://interestingengineering.com/transportation/virgin-galactic-sets-stage-for-final-test-flight-before-commercial-launch",
+        "datePublished": "2023-05-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/lucy-spacecraft-adjusts-course-for-date-with-tiny-",
+        "name": "Lucy spacecraft adjusts course for date with tiny asteroid Dinkinesh before historic Trojan mission",
+        "url": "https://interestingengineering.com/science/lucy-spacecraft-adjusts-course-for-date-with-tiny-asteroid-dinkinesh-before-historic-trojan-mission",
+        "datePublished": "2023-05-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/unlocking-the-mysteries-of-lava-worlds-a-guiding-l",
+        "name": "Unlocking the mysteries of lava worlds: A guiding light for the James Webb Space Telescope",
+        "url": "https://interestingengineering.com/science/unlocking-the-mysteries-of-lava-worlds-a-guiding-light-for-the-james-webb-space-telescope",
+        "datePublished": "2023-05-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/seti-institute-invites-public-to-participate-in-in",
+        "name": "SETI Institute invites public to participate in interplanetary ‘A Sign in Space’ Project",
+        "url": "https://interestingengineering.com/science/seti-institute-invites-public-to-participate-in-interplanetary-a-sign-in-space-project",
+        "datePublished": "2023-05-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/florida-governor-ron-desantis-to-announce-presiden",
+        "name": "Florida Governor Ron DeSantis to announce Presidential run on Twitter Spaces with CEO Elon Musk",
+        "url": "https://interestingengineering.com/culture/florida-governor-ron-desantis-to-announce-presidential-run-in-twitter-spaces-with-ceo-elon-musk",
+        "datePublished": "2023-05-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 56,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-can-we-understand-colors-better",
+        "name": "How Can We Understand Colors Better?",
+        "url": "https://medium.com/age-of-awareness/how-can-we-understand-colors-better-a69c1aa8ccd0",
+        "datePublished": "2023-04-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 57,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/what-does-it-mean-to-be-a-better-human",
+        "name": "What Does it Mean to be a “Better Human?”",
+        "url": "https://medium.com/age-of-awareness/what-does-it-mean-to-be-a-better-human-c942d8b65264",
+        "datePublished": "2023-04-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/the-real-reason-socrates-was-given-the-death-sente",
+        "name": "The real reason Socrates was given the death sentence",
+        "url": "https://bigthink.com/the-past/real-reason-socrates-death-sentence/",
+        "datePublished": "2023-03-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/should-i-use-aluminum-free-deodorant",
+        "name": "Should I Use Aluminum-Free Deodorant?",
+        "url": "https://medium.com/in-fitness-and-in-health/should-i-use-aluminum-free-deodorant-a1e7ba094c1f",
+        "datePublished": "2023-03-21T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 60,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration",
+        "name": "What is “Inspiration?”",
+        "url": "https://writingcooperative.com/what-is-inspiration-7653edc0f676",
+        "datePublished": "2023-03-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 61,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-to-use-turmeric-to-fight-the-norovirus",
+        "name": "How to Use Turmeric to Fight the Norovirus",
+        "url": "https://medium.com/in-fitness-and-in-health/how-to-use-turmeric-to-fight-the-current-wave-of-norovirus-5ea1a09afcea",
+        "datePublished": "2023-03-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/why-fluoride-does-not-lower-iq",
+        "name": "Why Fluoride Does Not Lower IQ",
+        "url": "https://medium.com/in-fitness-and-in-health/does-fluoride-lower-iq-b3607229b983",
+        "datePublished": "2023-03-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-bad-incentives-rule-modern-commerce",
+        "name": "How Bad Incentives Rule Modern Commerce",
+        "url": "https://medium.com/illumination/how-bad-incentives-rule-modern-commerce-a7345c5972d8",
+        "datePublished": "2023-02-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/daoist-lessons-for-life-from-zhuangzi-s-butterfly-",
+        "name": "Daoist Lessons for Life from Zhuangzi’s Butterfly Dream",
+        "url": "https://medium.com/age-of-awareness/daoist-lessons-for-life-from-zhuangzis-butterfly-dream-7fb4eff75fea",
+        "datePublished": "2023-02-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/pumpkin-seeds-and-prostate-cancer-prevention",
+        "name": "Pumpkin Seeds and Prostate Cancer Prevention",
+        "url": "https://medium.com/in-fitness-and-in-health/pumpkin-seeds-and-prostate-cancer-prevention-b608ef013190",
+        "datePublished": "2022-11-18T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medical-device-network/nanophotonic-devices-their-uses-and-impact",
+        "name": "Nanophotonic devices: their uses and impact",
+        "url": "https://www.medicaldevice-network.com/features/nanophotonic-devices-their-uses-and-impact/",
+        "datePublished": "2022-10-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/marcus-aurelius-son-was-a-murderous-psychopath-is-",
+        "name": "Marcus Aurelius’ son was a murderous psychopath. Is Stoicism to blame?",
+        "url": "https://bigthink.com/the-past/marcus-aurelius-commodus-stoicism/",
+        "datePublished": "2022-08-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/the-subtle-art-of-language-why-artificial-general-",
+        "name": "The subtle art of language: why artificial general intelligence might be impossible",
+        "url": "https://bigthink.com/the-future/artificial-general-intelligence-impossible/",
+        "datePublished": "2022-03-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/anti-intellectualism-and-its-resultant-alienation",
+        "name": "Anti-intellectualism and Its Resultant Alienation",
+        "url": "https://daniellehewych.medium.com/anti-intellectualism-and-its-resultant-alienation-9c387b40ccd6",
+        "datePublished": "2022-03-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 70,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-fallaciousness-of-conceivability-arguments",
+        "name": "The Fallaciousness of Conceivability Arguments",
+        "url": "https://daniellehewych.medium.com/the-fallaciousness-of-conceivability-arguments-7a1e49592673",
+        "datePublished": "2022-02-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 71,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/newspeak-why-silence-defeats-thought-crimes-in-orw",
+        "name": "Newspeak: Why silence defeats “thought crimes” in Orwell’s 1984",
+        "url": "https://bigthink.com/thinking/silence-thought-newspeak/",
+        "datePublished": "2022-01-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 72,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/tearing-down-maslow-s-hierarchy-why-self-actualiza",
+        "name": "Tearing down Maslow’s hierarchy: why self-actualization is impossible",
+        "url": "https://bigthink.com/thinking/authenticity-self-actualization/",
+        "datePublished": "2022-01-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 73,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/freshcleantees/how-to-have-a-fresh-and-fit-thanksgiving",
+        "name": "How to Have a Fresh and Fit Thanksgiving",
+        "url": "https://freshcleantees.com/blogs/blog/fresh-and-fit-thanksgiving",
+        "datePublished": "2022-01-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 74,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/freshcleantees/how-to-get-six-pack-abs-after-40",
+        "name": "How to Get Six-Pack Abs After 40",
+        "url": "https://freshcleantees.com/blogs/blog/abs-after-40",
+        "datePublished": "2022-01-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 75,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/freshcleantees/a-breakdown-of-cardio-for-older-men",
+        "name": "A Breakdown of Cardio for Older Men",
+        "url": "https://freshcleantees.com/blogs/blog/cardio-breakdown-for-older-men",
+        "datePublished": "2022-01-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/how-nietzsche-can-improve-your-love-life",
+        "name": "How Nietzsche can improve your love life",
+        "url": "https://bigthink.com/thinking/nietzsche-improve-love-life/",
+        "datePublished": "2021-10-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/should-you-use-knee-sleeves-when-squatting",
+        "name": "Should You Use Knee Sleeves When Squatting?",
+        "url": "https://medium.com/in-fitness-and-in-health/should-you-use-knee-sleeves-when-squatting-e9bcbd02463a",
+        "datePublished": "2021-08-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 78,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-difference-between-powerlifting-and-olympic-we",
+        "name": "The Difference Between Powerlifting and Olympic Weightlifting — The Fast Answer",
+        "url": "https://medium.com/in-fitness-and-in-health/the-difference-between-powerlifting-and-olympic-weightlifting-the-fast-answer-70e185cadfa2",
+        "datePublished": "2021-06-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 79,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/zhuangzi-the-inborn-nature-and-the-heavenly-dao",
+        "name": "Zhuangzi, The Inborn Nature and The Heavenly Dao",
+        "url": "https://daniellehewych.medium.com/zhuangzi-the-inborn-nature-and-the-heavenly-dao-6217b03b3650",
+        "datePublished": "2021-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/zhuangzi-and-mozi-the-ontological-difference",
+        "name": "Zhuangzi and Mozi: The Ontological Difference",
+        "url": "https://daniellehewych.medium.com/zhuangzi-and-mozi-the-ontological-difference-5e044605bbae",
+        "datePublished": "2021-05-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/why-thc-is-more-medicinal-than-cbd",
+        "name": "Why THC is More Medicinal Than CBD",
+        "url": "https://daniellehewych.medium.com/why-thc-is-more-medicinal-than-cbd-7017e9bdc8af",
+        "datePublished": "2021-02-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 82,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-setting-high-expectations-for-yourself-turns-y",
+        "name": "How Setting High-Expectations for Yourself Turns you into the Ideal for Others",
+        "url": "https://theapeiron.co.uk/how-setting-high-expectations-for-yourself-turns-you-into-the-ideal-for-others-6106bbce8871",
+        "datePublished": "2020-12-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 83,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/derek-parfit-on-personal-identity",
+        "name": "Derek Parfit on Personal Identity",
+        "url": "https://daniellehewych.medium.com/derek-parfit-on-personal-identity-f545ec46f494",
+        "datePublished": "2020-09-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/cardiomyopathy",
+        "name": "Cardiomyopathy",
+        "url": "https://daniellehewych.medium.com/cardiomyopathy-b0b98fe96c6d",
+        "datePublished": "2020-09-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/cartesian-dualism-spinoza-s-parallelism-and-the-zo",
+        "name": "Cartesian Dualism, Spinoza’s Parallelism, and the Zombie Argument",
+        "url": "https://daniellehewych.medium.com/cartesian-dualism-spinozas-parallelism-and-the-zombie-argument-77d8fe5071be",
+        "datePublished": "2020-09-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/climbing-diotima-s-ladder-of-love",
+        "name": "Climbing Diotima’s Ladder of Love",
+        "url": "https://daniellehewych.medium.com/climbing-diotimas-ladder-of-love-98f8ee38c4f4",
+        "datePublished": "2020-06-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/getting-into-shape-from-the-ground-up",
+        "name": "Getting into Shape from The Ground Up",
+        "url": "https://daniellehewych.medium.com/getting-into-shape-from-the-ground-up-ebc23b7396a4",
+        "datePublished": "2020-06-10T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 88,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/citizenship",
+        "name": "Citizenship",
+        "url": "https://daniellehewych.medium.com/citizenship-84623f3825a4",
+        "datePublished": "2020-01-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 89,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/heidegger-spinoza-ontological-anticipation-and-int",
+        "name": "Heidegger & Spinoza: Ontological Anticipation and Interpretation",
+        "url": "https://daniellehewych.medium.com/heidegger-spinoza-ontological-anticipation-and-interpretation-9a6e6ffba09e",
+        "datePublished": "2020-01-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 90,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/quick-fat-loss-strategies",
+        "name": "Quick Fat Loss Strategies",
+        "url": "https://daniellehewych.medium.com/quick-fat-loss-strategies-f3e507be510c",
+        "datePublished": "2019-12-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 91,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/poverty-in-north-korea",
+        "name": "Poverty in North Korea",
+        "url": "https://daniellehewych.medium.com/poverty-in-north-korea-801cd99b4ec8",
+        "datePublished": "2019-12-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 92,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/personal-lessons-from-being-injured",
+        "name": "Personal Lessons from Being Injured",
+        "url": "https://daniellehewych.medium.com/personal-lessons-from-being-injured-554fb6c74e09",
+        "datePublished": "2019-12-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 93,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/dealing-with-the-gettier-problem",
+        "name": "Dealing With The Gettier Problem",
+        "url": "https://daniellehewych.medium.com/dealing-with-the-gettier-problem-432fcd4d2dcb",
+        "datePublished": "2019-12-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 94,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/plato-s-theory-of-forms-an-aesthetic-critique",
+        "name": "Plato’s Theory of Forms: An Aesthetic Critique",
+        "url": "https://daniellehewych.medium.com/platos-theory-of-forms-an-aesthetic-critique-48c6671a1377",
+        "datePublished": "2019-12-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 95,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/why-morality-is-objective",
+        "name": "Why Morality is Objective",
+        "url": "https://daniellehewych.medium.com/why-morality-is-objective-9babb735d117",
+        "datePublished": "2019-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 96,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/sex-differences-in-injury-recovery",
+        "name": "Sex Differences in Injury Recovery",
+        "url": "https://daniellehewych.medium.com/sex-differences-in-injury-recovery-30ca253ed0a2",
+        "datePublished": "2019-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 97,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/hit-in-the-head-meaning-and-gratitude",
+        "name": "Hit in the Head: Meaning and Gratitude",
+        "url": "https://daniellehewych.medium.com/hit-in-the-head-meaning-and-gratitude-82c1742c5ac8",
+        "datePublished": "2019-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-birth-of-tragedy-how-early-nietzsche-connects-",
+        "name": "The Birth of Tragedy: How Early Nietzsche Connects to Late Nietzsche",
+        "url": "https://daniellehewych.medium.com/the-birth-of-tragedy-how-early-nietzsche-connects-to-late-nietzsche-3894b7e2822c",
+        "datePublished": "2019-11-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/rousseau-s-discourses-a-short-critique",
+        "name": "Rousseau’s Discourses: A Short Critique",
+        "url": "https://daniellehewych.medium.com/rousseaus-discourses-a-short-critique-4854dfc9ec3a",
+        "datePublished": "2019-11-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 100,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/jung-sophocles-and-socrates-antigone-archetypes",
+        "name": "Jung, Sophocles, and Socrates: Antigone Archetypes",
+        "url": "https://daniellehewych.medium.com/jung-sophocles-and-socrates-antigone-archetypes-bd298c8eaf02",
+        "datePublished": "2019-11-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 101,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-role-that-religion-plays-in-poverty",
+        "name": "The Role That Religion Plays in Poverty",
+        "url": "https://daniellehewych.medium.com/the-role-that-religion-plays-in-poverty-5e58c0631c13",
+        "datePublished": "2019-11-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 102,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/deconstruction-and-its-problems-the-line-between-f",
+        "name": "Deconstruction And Its Problems: The Line Between Freedom and Rigidity",
+        "url": "https://daniellehewych.medium.com/deconstruction-and-its-problems-the-line-between-freedom-and-rigidity-2e14048d3b11",
+        "datePublished": "2019-11-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 103,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/martin-heidegger-s-being-time-the-question-of-bein",
+        "name": "Martin Heidegger’s Being & Time: The Question of Being",
+        "url": "https://daniellehewych.medium.com/martin-heideggers-being-time-the-question-of-being-7bf1e5b390ad",
+        "datePublished": "2019-11-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 104,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/david-hume-complications-with-abstract-ideas",
+        "name": "David Hume: Complications With Abstract Ideas",
+        "url": "https://daniellehewych.medium.com/david-hume-complications-with-abstract-ideas-5573aaa2fcd4",
+        "datePublished": "2019-10-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 105,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/aristotle-and-descartes-on-animals",
+        "name": "Aristotle and Descartes on Animals",
+        "url": "https://daniellehewych.medium.com/aristotle-and-descartes-on-animals-a73c8a27d0bf",
+        "datePublished": "2019-10-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 106,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/rasa-and-metal-linkin-park-meets-indian-aesthetics",
+        "name": "Rasa and Metal: Linkin Park Meets Indian Aesthetics",
+        "url": "https://daniellehewych.medium.com/rasa-and-metal-linkin-park-meets-indian-aesthetics-a3ad8f59b00c",
+        "datePublished": "2019-10-21T00:00:00Z"
+      }
+    }
+  ]
+}
