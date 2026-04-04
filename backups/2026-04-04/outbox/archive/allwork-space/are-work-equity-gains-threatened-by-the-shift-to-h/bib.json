@@ -1,0 +1,49 @@
+{
+  "@type": "ListItem",
+  "position": 279,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/are-work-equity-gains-threatened-by-the-shift-to-h",
+    "name": "Are Work Equity Gains Threatened by the Shift to Hybrid and Remote Work?",
+    "description": "Are Work Equity Gains Threatened by the Shift to Hybrid and Remote Work?",
+    "url": "https://allwork.space/2021/10/are-work-equity-gains-threatened-by-the-shift-to-hybrid-and-remote-work/",
+    "datePublished": "2021-10-26T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2021/10/are-work-equity-gains-threatened-by-the-shift-to-hybrid-and-remote-work/",
+      "https://daniellehewych.org/archive/allwork-space/are-work-equity-gains-threatened-by-the-shift-to-h"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      {
+        "@type": "Thing",
+        "name": "Remote Work"
+      }
+    ],
+    "keywords": "Artificial Intelligence, Remote Work",
+    "genre": "Investigative Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
