@@ -1,13 +1,10 @@
-# Sovereignty System Report - 2026-04-24
+# Sovereignty System Report - 2026-04-25
 
 Nothing new today.
 
-## Skipped (for review): 2
+## Skipped (for review): 1
 
 - 1. **SPILLWAY Synonyms: 23 Similar Words | Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/spillway
-  - Host: merriam-webster.com
-  - Reason: author-mismatch
-- 2. **Synonyms of swash - Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/swash
   - Host: merriam-webster.com
   - Reason: author-mismatch
 
