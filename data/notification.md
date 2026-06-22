@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2026-06-21
+# Sovereignty System Report - 2026-06-22
 
 Nothing new today.
 
@@ -6,7 +6,7 @@ Nothing new today.
 
 - 1. **HETEROFATALIZAM: Zašto sve više žena odustaje od dejtova** — https://mood.hr/power/heterofatalizam-zasto-se-sve-vise-zena-zali-na-ambivalentne-muskarce/
   - Host: mood.hr
-  - Reason: fetch-failed: HTTP 415
+  - Reason: author-mismatch
 - 2. **Synonyms of swash - Merriam-Webster Thesaurus** — https://www.merriam-webster.com/thesaurus/swash
   - Host: merriam-webster.com
   - Reason: fetch-failed: HTTP 403
