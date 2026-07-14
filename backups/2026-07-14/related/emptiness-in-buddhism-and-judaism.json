@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/sartre-bad-faith-and-its-incompatibility-with-huma",
+        "name": "Sartre: Bad Faith and its Incompatibility with Human Freedom",
+        "url": "https://daniellehewych.medium.com/sartre-bad-faith-and-its-incompatibility-with-human-freedom-91eb2753da1",
+        "datePublished": "2019-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/christianity-and-familial-piety",
+        "name": "Christianity and Familial Piety",
+        "url": "https://daniellehewych.medium.com/christianity-and-familial-piety-b7bf24f6b3c6",
+        "datePublished": "2025-06-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity",
+        "name": "Walter White’s Tragic Complexity",
+        "url": "https://medium.com/grim-tidings/walter-whites-tragic-complexity-9e43ab9b2909",
+        "datePublished": "2024-12-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-constitutional-case-against-banning-interstate",
+        "name": "The Constitutional Case Against Banning Interstate Travel for Abortion",
+        "url": "https://daniellehewych.medium.com/the-constitutional-case-against-banning-interstate-travel-for-abortion-72af15273a17",
+        "datePublished": "2024-08-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/ezekiel-s-vision-of-god",
+        "name": "Ezekiel’s Vision of God",
+        "url": "https://daniellehewych.medium.com/ezekiels-vision-of-god-7f08bb1aaef8",
+        "datePublished": "2024-05-24T00:00:00Z"
+      }
+    }
+  ]
+}
