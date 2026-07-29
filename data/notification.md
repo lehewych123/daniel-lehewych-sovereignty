@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2026-07-28
+# Sovereignty System Report - 2026-07-29
 
 Nothing new today.
 
