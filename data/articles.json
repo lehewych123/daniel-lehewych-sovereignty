@@ -413,14 +413,14 @@
   },
   {
     "id": 18,
-    "title": "Plato’s Theory of Forms: An Aesthetic Critique",
+    "title": "Plato's Theory of Forms: An Aesthetic Critique |",
     "url": "https://daniellehewych.medium.com/platos-theory-of-forms-an-aesthetic-critique-48c6671a1377",
     "normalizedUrl": "https://daniellehewych.medium.com/platos-theory-of-forms-an-aesthetic-critique-48c6671a1377",
     "platform": "Medium",
     "date": "2019-12-02",
-    "snippet": "",
-    "fingerprint": "aae9c08720da8c49cd19531d66e970feb70b0c127d3e10aa2e47e2c7b492f67b",
-    "version": 1,
+    "snippet": "Dec 2, 2019 ... Written by Daniel Lehewych · 692 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
+    "fingerprint": "1eeb1d3d9747d23b9d4ca53d46fa16902d4e38f25a27d05a0a92a0b1f707f8c8",
+    "version": 2,
     "schemas": {
       "urlSlug": "/archive/medium/plato-s-theory-of-forms-an-aesthetic-critique",
       "type": "ScholarlyArticle",
@@ -433,7 +433,8 @@
       }
     },
     "discoveredAt": "2025-08-11T17:10:51.338Z",
-    "status": "processed"
+    "status": "processed",
+    "lastUpdated": "2026-08-02T16:05:10.374Z"
   },
   {
     "id": 19,
