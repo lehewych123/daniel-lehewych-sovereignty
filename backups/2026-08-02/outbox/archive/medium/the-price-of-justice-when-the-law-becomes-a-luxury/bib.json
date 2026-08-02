@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 3,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/the-price-of-justice-when-the-law-becomes-a-luxury",
+    "name": "The Price of Justice: When the Law Becomes a Luxury Good",
+    "description": "The Price of Justice: When the Law Becomes a Luxury Good",
+    "url": "https://daniellehewych.medium.com/the-price-of-justice-when-the-law-becomes-a-luxury-good-abbba43dfa98",
+    "datePublished": "2025-06-30T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/the-price-of-justice-when-the-law-becomes-a-luxury-good-abbba43dfa98",
+      "https://daniellehewych.org/archive/medium/the-price-of-justice-when-the-law-becomes-a-luxury"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
