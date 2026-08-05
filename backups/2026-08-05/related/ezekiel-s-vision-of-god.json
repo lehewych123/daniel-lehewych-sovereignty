@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/christianity-and-familial-piety",
+        "name": "Christianity and Familial Piety",
+        "url": "https://daniellehewych.medium.com/christianity-and-familial-piety-b7bf24f6b3c6",
+        "datePublished": "2025-06-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/existential-fear-of-the-living-god",
+        "name": "Existential Fear of the “Living God”",
+        "url": "https://daniellehewych.medium.com/existential-fear-of-the-living-god-2ada6683d9e1",
+        "datePublished": "2024-04-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-moral-psychological-dynamics-of-the-golden-rul",
+        "name": "The Moral Psychological Dynamics of The Golden Rule in Christianity",
+        "url": "https://daniellehewych.medium.com/the-moral-psychological-dynamics-of-the-golden-rule-in-christianity-5a511015194f",
+        "datePublished": "2024-03-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/emptiness-in-buddhism-and-judaism",
+        "name": "“Emptiness” in Buddhism and Judaism",
+        "url": "https://medium.com/illumination/emptiness-in-buddhism-and-judaism-34e6d47840c8",
+        "datePublished": "2024-02-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-divine-i-am",
+        "name": "The Divine “I AM”",
+        "url": "https://medium.com/illumination/the-divine-i-am-a938b8c81197",
+        "datePublished": "2024-02-15T00:00:00Z"
+      }
+    }
+  ]
+}
