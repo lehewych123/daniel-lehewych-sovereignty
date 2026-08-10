@@ -9,8 +9,8 @@
       "position": 1,
       "item": {
         "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap",
-        "name": "The Heterofatalism Trap",
+        "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap-quillette",
+        "name": "The Heterofatalism Trap - Quillette",
         "url": "https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times/",
         "datePublished": "2025-08-24T00:00:00Z"
       }
@@ -416,8 +416,8 @@
       "position": 38,
       "item": {
         "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony",
-        "name": "On the Notion of “Philogony”",
+        "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony-daniel-lehewych",
+        "name": "On the Notion of “Philogony” - Daniel Lehewych",
         "url": "https://daniellehewych.medium.com/on-the-notion-of-philogony-7407e1ffbdab",
         "datePublished": "2023-10-03T00:00:00Z"
       }
@@ -658,8 +658,8 @@
       "position": 60,
       "item": {
         "@type": "Article",
-        "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration",
-        "name": "What is “Inspiration?”",
+        "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration-creators-have-trouble-defining",
+        "name": "What is “Inspiration?”. Creators have trouble defining what is…",
         "url": "https://writingcooperative.com/what-is-inspiration-7653edc0f676",
         "datePublished": "2023-03-15T00:00:00Z"
       }
@@ -1033,7 +1033,7 @@
       "item": {
         "@type": "Article",
         "@id": "https://daniellehewych.org/archive/medium/plato-s-theory-of-forms-an-aesthetic-critique",
-        "name": "Plato’s Theory of Forms: An Aesthetic Critique",
+        "name": "Plato's Theory of Forms: An Aesthetic Critique |",
         "url": "https://daniellehewych.medium.com/platos-theory-of-forms-an-aesthetic-critique-48c6671a1377",
         "datePublished": "2019-12-02T00:00:00Z"
       }

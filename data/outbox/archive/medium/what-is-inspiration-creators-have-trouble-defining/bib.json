@@ -1,16 +1,16 @@
 {
   "@type": "ListItem",
-  "position": 77,
+  "position": 133,
   "item": {
     "@type": [
       "AnalysisNewsArticle",
       "Article"
     ],
-    "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony-daniel-lehewych",
-    "name": "On the Notion of “Philogony” - Daniel Lehewych",
-    "description": "Oct 3, 2023 ... Written by Daniel Lehewych · 691 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
-    "url": "https://daniellehewych.medium.com/on-the-notion-of-philogony-7407e1ffbdab",
-    "datePublished": "2023-10-03T00:00:00Z",
+    "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration-creators-have-trouble-defining",
+    "name": "What is “Inspiration?”. Creators have trouble defining what is…",
+    "description": "Mar 15, 2023 ... Written by Daniel Lehewych · 692 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
+    "url": "https://writingcooperative.com/what-is-inspiration-7653edc0f676",
+    "datePublished": "2023-03-15T00:00:00Z",
     "author": {
       "@id": "https://daniellehewych.org/#daniel-lehewych",
       "@type": "Person",
@@ -27,8 +27,8 @@
       "issn": ""
     },
     "sameAs": [
-      "https://daniellehewych.medium.com/on-the-notion-of-philogony-7407e1ffbdab",
-      "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony-daniel-lehewych"
+      "https://writingcooperative.com/what-is-inspiration-7653edc0f676",
+      "https://daniellehewych.org/archive/medium/what-is-inspiration-creators-have-trouble-defining"
     ],
     "genre": "Trend Analysis",
     "usageInfo": {

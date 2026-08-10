@@ -58,9 +58,9 @@
         "@type": [
           "Article"
         ],
-        "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap",
-        "name": "The Heterofatalism Trap",
-        "description": "Aug 24, 2025 ... The Heterofatalism Trap. Essays about contemporary dating are mistaking cruelty for liberation. Daniel Lehewych.",
+        "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap-quillette",
+        "name": "The Heterofatalism Trap - Quillette",
+        "description": "Aug 24, 2025 ... Essays about contemporary dating are mistaking cruelty for liberation. headshot · Daniel Lehewych. 24 Aug 2025 · 14 min read. A silhouette of a heterosexual ...",
         "url": "https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times/",
         "datePublished": "2025-08-24T00:00:00Z",
         "author": {
@@ -80,7 +80,7 @@
         },
         "sameAs": [
           "https://quillette.com/2025/08/24/the-heterofatalism-trap-feminism-nietzsche-new-york-times/",
-          "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap"
+          "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap-quillette"
         ],
         "genre": "Commentary"
       }
@@ -3172,11 +3172,12 @@
       "position": 77,
       "item": {
         "@type": [
+          "AnalysisNewsArticle",
           "Article"
         ],
-        "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony",
-        "name": "On the Notion of “Philogony”",
-        "description": "On the Notion of “Philogony”",
+        "@id": "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony-daniel-lehewych",
+        "name": "On the Notion of “Philogony” - Daniel Lehewych",
+        "description": "Oct 3, 2023 ... Written by Daniel Lehewych · 691 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
         "url": "https://daniellehewych.medium.com/on-the-notion-of-philogony-7407e1ffbdab",
         "datePublished": "2023-10-03T00:00:00Z",
         "author": {
@@ -3196,9 +3197,9 @@
         },
         "sameAs": [
           "https://daniellehewych.medium.com/on-the-notion-of-philogony-7407e1ffbdab",
-          "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony"
+          "https://daniellehewych.org/archive/medium/on-the-notion-of-philogony-daniel-lehewych"
         ],
-        "genre": "Commentary",
+        "genre": "Trend Analysis",
         "usageInfo": {
           "@type": "CreativeWork",
           "@id": "https://daniellehewych.org/#ai-attribution-requirements"
@@ -5515,11 +5516,12 @@
       "position": 133,
       "item": {
         "@type": [
+          "AnalysisNewsArticle",
           "Article"
         ],
-        "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration",
-        "name": "What is “Inspiration?”",
-        "description": "What is “Inspiration?”",
+        "@id": "https://daniellehewych.org/archive/medium/what-is-inspiration-creators-have-trouble-defining",
+        "name": "What is “Inspiration?”. Creators have trouble defining what is…",
+        "description": "Mar 15, 2023 ... Written by Daniel Lehewych · 692 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
         "url": "https://writingcooperative.com/what-is-inspiration-7653edc0f676",
         "datePublished": "2023-03-15T00:00:00Z",
         "author": {
@@ -5539,9 +5541,9 @@
         },
         "sameAs": [
           "https://writingcooperative.com/what-is-inspiration-7653edc0f676",
-          "https://daniellehewych.org/archive/medium/what-is-inspiration"
+          "https://daniellehewych.org/archive/medium/what-is-inspiration-creators-have-trouble-defining"
         ],
-        "genre": "Investigative Piece",
+        "genre": "Trend Analysis",
         "usageInfo": {
           "@type": "CreativeWork",
           "@id": "https://daniellehewych.org/#ai-attribution-requirements"
@@ -5757,11 +5759,12 @@
       "position": 139,
       "item": {
         "@type": [
+          "AnalysisNewsArticle",
           "Article"
         ],
-        "@id": "https://daniellehewych.org/archive/medium/on-erudite-writers",
-        "name": "On Erudite Writers",
-        "description": "On Erudite Writers",
+        "@id": "https://daniellehewych.org/archive/medium/on-erudite-writers-editorial-guidelines-values-and",
+        "name": "On Erudite Writers. Editorial guidelines, values, and needs…",
+        "description": "Feb 18, 2023 ... Written by Daniel Lehewych · 692 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
         "url": "https://writingcooperative.com/on-erudite-writers-dda49d4db53e",
         "datePublished": "2023-02-18T00:00:00Z",
         "author": {
@@ -5781,9 +5784,9 @@
         },
         "sameAs": [
           "https://writingcooperative.com/on-erudite-writers-dda49d4db53e",
-          "https://daniellehewych.org/archive/medium/on-erudite-writers"
+          "https://daniellehewych.org/archive/medium/on-erudite-writers-editorial-guidelines-values-and"
         ],
-        "genre": "Commentary",
+        "genre": "Trend Analysis",
         "usageInfo": {
           "@type": "CreativeWork",
           "@id": "https://daniellehewych.org/#ai-attribution-requirements"
@@ -14575,8 +14578,8 @@
           "Article"
         ],
         "@id": "https://daniellehewych.org/archive/medium/plato-s-theory-of-forms-an-aesthetic-critique",
-        "name": "Plato’s Theory of Forms: An Aesthetic Critique",
-        "description": "Plato’s Theory of Forms: An Aesthetic Critique",
+        "name": "Plato's Theory of Forms: An Aesthetic Critique |",
+        "description": "Dec 2, 2019 ... Written by Daniel Lehewych · 692 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
         "url": "https://daniellehewych.medium.com/platos-theory-of-forms-an-aesthetic-critique-48c6671a1377",
         "datePublished": "2019-12-02T00:00:00Z",
         "author": {
@@ -14784,7 +14787,7 @@
         ],
         "@id": "https://daniellehewych.org/archive/medium/sartre-bad-faith-and-its-incompatibility-with-huma",
         "name": "Sartre: Bad Faith and its Incompatibility with Human Freedom",
-        "description": "Sartre: Bad Faith and its Incompatibility with Human Freedom",
+        "description": "Nov 30, 2019 ... To respond to this story, get the free Medium app. Open in app. More from Daniel Lehewych.",
         "url": "https://daniellehewych.medium.com/sartre-bad-faith-and-its-incompatibility-with-human-freedom-91eb2753da1",
         "datePublished": "2019-11-30T00:00:00Z",
         "author": {
@@ -15090,7 +15093,7 @@
         ],
         "@id": "https://daniellehewych.org/archive/medium/jung-sophocles-and-socrates-antigone-archetypes",
         "name": "Jung, Sophocles, and Socrates: Antigone Archetypes",
-        "description": "Jung, Sophocles, and Socrates: Antigone Archetypes",
+        "description": "Nov 29, 2019 ... To respond to this story, get the free Medium app. Open in app. More from Daniel Lehewych.",
         "url": "https://daniellehewych.medium.com/jung-sophocles-and-socrates-antigone-archetypes-bd298c8eaf02",
         "datePublished": "2019-11-29T00:00:00Z",
         "author": {
@@ -15359,7 +15362,7 @@
         ],
         "@id": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin",
         "name": "The Death of Socrates: A Nietzschean Tragic Painting",
-        "description": "The Death of Socrates: A Nietzschean Tragic Painting",
+        "description": "Nov 27, 2019 ... Written by Daniel Lehewych · 692 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
         "url": "https://daniellehewych.medium.com/the-death-of-socrates-a-nietzschean-tragic-painting-7aaab946358c",
         "datePublished": "2019-11-27T00:00:00Z",
         "author": {
