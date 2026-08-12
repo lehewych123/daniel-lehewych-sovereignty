@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/a-philosophical-dialectic-with-spinoza-s-god",
+        "name": "A Philosophical Dialectic with Spinoza’s God",
+        "url": "https://medium.com/illumination/a-philosophical-dialectic-with-spinozas-god-0f9673482aac",
+        "datePublished": "2024-01-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-god",
+        "name": "The Phenomenology of God",
+        "url": "https://daniellehewych.medium.com/the-phenomenology-of-god-04f8b4e0fbcd",
+        "datePublished": "2024-01-10T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/christianity-and-familial-piety",
+        "name": "Christianity and Familial Piety",
+        "url": "https://daniellehewych.medium.com/christianity-and-familial-piety-b7bf24f6b3c6",
+        "datePublished": "2025-06-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-claude",
+        "name": "The Phenomenology of Claude",
+        "url": "https://daniellehewych.medium.com/the-phenomenology-of-claude-3908fefd81fa",
+        "datePublished": "2024-06-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/ezekiel-s-vision-of-god",
+        "name": "Ezekiel’s Vision of God",
+        "url": "https://daniellehewych.medium.com/ezekiels-vision-of-god-7f08bb1aaef8",
+        "datePublished": "2024-05-24T00:00:00Z"
+      }
+    }
+  ]
+}
