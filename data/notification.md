@@ -1,12 +1,6 @@
-# Sovereignty System Report - 2026-08-11
+# Sovereignty System Report - 2026-08-12
 
 Nothing new today.
-
-## Skipped (for review): 1
-
-- 1. **كيف يكون ملمس المهبل من الداخل** — https://koparka-uslugi.com.pl/story/energy/2026/08/09/cloud-munezen-energy-paliri
-  - Host: koparka-uslugi.com.pl
-  - Reason: language=other
 
 ---
 
