@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/companies-need-to-invest-in-education-to-cultivate",
+        "name": "Companies Need To Invest In Education To Cultivate New Talent",
+        "url": "https://allwork.space/2022/07/companies-need-to-invest-in-education-to-cultivate-new-talent/",
+        "datePublished": "2022-07-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-role-does-higher-education-have-in-the-future",
+        "name": "What Role Does Higher Education Have In The Future Of Work?",
+        "url": "https://allwork.space/2022/01/what-role-does-higher-education-have-in-the-future-of-work/",
+        "datePublished": "2022-01-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health",
+        "name": "The CDC’s Vision For The Future Of Worker Health",
+        "url": "https://allwork.space/2023/02/the-cdcs-vision-for-the-future-of-worker-health/",
+        "datePublished": "2023-02-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/office-party-etiquette-matters-all-year",
+        "name": "Office Party Etiquette Matters All Year",
+        "url": "https://allwork.space/2023/02/office-party-etiquette-matters-all-year/",
+        "datePublished": "2023-02-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-africa-s-economy-will-harness-digital-tech-in-",
+        "name": "How Africa’s Economy will Harness Digital Tech in the Future of Work",
+        "url": "https://allwork.space/2023/02/how-africas-economy-will-harness-digital-tech-in-the-future-of-work/",
+        "datePublished": "2023-02-13T00:00:00Z"
+      }
+    }
+  ]
+}
