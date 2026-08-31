@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 47,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/non-dual-awareness-in-the-book-of-job",
+    "name": "Non-Dual Awareness in The Book of Job",
+    "description": "Non-Dual Awareness in The Book of Job",
+    "url": "https://daniellehewych.medium.com/non-dual-awareness-in-the-book-of-job-032e345ae832",
+    "datePublished": "2024-03-11T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/non-dual-awareness-in-the-book-of-job-032e345ae832",
+      "https://daniellehewych.org/archive/medium/non-dual-awareness-in-the-book-of-job"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
