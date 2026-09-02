@@ -1,0 +1,657 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Topic: AI & Technology",
+  "numberOfItems": 59,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "url": "https://www.newsweek.com/",
+        "datePublished": "2025-09-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/walter-white-s-tragic-complexity",
+        "name": "Walter White’s Tragic Complexity",
+        "url": "https://medium.com/grim-tidings/walter-whites-tragic-complexity-9e43ab9b2909",
+        "datePublished": "2024-12-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-constitutional-case-against-banning-interstate",
+        "name": "The Constitutional Case Against Banning Interstate Travel for Abortion",
+        "url": "https://daniellehewych.medium.com/the-constitutional-case-against-banning-interstate-travel-for-abortion-72af15273a17",
+        "datePublished": "2024-08-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/optimising-lung-cancer-pathways-and-neurocritical-",
+        "name": "Optimising Lung Cancer Pathways and Neurocritical CT Triage with AI",
+        "url": "https://www.qure.ai/blog/optimising-lung-cancer-pathways-and-neurocritical-ct-triage-with-ai",
+        "datePublished": "2024-04-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/role-of-large-language-models-llms-in-healthcare",
+        "name": "Role of Large Language Models (LLMs) in Healthcare",
+        "url": "https://www.qure.ai/blog/role-of-large-language-models-in-healthcare",
+        "datePublished": "2024-04-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-inefficiency-of-ai-text-detecting-software",
+        "name": "The Inefficiency of AI-Text Detecting Software",
+        "url": "https://daniellehewych.medium.com/the-inefficiency-of-ai-text-detecting-software-5b6de94aaa32",
+        "datePublished": "2024-04-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/the-importance-of-ai-in-msk-radiology",
+        "name": "The Importance of AI in MSK Radiology",
+        "url": "https://www.qure.ai/blog/the-importance-of-ai-in-msk-radiology",
+        "datePublished": "2024-02-21T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/emptiness-in-buddhism-and-judaism",
+        "name": "“Emptiness” in Buddhism and Judaism",
+        "url": "https://medium.com/illumination/emptiness-in-buddhism-and-judaism-34e6d47840c8",
+        "datePublished": "2024-02-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/the-imperative-of-ai-for-improving-radiological-ac",
+        "name": "The Imperative of AI for Improving Radiological Accuracy",
+        "url": "https://www.qure.ai/blog/the-imperative-of-ai-for-improving-radiological-accuracy",
+        "datePublished": "2024-02-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
+        "name": "AI for good - How activating radiology AI can enhance public health & social equity",
+        "url": "https://www.qure.ai/blog/ai-for-good-how-activating-radiology-ai-can-enhance-public%20health-social-equity",
+        "datePublished": "2023-10-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/stroke-care-in-india-an-exploration-of-the-ai-powe",
+        "name": "Stroke Care in India: An Exploration of the AI-Powered Hub & Spoke Model",
+        "url": "https://www.qure.ai/blog/stroke-care-in-india-an-exploration-of-the-ai-powered-hub-spoke-model",
+        "datePublished": "2023-10-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-strife-of-opposites-voltaire-and-frederick-the",
+        "name": "The Strife of Opposites: Voltaire and Frederick the Great",
+        "url": "https://medium.com/illumination/the-strife-of-opposites-voltaire-and-frederick-the-great-ffc0d8aa562c",
+        "datePublished": "2023-09-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/ai-s-rising-importance-in-combating-wildfire-relat",
+        "name": "AI's Rising Importance in Combating Wildfire-Related Lung Health Issues",
+        "url": "https://www.qure.ai/blog/ai-rising-importance-in-combating-wildfire-related-lung-health%20Issues",
+        "datePublished": "2023-09-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-editors-and-employers-should-evaluate-the-use-",
+        "name": "How Editors and Employers Should Evaluate the Use of AI in Writing",
+        "url": "https://writingcooperative.com/how-editors-and-employers-should-evaluate-the-use-of-ai-in-writing-cf30dc445c63",
+        "datePublished": "2023-08-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/ai-on-the-frontline-of-a-e",
+        "name": "AI on the frontline of A&E",
+        "url": "https://www.qure.ai/blog/ai-on-the-frontline-of-ae",
+        "datePublished": "2023-08-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/ai-sparks-record-tech-investments-bofa-strategist-",
+        "name": "AI sparks record tech investments, BofA strategist warns of ‘baby bubble’",
+        "url": "https://interestingengineering.com/innovation/ai-sparks-record-tech-investments-bofa-strategist-warns-of-baby-bubble",
+        "datePublished": "2023-06-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/north-korea-s-new-space-launcher-reveals-progress-",
+        "name": "North Korea’s new space launcher reveals progress in missile technology",
+        "url": "https://interestingengineering.com/innovation/north-koreas-new-space-launcher-reveals-progress-in-missile-technology",
+        "datePublished": "2023-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/ai-deepfakes-fuel-the-flames-of-debate-among-holly",
+        "name": "AI deepfakes fuel the flames of debate among Hollywood stars",
+        "url": "https://interestingengineering.com/culture/ai-deepfakes-fuel-the-flames-of-debate-among-hollywood-stars",
+        "datePublished": "2023-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/rice-university-engineers-develop-ultra-flexible-n",
+        "name": "Rice University engineers develop ultra-flexible nanoelectrodes for brain stimulation therapy",
+        "url": "https://interestingengineering.com/science/rice-university-engineers-develop-ultra-flexible-nanoelectrodes-for-brain-stimulation-therapy",
+        "datePublished": "2023-05-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/eu-tech-chief-pushes-for-rapid-creation-of-ai-code",
+        "name": "EU tech chief pushes for rapid creation of AI code of conduct",
+        "url": "https://interestingengineering.com/science/eu-tech-chief-pushes-for-rapid-creation-of-ai-code-of-conduct",
+        "datePublished": "2023-05-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/baidu-invests-140-million-to-foster-generative-ai-",
+        "name": "Baidu invests $140 million to foster generative AI startups",
+        "url": "https://interestingengineering.com/innovation/baidu-invests-140-million-to-foster-generative-ai-startups",
+        "datePublished": "2023-05-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-joins-trillion-dollar-club-riding-on-the-ai",
+        "name": "Nvidia joins trillion-dollar club, riding on the AI boom",
+        "url": "https://interestingengineering.com/innovation/nvidia-joins-trillion-dollar-club-riding-on-the-ai-boom",
+        "datePublished": "2023-05-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/air-new-zealand-launches-passenger-weight-survey-f",
+        "name": "Air New Zealand launches passenger weight survey for data collection",
+        "url": "https://interestingengineering.com/transportation/air-new-zealand-launches-passenger-weight-survey-for-data-collection",
+        "datePublished": "2023-05-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-to-build-israel-s-most-potent-ai-supercompu",
+        "name": "Nvidia to build Israel’s most potent AI supercomputer",
+        "url": "https://interestingengineering.com/innovation/nvidia-to-build-israels-most-potent-ai-supercomputer",
+        "datePublished": "2023-05-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-far-reaching-health-benefits-of-resistance-tra",
+        "name": "The Far-Reaching Health Benefits of Resistance Training",
+        "url": "https://medium.com/illumination/the-far-reaching-health-benefits-of-resistance-training-96d28f42040a",
+        "datePublished": "2023-04-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-africa-s-economy-will-harness-digital-tech-in-",
+        "name": "How Africa’s Economy will Harness Digital Tech in the Future of Work",
+        "url": "https://allwork.space/2023/02/how-africas-economy-will-harness-digital-tech-in-the-future-of-work/",
+        "datePublished": "2023-02-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief",
+        "name": "The Secret To Fast Muscle Pain Relief",
+        "url": "https://allwork.space/2023/02/the-secret-to-fast-muscle-pain-relief/",
+        "datePublished": "2023-02-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/5-brain-boosting-snacks-to-power-your-work-day",
+        "name": "5 Brain-Boosting Snacks To Power Your Work Day",
+        "url": "https://allwork.space/2023/02/5-brain-boosting-snacks-to-power-your-work-day/",
+        "datePublished": "2023-02-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/ai-is-transforming-the-future-of-industrial-work",
+        "name": "AI Is Transforming The Future Of Industrial Work",
+        "url": "https://allwork.space/2023/01/ai-is-transforming-the-future-of-industrial-work/",
+        "datePublished": "2023-01-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/start-ignoring-email-deep-work-is-how-to-succeed",
+        "name": "Start Ignoring Email — Deep Work Is How To Succeed",
+        "url": "https://allwork.space/2022/11/start-ignoring-email-deep-work-is-how-to-succeed/",
+        "datePublished": "2022-11-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/coworking-centers-beware-saying-you-re-sustainable",
+        "name": "Coworking Centers Beware: Saying You’re Sustainable Isn’t Enough",
+        "url": "https://allwork.space/2022/11/coworking-centers-beware-saying-youre-sustainable-isnt-enough/",
+        "datePublished": "2022-11-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/meta-wants-to-fix-ongoing-zoom-fatigue-but-you-ll-",
+        "name": "Meta Wants To Fix Ongoing Zoom Fatigue — But You’ll Be Waiting A While",
+        "url": "https://allwork.space/2022/11/meta-wants-to-fix-ongoing-zoom-fatigue-but-youll-be-waiting-a-while/",
+        "datePublished": "2022-11-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/four-great-stretches-to-help-alleviate-pain-withou",
+        "name": "Four Great Stretches To Help Alleviate Pain Without Leaving Your Desk",
+        "url": "https://allwork.space/2022/10/four-great-stretches-to-help-alleviate-pain-without-leaving-your-desk/",
+        "datePublished": "2022-10-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/is-ai-the-future-of-graphic-design-work-meet-dall-",
+        "name": "Is AI The Future Of Graphic Design Work? Meet DALL-E 2",
+        "url": "https://allwork.space/2022/09/is-ai-the-future-of-graphic-design-work-meet-dall-e-2/",
+        "datePublished": "2022-09-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em",
+        "name": "Overwhelmed By Work Emails? Here’s How To Reduce Email Anxiety",
+        "url": "https://allwork.space/2022/09/overwhelmed-by-work-emails-heres-how-to-reduce-email-anxiety/",
+        "datePublished": "2022-09-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/want-a-raise-make-small-changes-to-boost-willpower",
+        "name": "Want A Raise? Make Small Changes To Boost Willpower",
+        "url": "https://allwork.space/2022/08/want-a-raise-make-small-changes-to-boost-willpower/",
+        "datePublished": "2022-08-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/skeptical-employers-could-miss-gains-by-rejecting-",
+        "name": "Skeptical Employers Could Miss Gains By Rejecting A Four-day Work Week",
+        "url": "https://allwork.space/2022/07/skeptical-employers-could-miss-gains-by-rejecting-a-four-day-work-week/",
+        "datePublished": "2022-07-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-inflation-impact-pay-raises",
+        "name": "Will Inflation Impact Pay Raises?",
+        "url": "https://allwork.space/2022/07/will-inflation-impact-pay-raises/",
+        "datePublished": "2022-07-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-job-safety-for-retaining-and-sat",
+        "name": "The Importance of Job Safety for Retaining and Satisfying Employees: Explained",
+        "url": "https://allwork.space/2022/04/the-importance-of-job-safety-for-retaining-and-satisfying-employees-explained/",
+        "datePublished": "2022-04-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-data-literacy-in-career-advancem",
+        "name": "The Importance of Data Literacy in Career Advancement: Explained",
+        "url": "https://allwork.space/2022/04/the-importance-of-data-literacy-in-career-advancement-explained/",
+        "datePublished": "2022-04-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-build-and-retain-a-strong-work-team",
+        "name": "Here’s How To Build And Retain A Strong Work Team",
+        "url": "https://allwork.space/2022/04/heres-how-to-build-and-retain-a-strong-work-team",
+        "datePublished": "2022-04-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex",
+        "name": "Mental Health Messaging Needs To Address Social Exclusion",
+        "url": "https://daniellehewych.medium.com/mental-health-messaging-needs-to-address-social-exclusion-42b540fbf12c",
+        "datePublished": "2022-04-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-maintain-well-being-when-working-alo",
+        "name": "Here’s How To Maintain Well-being When Working Alone From Home",
+        "url": "https://allwork.space/2022/03/heres-how-to-maintain-well-being-when-working-alone-from-home",
+        "datePublished": "2022-03-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/freshcleantees/strength-training-in-your-later-years",
+        "name": "Strength Training In Your Later Years",
+        "url": "https://freshcleantees.com/blogs/blog/strength-training-in-your-later-years",
+        "datePublished": "2022-01-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/why-every-manager-needs-to-understand-personality-",
+        "name": "Why Every Manager Needs To Understand Personality Traits In The Workplace",
+        "url": "https://allwork.space/2021/12/why-every-manager-needs-to-understand-personality-traits-the-workplace/",
+        "datePublished": "2021-12-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-retail-industry-struggles-with-multiple-threat",
+        "name": "The Retail Industry Struggles with Multiple Threats and Not Enough Workers, Here’s How It Will Change",
+        "url": "https://allwork.space/2021/12/the-retail-industry-struggles-with-multiple-threats-and-not-enough-workers/",
+        "datePublished": "2021-12-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/are-work-equity-gains-threatened-by-the-shift-to-h",
+        "name": "Are Work Equity Gains Threatened by the Shift to Hybrid and Remote Work?",
+        "url": "https://allwork.space/2021/10/are-work-equity-gains-threatened-by-the-shift-to-hybrid-and-remote-work/",
+        "datePublished": "2021-10-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/ai-streamlines-the-hiring-process-for-many-compani",
+        "name": "AI Streamlines the Hiring Process for Many Companies, but is That a Good Thing?",
+        "url": "https://allwork.space/2021/10/ai-streamlines-the-hiring-process-for-many-companies-but-is-that-a-good-thing/",
+        "datePublished": "2021-10-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-de-i-gains-regress-with-the-rise-of-remote-an",
+        "name": "Will DE&I Gains Regress With The Rise Of Remote And Hybrid Work?",
+        "url": "https://allwork.space/2021/09/will-dei-gains-regress-with-the-rise-of-remote-and-hybrid-work/",
+        "datePublished": "2021-09-21T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/is-high-intensity-interval-training-hiit-worth-it",
+        "name": "Is High-Intensity-Interval-Training (HIIT) Worth It?",
+        "url": "https://medium.com/in-fitness-and-in-health/is-high-intensity-interval-training-hiit-worth-it-c4efbb6b6098",
+        "datePublished": "2021-06-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/is-creatine-a-brain-booster",
+        "name": "Is Creatine a Brain Booster?",
+        "url": "https://medium.com/in-fitness-and-in-health/is-creatine-a-brain-booster-c7bd6c1658e8",
+        "datePublished": "2021-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-most-discouraging-aspect-of-writing-for-money",
+        "name": "The Most Discouraging Aspect of Writing for Money",
+        "url": "https://writingcooperative.com/the-most-discouraging-aspect-of-writing-for-money-4d9ddaf61b95",
+        "datePublished": "2020-11-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/why-i-train",
+        "name": "Why I Train",
+        "url": "https://daniellehewych.medium.com/why-i-train-3651d7232cd2",
+        "datePublished": "2020-11-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/can-science-explain-consciousness",
+        "name": "Can Science Explain Consciousness?",
+        "url": "https://daniellehewych.medium.com/can-science-explain-consciousness-ce4cfbff494d",
+        "datePublished": "2020-11-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-dirty-secrets-of-personal-training",
+        "name": "The Dirty Secrets of Personal Training",
+        "url": "https://daniellehewych.medium.com/the-dirty-secrets-of-personal-training-3d3666441ae5",
+        "datePublished": "2020-02-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 56,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/reflexive-intuition-towards-taboo-our-tragic-failu",
+        "name": "Reflexive Intuition Towards Taboo: Our Tragic Failure to Think in Relation to Taboos",
+        "url": "https://daniellehewych.medium.com/reflexive-intuition-towards-taboo-our-tragic-failure-to-think-in-relation-to-taboos-a093f72a8b10",
+        "datePublished": "2019-12-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 57,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/sartre-bad-faith-and-its-incompatibility-with-huma",
+        "name": "Sartre: Bad Faith and its Incompatibility with Human Freedom",
+        "url": "https://daniellehewych.medium.com/sartre-bad-faith-and-its-incompatibility-with-human-freedom-91eb2753da1",
+        "datePublished": "2019-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin",
+        "name": "The Death of Socrates: A Nietzschean Tragic Painting",
+        "url": "https://daniellehewych.medium.com/the-death-of-socrates-a-nietzschean-tragic-painting-7aaab946358c",
+        "datePublished": "2019-11-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/technological-innovation-by-any-means",
+        "name": "Technological Innovation: By Any Means",
+        "url": "https://daniellehewych.medium.com/technological-innovation-by-any-means-99e6721eaa96",
+        "datePublished": "2019-10-23T00:00:00Z"
+      }
+    }
+  ]
+}
