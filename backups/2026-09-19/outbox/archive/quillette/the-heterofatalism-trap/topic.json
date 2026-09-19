@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "General"
+    }
+  ],
+  "keywords": "general",
+  "mentions": [],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Daniel Lehewych",
+        "item": "https://daniellehewych.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Heterofatalism Trap",
+        "item": "https://daniellehewych.org/archive/quillette/the-heterofatalism-trap"
+      }
+    ]
+  }
+}
