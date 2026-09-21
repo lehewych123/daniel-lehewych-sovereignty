@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-price-of-justice-when-the-law-becomes-a-luxury",
+        "name": "The Price of Justice: When the Law Becomes a Luxury Good",
+        "url": "https://daniellehewych.medium.com/the-price-of-justice-when-the-law-becomes-a-luxury-good-abbba43dfa98",
+        "datePublished": "2025-06-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-moral-psychological-dynamics-of-the-golden-rul",
+        "name": "The Moral Psychological Dynamics of The Golden Rule in Christianity",
+        "url": "https://daniellehewych.medium.com/the-moral-psychological-dynamics-of-the-golden-rule-in-christianity-5a511015194f",
+        "datePublished": "2024-03-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/why-picking-a-niche-is-not-good-advice",
+        "name": "Why “Picking a Niche” is Not Good Advice",
+        "url": "https://writingcooperative.com/why-picking-a-niche-is-not-good-advice-2b8ca30def7e",
+        "datePublished": "2023-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/spinoza-s-anti-ethics",
+        "name": "Spinoza’s Anti-Ethics",
+        "url": "https://daniellehewych.medium.com/spinozas-anti-ethics-95920171a3d7",
+        "datePublished": "2023-04-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/on-the-knowledge-of-good-evil",
+        "name": "On the Knowledge of Good & Evil",
+        "url": "https://theapeiron.co.uk/on-the-knowledge-of-good-evil-669d553fefc3",
+        "datePublished": "2020-11-18T00:00:00Z"
+      }
+    }
+  ]
+}
