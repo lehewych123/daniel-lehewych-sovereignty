@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/optimising-lung-cancer-pathways-and-neurocritical-",
+        "name": "Optimising Lung Cancer Pathways and Neurocritical CT Triage with AI",
+        "url": "https://www.qure.ai/blog/optimising-lung-cancer-pathways-and-neurocritical-ct-triage-with-ai",
+        "datePublished": "2024-04-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/role-of-large-language-models-llms-in-healthcare",
+        "name": "Role of Large Language Models (LLMs) in Healthcare",
+        "url": "https://www.qure.ai/blog/role-of-large-language-models-in-healthcare",
+        "datePublished": "2024-04-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/the-imperative-of-ai-for-improving-radiological-ac",
+        "name": "The Imperative of AI for Improving Radiological Accuracy",
+        "url": "https://www.qure.ai/blog/the-imperative-of-ai-for-improving-radiological-accuracy",
+        "datePublished": "2024-02-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
+        "name": "AI for good - How activating radiology AI can enhance public health & social equity",
+        "url": "https://www.qure.ai/blog/ai-for-good-how-activating-radiology-ai-can-enhance-public%20health-social-equity",
+        "datePublished": "2023-10-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/stroke-care-in-india-an-exploration-of-the-ai-powe",
+        "name": "Stroke Care in India: An Exploration of the AI-Powered Hub & Spoke Model",
+        "url": "https://www.qure.ai/blog/stroke-care-in-india-an-exploration-of-the-ai-powered-hub-spoke-model",
+        "datePublished": "2023-10-15T00:00:00Z"
+      }
+    }
+  ]
+}
