@@ -1,0 +1,39 @@
+{
+  "@type": "ListItem",
+  "position": 291,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/newsweek/children-should-be-taught-philosophy-in-school",
+    "name": "Children Should be Taught Philosophy in School",
+    "description": "Children Should be Taught Philosophy in School",
+    "url": "https://www.newsweek.com/children-should-taught-philosophy-school-opinion-1624698",
+    "datePublished": "2021-09-01T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Newsweek",
+      "issn": "0028-9604"
+    },
+    "sameAs": [
+      "https://www.newsweek.com/children-should-taught-philosophy-school-opinion-1624698",
+      "https://daniellehewych.org/archive/newsweek/children-should-be-taught-philosophy-in-school"
+    ],
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
