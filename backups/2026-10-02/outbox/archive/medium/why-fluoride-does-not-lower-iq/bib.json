@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 137,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/why-fluoride-does-not-lower-iq",
+    "name": "Why Fluoride Does Not Lower IQ",
+    "description": "Why Fluoride Does Not Lower IQ",
+    "url": "https://medium.com/in-fitness-and-in-health/does-fluoride-lower-iq-b3607229b983",
+    "datePublished": "2023-03-01T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://medium.com/in-fitness-and-in-health/does-fluoride-lower-iq-b3607229b983",
+      "https://daniellehewych.org/archive/medium/why-fluoride-does-not-lower-iq"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
