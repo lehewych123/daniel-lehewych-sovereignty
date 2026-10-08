@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-pluralistic-nature-of-the-mind-and-self",
+        "name": "The Pluralistic Nature of the Mind and Self",
+        "url": "https://daniellehewych.medium.com/the-pluralistic-nature-of-the-mind-and-self-8ea643886e3d",
+        "datePublished": "2024-03-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/non-dual-awareness-in-the-book-of-job",
+        "name": "Non-Dual Awareness in The Book of Job",
+        "url": "https://daniellehewych.medium.com/non-dual-awareness-in-the-book-of-job-032e345ae832",
+        "datePublished": "2024-03-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-oat-straw-extract-avena-sativa-helps-promote-c",
+        "name": "How Oat Straw Extract (Avena Sativa) Helps Promote Cognitive Health",
+        "url": "https://medium.com/illumination/how-oat-straw-extract-avena-sativa-helps-promote-cognitive-health-189830ea3c21",
+        "datePublished": "2023-05-10T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/things-to-keep-in-mind-when-starting-out-as-a-free",
+        "name": "Things to Keep in Mind When Starting Out as a Freelance Writer",
+        "url": "https://daniellehewych.medium.com/things-to-keep-in-mind-when-starting-out-as-a-freelance-writer-1c98e84fdde1",
+        "datePublished": "2021-03-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/can-science-explain-consciousness",
+        "name": "Can Science Explain Consciousness?",
+        "url": "https://daniellehewych.medium.com/can-science-explain-consciousness-ce4cfbff494d",
+        "datePublished": "2020-11-05T00:00:00Z"
+      }
+    }
+  ]
+}
