@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/ai-for-good-how-activating-radiology-ai-can-enhanc",
+        "name": "AI for good - How activating radiology AI can enhance public health & social equity",
+        "url": "https://www.qure.ai/blog/ai-for-good-how-activating-radiology-ai-can-enhance-public%20health-social-equity",
+        "datePublished": "2023-10-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/qure-ai/ai-s-rising-importance-in-combating-wildfire-relat",
+        "name": "AI's Rising Importance in Combating Wildfire-Related Lung Health Issues",
+        "url": "https://www.qure.ai/blog/ai-rising-importance-in-combating-wildfire-related-lung-health%20Issues",
+        "datePublished": "2023-09-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/rice-university-engineers-develop-ultra-flexible-n",
+        "name": "Rice University engineers develop ultra-flexible nanoelectrodes for brain stimulation therapy",
+        "url": "https://interestingengineering.com/science/rice-university-engineers-develop-ultra-flexible-nanoelectrodes-for-brain-stimulation-therapy",
+        "datePublished": "2023-05-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-far-reaching-health-benefits-of-resistance-tra",
+        "name": "The Far-Reaching Health Benefits of Resistance Training",
+        "url": "https://medium.com/illumination/the-far-reaching-health-benefits-of-resistance-training-96d28f42040a",
+        "datePublished": "2023-04-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/mental-health-messaging-needs-to-address-social-ex",
+        "name": "Mental Health Messaging Needs To Address Social Exclusion",
+        "url": "https://daniellehewych.medium.com/mental-health-messaging-needs-to-address-social-exclusion-42b540fbf12c",
+        "datePublished": "2022-04-04T00:00:00Z"
+      }
+    }
+  ]
+}
