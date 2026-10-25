@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-is-on-track-to-becoming-the-first-trillion-",
+        "name": "Nvidia is on track to becoming the first trillion-dollar chipmaker",
+        "url": "https://interestingengineering.com/innovation/nvidia-is-on-track-to-becoming-the-first-trillion-dollar-chipmaker",
+        "datePublished": "2025-06-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/volkswagen-s-iconic-microbus-returns-as-an-electri",
+        "name": "Volkswagen’s iconic microbus returns as an electric marvel",
+        "url": "https://interestingengineering.com/transportation/volkswagens-iconic-microbus-returns-as-an-electric-marvel",
+        "datePublished": "2023-06-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/boeing-s-ceo-downplays-threat-from-china-s-c919-co",
+        "name": "Boeing’s CEO downplays threat from China’s C919 commercial flight",
+        "url": "https://interestingengineering.com/transportation/boeings-ceo-downplays-threat-from-chinas-c919-commercial-flight",
+        "datePublished": "2023-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/russia-s-fsb-alleges-nsa-used-malware-to-exploit-a",
+        "name": "Russia’s FSB alleges NSA used malware to exploit Apple phones",
+        "url": "https://interestingengineering.com/culture/russias-fsb-alleges-nsa-used-malware-to-exploit-apple-phones",
+        "datePublished": "2023-06-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nasa-s-quest-for-unidentified-anomalies-among-ufos",
+        "name": "NASA’s quest for unidentified anomalies among UFOs",
+        "url": "https://interestingengineering.com/science/nasas-quest-for-unidentified-anomalies-among-ufos",
+        "datePublished": "2023-05-31T00:00:00Z"
+      }
+    }
+  ]
+}
