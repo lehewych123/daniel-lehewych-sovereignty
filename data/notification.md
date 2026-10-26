@@ -1,4 +1,4 @@
-# Sovereignty System Report - 2026-10-25
+# Sovereignty System Report - 2026-10-26
 
 Nothing new today.
 
@@ -6,7 +6,7 @@ Nothing new today.
 
 - 1. **あろまちゃんえろ** — https://moret-geiser.ch/2026/10/18/culture/zenalami-kemi-sandolo-yatira.html
   - Host: moret-geiser.ch
-  - Reason: author-mismatch
+  - Reason: fetch-failed: HTTP 502
 
 ---
 
