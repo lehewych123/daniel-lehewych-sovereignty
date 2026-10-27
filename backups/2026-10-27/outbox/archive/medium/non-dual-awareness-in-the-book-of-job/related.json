@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/quantum-consciousness-dark-matter-and-life-after-d",
+        "name": "Quantum Consciousness, Dark Matter, and Life After Death",
+        "url": "https://medium.com/grim-tidings/the-quantum-nature-of-consciousness-and-its-implications-for-post-mortem-survival-59c7e0a49e87",
+        "datePublished": "2024-10-18T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-changing-landscape-of-academic-careers-for-ame",
+        "name": "The Changing Landscape of Academic Careers for American PhD Holders",
+        "url": "https://daniellehewych.medium.com/the-changing-landscape-of-academic-careers-for-american-phd-holders-4fe02242a895",
+        "datePublished": "2024-08-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-pluralistic-nature-of-the-mind-and-self",
+        "name": "The Pluralistic Nature of the Mind and Self",
+        "url": "https://daniellehewych.medium.com/the-pluralistic-nature-of-the-mind-and-self-8ea643886e3d",
+        "datePublished": "2024-03-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-oat-straw-extract-avena-sativa-helps-promote-c",
+        "name": "How Oat Straw Extract (Avena Sativa) Helps Promote Cognitive Health",
+        "url": "https://medium.com/illumination/how-oat-straw-extract-avena-sativa-helps-promote-cognitive-health-189830ea3c21",
+        "datePublished": "2023-05-10T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/working-out-with-a-wrist-fracture",
+        "name": "Working Out With a Wrist Fracture",
+        "url": "https://medium.com/in-fitness-and-in-health/working-out-with-a-wrist-fracture-831e56bbe758",
+        "datePublished": "2021-10-21T00:00:00Z"
+      }
+    }
+  ]
+}

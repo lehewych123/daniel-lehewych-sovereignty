@@ -1,0 +1,39 @@
+{
+  "@type": "ListItem",
+  "position": 218,
+  "item": {
+    "@type": [
+      "OpinionNewsArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/allwork-space/how-to-improve-the-employee-onboarding-process",
+    "name": "How to Improve the Employee Onboarding Process",
+    "description": "How to Improve the Employee Onboarding Process",
+    "url": "https://allwork.space/2022/05/how-to-improve-the-employee-onboarding-process/",
+    "datePublished": "2022-05-24T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Allwork.Space",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://allwork.space/2022/05/how-to-improve-the-employee-onboarding-process/",
+      "https://daniellehewych.org/archive/allwork-space/how-to-improve-the-employee-onboarding-process"
+    ],
+    "genre": "Opinion Piece",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

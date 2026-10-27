@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Philosophy"
+    },
+    {
+      "@type": "Thing",
+      "name": "Consciousness"
+    },
+    {
+      "@type": "Thing",
+      "name": "AI & Technology"
+    },
+    {
+      "@type": "Thing",
+      "name": "Writing & Creativity"
+    }
+  ],
+  "keywords": "philosophy, consciousness, ai & technology, writing & creativity",
+  "mentions": [
+    {
+      "@type": "Person",
+      "name": "Nietzsche"
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Daniel Lehewych",
+        "item": "https://daniellehewych.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Death of Socrates: A Nietzschean Tragic Painting",
+        "item": "https://daniellehewych.org/archive/medium/the-death-of-socrates-a-nietzschean-tragic-paintin"
+      }
+    ]
+  }
+}
