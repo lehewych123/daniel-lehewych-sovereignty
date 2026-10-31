@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 141,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/how-bad-incentives-rule-modern-commerce",
+    "name": "How Bad Incentives Rule Modern Commerce",
+    "description": "How Bad Incentives Rule Modern Commerce",
+    "url": "https://medium.com/illumination/how-bad-incentives-rule-modern-commerce-a7345c5972d8",
+    "datePublished": "2023-02-14T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://medium.com/illumination/how-bad-incentives-rule-modern-commerce-a7345c5972d8",
+      "https://daniellehewych.org/archive/medium/how-bad-incentives-rule-modern-commerce"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
