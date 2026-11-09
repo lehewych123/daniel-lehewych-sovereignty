@@ -1,0 +1,45 @@
+{
+  "@type": "ListItem",
+  "position": 371,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/technological-innovation-by-any-means",
+    "name": "Technological Innovation: By Any Means",
+    "description": "Technological Innovation: By Any Means",
+    "url": "https://daniellehewych.medium.com/technological-innovation-by-any-means-99e6721eaa96",
+    "datePublished": "2019-10-23T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/technological-innovation-by-any-means-99e6721eaa96",
+      "https://daniellehewych.org/archive/medium/technological-innovation-by-any-means"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Logic"
+      }
+    ],
+    "keywords": "Logic",
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
