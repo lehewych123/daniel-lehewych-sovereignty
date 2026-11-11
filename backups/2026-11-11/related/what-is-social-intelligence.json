@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/how-we-can-protect-democracy-without-losing-our-va",
+        "name": "How We Can Protect Democracy Without Losing Our Values",
+        "url": "https://medium.com/grim-tidings/how-we-can-protect-democracy-without-losing-our-values-2361e7e9891b",
+        "datePublished": "2024-11-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-phenomenology-of-politicking",
+        "name": "The Phenomenology of Politicking",
+        "url": "https://daniellehewych.medium.com/the-phenomenology-of-politicking-be1db25d4871",
+        "datePublished": "2024-05-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-political-dilemma-of-balancing-international-h",
+        "name": "The Political Dilemma of Balancing International Hospitality with Domestic Concerns",
+        "url": "https://daniellehewych.medium.com/the-political-dilemma-of-balancing-international-hospitality-with-domestic-concerns-5ae829c268e9",
+        "datePublished": "2024-02-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/a-critique-of-social-values",
+        "name": "A Critique of Social Values",
+        "url": "https://medium.com/illumination/a-critique-of-social-values-65d434993e44",
+        "datePublished": "2024-01-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/machiavelli-s-political-philosophy",
+        "name": "Machiavelli’s Political Philosophy",
+        "url": "https://medium.com/illumination/machiavellis-political-philosophy-5cf71bc4caa4",
+        "datePublished": "2023-04-30T00:00:00Z"
+      }
+    }
+  ]
+}
