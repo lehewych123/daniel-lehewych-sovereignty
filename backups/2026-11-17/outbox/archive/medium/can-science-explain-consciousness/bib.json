@@ -1,0 +1,52 @@
+{
+  "@type": "ListItem",
+  "position": 323,
+  "item": {
+    "@type": [
+      "ScholarlyArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/can-science-explain-consciousness",
+    "name": "Can Science Explain Consciousness?",
+    "description": "Can Science Explain Consciousness?",
+    "url": "https://daniellehewych.medium.com/can-science-explain-consciousness-ce4cfbff494d",
+    "datePublished": "2020-11-05T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/can-science-explain-consciousness-ce4cfbff494d",
+      "https://daniellehewych.org/archive/medium/can-science-explain-consciousness"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Consciousness Studies"
+      },
+      {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      }
+    ],
+    "keywords": "Consciousness Studies, Artificial Intelligence",
+    "academicDiscipline": "Philosophy",
+    "genre": "Philosophical Analysis",
+    "educationalLevel": "Undergraduate",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
