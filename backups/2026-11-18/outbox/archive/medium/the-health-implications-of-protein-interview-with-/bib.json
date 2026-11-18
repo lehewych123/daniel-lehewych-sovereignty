@@ -1,0 +1,65 @@
+{
+  "@type": "ListItem",
+  "position": 356,
+  "item": {
+    "@type": [
+      "Interview",
+      "MedicalScholarlyArticle",
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/the-health-implications-of-protein-interview-with-",
+    "name": "The Health Implications of Protein: Interview with Dr. Donald Layman",
+    "description": "The Health Implications of Protein: Interview with Dr. Donald Layman",
+    "url": "https://daniellehewych.medium.com/the-health-implications-of-protein-interview-with-dr-donald-layman-4c72e3f20311",
+    "datePublished": "2019-11-30T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://daniellehewych.medium.com/the-health-implications-of-protein-interview-with-dr-donald-layman-4c72e3f20311",
+      "https://daniellehewych.org/archive/medium/the-health-implications-of-protein-interview-with-"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Protein Science"
+      },
+      {
+        "@type": "Thing",
+        "name": "Health Sciences"
+      }
+    ],
+    "mentions": [
+      {
+        "@type": "Person",
+        "name": "Dr. Donald Layman",
+        "roleName": "Interviewee"
+      }
+    ],
+    "keywords": "Protein Science, Health Sciences",
+    "academicDiscipline": "Medicine",
+    "genre": "Expert Interview",
+    "contentReferenceTime": "future",
+    "contributor": {
+      "@type": "Person",
+      "name": "Dr. Donald Layman",
+      "roleName": "Interviewee"
+    },
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}
