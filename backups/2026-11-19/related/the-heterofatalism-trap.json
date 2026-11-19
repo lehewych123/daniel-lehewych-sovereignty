@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/nvidia-is-on-track-to-becoming-the-first-trillion-",
+        "name": "Nvidia is on track to becoming the first trillion-dollar chipmaker",
+        "url": "https://interestingengineering.com/innovation/nvidia-is-on-track-to-becoming-the-first-trillion-dollar-chipmaker",
+        "datePublished": "2025-06-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/bigthink/what-spinoza-can-teach-us-about-living-a-great-lif",
+        "name": "What Spinoza can teach us about living a great life",
+        "url": "https://bigthink.com/thinking/spinoza/",
+        "datePublished": "2025-05-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-myth-of-deservedness",
+        "name": "The Myth of “Deservedness”",
+        "url": "https://daniellehewych.medium.com/the-myth-of-deservedness-be8f86127aa6",
+        "datePublished": "2024-12-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-ordinary-language-semantics-of-insecurity-and-",
+        "name": "The Ordinary Language Semantics of Insecurity and Excuses",
+        "url": "https://medium.com/grim-tidings/the-ordinary-language-semantics-of-insecurity-and-excuses-a78b9c9f6163",
+        "datePublished": "2024-10-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-ambiguity-of-human-decision-making",
+        "name": "The Ambiguity of Human Decision-Making",
+        "url": "https://daniellehewych.medium.com/the-ambiguity-of-human-decision-making-abd16e333801",
+        "datePublished": "2024-10-16T00:00:00Z"
+      }
+    }
+  ]
+}
