@@ -1,0 +1,1372 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Topic: Digital Culture",
+  "numberOfItems": 124,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/medium/the-structure-of-the-internet-should-change",
+        "name": "The Structure of the Internet Should Change",
+        "url": "https://daniellehewych.medium.com/the-structure-of-the-internet-should-change-cee3d01f323c",
+        "datePublished": "2023-12-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/interesting-engineering/meta-tests-news-sharing-limits-in-canada-in-respon",
+        "name": "Meta tests news-sharing limits in Canada in response to proposed “Online News Act”",
+        "url": "https://interestingengineering.com/science/meta-tests-news-sharing-limits-in-canada-in-response-to-proposed-online-news-act",
+        "datePublished": "2023-06-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health",
+        "name": "The CDC’s Vision For The Future Of Worker Health",
+        "url": "https://allwork.space/2023/02/the-cdcs-vision-for-the-future-of-worker-health/",
+        "datePublished": "2023-02-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/office-party-etiquette-matters-all-year",
+        "name": "Office Party Etiquette Matters All Year",
+        "url": "https://allwork.space/2023/02/office-party-etiquette-matters-all-year/",
+        "datePublished": "2023-02-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-africa-s-economy-will-harness-digital-tech-in-",
+        "name": "How Africa’s Economy will Harness Digital Tech in the Future of Work",
+        "url": "https://allwork.space/2023/02/how-africas-economy-will-harness-digital-tech-in-the-future-of-work/",
+        "datePublished": "2023-02-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-secret-to-fast-muscle-pain-relief",
+        "name": "The Secret To Fast Muscle Pain Relief",
+        "url": "https://allwork.space/2023/02/the-secret-to-fast-muscle-pain-relief/",
+        "datePublished": "2023-02-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-to-create-office-environments-that-fuel-both-i",
+        "name": "How To Create Office Environments That Fuel Both Introverts and Extroverts",
+        "url": "https://allwork.space/2023/02/how-to-create-office-environments-that-fuel-both-introverts-and-extroverts/",
+        "datePublished": "2023-02-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/5-brain-boosting-snacks-to-power-your-work-day",
+        "name": "5 Brain-Boosting Snacks To Power Your Work Day",
+        "url": "https://allwork.space/2023/02/5-brain-boosting-snacks-to-power-your-work-day/",
+        "datePublished": "2023-02-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/3-ways-to-burn-fat-at-work",
+        "name": "3 Ways To Burn Fat At Work",
+        "url": "https://allwork.space/2023/01/3-ways-to-burn-fat-at-work/",
+        "datePublished": "2023-01-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-is-an-open-coworking-space",
+        "name": "What is an “Open” Coworking Space?",
+        "url": "https://allwork.space/2023/01/what-is-an-open-coworking-space/",
+        "datePublished": "2023-01-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/ai-is-transforming-the-future-of-industrial-work",
+        "name": "AI Is Transforming The Future Of Industrial Work",
+        "url": "https://allwork.space/2023/01/ai-is-transforming-the-future-of-industrial-work/",
+        "datePublished": "2023-01-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-s-lasting-impact-on-the-future-of-cow",
+        "name": "The Pandemic’s Lasting Impact on the Future of Coworking",
+        "url": "https://allwork.space/2022/12/the-pandemics-lasting-impact-on-the-future-of-coworking/",
+        "datePublished": "2022-12-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/5-steps-to-get-a-promotion",
+        "name": "5 Steps To Get A Promotion",
+        "url": "https://allwork.space/2022/12/5-steps-to-get-a-promotion/",
+        "datePublished": "2022-12-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-does-community-mean-in-coworking-your-answer-",
+        "name": "What Does “Community” Mean In Coworking? Your Answer Matters",
+        "url": "https://allwork.space/2022/12/what-does-community-mean-in-coworking-your-answer-matters/",
+        "datePublished": "2022-12-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/end-this-one-workplace-practice-to-stop-turnover",
+        "name": "End This One Workplace Practice To Stop Turnover",
+        "url": "https://allwork.space/2022/12/end-this-one-workplace-practice-to-stop-turnover/",
+        "datePublished": "2022-12-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/hr-professionals-are-burned-out-can-a-i-help",
+        "name": "HR Professionals Are Burned Out. Can A.I. Help?",
+        "url": "https://allwork.space/2022/12/hr-professionals-are-burned-out-can-a-i-help/",
+        "datePublished": "2022-12-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/a-guide-for-workspace-mental-health-communication",
+        "name": "A Guide For Workspace Mental Health Communication",
+        "url": "https://allwork.space/2022/12/a-guide-for-workspace-mental-health-communication/",
+        "datePublished": "2022-12-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-utility-of-coworking-spaces-for-gig-economy-wo",
+        "name": "The Utility of Coworking Spaces for Gig Economy Workers",
+        "url": "https://allwork.space/2022/12/the-utility-of-coworking-spaces-for-gig-economy-workers/",
+        "datePublished": "2022-12-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-commercial-real-estate-in-san-franci",
+        "name": "The Future of Commercial Real Estate in San Francisco Doesn’t Look Good",
+        "url": "https://allwork.space/2022/11/the-future-of-commercial-real-estate-in-san-francisco-doesnt-look-good/",
+        "datePublished": "2022-11-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/2023-future-of-work-forecast-employee-autonomy-and",
+        "name": "2023 Future Of Work Forecast: Employee Autonomy And The Persistent Great Reshuffle",
+        "url": "https://allwork.space/2022/11/2023-future-of-work-forecast-employee-autonomy-and-the-persistent-great-reshuffle/",
+        "datePublished": "2022-11-18T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-the-future-of-remote-work-survive-employer-sk",
+        "name": "Will the Future of Remote Work Survive Employer Skepticism?",
+        "url": "https://allwork.space/2022/11/will-the-future-of-remote-work-survive-employer-skepticism/",
+        "datePublished": "2022-11-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/start-ignoring-email-deep-work-is-how-to-succeed",
+        "name": "Start Ignoring Email — Deep Work Is How To Succeed",
+        "url": "https://allwork.space/2022/11/start-ignoring-email-deep-work-is-how-to-succeed/",
+        "datePublished": "2022-11-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/coworking-centers-beware-saying-you-re-sustainable",
+        "name": "Coworking Centers Beware: Saying You’re Sustainable Isn’t Enough",
+        "url": "https://allwork.space/2022/11/coworking-centers-beware-saying-youre-sustainable-isnt-enough/",
+        "datePublished": "2022-11-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/top-5-metabolism-boosting-tricks-to-combat-the-per",
+        "name": "Top 5 Metabolism-Boosting Tricks To Combat The Perils Of Desk Work",
+        "url": "https://allwork.space/2022/11/top-5-metabolism-boosting-tricks-to-combat-the-perils-of-desk-work/",
+        "datePublished": "2022-11-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/meta-wants-to-fix-ongoing-zoom-fatigue-but-you-ll-",
+        "name": "Meta Wants To Fix Ongoing Zoom Fatigue — But You’ll Be Waiting A While",
+        "url": "https://allwork.space/2022/11/meta-wants-to-fix-ongoing-zoom-fatigue-but-youll-be-waiting-a-while/",
+        "datePublished": "2022-11-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/3-signs-that-you-re-about-to-lose-your-job",
+        "name": "3 Signs That You’re About To Lose Your Job",
+        "url": "https://allwork.space/2022/10/3-signs-that-youre-about-to-lose-your-job/",
+        "datePublished": "2022-10-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/demand-for-virtual-assistant-jobs-continues-to-exp",
+        "name": "Demand For Virtual Assistant Jobs Continues to Explode — Market Is Set To Grow By $4.12 Billion",
+        "url": "https://allwork.space/2022/10/demand-for-virtual-assistant-jobs-continues-to-explode-market-is-set-to-grow-by-4-12-billion/",
+        "datePublished": "2022-10-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/four-great-stretches-to-help-alleviate-pain-withou",
+        "name": "Four Great Stretches To Help Alleviate Pain Without Leaving Your Desk",
+        "url": "https://allwork.space/2022/10/four-great-stretches-to-help-alleviate-pain-without-leaving-your-desk/",
+        "datePublished": "2022-10-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/occupation-specific-coworking-centers-a-way-to-rea",
+        "name": "Occupation-Specific Coworking Centers: A Way To Reach New Prospective Members Or A Recipe For Disaster?",
+        "url": "https://allwork.space/2022/10/occupation-specific-coworking-centers-a-way-to-reach-new-prospective-members-or-a-recipe-for-disaster/",
+        "datePublished": "2022-10-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/psychological-safety-is-the-key-to-successful-team",
+        "name": "Psychological Safety Is The Key To Successful Teams, According To Google",
+        "url": "https://allwork.space/2022/10/psychological-safety-is-the-key-to-successful-teams-according-to-google/",
+        "datePublished": "2022-10-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/reset-your-strategy-to-avoid-hybrid-work-misery",
+        "name": "Reset Your Strategy To Avoid Hybrid Work Misery",
+        "url": "https://allwork.space/2022/10/reset-your-strategy-to-avoid-hybrid-work-misery/",
+        "datePublished": "2022-10-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/3-tips-to-make-your-fitness-lifestyle-compatible-w",
+        "name": "3 Tips To Make Your Fitness Lifestyle Compatible With Work",
+        "url": "https://allwork.space/2022/10/3-tips-to-make-your-fitness-lifestyle-compatible-with-work/",
+        "datePublished": "2022-10-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/work-phobic-anxiety-in-the-workplace-is-a-real-iss",
+        "name": "Work Phobic Anxiety In The Workplace Is A Real Issue; Here’s How To Navigate It",
+        "url": "https://allwork.space/2022/09/work-phobic-anxiety-in-the-workplace-is-a-real-issue-heres-how-to-navigate-it/",
+        "datePublished": "2022-09-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/is-ai-the-future-of-graphic-design-work-meet-dall-",
+        "name": "Is AI The Future Of Graphic Design Work? Meet DALL-E 2",
+        "url": "https://allwork.space/2022/09/is-ai-the-future-of-graphic-design-work-meet-dall-e-2/",
+        "datePublished": "2022-09-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/gen-z-job-applicant-priorities-clash-with-job-recr",
+        "name": "Gen Z Job Applicant Priorities Clash With Job Recruiters",
+        "url": "https://allwork.space/2022/09/gen-z-job-applicant-priorities-clash-with-job-recruiters/",
+        "datePublished": "2022-09-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/despite-a-looming-recession-the-great-resignation-",
+        "name": "Despite A Looming Recession, The Great Resignation Isn’t Slowing Down",
+        "url": "https://allwork.space/2022/09/despite-a-looming-recession-the-great-resignation-isnt-slowing-down/",
+        "datePublished": "2022-09-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/5-free-places-to-work-that-aren-t-starbucks",
+        "name": "5 Free Places To Work That Aren’t Starbucks",
+        "url": "https://allwork.space/2022/09/5-free-places-to-work-that-arent-starbucks/",
+        "datePublished": "2022-09-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/overwhelmed-by-work-emails-here-s-how-to-reduce-em",
+        "name": "Overwhelmed By Work Emails? Here’s How To Reduce Email Anxiety",
+        "url": "https://allwork.space/2022/09/overwhelmed-by-work-emails-heres-how-to-reduce-email-anxiety/",
+        "datePublished": "2022-09-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/can-customer-reviews-make-or-break-your-coworking-",
+        "name": "Can Customer Reviews Make Or Break Your Coworking Space?",
+        "url": "https://allwork.space/2022/09/can-customer-reviews-make-or-break-your-coworking-space/",
+        "datePublished": "2022-09-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-to-deal-with-a-bad-boss-in-person",
+        "name": "How To Deal With A Bad Boss In Person",
+        "url": "https://allwork.space/2022/09/how-to-deal-with-a-bad-boss-in-person/",
+        "datePublished": "2022-09-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/is-vr-exciting-enough-to-actually-change-the-futur",
+        "name": "Is VR Exciting Enough To Actually Change The Future Of Workspaces?",
+        "url": "https://allwork.space/2022/08/is-vr-exciting-enough-to-actually-change-the-future-of-workspaces/",
+        "datePublished": "2022-08-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/depression-is-making-you-sick-but-can-you-take-tim",
+        "name": "Depression Is Making You Sick, But Can You Take Time Off To Heal?",
+        "url": "https://allwork.space/2022/08/depression-is-making-you-sick-but-can-you-take-time-off-to-heal/",
+        "datePublished": "2022-08-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-in-the-tech-industry-is-precari",
+        "name": "The Future of Work in the Tech Industry is Precarious",
+        "url": "https://allwork.space/2022/08/the-future-of-work-in-the-tech-industry-is-precarious/",
+        "datePublished": "2022-08-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/want-a-raise-make-small-changes-to-boost-willpower",
+        "name": "Want A Raise? Make Small Changes To Boost Willpower",
+        "url": "https://allwork.space/2022/08/want-a-raise-make-small-changes-to-boost-willpower/",
+        "datePublished": "2022-08-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/could-updating-employee-benefits-slow-the-great-re",
+        "name": "Could Updating Employee Benefits Slow The Great Resignation?",
+        "url": "https://allwork.space/2022/08/could-updating-employee-benefits-slow-the-great-resignation/",
+        "datePublished": "2022-08-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/powerful-benefits-to-inspire-you-to-wake-up-early-",
+        "name": "Powerful Benefits To Inspire You To Wake Up Early For Work",
+        "url": "https://allwork.space/2022/08/powerful-benefits-to-inspire-you-to-wake-up-early-for-work/",
+        "datePublished": "2022-08-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/should-u-s-coworking-spaces-worry-about-worker-mig",
+        "name": "Should U.S. Coworking Spaces Worry About Worker Migration?",
+        "url": "https://allwork.space/2022/08/should-u-s-coworking-spaces-worry-about-worker-migration/",
+        "datePublished": "2022-08-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/this-inexpensive-degree-could-kickstart-a-lucrativ",
+        "name": "This Inexpensive Degree Could Kickstart A Lucrative Career",
+        "url": "https://allwork.space/2022/07/this-inexpensive-degree-could-kickstart-a-lucrative-career/",
+        "datePublished": "2022-07-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/remote-work-doesn-t-always-mean-you-can-work-from-",
+        "name": "Remote Work Doesn’t Always Mean You Can Work From Anywhere",
+        "url": "https://allwork.space/2022/07/remote-work-doesnt-always-mean-you-can-work-from-anywhere/",
+        "datePublished": "2022-07-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/can-we-expect-unexpected-layoffs-in-2022",
+        "name": "Can We Expect Unexpected Layoffs In 2022?",
+        "url": "https://allwork.space/2022/07/can-we-expect-unexpected-layoffs-in-2022/",
+        "datePublished": "2022-07-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/this-is-the-personality-type-most-closely-associat",
+        "name": "This Is The Personality Type Most Closely Associated With Career Success",
+        "url": "https://allwork.space/2022/07/this-is-the-personality-type-most-closely-associated-with-career-success/",
+        "datePublished": "2022-07-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-robots-are-coming-eventually-will-automation-d",
+        "name": "The Robots Are Coming, Eventually. Will Automation Displace Half The World’s Workforce?",
+        "url": "https://allwork.space/2022/07/the-robots-are-coming-eventually-will-automation-displace-half-the-worlds-workforce/",
+        "datePublished": "2022-07-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/companies-need-to-invest-in-education-to-cultivate",
+        "name": "Companies Need To Invest In Education To Cultivate New Talent",
+        "url": "https://allwork.space/2022/07/companies-need-to-invest-in-education-to-cultivate-new-talent/",
+        "datePublished": "2022-07-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/skeptical-employers-could-miss-gains-by-rejecting-",
+        "name": "Skeptical Employers Could Miss Gains By Rejecting A Four-day Work Week",
+        "url": "https://allwork.space/2022/07/skeptical-employers-could-miss-gains-by-rejecting-a-four-day-work-week/",
+        "datePublished": "2022-07-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-chatbots-disrupt-the-interview-process",
+        "name": "Here’s How Chatbots Disrupt the Interview Process",
+        "url": "https://allwork.space/2022/07/heres-how-chatbots-disrupt-the-interview-process/",
+        "datePublished": "2022-07-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 56,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-remote-work-option-has-many-benefits-for-intro",
+        "name": "The Remote Work Option Has Many Benefits for Introverts",
+        "url": "https://allwork.space/2022/07/the-remote-work-option-has-many-benefits-for-introverts/",
+        "datePublished": "2022-07-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 57,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-what-s-in-store-for-job-stability-and-the-f",
+        "name": "Here’s What’s In Store For Job Stability And The Future Of Work",
+        "url": "https://allwork.space/2022/07/heres-whats-in-store-for-job-stability-and-the-future-of-work/",
+        "datePublished": "2022-07-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-inflation-impact-pay-raises",
+        "name": "Will Inflation Impact Pay Raises?",
+        "url": "https://allwork.space/2022/07/will-inflation-impact-pay-raises/",
+        "datePublished": "2022-07-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/young-entrepreneurship-is-on-the-rise",
+        "name": "Young Entrepreneurship Is On The Rise",
+        "url": "https://allwork.space/2022/06/young-entrepreneurship-is-on-the-rise/",
+        "datePublished": "2022-06-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 60,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/hiring-managers-need-to-start-preparing-for-interv",
+        "name": "Hiring Managers Need to Start Preparing for Interviews Differently",
+        "url": "https://allwork.space/2022/06/hiring-managers-need-to-start-preparing-for-interviews-differently/",
+        "datePublished": "2022-06-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 61,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-why-curiosity-and-authenticity-go-a-long-wa",
+        "name": "Here’s Why Curiosity And Authenticity Go A Long Way In The Workplace",
+        "url": "https://allwork.space/2022/06/heres-why-curiosity-and-authenticity-go-a-long-way-in-the-workplace/",
+        "datePublished": "2022-06-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/sitting-for-too-long-is-bad-for-your-health-and-he",
+        "name": "Sitting For Too Long Is Bad For Your Health And Here’s What You Can Do About It",
+        "url": "https://allwork.space/2022/06/sitting-for-too-long-is-bad-for-your-health-and-heres-what-you-can-do-about-it/",
+        "datePublished": "2022-06-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-habits-will-be-brought-back-into-the-office",
+        "name": "What Habits Will Be Brought Back Into The Office?",
+        "url": "https://allwork.space/2022/06/what-habits-will-be-brought-back-into-the-office/",
+        "datePublished": "2022-06-21T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-the-2020s-be-like-the-roaring-20s",
+        "name": "Will The 2020s Be Like The Roaring 20s?",
+        "url": "https://allwork.space/2022/06/will-the-2020s-be-like-the-roaring-20s/",
+        "datePublished": "2022-06-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/when-work-does-not-happen-at-work-take-a-look-at-m",
+        "name": "When Work Does Not Happen At Work, Take A Look At Management",
+        "url": "https://allwork.space/2022/06/when-work-does-not-happen-at-work-take-a-look-at-management/",
+        "datePublished": "2022-06-16T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/report-the-state-of-worker-mental-health",
+        "name": "Report: The State of Worker Mental Health",
+        "url": "https://allwork.space/2022/06/report-the-state-of-worker-mental-health/",
+        "datePublished": "2022-06-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/talent-will-not-be-local-in-the-future-of-work",
+        "name": "Talent Will Not Be Local In The Future Of Work",
+        "url": "https://allwork.space/2022/06/talent-will-not-be-local-in-the-future-of-work/",
+        "datePublished": "2022-06-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/workers-want-wage-increases-because-of-inflation",
+        "name": "Workers Want Wage Increases Because of Inflation",
+        "url": "https://allwork.space/2022/06/workers-want-wage-increases-because-of-inflation/",
+        "datePublished": "2022-06-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-has-created-a-coach-career-boom",
+        "name": "The Pandemic has Created a Coach Career Boom",
+        "url": "https://allwork.space/2022/06/the-pandemic-has-created-a-coach-career-boom/",
+        "datePublished": "2022-06-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 70,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-to-improve-the-employee-onboarding-process",
+        "name": "How to Improve the Employee Onboarding Process",
+        "url": "https://allwork.space/2022/05/how-to-improve-the-employee-onboarding-process/",
+        "datePublished": "2022-05-24T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 71,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/is-your-company-pandemic-resilient-or-future-resil",
+        "name": "Is Your Company Pandemic-Resilient Or Future-Resilient?",
+        "url": "https://allwork.space/2022/05/is-your-company-pandemic-resilient-or-future-resilient/",
+        "datePublished": "2022-05-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 72,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/young-workers-face-reverse-ageism-in-the-workplace",
+        "name": "Young Workers Face Reverse Ageism In The Workplace",
+        "url": "https://allwork.space/2022/05/young-workers-face-reverse-ageism-in-the-workplace/",
+        "datePublished": "2022-05-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 73,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-is-the-importance-of-task-automation-in-produ",
+        "name": "What Is The Importance Of Task Automation In Productivity And Well-being?",
+        "url": "https://allwork.space/2022/04/what-is-the-importance-of-task-automation-in-productivity-and-well-being/",
+        "datePublished": "2022-04-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 74,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-is-cryptocurrency-s-role-in-the-future-of-wor",
+        "name": "What Is Cryptocurrency’s Role In The Future Of Work?",
+        "url": "https://allwork.space/2022/04/what-is-cryptocurrencys-role-in-the-future-of-work/",
+        "datePublished": "2022-04-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 75,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-job-safety-for-retaining-and-sat",
+        "name": "The Importance of Job Safety for Retaining and Satisfying Employees: Explained",
+        "url": "https://allwork.space/2022/04/the-importance-of-job-safety-for-retaining-and-satisfying-employees-explained/",
+        "datePublished": "2022-04-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-importance-of-data-literacy-in-career-advancem",
+        "name": "The Importance of Data Literacy in Career Advancement: Explained",
+        "url": "https://allwork.space/2022/04/the-importance-of-data-literacy-in-career-advancement-explained/",
+        "datePublished": "2022-04-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-industries-and-locations-for-sta",
+        "name": "Here Are The Best Industries And Locations For Starting Up Your Own Business In 2022",
+        "url": "https://allwork.space/2022/04/here-are-the-best-industries-and-locations-for-starting-up-your-own-business-in-2022/",
+        "datePublished": "2022-04-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 78,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-build-and-retain-a-strong-work-team",
+        "name": "Here’s How To Build And Retain A Strong Work Team",
+        "url": "https://allwork.space/2022/04/heres-how-to-build-and-retain-a-strong-work-team",
+        "datePublished": "2022-04-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 79,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/essential-steps-operators-overlook-when-choosing-a",
+        "name": "Essential Steps Operators Overlook When Choosing A Location And Signing A Coworking Space Lease",
+        "url": "https://allwork.space/2022/04/essential-steps-operators-overlook-when-choosing-a-location-and-signing-a-coworking-space-lease/",
+        "datePublished": "2022-04-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/do-worker-wellness-programs-work",
+        "name": "Do Worker Wellness Programs Work?",
+        "url": "https://allwork.space/2022/04/do-worker-wellness-programs-work/",
+        "datePublished": "2022-04-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-cope-with-the-great-return",
+        "name": "Here’s How To Cope With The “Great Return”",
+        "url": "https://allwork.space/2022/04/heres-how-to-cope-with-the-great-return/",
+        "datePublished": "2022-04-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 82,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-academic-jobs-is-precarious",
+        "name": "The Future of Academic Jobs is Precarious",
+        "url": "https://allwork.space/2022/04/the-future-of-academic-jobs-is-precarious/",
+        "datePublished": "2022-04-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 83,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-has-the-pandemic-transformed-interview-styles-",
+        "name": "How Has The Pandemic Transformed Interview Styles? (And, Is It For The Good?)",
+        "url": "https://allwork.space/2022/04/how-has-the-pandemic-transformed-interview-styles-and-is-it-for-the-good/",
+        "datePublished": "2022-04-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/most-american-workers-are-looking-for-a-new-job",
+        "name": "Most American Workers are Looking For a New Job",
+        "url": "https://allwork.space/2022/04/most-american-workers-are-looking-for-a-new-job/",
+        "datePublished": "2022-04-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-are-three-significant-mistakes-you-can-make-a",
+        "name": "Here Are Three Significant Mistakes You Can Make As A Freelancer, And How To Avoid Them",
+        "url": "https://allwork.space/2022/04/here-are-three-significant-mistakes-you-can-make-as-a-freelancer-and-how-to-avoid-them/",
+        "datePublished": "2022-04-01T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/returning-to-the-office-will-largely-have-a-negati",
+        "name": "Returning to the Office will Largely have a Negative Impact on Mental Health",
+        "url": "https://allwork.space/2022/03/returning-to-the-office-will-largely-have-a-negative-impact-on-mental-health/",
+        "datePublished": "2022-03-31T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-are-some-of-the-best-online-certificates-that",
+        "name": "Here Are Some Of The Best Online Certificates That Can Lead Directly To Work",
+        "url": "https://allwork.space/2022/03/here-are-some-of-the-best-online-certificates-that-can-lead-directly-to-work/",
+        "datePublished": "2022-03-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 88,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-greatest-problems-with-the-great-return",
+        "name": "The Greatest Problems With The ‘Great Return’",
+        "url": "https://allwork.space/2022/03/the-greatest-problems-with-the-great-return/",
+        "datePublished": "2022-03-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 89,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-s-how-to-maintain-well-being-when-working-alo",
+        "name": "Here’s How To Maintain Well-being When Working Alone From Home",
+        "url": "https://allwork.space/2022/03/heres-how-to-maintain-well-being-when-working-alone-from-home",
+        "datePublished": "2022-03-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 90,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-online-side-hustles-to-make-pass",
+        "name": "Here Are The Best Online Side-hustles To Make Passive Income In 2022",
+        "url": "https://allwork.space/2022/03/here-are-the-best-online-side-hustles-to-make-passive-income-in-2022/",
+        "datePublished": "2022-03-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 91,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-job-fields-that-will-be-the-most-lucr",
+        "name": "Here Are The Job Fields That Will Be The Most Lucrative By 2030",
+        "url": "https://allwork.space/2022/03/here-are-the-job-fields-that-will-be-the-most-lucrative-by-2030/",
+        "datePublished": "2022-03-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 92,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-can-employers-make-employees-happier",
+        "name": "How Can Employers Make Employees Happier?",
+        "url": "https://allwork.space/2022/03/how-can-employers-make-employees-happier/",
+        "datePublished": "2022-03-02T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 93,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/changing-demographics-will-continue-to-impact-the-",
+        "name": "Changing Demographics Will Continue To Impact The Future Of Work",
+        "url": "https://allwork.space/2022/02/changing-demographics-will-continue-to-impact-the-future-of-work/",
+        "datePublished": "2022-02-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 94,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-effects-of-remote-work-on-sleep",
+        "name": "The Effects Of Remote Work On Sleep",
+        "url": "https://allwork.space/2022/02/the-effects-of-remote-work-on-sleep/",
+        "datePublished": "2022-02-23T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 95,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-means-more-competition",
+        "name": "The Future Of Work Means More Competition",
+        "url": "https://allwork.space/2022/02/the-future-of-work-means-more-competition/",
+        "datePublished": "2022-02-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 96,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-cost-of-living-fluctuations-affect-the-future",
+        "name": "Will Cost of Living Fluctuations Affect the Future of Work?",
+        "url": "https://allwork.space/2022/02/will-cost-of-living-fluctuations-affect-the-future-of-work/",
+        "datePublished": "2022-02-09T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 97,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-pandemic-will-not-kill-the-creative-economy",
+        "name": "The pandemic will not kill the creative economy",
+        "url": "https://allwork.space/2022/01/the-pandemic-will-not-kill-the-creative-economy/",
+        "datePublished": "2022-01-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-best-ways-to-spend-your-time-on-break",
+        "name": "Here Are The Best Ways To Spend Your Time On Break At Work",
+        "url": "https://allwork.space/2022/01/here-are-the-best-ways-to-spend-your-time-on-break-at-work/",
+        "datePublished": "2022-01-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-role-does-higher-education-have-in-the-future",
+        "name": "What Role Does Higher Education Have In The Future Of Work?",
+        "url": "https://allwork.space/2022/01/what-role-does-higher-education-have-in-the-future-of-work/",
+        "datePublished": "2022-01-11T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 100,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-personal-presentation-plays-a-huge-role-in-acq",
+        "name": "How personal presentation plays a huge role in acquiring jobs",
+        "url": "https://allwork.space/2022/01/how-personal-presentation-plays-a-huge-role-in-acquiring-jobs/",
+        "datePublished": "2022-01-06T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 101,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/guilty-of-a-messy-desk-here-s-why-it-pays-to-clear",
+        "name": "Guilty Of A Messy Desk? Here’s Why It Pays To Clear The Clutter",
+        "url": "https://allwork.space/2022/01/guilty-of-a-messy-desk-heres-why-it-pays-to-clear-the-clutter/",
+        "datePublished": "2022-01-05T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 102,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/here-are-the-top-jobs-that-will-be-automated-first",
+        "name": "Here Are The Top Jobs That Will Be Automated First",
+        "url": "https://allwork.space/2022/01/here-are-the-top-jobs-that-will-be-automated-first/",
+        "datePublished": "2022-01-04T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 103,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-should-we-expect-from-workforce-trends-in-202",
+        "name": "What Should We Expect From Workforce Trends In 2022?",
+        "url": "https://allwork.space/2021/12/what-should-we-expect-from-workforce-trends-in-2022/",
+        "datePublished": "2021-12-20T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 104,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/money-management-101-for-independent-remote-worker",
+        "name": "Money Management 101 For Independent Remote Workers",
+        "url": "https://allwork.space/2021/12/money-management-101-for-independent-remote-workers/",
+        "datePublished": "2021-12-17T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 105,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/why-every-manager-needs-to-understand-personality-",
+        "name": "Why Every Manager Needs To Understand Personality Traits In The Workplace",
+        "url": "https://allwork.space/2021/12/why-every-manager-needs-to-understand-personality-traits-the-workplace/",
+        "datePublished": "2021-12-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 106,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/not-getting-that-interview-here-s-why-more-than-70",
+        "name": "Not Getting That Interview? Here’s Why More Than 70 Percent of Resumes Are Rejected",
+        "url": "https://allwork.space/2021/12/not-getting-that-interview-heres-why-more-than-70-percent-of-resumes-are-rejected",
+        "datePublished": "2021-12-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 107,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-retail-industry-struggles-with-multiple-threat",
+        "name": "The Retail Industry Struggles with Multiple Threats and Not Enough Workers, Here’s How It Will Change",
+        "url": "https://allwork.space/2021/12/the-retail-industry-struggles-with-multiple-threats-and-not-enough-workers/",
+        "datePublished": "2021-12-08T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 108,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/new-york-city-covid-19-vaccination-mandated-for-al",
+        "name": "New York City COVID-19 Vaccination Mandated For All Private Sector Workers",
+        "url": "https://allwork.space/2021/12/new-york-city-covid-19-vaccination-mandated-for-all-private-sector-workers/",
+        "datePublished": "2021-12-07T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 109,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/does-remote-work-make-you-lonely-here-are-5-ways-t",
+        "name": "Does Remote Work Make You Lonely? Here Are 5 Ways To Fix It",
+        "url": "https://allwork.space/2021/11/does-remote-work-make-you-lonely-here-are-5-ways-to-fix-it/",
+        "datePublished": "2021-11-30T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 110,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/what-are-the-great-resigners-doing-with-their-time",
+        "name": "What Are The Great “Resigners” Doing With Their Time?",
+        "url": "https://allwork.space/2021/11/what-are-the-great-resigners-doing-with-their-time/",
+        "datePublished": "2021-11-29T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 111,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/communicating-boundaries-is-essential-for-reducing",
+        "name": "Communicating Boundaries Is Essential For Reducing Remote Worker Burnout, But Is This Enough?",
+        "url": "https://allwork.space/2021/11/communicating-boundaries-is-essential-for-reducing-remote-worker-burnout-but-is-this-enough/",
+        "datePublished": "2021-11-25T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 112,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-healthy-organizations-can-put-a-stop-to-the-gr",
+        "name": "How Healthy Organizations Can Put A Stop To The Great Resignation",
+        "url": "https://allwork.space/2021/11/how-healthy-organizations-can-put-a-stop-to-the-great-resignation/",
+        "datePublished": "2021-11-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 113,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-coworking-spaces-be-affected-by-service-labor",
+        "name": "Will Coworking Spaces Be Affected by Service Labor Shortages?",
+        "url": "https://allwork.space/2021/11/will-coworking-spaces-be-affected-by-service-labor-shortages/",
+        "datePublished": "2021-11-12T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 114,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/how-meditation-helps-reduce-remote-work-stress-3-a",
+        "name": "How Meditation Helps Reduce Remote Work Stress + 3 Apps to Get Started",
+        "url": "https://allwork.space/2021/11/how-meditation-helps-reduce-remote-work-stress-3-apps-to-get-started/",
+        "datePublished": "2021-11-03T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 115,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-future-of-work-looks-more-flexible-and-indepen",
+        "name": "The Future of Work Looks More Flexible and Independent — According To Adobe Report",
+        "url": "https://allwork.space/2021/10/the-future-of-work-looks-more-flexible-and-independent-according-to-adobe-report/",
+        "datePublished": "2021-10-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 116,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/are-work-equity-gains-threatened-by-the-shift-to-h",
+        "name": "Are Work Equity Gains Threatened by the Shift to Hybrid and Remote Work?",
+        "url": "https://allwork.space/2021/10/are-work-equity-gains-threatened-by-the-shift-to-hybrid-and-remote-work/",
+        "datePublished": "2021-10-26T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 117,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/ai-streamlines-the-hiring-process-for-many-compani",
+        "name": "AI Streamlines the Hiring Process for Many Companies, but is That a Good Thing?",
+        "url": "https://allwork.space/2021/10/ai-streamlines-the-hiring-process-for-many-companies-but-is-that-a-good-thing/",
+        "datePublished": "2021-10-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 118,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/working-while-high-should-employers-still-screen-w",
+        "name": "Working While High: Should Employers Still Screen Workers for Cannabis?",
+        "url": "https://allwork.space/2021/10/working-while-high-should-employers-still-screen-workers-for-cannabis/",
+        "datePublished": "2021-10-21T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 119,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/thinking-of-quitting-and-joining-the-great-resigna",
+        "name": "Thinking of Quitting and Joining the Great Resignation? Here’s How to Do it Right",
+        "url": "https://allwork.space/2021/10/thinking-of-quitting-and-joining-the-great-resignation-heres-how-to-do-it-right/",
+        "datePublished": "2021-10-19T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 120,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/5-effective-supplements-to-help-boost-focus-and-re",
+        "name": "5 Effective Supplements to Help Boost Focus and Reduce Stress at Work",
+        "url": "https://allwork.space/2021/10/5-effective-supplements-to-help-boost-focus-and-reduce-stress-at-work/",
+        "datePublished": "2021-10-13T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 121,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/google-s-2-billion-wager-on-urban-recovery-and-hyb",
+        "name": "Google’s $2 Billion Wager on Urban Recovery and Hybrid Work",
+        "url": "https://allwork.space/2021/09/googles-2-billion-wager-on-urban-recovery-and-hybrid-work/",
+        "datePublished": "2021-09-28T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 122,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-labor-shortage-will-eventually-be-good-for-emp",
+        "name": "The Labor Shortage Will (Eventually) Be Good for Employees and Businesses, Here’s Why",
+        "url": "https://allwork.space/2021/09/the-labor-shortage-will-eventually-be-good-for-employees-and-businesses-heres-why/",
+        "datePublished": "2021-09-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 123,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/will-de-i-gains-regress-with-the-rise-of-remote-an",
+        "name": "Will DE&I Gains Regress With The Rise Of Remote And Hybrid Work?",
+        "url": "https://allwork.space/2021/09/will-dei-gains-regress-with-the-rise-of-remote-and-hybrid-work/",
+        "datePublished": "2021-09-21T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 124,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/newsweek/who-is-behind-the-internet-s-hatred-of-joe-biden",
+        "name": "Who is Behind the Internet's Hatred of Joe Biden?",
+        "url": "https://www.newsweek.com/who-behind-internets-hatred-joe-biden-opinion-1609350",
+        "datePublished": "2021-07-14T00:00:00Z"
+      }
+    }
+  ]
+}

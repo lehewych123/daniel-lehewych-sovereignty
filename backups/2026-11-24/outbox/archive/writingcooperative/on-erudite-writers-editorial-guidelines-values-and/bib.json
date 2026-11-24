@@ -1,0 +1,29 @@
+{
+  "@type": "ListItem",
+  "position": 374,
+  "item": {
+    "@type": "Article",
+    "@id": "https://daniellehewych.org/archive/writingcooperative/on-erudite-writers-editorial-guidelines-values-and",
+    "name": "On Erudite Writers. Editorial guidelines, values, and needs…",
+    "description": "Feb 18, 2023 ... Written by Daniel Lehewych · 692 followers. ·171 following. Professor and writer examining culture, mind, and meaning through philosophy and critical analysis ...",
+    "url": "https://writingcooperative.com/on-erudite-writers-dda49d4db53e",
+    "datePublished": "2023-02-18T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Writingcooperative",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://writingcooperative.com/on-erudite-writers-dda49d4db53e",
+      "https://daniellehewych.org/archive/writingcooperative/on-erudite-writers-editorial-guidelines-values-and"
+    ]
+  }
+}
