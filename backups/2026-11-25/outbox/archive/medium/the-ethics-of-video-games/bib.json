@@ -1,0 +1,45 @@
+{
+  "@type": "ListItem",
+  "position": 333,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/the-ethics-of-video-games",
+    "name": "The Ethics of Video Games",
+    "description": "The Ethics of Video Games",
+    "url": "https://theapeiron.co.uk/the-ethics-of-video-games-3d6f86468f7a",
+    "datePublished": "2020-04-24T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://theapeiron.co.uk/the-ethics-of-video-games-3d6f86468f7a",
+      "https://daniellehewych.org/archive/medium/the-ethics-of-video-games"
+    ],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Ethics"
+      }
+    ],
+    "keywords": "Ethics",
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

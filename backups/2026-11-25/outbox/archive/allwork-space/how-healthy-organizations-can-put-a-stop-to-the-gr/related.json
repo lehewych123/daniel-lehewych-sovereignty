@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Related Articles by Daniel Lehewych",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/the-cdc-s-vision-for-the-future-of-worker-health",
+        "name": "The CDC’s Vision For The Future Of Worker Health",
+        "url": "https://allwork.space/2023/02/the-cdcs-vision-for-the-future-of-worker-health/",
+        "datePublished": "2023-02-27T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/a-guide-for-workspace-mental-health-communication",
+        "name": "A Guide For Workspace Mental Health Communication",
+        "url": "https://allwork.space/2022/12/a-guide-for-workspace-mental-health-communication/",
+        "datePublished": "2022-12-14T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/sitting-for-too-long-is-bad-for-your-health-and-he",
+        "name": "Sitting For Too Long Is Bad For Your Health And Here’s What You Can Do About It",
+        "url": "https://allwork.space/2022/06/sitting-for-too-long-is-bad-for-your-health-and-heres-what-you-can-do-about-it/",
+        "datePublished": "2022-06-22T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/report-the-state-of-worker-mental-health",
+        "name": "Report: The State of Worker Mental Health",
+        "url": "https://allwork.space/2022/06/report-the-state-of-worker-mental-health/",
+        "datePublished": "2022-06-15T00:00:00Z"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "@id": "https://daniellehewych.org/archive/allwork-space/returning-to-the-office-will-largely-have-a-negati",
+        "name": "Returning to the Office will Largely have a Negative Impact on Mental Health",
+        "url": "https://allwork.space/2022/03/returning-to-the-office-will-largely-have-a-negative-impact-on-mental-health/",
+        "datePublished": "2022-03-31T00:00:00Z"
+      }
+    }
+  ]
+}
