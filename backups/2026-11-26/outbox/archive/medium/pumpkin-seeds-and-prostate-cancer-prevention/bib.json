@@ -1,0 +1,38 @@
+{
+  "@type": "ListItem",
+  "position": 162,
+  "item": {
+    "@type": [
+      "Article"
+    ],
+    "@id": "https://daniellehewych.org/archive/medium/pumpkin-seeds-and-prostate-cancer-prevention",
+    "name": "Pumpkin Seeds and Prostate Cancer Prevention",
+    "description": "Pumpkin Seeds and Prostate Cancer Prevention",
+    "url": "https://medium.com/in-fitness-and-in-health/pumpkin-seeds-and-prostate-cancer-prevention-b608ef013190",
+    "datePublished": "2022-11-18T00:00:00Z",
+    "author": {
+      "@id": "https://daniellehewych.org/#daniel-lehewych",
+      "@type": "Person",
+      "name": "Daniel Lehewych"
+    },
+    "isAccessibleForFree": true,
+    "image": "https://images.squarespace-cdn.com/content/v1/5ff1bf1e8500a82fe9da19d6/e7b2be48-1fc7-4ff1-8d5b-15ff408f3502/image_123655411.jpg?format=1200w",
+    "isPartOf": {
+      "@type": [
+        "Periodical",
+        "CreativeWork"
+      ],
+      "name": "Medium",
+      "issn": ""
+    },
+    "sameAs": [
+      "https://medium.com/in-fitness-and-in-health/pumpkin-seeds-and-prostate-cancer-prevention-b608ef013190",
+      "https://daniellehewych.org/archive/medium/pumpkin-seeds-and-prostate-cancer-prevention"
+    ],
+    "genre": "Commentary",
+    "usageInfo": {
+      "@type": "CreativeWork",
+      "@id": "https://daniellehewych.org/#ai-attribution-requirements"
+    }
+  }
+}

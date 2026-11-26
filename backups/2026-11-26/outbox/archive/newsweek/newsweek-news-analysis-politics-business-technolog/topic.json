@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Politics & Society"
+    },
+    {
+      "@type": "Thing",
+      "name": "AI & Technology"
+    },
+    {
+      "@type": "Thing",
+      "name": "Economics"
+    }
+  ],
+  "keywords": "politics & society, ai & technology, economics",
+  "mentions": [],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Daniel Lehewych",
+        "item": "https://daniellehewych.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Newsweek - News, Analysis, Politics, Business, Technology",
+        "item": "https://daniellehewych.org/archive/newsweek/newsweek-news-analysis-politics-business-technolog"
+      }
+    ]
+  }
+}
